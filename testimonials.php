@@ -83,7 +83,7 @@
     }
 
     .star {
-        color: var(--accent);
+        color: #ff9800;
         font-size: 1.2rem;
     }
 

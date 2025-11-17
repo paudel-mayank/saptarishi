@@ -19,10 +19,10 @@
 
     <title>Saptarishi | International Self-Development and Healing Retreats</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Bootstrap Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/fieldgroup.module1e7c.css?t33iat" />
@@ -168,8 +168,7 @@
                                         <div class="navbar-brand d-flex align-items-center">
 
                                             <a href="index.php" title="Home" rel="home" class="site-logo d-block">
-                                                <img src="themes/custom/pathretreats/logo.svg" alt="Home"
-                                                    fetchpriority="high" />
+                                                <img src="../LOGOBLACKBG.jpg" alt="Home" fetchpriority="high" />
                                             </a>
 
                                             <div>
@@ -200,33 +199,7 @@
 
 
                                 <div class="region region-top-header">
-                                    <!-- <div class="language-switcher">
-                    <div class="output">
-                      <span class="selected-language"><img
-                          src="themes/custom/pathretreats/images/united-kingdom.svg">EN</span>
-                      <div class="arrow">
-                        <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M0.54541 0.759837L1.15827 0.146973L4.75209 3.74078L8.3459 0.146973L8.95876 0.759837L4.75209 4.96651L0.54541 0.759837Z"
-                            fill="currentColor" />
-                        </svg>
-                      </div>
-                    </div>
-                    <ul class="language-list">
-                      <li data-lang="en" data-flag="/themes/custom/pathretreats/images/united-kingdom.svg"
-                        class="selected"><img src="themes/custom/pathretreats/images/united-kingdom.svg">EN</li>
-                      <li data-lang="de" data-flag="/themes/custom/pathretreats/images/deutsch.svg" class="selected">
-                        <img src="themes/custom/pathretreats/images/deutsch.svg">DE
-                      </li>
-                    </ul>
-                  </div> -->
 
-
-
-                                    <!-- <div class="speek-to-advisor">
-                    <a href="discovery-call-booking-form.html"><img src="themes/custom/pathretreats/images/speak.svg">
-                      Book a Discovery Call</a>
-                  </div> -->
                                 </div>
 
 
@@ -337,10 +310,58 @@
                                                     <a href="about-us.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">About</a>
                                                 </li>
-                                                <li>
-                                                    <a href="about-us.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Wellness Programs</a>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="find-retreat.php"
+                                                        data-bs-toggle="dropdown">Wellness Programs</a>
+
+                                                    <div class="dropdown-menu p-4" style="min-width: 480px;">
+
+                                                        <div class="row">
+
+                                                            <!-- PACKAGES COLUMN -->
+                                                            <div class="col-6">
+                                                                <h6 class="dropdown-header fw-bold text-primary">
+                                                                    Packages</h6>
+
+                                                                <a class="dropdown-item" href="package-1.php">7-Day
+                                                                    Healing Package</a>
+                                                                <a class="dropdown-item" href="package-2.php">14-Day
+                                                                    Transformation</a>
+                                                                <a class="dropdown-item" href="package-3.php">21-Day
+                                                                    Meditation</a>
+
+                                                                <!-- See More Button -->
+                                                                <a href="packages.php "
+                                                                    class=" dropdown-item mt-2 w-100">
+                                                                    See More →
+                                                                </a>
+                                                            </div>
+
+                                                            <!-- SERVICES COLUMN -->
+                                                            <div class="col-6">
+                                                                <h6 class="dropdown-header fw-bold text-primary">
+                                                                    Services</h6>
+
+                                                                <a class="dropdown-item" href="service-1.php">Emotional
+                                                                    Healing</a>
+                                                                <a class="dropdown-item"
+                                                                    href="service-2.php">Mindfulness Training</a>
+                                                                <a class="dropdown-item" href="service-3.php">Trauma
+                                                                    Release Therapy</a>
+
+                                                                <!-- See More Button -->
+                                                                <a href="services.php "
+                                                                    class="dropdown-item mt-2 w-100">
+                                                                    See More →
+                                                                </a>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
                                                 </li>
+
+
                                                 <li class="nav-item dropdown">
                                                     <a href="testimonials.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Testimonials</a>
