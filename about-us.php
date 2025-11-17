@@ -1,4 +1,4 @@
-<?php include('includes/header.php') ?>
+<?php include 'includes/header.php' ?>
 
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
@@ -43,7 +43,7 @@
                 <div class="background-img"
                   style="background-image:url(sites/default/files/2024-03/about%20banner.png);">
                   <div class="container container-l">
-                    <h1>Path Retreats offers worldwide, life-changing, personal growth and self-development
+                    <h1>Saptarishi offers worldwide, life-changing, personal growth and self-development
                       processes.</h1>
                   </div>
                 </div>
@@ -55,342 +55,20 @@
 
 
               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph.html.twig' -->
-              <div class="paragraph paragraph--type--about-banner-bottom-section paragraph--view-mode--default">
 
-
-
-                <div
-                  class="field field--name-field-image-and-text field--type-entity-reference-revisions field--label-hidden field__item">
-
-
-                  <div class="paragraph image-right paragraph--type--image-and-content paragraph--view-mode--default">
-                    <div class="container type-col">
-                      <div class="row">
-                        <div class="col-md-6">
-
-
-
-                          <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-
-
-                            <img loading="lazy" src="sites/default/files/2024-05/about.jpg" width="963" height="1178"
-                              alt="Path of love" class="img-fluid" />
-
-
-
-
-
-                          </div>
-
-
-
-                        </div>
-                        <div class="col-md-6 intro-type-1">
-                          <div class="small-title">
-
-
-
-                            <div
-                              class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                              Showing you the path to love this life</div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          </div>
-                          <div class="heading-text">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                            <div
-                              class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                              <h4>Our retreats reach people on five continents and in six languages, with new
-                                countries and languages being added each year as we continue to grow.</h4>
-                            </div>
-
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                          </div>
-                          <div class="content">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--image-and-content.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-
-                            <div
-                              class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                              <p>The Path of Love 7-day retreat is one of the most intensive and life-changing
-                                meditation and personal development processes in the world today, and has gained an
-                                extraordinary reputation amongst people who really want to come to know the truth
-                                about themselves.</p>
-                              <p>It is a profound inner work.</p>
-                            </div>
-
-
-                          </div>
-                          <div class="link"></div>
-                          <div class="spacer"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-
-
-
-
-
-                <div
-                  class="field field--name-field-mission-vision field--type-entity-reference-revisions field--label-hidden field__item">
-
-
-                  <div class="paragraph paragraph--type--mission-vision-and-values paragraph--view-mode--default">
-                    <div class="bg-image" style="background-image: url('');">
-                      <div class="container">
-                        <div class="mission-vision-values">
-                          <div class="mvv-head text-center">
-                            <div class="icon">
-
-
-
-
-                              <div
-                                class="field field--name-field-icon field--type-image field--label-hidden field__item">
-
-
-
-                                <img loading="lazy" src="sites/default/files/2024-03/mission-vision-icon.svg" alt="icon"
-                                  class="img-fluid" />
-
-
-
-
-
-                              </div>
-
-
-
-                            </div>
-                            <h3>
-
-
-                              <div
-                                class="field field--name-field-title field--type-string field--label-hidden field__item">
-                                Transform Yourself. Transform the World.</div>
-
-
-                            </h3>
-                          </div>
-                          <div class="mision-vision-cards">
-
-
-
-                            <div
-                              class="field field--name-field-title-text-items field--type-entity-reference-revisions field--label-hidden field__items">
-                              <div class="row">
-                                <div class="field__item col-md-6">
-
-
-                                  <div class="paragraph paragraph--type--title-caption paragraph--view-mode--default">
-                                    <div class="title-caption">
-                                      <div class="container">
-                                        <div class="heading">
-
-
-
-                                          <div
-                                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                            <h4>Honesty and Truth</h4>
-                                          </div>
-
-
-
-                                        </div>
-                                        <div class="content">
-
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
-                                </div>
-                                <div class="field__item col-md-6">
-
-
-                                  <div class="paragraph paragraph--type--title-caption paragraph--view-mode--default">
-                                    <div class="title-caption">
-                                      <div class="container">
-                                        <div class="heading">
-
-
-
-
-                                          <div
-                                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                            <h4>Responsibility</h4>
-                                          </div>
-
-
-
-                                        </div>
-                                        <div class="content">
-
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
-                                </div>
-                                <div class="field__item col-md-6">
-
-
-                                  <div class="paragraph paragraph--type--title-caption paragraph--view-mode--default">
-                                    <div class="title-caption">
-                                      <div class="container">
-                                        <div class="heading">
-
-
-                                          <!-- THEME DEBUG -->
-                                          <!-- THEME HOOK: 'field' -->
-                                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--title-caption.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--title-caption.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                                          <div
-                                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                            <h4>Compassion &amp; Respect</h4>
-                                          </div>
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-
-                                        </div>
-                                        <div class="content">
-
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--title-caption--default.html.twig' -->
-
-                                </div>
-                                <div class="field__item col-md-6">
-
-                                  <!-- THEME DEBUG -->
-                                  <!-- THEME HOOK: 'paragraph' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--title-caption--default.html.twig
-   ▪️ paragraph--title-caption.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--title-caption--default.html.twig' -->
-                                  <div class="paragraph paragraph--type--title-caption paragraph--view-mode--default">
-                                    <div class="title-caption">
-                                      <div class="container">
-                                        <div class="heading">
-
-
-                                          <!-- THEME DEBUG -->
-                                          <!-- THEME HOOK: 'field' -->
-                                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--title-caption.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--title-caption.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                                          <div
-                                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                            <h4>Excellence</h4>
-                                          </div>
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-
-                                        </div>
-                                        <div class="content">
-
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--title-caption--default.html.twig' -->
-
-                                </div>
-                              </div>
-                            </div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-title-text-items--mission-vision-and-values.html.twig' -->
-
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--mission-vision-and-values--default.html.twig' -->
-
-                </div>
-
-                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-              </div>
-
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph.html.twig' -->
 
             </div>
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ▪️ paragraph--image-and-content--default.html.twig
-   ✅ paragraph--image-and-content.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
+
+
               <div class="paragraph image-right paragraph--type--image-and-content paragraph--view-mode--default">
                 <div class="container type-col">
                   <div class="row">
                     <div class="col-md-6">
 
 
-                      <!-- THEME DEBUG -->
+
                       <!-- THEME HOOK: 'field' -->
                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-image--image-and-content.html.twig
@@ -404,12 +82,12 @@
 
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'image_formatter' -->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'image' -->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy" src="sites/default/files/2024-03/Inclusivity.jpg" width="1286" height="1572"
@@ -430,7 +108,7 @@
                     <div class="col-md-6 intro-type-1">
                       <div class="small-title">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-small-title--image-and-content.html.twig
@@ -451,7 +129,7 @@
                       </div>
                       <div class="heading-text">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
@@ -473,7 +151,7 @@
                       </div>
                       <div class="content">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-content--image-and-content.html.twig
@@ -487,14 +165,14 @@
 
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                          <p>Path Retreats aims to contribute to a significant shift in global consciousness through
+                          <p>Saptarishi aims to contribute to a significant shift in global consciousness through
                             actively pursuing our commitment to foster global appreciation of our diversity as
                             humans.&nbsp;</p>
                           <p>No matter the age of your body, your physical characteristics, your ethnicity, your
                             indigeneity, what religion or spiritual path you follow, gender you identify as, your
                             sexual orientation, political beliefs you hold, cultural or socioeconomic background you
                             originate from, whether you identify with any of these or none of them, or anything else
-                            which makes you the unique and beautiful human being that you are, Path Retreats invites
+                            which makes you the unique and beautiful human being that you are, Saptarishi invites
                             you to join our community and welcomes the contribution your difference makes.</p>
                         </div>
 
@@ -513,7 +191,7 @@
             </div>
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
+
               <!-- THEME HOOK: 'paragraph' -->
               <!-- FILE NAME SUGGESTIONS:
    ▪️ paragraph--image-and-content--default.html.twig
@@ -528,7 +206,7 @@
                     <div class="col-md-6">
 
 
-                      <!-- THEME DEBUG -->
+
                       <!-- THEME HOOK: 'field' -->
                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-image--image-and-content.html.twig
@@ -542,12 +220,12 @@
 
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'image_formatter' -->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'image' -->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy"
@@ -569,7 +247,7 @@
                     <div class="col-md-6 intro-type-1">
                       <div class="small-title">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-small-title--image-and-content.html.twig
@@ -590,7 +268,7 @@
                       </div>
                       <div class="heading-text">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
@@ -604,7 +282,7 @@
 
                         <div
                           class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                          <h2>Turiya and Rafia, Founders of Path Retreats</h2>
+                          <h2>Turiya and Rafia, Founders of Saptarishi</h2>
                         </div>
 
                         <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
@@ -612,7 +290,7 @@
                       </div>
                       <div class="content">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-content--image-and-content.html.twig
@@ -660,962 +338,11 @@
               <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
 
             </div>
+
+
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--our-venues--default.html.twig
-   ▪️ paragraph--our-venues.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--our-venues--default.html.twig' -->
-              <div class="paragraph paragraph--type--our-venues paragraph--view-mode--default">
-                <div class="our-venues">
-                  <div class="container">
-                    <div class="center-tag-title-type text-center">
-                      <div class="small-title">
 
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--our-venues.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--our-venues.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        <div
-                          class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                          Where we operate</div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                      </div>
-                      <h2>
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--our-venues.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--our-venues.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                          Our Venues</div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                      </h2>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-lg-3">
-                        <div class="map-content activetest" id="info-1">
-                          <h3>USA</h3>
-                          <h5>Sunrise Ranch</h5>
-                          <p>100 Sunrise Ranch Rd, Loveland, CO 80538, USA</p>
-
-                          <a href="retreat/path-love-usa.html" target="_blank"> Find out more about this venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-2">
-                          <h3>UK</h3>
-                          <h5>Broughton Sanctuary</h5>
-                          <p>Broughton Hall, Skipton BD23 3AE UK</p>
-
-                          <a href="wellness-retreat/uk/11-2025.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-3">
-                          <h3>DE</h3>
-                          <h5>Gut Helmeringen</h5>
-                          <p>Helmeringer Weg 43, 89415, Lauingen</p>
-
-                          <a href="retreat/path-love-deutschland.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-4">
-                          <h3>UK (Removed)</h3>
-                          <h5>Broughton Sanctuary</h5>
-                          <p>Broughton Hall, Skipton BD23 3AE UK</p>
-
-                          <a href="#" target="_blank"> Find out more about this venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-5">
-                          <h3>ITA</h3>
-                          <h5>Osho Miasto</h5>
-                          <p>Podere San Giorgio Casole D'elsa</p>
-
-                          <a href="wellness-retreat/italy/2-2026.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-6">
-                          <h3>GRC</h3>
-                          <h5>OSHO Afroz Meditation Center</h5>
-                          <p>OSHO, 81105 Eresós</p>
-
-                          <a href="wellness-retreat/greece/9-2025.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-7">
-                          <h3>DPS</h3>
-                          <h5>Gaia-Oasis Beach Resort</h5>
-                          <p>Jalan Singaraja-Amlapura Dusun Tegal Sumaga, Desa Tejakula, Singaraja-Bali 81173
-                            Tejakula</p>
-
-                          <a href="retreat/path-love-bali.html" target="_blank"> Find out more about this venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-8">
-                          <h3>AUS</h3>
-                          <h5>Hunter Valley Retreat</h5>
-                          <p>626 Sandy Creek Rd, Quorrobolong New South Wales 2325</p>
-
-                          <a href="wellness-retreat/australia/10-2025.html" target="_blank"> Find out more about
-                            this venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-9">
-                          <h3>CAN</h3>
-                          <h5>Kio-o</h5>
-                          <p>1905 Ch Du 6e Rang, Sainte-lucie-des-laurentides QC J0T 2J0</p>
-
-                          <a href="wellness-retreat/canada/4-2026.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-10">
-                          <h3>BRA</h3>
-                          <h5>Pousada do Quilombo</h5>
-                          <p>Estr. Aquiraz-Prainha, 3059 - Lot. Parque das Fontes, Aquiraz - CE, 61700-000, Brazil
-                          </p>
-
-                          <a href="retreat/path-love-brazil.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                        <div class="map-content" id="info-11">
-                          <h3>ITA</h3>
-                          <h5>Mandali Retreat Center</h5>
-                          <p>Via Belvedere, 2, 28898 Quarna Sopra VB, Italy</p>
-
-                          <a href="wellness-retreat/italy/3-2026.html" target="_blank"> Find out more about this
-                            venue</a>
-
-                        </div>
-                      </div>
-
-                      <div class="col-lg-9">
-                        <div class="map-area">
-                          <img src="themes/custom/pathretreats/images/map.png" alt="">
-
-                          <div class="points-with-content active">
-                            <span data-id="info-1"></span>
-                            <div class="content">
-                              <h4>USA</h4>
-                              <h6>Sunrise Ranch</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-2"></span>
-                            <div class="content">
-                              <h4>uk</h4>
-                              <h6>Broughton Sanctuary</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-3"></span>
-                            <div class="content">
-                              <h4>DE</h4>
-                              <h6>Gut Helmeringen</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-4"></span>
-                            <div class="content">
-                              <h4>uk</h4>
-                              <h6>Broughton Sanctuary</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-5"></span>
-                            <div class="content">
-                              <h4>ITA</h4>
-                              <h6>Osho Miasto</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-6"></span>
-                            <div class="content">
-                              <h4>GRC</h4>
-                              <h6>OSHO Afroz Meditation Center</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-7"></span>
-                            <div class="content">
-                              <h4>DPS</h4>
-                              <h6>Gaia-Oasis Beach Resort</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-8"></span>
-                            <div class="content">
-                              <h4>AUS</h4>
-                              <h6>Hunter Valley Retreat</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-9"></span>
-                            <div class="content">
-                              <h4>CAN</h4>
-                              <h6>Kio-o</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-10"></span>
-                            <div class="content">
-                              <h4>BRA</h4>
-                              <h6>Pousada do Quilombo</h6>
-                            </div>
-                          </div>
-                          <div class="points-with-content">
-                            <span data-id="info-11"></span>
-                            <div class="content">
-                              <h4>ITA</h4>
-                              <h6>Mandali Retreat Center</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--our-venues--default.html.twig' -->
-
-            </div>
-            <div class="field__item">
-
-              <!-- THEME DEBUG -->
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--faqs--default.html.twig
-   ▪️ paragraph--faqs.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--faqs--default.html.twig' -->
-              <div class="paragraph paragraph--type--faqs paragraph--view-mode--default">
-                <div class="faq-sec" id="faq-sec">
-                  <div class="container">
-                    <div class="heading">
-                      <h2>
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--faqs.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--faqs.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                          FAQs</div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                      </h2>
-                    </div>
-                    <div class="faq-items">
-
-
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'container' -->
-                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
-                      <div class="views-element-container">
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'views_view' -->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
-                        <div
-                          class="view view-page-faq view-id-page_faq view-display-id-block_1 js-view-dom-id-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-
-
-
-                          <div class="view-content">
-
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'views_accordion_view' -->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-accordion-view.html.twig' -->
-                            <div class="views-row">
-
-
-                              <!-- THEME DEBUG -->
-                              <!-- THEME HOOK: 'views_accordion_view' -->
-                              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-accordion-view.html.twig' -->
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    After the Path of Love 7-day Retreat, are there further advanced work or
-                                    courses? How can I stay involved? Are there local support groups?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>Yes! We offer follow up retreats for Path of Love Graduates on-line and in
-                                      person in many countries. Often people go on to do Walking the Path (Step Two
-                                      to the Path of Love 7-Day Retreat) or stay involved through staffing. In some
-                                      cities, such as London, Cologne, Boulder, Sydney, and Zurich, we have local
-                                      meditation and sharing evenings for Path of Love graduates. We continue to
-                                      expand, which allows us to offer more groups, trainings, and events than ever
-                                      before.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Are your courses accredited?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>Yes, we are certified as an Educational Training Institute through CRKBO
-                                      (Centraal Register Kort Beroepsonderwijs), and have demonstrably complied with
-                                      the Quality Code for Training Institutes for Short Vocational Education.</p>
-                                    <p>Our courses are also accredited through S.I.A.F., a board of professional
-                                      proficiency accreditation based in Florence, Italy. S.I.A.F. is certified UNI
-                                      EN ISO 9001:2008, a member of Association Professionnel del la Santé
-                                      Complémentaire, and of Perry Johnson Registrars.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Do I need to purchase any course materials? How many hours of study are there
-                                    outside of the group?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>All course study materials are provided for you as part of your
-                                      participation. Outside of the group, there are various writing assignments,
-                                      which can take from 15 - 60 minutes, depending on the assignment and the depth
-                                      of your answers.</p>
-                                    <p>After Path of Love, there is a recommended 5-day integration program of
-                                      approximately 45 - 60 minutes each day, a 12-week aftercare program which may
-                                      take from 5 to 30 minutes per week of study, as well as a suggested reading
-                                      list to further your inner work.</p>
-                                    <p>There are also three on-line group sessions of approximately 2 hours each,
-                                      and weekly sessions with a partner of around 1 hour for 3 weeks after Path of
-                                      Love.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    What are the selection criteria for admission, how does the selection process
-                                    work, how do I have the best chance to get accepted and is there any preparatory
-                                    work I can do?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>When you apply, you will receive an Application Form, which will ask
-                                      questions about your health background and your experience in either therapy
-                                      or meditation. This is usually followed by an on-line interview with one of
-                                      our staff to determine whether the process is appropriate for you, and if it
-                                      is the right time for you to participate. It is advisable to have done some
-                                      inner work, preferably in a group format, but this is not a prerequisite. You
-                                      will be asked to complete a medical form and a personal questionnaire, which
-                                      will help our Facilitators ensure you have the best process possible. There
-                                      are no other prerequisites or entry requirements to attend the Path of Love.
-                                    </p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Can I go back to work immediately after the process?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>We recommend that you take a few days after the retreat for integration. If
-                                      needed, you can return to your work and family lives immediately after the
-                                      process.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    I am under treatment for a psychiatric disorder. Can I participate?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>In general, we don’t accept people who are under psychiatric treatment or on
-                                      medication for psychiatric reasons, except when they are cleared and
-                                      recommended for participation by their doctor. If you would like to discuss
-                                      your readiness with your therapist, and they have questions for us, please
-                                      direct them to our <a href="science-and-spirituality-retreats.html">Therapist
-                                        Resource Page</a>, where they can request our Guidelines for Professionals
-                                      manual, or talk directly with one of our Retreat Advisors.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    I am disabled/have a chronic illness. Can I participate?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>If you are concerned about your ability to take part in any of the retreat
-                                      activities, we invite you to have a <a
-                                        href="discovery-call-booking-form.html">Free Discovery Call</a> with a
-                                      member of our team to discuss your requirements. At all possible
-                                      opportunities, we will make reasonable adjustments and work with the partner
-                                      venue to make it possible for you to take part.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    What kind of food is provided?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>Food is usually vegetarian and of high quality. You get a big breakfast and
-                                      dinner, and a light lunch. Dietary provisions are provided if possible. It is
-                                      advisable to bring your own extra snacks with you, for between meals.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Will I get enough sleep?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>Yes. You will get enough sleep and rest every night giving you adequate time
-                                      to integrate the work.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Where will I stay and what are the sleeping arrangements?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>The sleeping arrangements vary from one venue to the next. Often you have one
-                                      or two roommates of the same gender in a comfortable room. In some instances,
-                                      it is possible to book a single room.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Is language translation available, or can I bring a translator?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>The language of each Path of Love is shown on the Retreat Schedule page, and
-                                      it is not generally possible to bring your own translator.</p>
-                                    <p>In Australia, Greece, Sweden, United Kingdom and the USA, the group is held
-                                      in English, and you must be able to speak and understand English well to
-                                      participate.</p>
-                                    <p>In Brazil, Israel, Italy, and Portugal, the local language is generally
-                                      offered together with English, but please always check the website as there
-                                      are exceptions. In Germany, Path of Love is offered in German, and for
-                                      German-speakers we do also occasionally offer German Path of Love in the Alps,
-                                      Italy.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    What do I tell my employers or my family regarding my absence?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>During the week of the retreat, we ask that you arrange things so that you
-                                      can fully focus on the work at hand (as if you were on a silent meditation
-                                      retreat). Plan not to make or receive calls. Exceptions can be made (for
-                                      example, if you need to contact your children). In an emergency, you can be
-                                      reached through a number which will be provided.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    What other restrictions are there during the week?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>During the process we ask participants to refrain from alcohol, tobacco, and
-                                      any intoxicants. The habitual consumption of these are often ways to avoid our
-                                      feelings, and by not using them, it will help deepen your process. Of course,
-                                      you would continue any prescribed medication.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Can I exercise, meditate, or do yoga practices during the process?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>We ask you to devote all your time and attention to the process. During the
-                                      retreat you will be asked to put all other practices to the side and only
-                                      follow the meditation exercises that are part of the group. After the retreat,
-                                      you are encouraged to return to your life-enhancing practices.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    How many participants are there in the Path of Love?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>The retreat size varies from around 20 - 40 participants with 2 Leaders, as
-                                      well as a dedicated Facilitator and Assistant for every 8 -12 people. There is
-                                      also a volunteer staff, generally equal to the number of participants, who
-                                      have themselves participated in Path of Love and come from all over the world
-                                      to support the participants and the process.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-                              <div class="views-row">
-
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'views_view_fields' -->
-                                <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-                                <div
-                                  class="views-field views-field-title views-accordion-header js-views-accordion-header-faedf7a403b6ca94c51bb8918d9e77892a8ae757b1edb636b9ac770ff4c07866">
-                                  <h4 class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    Who are the Leaders and Facilitators?
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </h4>
-                                </div>
-                                <div class="views-field views-field-body">
-                                  <div class="field-content">
-
-                                    <!-- THEME DEBUG -->
-                                    <!-- THEME HOOK: 'views_view_field' -->
-                                    <!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-                                    <p>Our Leaders and Facilitators have training in Western psychology and Eastern
-                                      meditation and mindfulness practices, as well as experience in various
-                                      psychological and therapeutic modalities. They are also highly skilled
-                                      therapists in this particular methodology with an intensive training being
-                                      required to become a Path of Love Facilitator and Leader.</p>
-                                    <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-field.html.twig' -->
-
-                                  </div>
-                                </div>
-                                <!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-fields.html.twig' -->
-
-
-                              </div>
-
-                              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-accordion-view.html.twig' -->
-
-
-                            </div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-accordion-view.html.twig' -->
-
-
-                          </div>
-
-                        </div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
-
-                      </div>
-
-                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
-
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--faqs--default.html.twig' -->
-
-            </div>
-            <div class="field__item">
-
-              <!-- THEME DEBUG -->
               <!-- THEME HOOK: 'paragraph' -->
               <!-- FILE NAME SUGGESTIONS:
    ✅ paragraph--team--default.html.twig
@@ -1630,7 +357,7 @@
                     <div class="heading">
                       <h2>
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-title--team.html.twig
@@ -1643,7 +370,7 @@
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                          Meet the Path Retreats Leaders</div>
+                          Meet the Saptarishi Leaders</div>
 
                         <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
@@ -1653,7 +380,7 @@
                     <div class="member-items">
 
 
-                      <!-- THEME DEBUG -->
+
                       <!-- THEME HOOK: 'field' -->
                       <!-- FILE NAME SUGGESTIONS:
    ✅ field--paragraph--field-select-team-member--team.html.twig
@@ -1670,8 +397,8 @@
                         <div class="row">
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--41--teaser.html.twig
    ▪️ node--41.html.twig
@@ -1688,7 +415,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -1703,12 +430,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2033.webp" width="1122"
@@ -1729,7 +456,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -1774,7 +501,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-41">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -1800,7 +527,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -1808,19 +535,19 @@
    ▪️ field--node--team.html.twig
    ▪️ field--field-image.html.twig
    ▪️ field--image.html.twig
-   ✅ field.html.twig
+   ✅ field.html.twigp
 -->
                                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2033.webp"
@@ -1841,7 +568,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -1899,8 +626,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--262--teaser.html.twig
    ▪️ node--262.html.twig
@@ -1917,7 +644,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -1932,12 +659,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg" width="374"
@@ -1958,7 +685,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2003,7 +730,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-262">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2028,7 +755,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2043,12 +770,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg" width="374"
@@ -2069,7 +796,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -2108,8 +835,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--39--teaser.html.twig
    ▪️ node--39.html.twig
@@ -2126,7 +853,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2141,12 +868,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Gita%20Wagner.jpg" width="375"
@@ -2167,7 +894,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2212,7 +939,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-39">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2237,7 +964,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2252,12 +979,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Gita%20Wagner.jpg"
@@ -2278,7 +1005,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -2317,8 +1044,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--38--teaser.html.twig
    ▪️ node--38.html.twig
@@ -2335,7 +1062,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2350,12 +1077,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Halima%20Hane.jpg" width="376"
@@ -2376,7 +1103,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2421,7 +1148,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-38">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2447,7 +1174,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2462,12 +1189,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Halima%20Hane.jpg"
@@ -2488,7 +1215,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -2529,8 +1256,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--36--teaser.html.twig
    ▪️ node--36.html.twig
@@ -2547,7 +1274,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2562,12 +1289,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Prema%20McKeever.jpg"
@@ -2588,7 +1315,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2634,7 +1361,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-36">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2660,7 +1387,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2675,12 +1402,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Prema%20McKeever.jpg"
@@ -2701,7 +1428,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -2742,8 +1469,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--37--teaser.html.twig
    ▪️ node--37.html.twig
@@ -2760,7 +1487,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2775,12 +1502,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2037.webp" width="1122"
@@ -2801,7 +1528,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2846,7 +1573,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-37">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -2872,7 +1599,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2887,12 +1614,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2037.webp"
@@ -2913,7 +1640,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -2950,8 +1677,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--28--teaser.html.twig
    ▪️ node--28.html.twig
@@ -2968,7 +1695,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -2983,12 +1710,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2046.webp" width="1123"
@@ -3009,7 +1736,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3054,7 +1781,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-28">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3079,7 +1806,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3094,12 +1821,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2046.webp"
@@ -3120,7 +1847,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -3169,8 +1896,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--181--teaser.html.twig
    ▪️ node--181.html.twig
@@ -3187,7 +1914,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3202,12 +1929,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-01/ranibio.jpg" width="374"
@@ -3228,7 +1955,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3273,7 +2000,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-181">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3298,7 +2025,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3313,12 +2040,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-01/ranibio.jpg" width="374"
@@ -3339,7 +2066,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -3379,8 +2106,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--35--teaser.html.twig
    ▪️ node--35.html.twig
@@ -3397,7 +2124,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3412,12 +2139,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Sambhavo%20Lombardo.jpg"
@@ -3438,7 +2165,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3484,7 +2211,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-35">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3510,7 +2237,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3525,12 +2252,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Sambhavo%20Lombardo.jpg"
@@ -3551,7 +2278,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -3588,8 +2315,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--34--teaser.html.twig
    ▪️ node--34.html.twig
@@ -3606,7 +2333,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3621,12 +2348,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-08/samved2.png" width="375"
@@ -3647,7 +2374,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3692,7 +2419,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-34">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3718,7 +2445,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3733,12 +2460,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-08/samved2.png" width="375"
@@ -3759,7 +2486,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -3800,8 +2527,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--33--teaser.html.twig
    ▪️ node--33.html.twig
@@ -3818,7 +2545,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3833,12 +2560,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Shubhaa%20Fisher.jpg"
@@ -3859,7 +2586,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3904,7 +2631,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-33">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -3930,7 +2657,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -3945,12 +2672,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Shubhaa%20Fisher.jpg"
@@ -3971,7 +2698,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -4023,8 +2750,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--32--teaser.html.twig
    ▪️ node--32.html.twig
@@ -4041,7 +2768,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4056,12 +2783,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Sudhir%20Seyboth.jpg"
@@ -4082,7 +2809,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4127,7 +2854,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-32">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4153,7 +2880,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4168,12 +2895,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Sudhir%20Seyboth.jpg"
@@ -4194,7 +2921,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -4234,8 +2961,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--31--teaser.html.twig
    ▪️ node--31.html.twig
@@ -4252,7 +2979,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4267,12 +2994,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2043.webp" width="1123"
@@ -4293,7 +3020,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4338,7 +3065,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-31">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4363,7 +3090,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4378,12 +3105,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2043.webp"
@@ -4404,7 +3131,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -4454,8 +3181,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--30--teaser.html.twig
    ▪️ node--30.html.twig
@@ -4472,7 +3199,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4487,12 +3214,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2044.webp" width="1123"
@@ -4513,7 +3240,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4558,7 +3285,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-30">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4584,7 +3311,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4599,12 +3326,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2044.webp"
@@ -4625,7 +3352,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -4685,8 +3412,8 @@
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'node' -->
+
+
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ node--29--teaser.html.twig
    ▪️ node--29.html.twig
@@ -4703,7 +3430,7 @@
                                 <div class="member-image">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'field' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4718,12 +3445,12 @@
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image_formatter' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'image' -->
                                     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Veeto%20Eitel.jpg" width="376"
@@ -4744,7 +3471,7 @@
                                 <div class="member-caption">
                                   <h4>
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'field' -->
                                     <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4789,7 +3516,7 @@
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="memberModalLabel-29">
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--team.html.twig
@@ -4814,7 +3541,7 @@
                                       <div class="member-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-image--team.html.twig
@@ -4829,12 +3556,12 @@
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Veeto%20Eitel.jpg"
@@ -4855,7 +3582,7 @@
                                       <div class="member-caption">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--team.html.twig
@@ -4871,7 +3598,7 @@
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
                                           <p>From Germany, Veeto holds an MA in Social Science and is a licensed
                                             psychotherapist specialized in working with developmental trauma
-                                            resolutions. She is a Leader of the Path Retreats processes in Europe,
+                                            resolutions. She is a Leader of the Saptarishi processes in Europe,
                                             and has been working with people since 1995 and is passionate about
                                             sharing her experiences of integrating understandings from both the
                                             Eastern and Western approaches to human development.</p>
@@ -4912,7 +3639,7 @@
 
 
 
-          <!-- THEME DEBUG -->
+
           <!-- THEME HOOK: 'links__node' -->
           <!-- FILE NAME SUGGESTIONS:
    ✅ links--node.html.twig
@@ -4943,4 +3670,4 @@
 
 </div>
 
-<?php include('includes/footer.php') ?>
+<?php include 'includes/footer.php' ?>

@@ -1,4 +1,161 @@
-<?php include('includes/header.php') ?>
+<?php include 'includes/header.php'?>
+<style>
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    /* padding: 60px 20px; */
+  /* min-height: 100vh; */
+  /* } */
+
+  .testimonial-container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: white;
+    padding: 60px 40px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .testimonial-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #944361;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .testimonial-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #944361;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+  }
+
+  .nav-button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #944361;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #944361;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .nav-button:hover {
+    background-color: #944361;
+    color: white;
+  }
+
+  .testimonial-content {
+    flex: 1;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    object-fit: cover;
+    border: 3px solid #e0e0e0;
+  }
+
+  .student-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #944361;
+    margin-bottom: 5px;
+  }
+
+  .student-location {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 24px;
+  }
+
+  .star {
+    color: #ff9800;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 40px 20px;
+    }
+
+    .testimonial-title {
+      font-size: 28px;
+    }
+
+    .slider-wrapper {
+      gap: 15px;
+    }
+
+    .nav-button {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+
+    .testimonial-content {
+      min-height: 350px;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+    }
+
+    .testimonial-text {
+      font-size: 14px;
+    }
+  }
+</style>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
@@ -54,13 +211,14 @@
                             <div class="paragraph paragraph--type--banner-slide-item paragraph--view-mode--default">
                               <div class="">
                                 <video autoplay muted loop playsinline class="background-video">
-                                  <source src="../Homepage-big-page-video-final-.mp4" type="video/mp4">
+                                  <source src="assets/Homepage-big-page-video-final-.mp4
+                                  " type="video/mp4">
                                 </video>
                               </div>
                               <div class="banner-captions">
                                 <div class="container">
                                   <h2>
-                                    <div
+                                    <div style="z-ndex:999;"
                                       class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
                                       A JOURNEY AWAITS
 
@@ -171,26 +329,15 @@
 
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'image_formatter' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'image' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy" src="sites/default/files/2025-03/Rectangle%2015.jpg" width="977"
                           height="956" alt="Participants on the Path of Love" class="img-fluid" />
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                       </div>
 
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
 
                     </div>
@@ -198,17 +345,6 @@
                       <div class="small-title"></div>
                       <div class="heading-text">
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
@@ -217,22 +353,9 @@
                             their truth.</h4>
                         </div>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                       </div>
                       <div class="content">
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--image-and-content.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -242,28 +365,14 @@
                             radically reduce physical conditions such as stress and burnout.</p>
                         </div>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                       </div>
                       <div class="link">
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-link--image-and-content.html.twig
-   ▪️ field--paragraph--field-link.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-link.html.twig
-   ▪️ field--link.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                         <div class="field field--name-field-link field--type-link field--label-hidden field__item">
-                          <a href="about-us.html">About Path Retreats</a>
+                          <a href="about-us.html">About Saptarishi</a>
                         </div>
 
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                       </div>
                       <div class="spacer"></div>
@@ -272,332 +381,345 @@
                 </div>
               </div>
 
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
 
             </div>
-            <div class="field__item">
+            <div class="paragraph paragraph--type--retreats-section paragraph--view-mode--default">
+          <div class="our-retreats">
+        <div class="container">
+          <div class="small-title">
 
-              <!-- THEME DEBUG -->
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ▪️ paragraph--image-and-content-with-bottom-ba--default.html.twig
-   ✅ paragraph--image-and-content-with-bottom-ba.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content-with-bottom-ba.html.twig' -->
-              <div class="paragraph paragraph--type--image-and-content-with-bottom-ba paragraph--view-mode--default">
-                <div class="image-content-bottom-bg">
-                  <div class="container">
-                    <div class="small-title">
 
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+            <div class="field field--name-field-small-title field--type-string field--label-hidden field__item">Packages</div>
 
-                      <div
-                        class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                        Global Healing</div>
-
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6 intro-type-2">
-                        <div class="heading-text">
-
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'field' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                          <div
-                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                            <h3>The Path of Love and our other retreats, both residential and online, have taken
-                              place in 38 countries and been delivered in 6 languages.</h3>
-                          </div>
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-
-                        </div>
-                        <div class="link">
-
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'field' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-link--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--paragraph--field-link.html.twig
-   ▪️ field--paragraph--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--field-link.html.twig
-   ▪️ field--link.html.twig
-   ✅ field.html.twig
--->
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a
-                              href="find-retreat.html">Find a Retreat</a></div>
-
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                        </div>
-                      </div>
-                      <div class="col-md-6 image-wrap">
-
-
-
-                        <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-
-
-                          <img loading="lazy"
-                            src="sites/default/files/2025-06/Image%20to%20Replace%20Photo%20with%20Music%20and%20Flags-updated.webp"
-                            width="974" height="1075" alt="Path of Love meditation retreat" class="img-fluid" />
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
 
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-                        </div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="backgroud-img" style="background-image:url(sites/default/files/2025-06/background-1.webp);">
-                  <div class="container container-l">
-                    <div class="content">
-
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-text-over-background-image--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--paragraph--field-text-over-background-image.html.twig
-   ▪️ field--paragraph--image-and-content-with-bottom-ba.html.twig
-   ▪️ field--field-text-over-background-image.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                      <div
-                        class="clearfix text-formatted field field--name-field-text-over-background-image field--type-text-long field--label-hidden field__item">
-                        <h2>
-                          <meta charset="utf-8">Our retreats embrace diverse individuals in a shared journey of
-                          profound growth, transformation and connection, fostering individual and collective
-                          healing.
-                        </h2>
-                      </div>
-
-                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content-with-bottom-ba.html.twig' -->
-
-            </div>
-            <div class="field__item">
-
-              <!-- THEME DEBUG -->
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ▪️ paragraph--image-and-content--default.html.twig
-   ✅ paragraph--image-and-content.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
-              <div class="paragraph image-right paragraph--type--image-and-content paragraph--view-mode--default">
-                <section class="content-with-img-section">
-                  <div class="row">
-                    <div class="image-outer">
-                      <div class="img-item">
-
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-image--image-and-content.html.twig
-   ▪️ field--paragraph--field-image.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'image_formatter' -->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'image' -->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-                          <img loading="lazy" src="sites/default/files/2024-11/pol%20woman.jpg" width="1424"
-                            height="1598" alt="Meditation on a Path of Love retreat" class="img-fluid" />
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-                        </div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                      </div>
-                    </div>
-                    <div class="content-outer">
-                      <div class="container">
-                        <div class="inner-item">
-                          <div class="small-title">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--image-and-content.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                            <div
-                              class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                              lasting personal growth</div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          </div>
-                          <div class="heading-text">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                            <div
-                              class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                              <h3>Unique and intensive transformational retreats</h3>
-                            </div>
-
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                          </div>
-                          <div class="content">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--image-and-content.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                            <div
-                              class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                              <p>Our deeply healing retreats will take you on intense, life-changing journeys which
-                                combine psychological, spiritual, meditation and mindfulness techniques designed to
-                                help you live a more conscious and meaningful life.</p>
-                              <p>Our retreats are for people who are looking to undertake profound, lasting personal
-                                growth work and face and shift core issues. If you are longing to find meaning and
-                                more honesty with yourself and others, if you are ready for sincere and lasting
-                                change, you are in the right place.</p>
-                            </div>
-
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                          </div>
-                          <div class="link">
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-link--image-and-content.html.twig
-   ▪️ field--paragraph--field-link.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-link.html.twig
-   ▪️ field--link.html.twig
-   ✅ field.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                            <div class="field field--name-field-link field--type-link field--label-hidden field__item">
-                              <a href="personal-growth-retreat-workshop.html">About Path of Love Retreat</a>
-                            </div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
-
-            </div>
-
-
-            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--retreats-section.html.twig' -->
+</div>
+          <div class="title"><h2>
+
+
+
+            <div class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">Our packages that heal <br>the past and open the future</div>
+
+
+</h2></div>
+          <div class="cards">
+
+
+
+      <div class="row">
+              <div class="col-md-4">
+
+
+  <div class="paragraph paragraph--type--card paragraph--view-mode--default">
+          <div class="card-image">
+
+
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">
+
+
+
+
+<img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg" width="629" height="574" alt="Awakening of love" class="img-fluid">
+
+
+</div>
+
+
+
+      </div>
+      <div class="card-info">
+        <div class="small-title">
+
+
+
+            <div class="field field--name-field-small-title field--type-string field--label-hidden field__item">1-2 Day Courses</div>
+
+
+
+        </div>
+        <h3 class="card-title">
+
+
+
+
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Introductory Courses</div>
+
+
+
+        </h3>
+        <div class="content">
+
+
+
+
+            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item"><p>These 1 and 2 day courses open your heart and introduce you to the Path of Love retreat, while helping you to find meaningful and lasting change in your life.</p></div>
+
+
+
+        </div>
+        <div class="link small">
+
+
+
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="/find-retreat">Learn more</a></div>
+
+
+
+        </div>
+      </div>
+      </div>
+
+
+</div>
+              <div class="col-md-4">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
+  <div class="paragraph paragraph--type--card paragraph--view-mode--default">
+          <div class="card-image">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">
+
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
+<img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="633" height="577" alt="Path of love cover" class="img-fluid">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+      </div>
+      <div class="card-info">
+        <div class="small-title">
+
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-small-title field--type-string field--label-hidden field__item">7-Day retreat</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </div>
+        <h3 class="card-title">
+
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Path of Love Process</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </h3>
+        <div class="content">
+
+
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item"><p>The Path of Love process is a unique, revolutionary, and life transforming personal growth and meditation retreat that will alter your life in a substantial and enduring way.</p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
+
+
+        </div>
+        <div class="link small">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="/personal-growth-retreat-workshop">Learn more</a></div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </div>
+      </div>
+      </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
+
+</div>
+              <div class="col-md-4">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
+  <div class="paragraph paragraph--type--card paragraph--view-mode--default">
+          <div class="card-image">
+
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">
+
+
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
+<img loading="lazy" src="/sites/default/files/2025-03/advancedworkcover.png" width="422" height="385" alt="Advanced spiritual work" class="img-fluid">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+      </div>
+      <div class="card-info">
+        <div class="small-title">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-small-title field--type-string field--label-hidden field__item">3-5 day retreats</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </div>
+        <h3 class="card-title">
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Advanced Work</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </h3>
+        <div class="content">
+
+
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item"><p>Extensive ongoing support, integration and advanced retreats for Path of Love graduates, including residential, weekend and conscious relating courses.</p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
+
+
+        </div>
+        <div class="link small">
+
+
+
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="/find-retreat">Learn more</a></div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
+
+        </div>
+      </div>
+      </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
+
+</div>
+          </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-retreats-cards.html.twig' -->
+
 
           </div>
-          <div class="field__item">
+        </div>
+      </div>
+           </div>
+           <section class="py-5 bg-white" id="services">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h6 class="text-uppercase text-muted">Services</h6>
+      <h2 class="fw-bold">
+        Transformative services designed <br>to support your healing journey
+      </h2>
+    </div>
 
-            <!-- THEME DEBUG -->
-            <!-- THEME HOOK: 'paragraph' -->
-            <!-- FILE NAME SUGGESTIONS:
-   ▪️ paragraph--what-our-retreats-bring--default.html.twig
-   ✅ paragraph--what-our-retreats-bring.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--what-our-retreats-bring.html.twig' -->
+    <!-- Services Grid -->
+    <div class="row g-4">
+      <!-- Service 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4  p-3">
+          <div class="card-body d-flex flex-column align-items-center" style="padding:0;">
+    <div class="service-icon bg-light overflow-hidden mb-3"
+     style="width:100%; height:200px; display:flex; align-items:center; justify-content:center;">
+  <img src="/assets/mindfullness.jpg"
+       alt="Mindfulness"
+       style=" object-fit:cover;">
+</div>
+            <h5 class="fw-bold mb-2">Emotional Healing</h5>
+            <p class="text-muted flex-grow-1">
+              Personalized sessions focused on helping you release emotional blockages and reconnect with your inner strength.
+            </p>
+            <a href="/services/emotional-healing" class="btn btn-outline-primary mt-auto">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm border-0 rounded-4  p-3">
+          <div class="card-body d-flex flex-column align-items-center" style="padding:0;">
+    <div class="service-icon bg-light overflow-hidden mb-3"
+     style="width:100%; height:200px; display:flex; align-items:center; justify-content:center;">
+  <img src="/assets/mindfullness.jpg"
+       alt="Mindfulness"
+       style=" object-fit:cover;">
+</div>
+            <h5 class="fw-bold mb-2">Emotional Healing</h5>
+            <p class="text-muted flex-grow-1">
+              Personalized sessions focused on helping you release emotional blockages and reconnect with your inner strength.
+            </p>
+            <a href="/services/emotional-healing" class="btn btn-outline-primary mt-auto">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4  p-3">
+          <div class="card-body d-flex flex-column align-items-center" style="padding:0;">
+    <div class="service-icon bg-light overflow-hidden mb-3"
+     style="width:100%; height:200px; display:flex; align-items:center; justify-content:center;">
+  <img src="/assets/mindfullness.jpg"
+       alt="Mindfulness"
+       style=" object-fit:cover;">
+</div>
+            <h4 class="fw-bold mb-2">Emotional Healing</h4>
+            <p class="text-muted flex-grow-1">
+              Personalized sessions focused on helping you release emotional blockages and reconnect with your inner strength.
+            </p>
+            <a href="/services/emotional-healing" class="btn btn-outline-primary mt-auto">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+          </div>
+          <!-- <div class="field__item">
+
+
             <div class="paragraph paragraph--type--what-our-retreats-bring paragraph--view-mode--default">
               <div class="rotate-image-outer">
                 <div class="container">
@@ -615,40 +737,20 @@
                     <div class="half-above-img">
 
 
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-image--what-our-retreats-bring.html.twig
-   ▪️ field--paragraph--field-image.html.twig
-   ▪️ field--paragraph--what-our-retreats-bring.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'image_formatter' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'image' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy" src="sites/default/files/2024-09/hugging%20cropped.jpg" width="1006"
                           height="738" alt="POL participants" class="img-fluid" />
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
 
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                       </div>
 
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                     </div>
@@ -657,57 +759,28 @@
               </div>
             </div>
 
-            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--what-our-retreats-bring.html.twig' -->
 
-          </div>
+          </div> -->
           <div class="field__item">
 
-            <!-- THEME DEBUG -->
-            <!-- THEME HOOK: 'paragraph' -->
-            <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--long-lasting-benefits--default.html.twig
-   ▪️ paragraph--long-lasting-benefits.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--long-lasting-benefits--default.html.twig' -->
+
             <div class="paragraph paragraph--type--long-lasting-benefits paragraph--view-mode--default">
               <section class="long-lasting-benefits" id="benefits">
                 <div class="container">
                   <div class="lasting-benefits-heading">
                     <h5>
 
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--long-lasting-benefits.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--long-lasting-benefits.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                       <div
                         class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                         long lasting benefits</div>
 
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                     </h5>
                     <h2>
 
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--long-lasting-benefits.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--long-lasting-benefits.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
+
                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                       <div class="field field--name-field-title field--type-string field--label-hidden field__item">
@@ -878,17 +951,7 @@
                     <div class="col-12 text-center">
                       <h6>
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--long-lasting-benefits.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--long-lasting-benefits.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                         <div
                           class="field field--name-field-small-title field--type-string field--label-hidden field__item">
@@ -899,16 +962,7 @@
                       </h6>
                       <h3>
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--long-lasting-benefits.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--long-lasting-benefits.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
+
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
@@ -1073,166 +1127,41 @@
             <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--long-lasting-benefits--default.html.twig' -->
 
           </div>
-          <div class="field__item">
+                    <div class="testimonial-container">
+              <div
+                class=" small-title field field--name-field-small-title field--type-string field--label-hidden field__item text-center">
+                TESTIMONIAL</div>
+              <h1 class="testimonial-title">What our Clients Say About Us </h1>
 
-            <!-- THEME DEBUG -->
-            <!-- THEME HOOK: 'paragraph' -->
-            <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--home-testimonial--default.html.twig
-   ▪️ paragraph--home-testimonial.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
-            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--home-testimonial--default.html.twig' -->
-            <div class="paragraph paragraph--type--home-testimonial paragraph--view-mode--default">
-              <div class="container">
-                <div class="home-testimonial">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="home-testimonial-image">
+              <div class="slider-wrapper">
+                <button class="nav-button prev-btn">&#10094;</button>
 
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-image--home-testimonial.html.twig
-   ▪️ field--paragraph--field-image.html.twig
-   ▪️ field--paragraph--home-testimonial.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'image_formatter' -->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'image' -->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-                          <img loading="lazy" src="sites/default/files/2025-04/ThreeWomen.jpg" width="1709"
-                            height="2146" alt="Testimonial" class="img-fluid" />
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-                        </div>
-
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="home-testimonial-caption">
-                        <h5>
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'field' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--home-testimonial.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--home-testimonial.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          <div
-                            class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                            TESTIMONIAL</div>
-
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        </h5>
-
-
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--home-testimonial.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--home-testimonial.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-                        <div
-                          class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                          <h4>“Path of Love is the best deep work and personal development retreat I have ever
-                            done, It was life-changing for me. I feel so much more real, authentic, free and
-                            connected to myself, others and something bigger in my purpose, work, relationships
-                            and day-to-day life. The process has so much integrity, and the facilitators are so
-                            gifted in what they do...a profoundly safe and transformative container.”</h4>
-                        </div>
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
-
-                        <h6>
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'field' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--home-testimonial.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--home-testimonial.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                            Carmen Marshal, Business and Lifestyle Strategist</div>
-
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                        </h6>
-                        <div class="link">
-
-
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'field' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-link--home-testimonial.html.twig
-   ▪️ field--paragraph--field-link.html.twig
-   ▪️ field--paragraph--home-testimonial.html.twig
-   ▪️ field--field-link.html.twig
-   ▪️ field--link.html.twig
-   ✅ field.html.twig
--->
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-                          <div class="field field--name-field-link field--type-link field--label-hidden field__item">
-                            <a href="find-retreat.html">Find a Retreat</a>
-                          </div>
-
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                        </div>
-                      </div>
-                    </div>
+                <div class="testimonial-content">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                    alt="Student" class="profile-image">
+                  <div class="student-name" id="studentName">Jedd Horowitz</div>
+                  <div class="student-location" id="studentLocation">USA</div>
+                  <p class="testimonial-text" id="testimonialText">
+                    The Kathmandu Meditation School is the greatest place in the world. What makes it so special is the
+                    quality of the people — they are so kind and smart, and do everything they can so that you have a
+                    comfortable experience, yet learn and grow in every way possible. The food is absolutely delicious,
+                    the facilities are very clean and nice, and the offerings are excellent. As there are many centers
+                    like this in Nepal, you should feel confident that this is the best one to attend. Don't think
+                    twice, book it!
+                  </p>
+                  <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
                   </div>
                 </div>
+
+                <button class="nav-button next-btn">&#10095;</button>
               </div>
             </div>
 
-            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--home-testimonial--default.html.twig' -->
-
-          </div>
-          <!-- <div class="field__item">
 
 
                 <div class="paragraph paragraph--type--tab-items paragraph--view-mode--default">
@@ -1244,7 +1173,7 @@
 
 
                           <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                            Path Retreats in the Media</div>
+                            Saptarishi in the Media</div>
 
 
                         </h2>
@@ -1329,7 +1258,7 @@
                                   class="img-fluid">
                                 <div class="tab-caption">
                                   <p>"The Path of Love is the path of feeling truly and deeply alive". Jaimie Epstein
-                                    of Yoga International reaches into the transformative experience of Path Retreats'
+                                    of Yoga International reaches into the transformative experience of Saptarishi'
                                     flagship process.</p>
                                 </div>
                                 <div class="link"><a
@@ -1396,7 +1325,7 @@
 
 
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                          Blogs &amp; Articles</div>
+                          Blogs </div>
 
 
 
@@ -1408,7 +1337,7 @@
 
 
                       <div class="field field--name-field-top-link field--type-link field--label-hidden field__item">
-                        <a href="about-us.html">Discover more about us</a>
+                        <a href="about-us.php">Discover more about us</a>
                       </div>
 
 
@@ -1418,14 +1347,10 @@
                   <div class="blog-article-view">
 
 
-                    <!-- THEME DEBUG -->
-                    <!-- THEME HOOK: 'container' -->
-                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
+
                     <div class="views-element-container">
 
-                      <!-- THEME DEBUG -->
-                      <!-- THEME HOOK: 'views_view' -->
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
+
                       <div
                         class="view view-blogs-articles view-id-blogs_articles view-display-id-block_1 js-view-dom-id-78bf665569783f243163c75ba9a8acbd2a965728f5e2979c7a13a3d21bfafb89">
 
@@ -1434,30 +1359,11 @@
                         <div class="view-content">
 
 
-                          <!-- THEME DEBUG -->
-                          <!-- THEME HOOK: 'views_view_unformatted__blogs_articles' -->
-                          <!-- FILE NAME SUGGESTIONS:
-   ✅ views-view-unformatted--blogs-articles.html.twig
-   ✅ views-view-unformatted--blogs-articles.html.twig
-   ▪️ views-view-unformatted.html.twig
--->
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted--blogs-articles.html.twig' -->
+
                           <div class="row">
                             <div class="views-row col-md-4">
 
-                              <!-- THEME DEBUG -->
-                              <!-- THEME HOOK: 'node' -->
-                              <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--view--blogs-articles--block-1.html.twig
-   ▪️ node--view--blogs-articles.html.twig
-   ▪️ node--359--home-blogs.html.twig
-   ▪️ node--359.html.twig
-   ✅ node--blog--home-blogs.html.twig
-   ▪️ node--blog.html.twig
-   ▪️ node--home-blogs.html.twig
-   ▪️ node.html.twig
--->
-                              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--blog--home-blogs.html.twig' -->
+
 
                               <article data-history-node-id="359"
                                 class="node node--type-blog node--view-mode-home-blogs">
@@ -1466,33 +1372,13 @@
                                     <div class="blog-article-image">
 
 
-                                      <!-- THEME DEBUG -->
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--blog.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_formatter' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_style' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
-
-
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image' -->
                                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                         <img loading="eager"
                                           src="sites/default/files/styles/wide/public/2025-06/Untitled%20design%20(5)_01392.png?itok=-82Eya0G"
@@ -1519,16 +1405,7 @@
                                           href="blog/vulnerability-not-fragility-it-entrance-reflections-laura-seiler"
                                           rel="bookmark">
 
-                                          <!-- THEME DEBUG -->
-                                          <!-- THEME HOOK: 'field' -->
-                                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--blog.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
+
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                           <span
                                             class="field field--name-title field--type-string field--label-hidden">Vulnerability
@@ -1557,18 +1434,7 @@
                             </div>
                             <div class="views-row col-md-4">
 
-                              <!-- THEME DEBUG -->
-                              <!-- THEME HOOK: 'node' -->
-                              <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--view--blogs-articles--block-1.html.twig
-   ▪️ node--view--blogs-articles.html.twig
-   ▪️ node--264--home-blogs.html.twig
-   ▪️ node--264.html.twig
-   ✅ node--blog--home-blogs.html.twig
-   ▪️ node--blog.html.twig
-   ▪️ node--home-blogs.html.twig
-   ▪️ node.html.twig
--->
+
                               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--blog--home-blogs.html.twig' -->
 
                               <article data-history-node-id="264"
@@ -1578,33 +1444,18 @@
                                     <div class="blog-article-image">
 
 
-                                      <!-- THEME DEBUG -->
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--blog.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
+
+
                                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_formatter' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_style' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
 
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image' -->
+
                                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                         <img loading="eager"
                                           src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_474135.png?itok=SJWBPuM9"
@@ -1630,16 +1481,7 @@
                                       <h4><a href="blog/path-love-transformative-journey-your-true-self.html"
                                           rel="bookmark">
 
-                                          <!-- THEME DEBUG -->
-                                          <!-- THEME HOOK: 'field' -->
-                                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--blog.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
+
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                           <span
                                             class="field field--name-title field--type-string field--label-hidden">The
@@ -1667,18 +1509,7 @@
                             </div>
                             <div class="views-row col-md-4">
 
-                              <!-- THEME DEBUG -->
-                              <!-- THEME HOOK: 'node' -->
-                              <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--view--blogs-articles--block-1.html.twig
-   ▪️ node--view--blogs-articles.html.twig
-   ▪️ node--263--home-blogs.html.twig
-   ▪️ node--263.html.twig
-   ✅ node--blog--home-blogs.html.twig
-   ▪️ node--blog.html.twig
-   ▪️ node--home-blogs.html.twig
-   ▪️ node.html.twig
--->
+
                               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--blog--home-blogs.html.twig' -->
 
                               <article data-history-node-id="263"
@@ -1688,51 +1519,21 @@
                                     <div class="blog-article-image">
 
 
-                                      <!-- THEME DEBUG -->
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--blog.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
+
                                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_formatter' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image_style' -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
-
-
-                                        <!-- THEME DEBUG -->
-                                        <!-- THEME HOOK: 'image' -->
                                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                         <img loading="eager"
                                           src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_45b654.png?itok=kTxXwSj9"
                                           width="1065" height="550" alt="" class="img-fluid image-style-wide" />
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
-
-
-
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                       </div>
 
-                                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                     </div>
@@ -1740,16 +1541,6 @@
                                       <h4><a href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html"
                                           rel="bookmark">
 
-                                          <!-- THEME DEBUG -->
-                                          <!-- THEME HOOK: 'field' -->
-                                          <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--blog.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--blog.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                           <span
                                             class="field field--name-title field--type-string field--label-hidden">Coming
@@ -1794,16 +1585,7 @@
                   <div class="all-link link">
 
 
-                    <!-- THEME DEBUG -->
-                    <!-- THEME HOOK: 'field' -->
-                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-all-articles--blogs-articles.html.twig
-   ▪️ field--paragraph--field-all-articles.html.twig
-   ▪️ field--paragraph--blogs-articles.html.twig
-   ▪️ field--field-all-articles.html.twig
-   ▪️ field--link.html.twig
-   ✅ field.html.twig
--->
+
                     <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                     <div class="field field--name-field-all-articles field--type-link field--label-hidden field__item">
@@ -1844,7 +1626,63 @@
 
 
 </div>
+<script>
+  // Testimonials data
+  const testimonials = [
+    {
+      name: "Jedd Horowitz",
+      location: "USA",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      text: "The Kathmandu Meditation School is the greatest place in the world. What makes it so special is the quality of the people — they are so kind and smart, and do everything they can so that you have a comfortable experience, yet learn and grow in every way possible. The food is absolutely delicious, the facilities are very clean and nice, and the offerings are excellent. As there are many centers like this in Nepal, you should feel confident that this is the best one to attend. Don't think twice, book it!",
+      rating: 5
+    },
+    {
+      name: "Sarah Mitchell",
+      location: "Canada",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      text: "An absolutely transformative experience! The instructors are incredibly knowledgeable and patient. I came here stressed and overwhelmed, and left feeling peaceful and centered. The meditation techniques I learned have become an essential part of my daily routine. Highly recommended!",
+      rating: 5
+    },
+    {
+      name: "Marcus Johnson",
+      location: "UK",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      text: "Outstanding program with exceptional attention to detail. The retreat center is beautifully maintained, and the staff goes above and beyond to make you feel welcome. I've attended several meditation centers, and this one stands out for its genuine care and professional approach.",
+      rating: 5
+    },
+    {
+      name: "Emma Rodriguez",
+      location: "Spain",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+      text: "A life-changing journey! The combination of meditation practice, healthy food, and supportive community created the perfect environment for personal growth. I felt truly cared for throughout my stay. This is definitely worth the investment in yourself.",
+      rating: 5
+    }
+  ];
 
-<?php include('includes/footer.php') ?>
+  let currentIndex = 0;
+
+  function updateTestimonial(index) {
+    const testimonial = testimonials[index];
+    document.getElementById('studentName').textContent = testimonial.name;
+    document.getElementById('studentLocation').textContent = testimonial.location;
+    document.getElementById('testimonialText').textContent = testimonial.text;
+    document.querySelector('.profile-image').src = testimonial.image;
+  }
+
+  document.querySelector('.prev-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    updateTestimonial(currentIndex);
+  });
+
+  document.querySelector('.next-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % testimonials.length;
+    updateTestimonial(currentIndex);
+  });
+
+  // Initialize first testimonial
+  updateTestimonial(currentIndex);
+</script>
+
+<?php include 'includes/footer.php'?>
 
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->

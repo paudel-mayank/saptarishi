@@ -5,58 +5,22 @@
                 <div class="col-logo">
 
 
-                    <!-- THEME DEBUG -->
-                    <!-- THEME HOOK: 'region' -->
-                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ region--footer-logo.html.twig
-   ✅ region.html.twig
--->
-                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
+
                     <div class="region region-footer-logo">
 
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'block' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ block--pathretreats-globalinformation.html.twig
-   ▪️ block--block-content--8494125e-0c1b-454c-9d41-bccc29672a7f.html.twig
-   ▪️ block--block-content--id-view--pathretreats-globalinformation--footer-logo.html.twig
-   ▪️ block--block-content--id--pathretreats-globalinformation.html.twig
-   ▪️ block--block-content--view-type--global-information--footer-logo.html.twig
-   ▪️ block--block-content--type--global-information.html.twig
-   ▪️ block--block-content--view--footer-logo.html.twig
-   ▪️ block--block-content.html.twig
-   ✅ block.html.twig
--->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
                         <div id="block-pathretreats-globalinformation"
                             class="block block-block-content block-block-content8494125e-0c1b-454c-9d41-bccc29672a7f">
 
 
 
-
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--block-content--field-footer-logo--global-information.html.twig
-   ▪️ field--block-content--field-footer-logo.html.twig
-   ▪️ field--block-content--global-information.html.twig
-   ▪️ field--field-footer-logo.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
                             <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'image_formatter' -->
-                                <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'image' -->
                                 <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                 <img loading="lazy" src="sites/default/files/2024-03/footer-logo.svg" alt="Footer logo"
                                     class="img-fluid" />
@@ -86,76 +50,29 @@
                 <div class="col-mid">
 
 
-                    <!-- THEME DEBUG -->
-                    <!-- THEME HOOK: 'region' -->
-                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ region--footer.html.twig
-   ✅ region.html.twig
--->
                     <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
                     <div class="region region-footer">
 
 
-                        <!-- THEME DEBUG -->
-                        <!-- THEME HOOK: 'block' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ block--pathretreats-pathoflove7dayretreats.html.twig
-   ▪️ block--block-content--2b7137a5-d865-4c27-a4e8-fb296ef55a3a.html.twig
-   ▪️ block--block-content--id-view--pathretreats-pathoflove7dayretreats--full.html.twig
-   ▪️ block--block-content--id--pathretreats-pathoflove7dayretreats.html.twig
-   ▪️ block--block-content--view-type--basic--full.html.twig
-   ▪️ block--block-content--type--basic.html.twig
-   ▪️ block--block-content--view--full.html.twig
-   ▪️ block--block-content.html.twig
-   ✅ block.html.twig
--->
                         <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
                         <div id="block-pathretreats-pathoflove7dayretreats"
                             class="block block-block-content block-block-content2b7137a5-d865-4c27-a4e8-fb296ef55a3a">
 
-                            <h2>Path of Love 7 day retreats</h2>
+                            <!-- <h2>Path of Love 7 day retreats</h2> -->
 
 
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'field' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--block-content--body--basic.html.twig
-   ▪️ field--block-content--body.html.twig
-   ▪️ field--block-content--basic.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                             <div
                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                <p><a href="wellness-retreat/usa/10-2025.html">USA: Oct 25 - Nov 1, 2025</a></p>
-                                <p><a href="wellness-retreat/uk/11-2025.html">UK: Nov 5 - 12, 2025</a></p>
-                                <p><a href="wellness-retreat/italy/11-2025.html">Italy, Tuscany: Nov 26 - Dec 3,
-                                        2025</a></p>
-                                <p><a href="retreat/path-love-brasil.html">Brazil: Jan 6 - 13, 2026</a></p>
-                                <p><a href="wellness-retreat/bali/1-2026.html">Bali: Jan 11 - 18, 2026</a></p>
-                                <p><a href="wellness-retreat/italy/2-2026.html">Italy, The Alps: Feb 21 - 28, 2026</a>
-                                </p>
-                                <p><a href="wellness-retreat/deutschland/3-2026.html">Germany: Mar 4 - 11, 2026</a></p>
-                                <p><a href="wellness-retreat/italy/3-2026.html">Italy, Tuscany: Mar 5 - 12, 2026</a></p>
-                                <p><a href="wellness-retreat/uk/3-2026.html">UK: Mar 18 - 25, 2026</a></p>
-                                <p><a href="wellness-retreat/italy-alps/5-2026.html">Italy, The Alps: May 9 - 16,
-                                        2026</a></p>
-                                <p><a href="wellness-retreat/italy/5-2026.html">Italy, Tuscany: May 20 - 27, 2026</a>
-                                </p>
-                                <p><a href="wellness-retreat/usa/5-2026.html">USA: May 30 - June 6, 2026</a></p>
-                                <p><a href="wellness-retreat/uk/6-2026.html">UK: June 3 - 10, 2026</a></p>
-                                <p><a href="wellness-retreat/germany/6-2026.html">Germany: June 5 - 12, 2026</a></p>
-                                <p><a href="wellness-retreat/canada/6-2026.html">Canada: Jun 18 - 25, 2026</a></p>
-                                <p><a href="wellness-retreat/italy/7-2026.html">Italy, The Alps: July 11 - 18, 2026</a>
-                                </p>
-                                <p><a href="wellness-retreat/deutschland/10-2026.html">Germany: October 3 - 10, 2026</a>
-                                </p>
-                                <p><a href="wellness-retreat/italy/11-2026.html">Italy, Tuscany: Nov 25 - Dec 2,
-                                        2026</a></p>
+                                <p><a href="wellness-retreat/usa/10-2025.html">Home</a></p>
+                                <p><a href="wellness-retreat/uk/11-2025.html">Packages</a></p>
+                                <p><a href="wellness-retreat/italy/11-2025.html">Services</a></p>
+                                <p><a href="retreat/path-love-brasil.html">About</a></p>
+                                <p><a href="wellness-retreat/bali/1-2026.html">Contact</a></p>
+
+
                             </div>
 
                             <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
@@ -167,7 +84,7 @@
 
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'block' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ block--pathretreats-resources.html.twig
@@ -185,7 +102,7 @@
 
 
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'menu__resources' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ menu--resources.html.twig
@@ -222,7 +139,7 @@
 
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'block' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ block--pathretreats-landingpages.html.twig
@@ -241,7 +158,7 @@
 
 
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'menu__landing_pages' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ menu--landing-pages.html.twig
@@ -324,10 +241,10 @@
                                     <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
                                                 class="asterisk">*</span></label><input type="email" name="EMAIL"
                                             class="required email" id="mce-EMAIL" required="" value=""></div>
-                                    <div id="mergeRow-gdpr"
+                                    <!-- <div id="mergeRow-gdpr"
                                         class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                                         <div class="content__gdpr"><label>Marketing Permissions</label>
-                                            <p>Please select all the ways you would like to hear from Path Retreats:</p>
+                                            <p>Please select all the ways you would like to hear from Saptarishi:</p>
                                             <fieldset class="mc_fieldset gdprRequired mc-field-group"
                                                 name="interestgroup_field"><label class="checkbox subfield"
                                                     for="gdpr87962"><input type="checkbox" id="gdpr_87962"
@@ -362,7 +279,7 @@
                                     </div>
                                     <div aria-hidden="true" style="position: absolute; left: -5000px;"><input
                                             type="text" name="b_a3106ca66b6dbaa171683ae30_90a6f3c136" tabindex="-1"
-                                            value=""></div>
+                                            value=""></div> -->
                                     <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe"
                                             class="button" value="Subscribe"></div>
                                 </div>
@@ -399,13 +316,13 @@
             <div class="row">
                 <div class="col-copyright">
                     <div class="copyright">
-                        <p>©Path Retreats 2025</p>
+                        <p>©Saptarishi 2025</p>
                     </div>
                 </div>
                 <div class="col-privacy">
 
 
-                    <!-- THEME DEBUG -->
+
                     <!-- THEME HOOK: 'region' -->
                     <!-- FILE NAME SUGGESTIONS:
    ▪️ region--footer-bottom.html.twig
@@ -415,7 +332,7 @@
                     <div class="region region-footer-bottom">
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'block' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ block--pathretreats-footer.html.twig
@@ -433,7 +350,7 @@
 
 
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'menu__footer' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ menu--footer.html.twig
@@ -487,12 +404,12 @@
                     <label>Find us on socials</label>
 
 
-                    <!-- THEME DEBUG -->
+
                     <!-- THEME HOOK: 'container' -->
-                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
+
                     <div class="views-element-container">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'views_view' -->
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
                         <div
@@ -503,12 +420,12 @@
                             <div class="view-content">
 
 
-                                <!-- THEME DEBUG -->
+
                                 <!-- THEME HOOK: 'views_view_unformatted' -->
                                 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted.html.twig' -->
                                 <div class="views-row">
 
-                                    <!-- THEME DEBUG -->
+
                                     <!-- THEME HOOK: 'linkicon' -->
                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon.html.twig' -->
 
@@ -519,7 +436,7 @@
                                                 <a href="https://www.facebook.com/pathretreats" target="_blank"
                                                     class="linkicon__item">
 
-                                                    <!-- THEME DEBUG -->
+
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"
@@ -534,7 +451,7 @@
                                                 <a href="https://www.youtube.com/@PathRetreats" target="_blank"
                                                     class="linkicon__item">
 
-                                                    <!-- THEME DEBUG -->
+
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"
@@ -549,7 +466,7 @@
                                                 <a href="https://www.instagram.com/pathretreats/" target="_blank"
                                                     class="linkicon__item">
 
-                                                    <!-- THEME DEBUG -->
+
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"

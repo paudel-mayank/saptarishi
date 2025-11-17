@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description"
-        content="Path Retreats welcomes you to dive deeper, connecting you with life-changing experiences through our program of worldwide self-healing retreats | Path of Love, Awakening of Love, and advanced workshops." />
+        content="Saptarishi welcomes you to dive deeper, connecting you with life-changing experiences through our program of worldwide self-healing retreats | Path of Love, Awakening of Love, and advanced workshops." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="index.html" />
     <link rel="shortlink" href="index.html" />
@@ -17,7 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="themes/custom/pathretreats/favicon.jpg" type="image/jpeg" />
 
-    <title>Path Retreats | International Self-Development and Healing Retreats</title>
+    <title>Saptarishi | International Self-Development and Healing Retreats</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/fieldgroup.module1e7c.css?t33iat" />
@@ -137,7 +142,7 @@
 
 
 
-    <!-- THEME DEBUG -->
+
     <!-- THEME HOOK: 'off_canvas_page_wrapper' -->
     <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/content/off-canvas-page-wrapper.html.twig' -->
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
@@ -328,29 +333,35 @@
                           </ul>
 
                         </li> -->
-                                                <li class="nav-item dropdown">
-                                                    <a href="find-retreat.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Package</a>
+                                                <li>
+                                                    <a href="about-us.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="about-us.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">Wellness Programs</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <a href="about-us.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Services</a>
+                                                    <a href="testimonials.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">Testimonials</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="gallery.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">Gallery</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a href="blog.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Blog</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <a href="about-us.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">About</a>
-                                                </li>
-                                                <!-- <li class="nav-item dropdown">
+
+                                                    <!-- <li class="nav-item dropdown">
                           <a href="about-us.html" class="nav-link " data-drupal-link-system-path="node/24">Book</a>
                         </li> -->
 
 
 
-                                                <!-- <li class="nav-item dropdown">
+                                                    <!-- <li class="nav-item dropdown">
                           <a href="about-us.html" class="nav-link dropdown-toggle"
                             data-drupal-link-system-path="node/24">About</a>
                           <span class="caret-mobile"></span>
@@ -376,7 +387,7 @@
 
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"
-                                                        data-drupal-link-system-path="node/11">Book </a>
+                                                        data-drupal-link-system-path="node/11">Contact </a>
                                                 </li>
 
                                             </ul>

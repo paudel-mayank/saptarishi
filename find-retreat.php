@@ -1,10 +1,10 @@
-<?php include('includes/header.php') ?>
+<?php include 'includes/header.php'?>
 
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
 
 
-  <!-- THEME DEBUG -->
+
   <!-- THEME HOOK: 'region' -->
   <!-- FILE NAME SUGGESTIONS:
    ▪️ region--content.html.twig
@@ -14,7 +14,7 @@
   <div class="region region-content">
 
 
-    <!-- THEME DEBUG -->
+
     <!-- THEME HOOK: 'block' -->
     <!-- FILE NAME SUGGESTIONS:
    ▪️ block--pathretreats-messages.html.twig
@@ -29,7 +29,7 @@
 
 
 
-    <!-- THEME DEBUG -->
+
     <!-- THEME HOOK: 'block' -->
     <!-- FILE NAME SUGGESTIONS:
    ▪️ block--pathretreats-content.html.twig
@@ -43,8 +43,8 @@
 
 
 
-      <!-- THEME DEBUG -->
-      <!-- THEME HOOK: 'node' -->
+
+
       <!-- FILE NAME SUGGESTIONS:
    ▪️ node--11--full.html.twig
    ▪️ node--11.html.twig
@@ -64,7 +64,7 @@
         <div class="node__content">
 
 
-          <!-- THEME DEBUG -->
+
           <!-- THEME HOOK: 'field' -->
           <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-content--page.html.twig
@@ -80,7 +80,7 @@
             class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
+
               <!-- THEME HOOK: 'paragraph' -->
               <!-- FILE NAME SUGGESTIONS:
    ✅ paragraph--banner--default.html.twig
@@ -99,7 +99,7 @@
                       <div class="col-12">
                         <h1>
 
-                          <!-- THEME DEBUG -->
+
                           <!-- THEME HOOK: 'field' -->
                           <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-title--banner.html.twig
@@ -119,7 +119,7 @@
                         </h1>
 
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'field' -->
                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-content--banner.html.twig
@@ -154,7 +154,7 @@
             </div>
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
+
               <!-- THEME HOOK: 'paragraph' -->
               <!-- FILE NAME SUGGESTIONS:
    ✅ paragraph--find-your-retreat--default.html.twig
@@ -170,12 +170,12 @@
                     <div class="find-your-retreat-content">
 
 
-                      <!-- THEME DEBUG -->
+
                       <!-- THEME HOOK: 'container' -->
-                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
+
                       <div class="views-element-container">
 
-                        <!-- THEME DEBUG -->
+
                         <!-- THEME HOOK: 'views_view__find_your_retreat' -->
                         <!-- FILE NAME SUGGESTIONS:
    ✅ views-view--find-your-retreat.html.twig
@@ -190,8 +190,8 @@
                           <div class="view-filters">
 
 
-                            <!-- THEME DEBUG -->
-                            <!-- THEME HOOK: 'form' -->
+
+
                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/form.html.twig' -->
                             <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit-full-form=""
                               data-bef-auto-submit="" data-bef-auto-submit-delay="500"
@@ -201,20 +201,20 @@
                               id="views-exposed-form-find-your-retreat-block-1" accept-charset="UTF-8">
 
 
-                              <!-- THEME DEBUG -->
+
                               <!-- THEME HOOK: 'views_exposed_form' -->
                               <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/views/views-exposed-form.html.twig' -->
                               <div class="form--inline clearfix">
 
 
-                                <!-- THEME DEBUG -->
+
                                 <!-- THEME HOOK: 'form_element' -->
                                 <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/form-element.html.twig' -->
                                 <div
                                   class="js-form-item form-item js-form-type-select form-type-select js-form-item-type form-item-type">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'form_element_label' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/form-element-label.html.twig' -->
                                   <label for="edit-type">Type</label>
@@ -223,7 +223,7 @@
 
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'select' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/select.html.twig' -->
                                   <select data-drupal-selector="edit-type" id="edit-type" name="type"
@@ -243,7 +243,7 @@
 
 
 
-                                <!-- THEME DEBUG -->
+
                                 <!-- THEME HOOK: 'form_element' -->
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ form-element--find-your-retreat--block-1--field-retreat-location-target-id.html.twig
@@ -257,7 +257,7 @@
                                   class="js-form-item form-item js-form-type-select form-type-select js-form-item-field-retreat-location-target-id form-item-field-retreat-location-target-id">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'form_element_label' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/form-element-label.html.twig' -->
                                   <label for="edit-field-retreat-location-target-id">Location</label>
@@ -266,7 +266,7 @@
 
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'select' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/select.html.twig' -->
                                   <select data-drupal-selector="edit-field-retreat-location-target-id"
@@ -295,7 +295,7 @@
 
 
 
-                                <!-- THEME DEBUG -->
+
                                 <!-- THEME HOOK: 'form_element' -->
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ form-element--find-your-retreat--block-1--month.html.twig
@@ -309,7 +309,7 @@
                                   class="js-form-item form-item js-form-type-select form-type-select js-form-item-month form-item-month">
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'form_element_label' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/form-element-label.html.twig' -->
                                   <label for="edit-month">Date</label>
@@ -318,7 +318,7 @@
 
 
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'select' -->
                                   <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/select.html.twig' -->
                                   <select data-drupal-selector="edit-month" id="edit-month" name="month"
@@ -346,13 +346,13 @@
 
 
 
-                                <!-- THEME DEBUG -->
+
                                 <!-- THEME HOOK: 'container' -->
-                                <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
+
                                 <div data-drupal-selector="edit-actions"
                                   class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
 
-                                  <!-- THEME DEBUG -->
+
                                   <!-- THEME HOOK: 'input__submit' -->
                                   <!-- FILE NAME SUGGESTIONS:
    ▪️ input--submit.html.twig
@@ -366,7 +366,6 @@
                                     id="edit-submit-find-your-retreat" value="Apply" />
 
 
-                                  <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/input.html.twig' -->
 
                                 </div>
 
@@ -389,13 +388,13 @@
                             <div class="row">
 
 
-                              <!-- THEME DEBUG -->
+
                               <!-- THEME HOOK: 'views_view_unformatted' -->
                               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted.html.twig' -->
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -418,7 +417,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--walking-the-path.html.twig
@@ -433,12 +432,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="advanced-retreat/usa/9-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
@@ -462,7 +461,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--walking-the-path.html.twig
@@ -482,7 +481,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--walking-the-path.html.twig
@@ -548,8 +547,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -572,7 +571,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -587,12 +586,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/deutschland/9-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20224_3.png"
@@ -618,7 +617,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -638,7 +637,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -709,8 +708,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -733,7 +732,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -748,12 +747,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/sweden/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
@@ -777,7 +776,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -797,7 +796,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -864,8 +863,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -888,7 +887,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -903,12 +902,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/schweiz/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/zurichoverview.png"
@@ -936,7 +935,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -956,7 +955,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -1025,8 +1024,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1049,7 +1048,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -1064,12 +1063,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/australia/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
@@ -1093,7 +1092,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -1113,7 +1112,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -1180,8 +1179,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1204,7 +1203,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -1219,12 +1218,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
@@ -1250,7 +1249,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -1270,7 +1269,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -1337,8 +1336,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1361,7 +1360,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -1376,12 +1375,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/usa/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
@@ -1404,7 +1403,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -1424,7 +1423,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -1491,8 +1490,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1515,7 +1514,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--walking-the-path.html.twig
@@ -1530,12 +1529,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="advanced-retreat/uk/10-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
@@ -1559,7 +1558,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--walking-the-path.html.twig
@@ -1579,7 +1578,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--walking-the-path.html.twig
@@ -1645,8 +1644,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1669,7 +1668,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -1684,12 +1683,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/uk/11-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
@@ -1715,7 +1714,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -1735,7 +1734,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -1802,8 +1801,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1826,7 +1825,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -1841,12 +1840,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="retreat/awakening-love-canada-november.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Yukon.png" width="464"
@@ -1870,7 +1869,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -1890,7 +1889,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -1956,8 +1955,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -1980,7 +1979,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--suitable-for-all.html.twig
@@ -1995,12 +1994,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="retreat/healing-attachment-wounds.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
@@ -2025,7 +2024,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--suitable-for-all.html.twig
@@ -2045,7 +2044,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--suitable-for-all.html.twig
@@ -2112,8 +2111,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2136,7 +2135,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--walking-the-path.html.twig
@@ -2151,12 +2150,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="advanced-retreat/australia/11-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
@@ -2182,7 +2181,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--walking-the-path.html.twig
@@ -2202,7 +2201,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--walking-the-path.html.twig
@@ -2268,8 +2267,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2292,7 +2291,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -2307,12 +2306,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/11-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-02/pol-Italy.png"
@@ -2335,7 +2334,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -2355,7 +2354,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -2422,8 +2421,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2446,7 +2445,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -2461,12 +2460,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/deutschland/11-2025.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/Germay_AOL_Koln.jpg"
@@ -2494,7 +2493,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -2514,7 +2513,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -2583,8 +2582,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2607,7 +2606,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -2622,12 +2621,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="retreat/awakening-love-canada.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/aolvancouver.png"
@@ -2652,7 +2651,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -2672,7 +2671,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -2738,8 +2737,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2762,7 +2761,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -2777,12 +2776,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/brazil/1-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/brazil%20overview.png"
@@ -2805,7 +2804,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -2825,7 +2824,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -2892,8 +2891,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -2916,7 +2915,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -2931,12 +2930,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="retreat/path-love-brasil.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/brazil%20overview.png"
@@ -2959,7 +2958,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -2979,7 +2978,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3046,8 +3045,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3070,7 +3069,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -3085,12 +3084,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/bali/1-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Bali%20overview.png"
@@ -3113,7 +3112,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -3133,7 +3132,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3200,8 +3199,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3224,7 +3223,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -3239,12 +3238,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/usa/1-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
@@ -3268,7 +3267,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -3288,7 +3287,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -3354,8 +3353,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3378,7 +3377,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -3393,12 +3392,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/2-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
@@ -3421,7 +3420,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -3441,7 +3440,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3508,8 +3507,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3532,7 +3531,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -3547,12 +3546,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/deutschland/3-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/MaRah_overview.png"
@@ -3575,7 +3574,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -3595,7 +3594,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3665,8 +3664,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3689,7 +3688,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -3704,12 +3703,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/3-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
@@ -3732,7 +3731,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -3752,7 +3751,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3819,8 +3818,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3843,7 +3842,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -3858,12 +3857,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/uk/3-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
@@ -3886,7 +3885,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -3906,7 +3905,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -3973,8 +3972,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -3997,7 +3996,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4012,12 +4011,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/canada/4-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-08/havenoverview.png"
@@ -4040,7 +4039,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4060,7 +4059,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -4127,8 +4126,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4151,7 +4150,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -4166,12 +4165,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/deutschland/4-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
@@ -4195,7 +4194,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -4215,7 +4214,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -4284,8 +4283,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4308,7 +4307,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4323,12 +4322,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy-alps/5-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
@@ -4351,7 +4350,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4371,7 +4370,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -4438,8 +4437,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4462,7 +4461,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4477,12 +4476,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/5-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
@@ -4505,7 +4504,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4525,7 +4524,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -4592,8 +4591,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4616,7 +4615,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4631,12 +4630,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/usa/5-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
@@ -4659,7 +4658,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4679,7 +4678,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -4746,8 +4745,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4770,7 +4769,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4785,12 +4784,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/uk/6-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
@@ -4813,7 +4812,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4833,7 +4832,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -4900,8 +4899,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -4924,7 +4923,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -4939,12 +4938,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/germany/6-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/MaRah_overview.png"
@@ -4967,7 +4966,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -4987,7 +4986,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -5057,8 +5056,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5081,7 +5080,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -5096,12 +5095,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/canada/6-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/pol%20canada.png"
@@ -5124,7 +5123,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -5144,7 +5143,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -5211,8 +5210,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5235,7 +5234,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -5250,12 +5249,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/7-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
@@ -5278,7 +5277,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -5298,7 +5297,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -5369,8 +5368,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5393,7 +5392,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -5408,12 +5407,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/deutschland/8-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
@@ -5437,7 +5436,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -5457,7 +5456,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -5526,8 +5525,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5550,7 +5549,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -5565,12 +5564,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/deutschland/10-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20224_3.png"
@@ -5593,7 +5592,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -5613,7 +5612,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -5684,8 +5683,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5708,7 +5707,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--path-of-love.html.twig
@@ -5723,12 +5722,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="wellness-retreat/italy/11-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
@@ -5751,7 +5750,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--path-of-love.html.twig
@@ -5771,7 +5770,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--path-of-love.html.twig
@@ -5838,8 +5837,8 @@
                               </div>
                               <div class="col-md-6 col-lg-4 views-row">
 
-                                <!-- THEME DEBUG -->
-                                <!-- THEME HOOK: 'node' -->
+
+
                                 <!-- FILE NAME SUGGESTIONS:
    ▪️ node--view--find-your-retreat--block-1.html.twig
    ▪️ node--view--find-your-retreat.html.twig
@@ -5862,7 +5861,7 @@
                                       <div class="retreat-overview-image">
 
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--field-retreat-overview-image--awakening-of-love.html.twig
@@ -5877,12 +5876,12 @@
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
 
-                                          <!-- THEME DEBUG -->
+
                                           <!-- THEME HOOK: 'image_formatter' -->
                                           <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                           <a href="introductory-retreat/deutschland/12-2026.html" hreflang="en">
 
-                                            <!-- THEME DEBUG -->
+
                                             <!-- THEME HOOK: 'image' -->
                                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
@@ -5906,7 +5905,7 @@
                                     <div class="retreat-caption">
                                       <h4>
 
-                                        <!-- THEME DEBUG -->
+
                                         <!-- THEME HOOK: 'field' -->
                                         <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--title--awakening-of-love.html.twig
@@ -5926,7 +5925,7 @@
                                       </h4>
 
 
-                                      <!-- THEME DEBUG -->
+
                                       <!-- THEME HOOK: 'field' -->
                                       <!-- FILE NAME SUGGESTIONS:
    ▪️ field--node--body--awakening-of-love.html.twig
@@ -6019,7 +6018,7 @@
             </div>
             <div class="field__item">
 
-              <!-- THEME DEBUG -->
+
               <!-- THEME HOOK: 'paragraph' -->
               <!-- FILE NAME SUGGESTIONS:
    ✅ paragraph--home-testimonial--default.html.twig
@@ -6036,7 +6035,7 @@
                         <div class="home-testimonial-image">
 
 
-                          <!-- THEME DEBUG -->
+
                           <!-- THEME HOOK: 'field' -->
                           <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-image--home-testimonial.html.twig
@@ -6050,12 +6049,12 @@
 
                           <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'image_formatter' -->
                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'image' -->
                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                             <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20203.webp" width="570"
@@ -6078,7 +6077,7 @@
                         <div class="home-testimonial-caption">
                           <h5>
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'field' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-small-title--home-testimonial.html.twig
@@ -6099,7 +6098,7 @@
                           </h5>
 
 
-                          <!-- THEME DEBUG -->
+
                           <!-- THEME HOOK: 'field' -->
                           <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-content--home-testimonial.html.twig
@@ -6125,7 +6124,7 @@
 
                           <h6>
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'field' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-title--home-testimonial.html.twig
@@ -6147,7 +6146,7 @@
                           <div class="link">
 
 
-                            <!-- THEME DEBUG -->
+
                             <!-- THEME HOOK: 'field' -->
                             <!-- FILE NAME SUGGESTIONS:
    ▪️ field--paragraph--field-link--home-testimonial.html.twig
@@ -6183,7 +6182,7 @@
 
 
 
-          <!-- THEME DEBUG -->
+
           <!-- THEME HOOK: 'links__node' -->
           <!-- FILE NAME SUGGESTIONS:
    ✅ links--node.html.twig
@@ -6214,4 +6213,4 @@
 
 </div>
 
-<?php include('includes/footer.php') ?>
+<?php include 'includes/footer.php'?>
