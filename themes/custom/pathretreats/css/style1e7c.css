@@ -14644,3 +14644,21 @@ code {
   font-family: var(--tag-font-family);
   line-height: 1.25;
 }
+
+.title h2 {
+  color: var(--c-title)
+}
+
+.learn {
+  background-color: var(--c-primary);
+  color: var(--c-white);
+  border-radius: 24px;
+  padding: 11px 24px;
+  font-family: var(--tag-font-family);
+  line-height: 1.25;
+}
+
+.card-body a {
+  text-decoration: none;
+  text-decoration-style: none;
+}
