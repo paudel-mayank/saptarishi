@@ -80,20 +80,8 @@
 
                         </div>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
 
 
-
-
-                        <!-- THEME HOOK: 'block' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ block--pathretreats-resources.html.twig
-   ▪️ block--system-menu-block--resources.html.twig
-   ✅ block--system-menu-block.html.twig
-   ▪️ block--system.html.twig
-   ▪️ block.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
                         <nav role="navigation" aria-labelledby="block-pathretreats-resources-menu"
                             id="block-pathretreats-resources" class="block block-menu navigation menu--resources">
 
@@ -103,14 +91,6 @@
 
 
 
-                            <!-- THEME HOOK: 'menu__resources' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ menu--resources.html.twig
-   ▪️ menu--footer.html.twig
-   ▪️ menu--resources--footer.html.twig
-   ✅ menu.html.twig
--->
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
 
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
@@ -241,45 +221,7 @@
                                     <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
                                                 class="asterisk">*</span></label><input type="email" name="EMAIL"
                                             class="required email" id="mce-EMAIL" required="" value=""></div>
-                                    <!-- <div id="mergeRow-gdpr"
-                                        class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
-                                        <div class="content__gdpr"><label>Marketing Permissions</label>
-                                            <p>Please select all the ways you would like to hear from Saptarishi:</p>
-                                            <fieldset class="mc_fieldset gdprRequired mc-field-group"
-                                                name="interestgroup_field"><label class="checkbox subfield"
-                                                    for="gdpr87962"><input type="checkbox" id="gdpr_87962"
-                                                        name="gdpr[87962]" class="gdpr" value="Y"><span>General
-                                                        Newsletters</span></label><label class="checkbox subfield"
-                                                    for="gdpr87993"><input type="checkbox" id="gdpr_87993"
-                                                        name="gdpr[87993]" class="gdpr" value="Y"><span>Weekly
-                                                        Wisdom</span></label><label class="checkbox subfield"
-                                                    for="gdpr87997"><input type="checkbox" id="gdpr_87997"
-                                                        name="gdpr[87997]" class="gdpr" value="Y"><span>I confirm that
-                                                        I'm a POL graduate and
-                                                        would
-                                                        like to receive Path of Love Graduates
-                                                        communications.</span></label></fieldset>
-                                            <p>You can unsubscribe at any time by clicking the link in the footer of our
-                                                emails. For
-                                                information about our privacy practices, please visit our website.</p>
-                                        </div>
-                                        <div class="content__gdprLegal">
-                                            <p>We use Mailchimp as our marketing platform. By clicking below to
-                                                subscribe, you acknowledge
-                                                that your information will be transferred to Mailchimp for processing.
-                                                <a href="https://mailchimp.com/legal/terms">Learn more</a> about
-                                                Mailchimp's privacy
-                                                practices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display: none;"></div>
-                                        <div class="response" id="mce-success-response" style="display: none;"></div>
-                                    </div>
-                                    <div aria-hidden="true" style="position: absolute; left: -5000px;"><input
-                                            type="text" name="b_a3106ca66b6dbaa171683ae30_90a6f3c136" tabindex="-1"
-                                            value=""></div> -->
+
                                     <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe"
                                             class="button" value="Subscribe"></div>
                                 </div>
@@ -323,25 +265,11 @@
 
 
 
-                    <!-- THEME HOOK: 'region' -->
-                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ region--footer-bottom.html.twig
-   ✅ region.html.twig
--->
-                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
+
                     <div class="region region-footer-bottom">
 
 
 
-                        <!-- THEME HOOK: 'block' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ block--pathretreats-footer.html.twig
-   ▪️ block--system-menu-block--footer.html.twig
-   ✅ block--system-menu-block.html.twig
-   ▪️ block--system.html.twig
-   ▪️ block.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
                         <nav role="navigation" aria-labelledby="block-pathretreats-footer-menu"
                             id="block-pathretreats-footer" class="block block-menu navigation menu--footer">
 
@@ -350,15 +278,6 @@
 
 
 
-
-                            <!-- THEME HOOK: 'menu__footer' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ menu--footer.html.twig
-   ▪️ menu--footer-bottom.html.twig
-   ▪️ menu--footer--footer-bottom.html.twig
-   ✅ menu.html.twig
--->
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
 
                             <ul data-block="footer_bottom" class="nav navbar-nav">
                                 <li class="nav-item">
@@ -376,13 +295,8 @@
                             </ul>
 
 
-
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
-
-
                         </nav>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
 
 
                     </div>

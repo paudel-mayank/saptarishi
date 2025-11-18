@@ -591,7 +591,6 @@
                             <div class="content">
 
 
-                              <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                               <div
                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -684,7 +683,6 @@
                             <div class="content">
 
 
-                              <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                               <div
                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -750,57 +748,59 @@
                   <!-- Services Grid -->
                   <div class="row g-4 services-section">
 
-                    <!-- Service Card -->
+                    <!-- Ayurveda Consultation -->
                     <div class="col-12 col-md-6 col-lg-4">
                       <div class="service-card">
                         <div class="service-img">
-                          <img src="/assets/mindfullness.jpg" alt="Mindfulness">
+                          <img src="/assets/ayurveda-consultation.jpg" alt="Ayurveda Consultation">
                         </div>
 
-                        <h5 class="fw-bold mt-3">Emotional Healing</h5>
+                        <h5 class="fw-bold mt-3">Ayurveda Consultation</h5>
                         <p class="text-muted">
-                          Personalized sessions focused on helping you release emotional blockages
-                          and reconnect with your inner strength.
+                          Personalized Ayurvedic guidance based on your Prakriti to restore balance,
+                          improve vitality, and support holistic well-being.
                         </p>
 
-                        <a href="/services/emotional-healing" class="learn-link">Learn More →</a>
+                        <a href="/services/ayurveda-consultation" class="learn-link">Learn More →</a>
                       </div>
                     </div>
 
-                    <!-- Duplicate for others -->
+                    <!-- Panchakarma Therapy -->
                     <div class="col-12 col-md-6 col-lg-4">
                       <div class="service-card">
                         <div class="service-img">
-                          <img src="/assets/mindfullness.jpg" alt="Mindfulness">
+                          <img src="/assets/panchakarma.jpg" alt="Panchakarma Therapy">
                         </div>
 
-                        <h5 class="fw-bold mt-3">Emotional Healing</h5>
+                        <h5 class="fw-bold mt-3">Panchakarma Therapy</h5>
                         <p class="text-muted">
-                          Personalized sessions focused on helping you release emotional blockages
-                          and reconnect with your inner strength.
+                          Deep cleansing therapies that detoxify the body, calm the mind, and restore
+                          the natural flow of energy for lifelong wellness.
                         </p>
 
-                        <a href="/services/emotional-healing" class="learn-link">Learn More →</a>
+                        <a href="/services/panchakarma" class="learn-link">Learn More →</a>
                       </div>
                     </div>
 
+                    <!-- Meditation & Mindfulness -->
                     <div class="col-12 col-md-6 col-lg-4">
                       <div class="service-card">
                         <div class="service-img">
-                          <img src="/assets/mindfullness.jpg" alt="Mindfulness">
+                          <img src="/assets/meditation.jpg" alt="Meditation & Mindfulness">
                         </div>
 
-                        <h5 class="fw-bold mt-3">Emotional Healing</h5>
+                        <h5 class="fw-bold mt-3">Meditation & Mindfulness</h5>
                         <p class="text-muted">
-                          Personalized sessions focused on helping you release emotional blockages
-                          and reconnect with your inner strength.
+                          Guided meditation sessions to help reduce stress, improve focus, and
+                          reconnect you with inner peace through ancient Aashram practices.
                         </p>
 
-                        <a href="/services/emotional-healing" class="learn-link">Learn More →</a>
+                        <a href="/services/meditation" class="learn-link">Learn More →</a>
                       </div>
                     </div>
 
                   </div>
+
 
                 </div>
 
@@ -1329,7 +1329,6 @@
 
 
 
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                       <img loading="eager"
                                         src="sites/default/files/styles/wide/public/2025-06/Untitled%20design%20(5)_01392.png?itok=-82Eya0G"
                                         width="1060" height="550" alt="" class="img-fluid image-style-wide" />
@@ -1346,7 +1345,6 @@
 
                                     </div>
 
-                                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                   </div>
@@ -1355,13 +1353,11 @@
                                         rel="bookmark">
 
 
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Vulnerability
                                           is not Fragility. It is the Entrance — Reflections by Laura
                                           Seiler</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </a></h4>
                                     <div class="blog-text">
@@ -1394,7 +1390,6 @@
 
 
 
-                                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                     <div
                                       class="field field--name-field-image field--type-image field--label-hidden field__item">
@@ -1404,7 +1399,6 @@
 
 
 
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                       <img loading="eager"
                                         src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_474135.png?itok=SJWBPuM9"
                                         width="1060" height="550" alt="" class="img-fluid image-style-wide" />
@@ -1421,7 +1415,6 @@
 
                                     </div>
 
-                                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                   </div>
@@ -1430,11 +1423,9 @@
                                         rel="bookmark">
 
 
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span class="field field--name-title field--type-string field--label-hidden">The
                                           Path of Love: A Transformative Journey to Your True Self</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </a></h4>
                                     <div class="blog-text">
@@ -1466,13 +1457,11 @@
 
 
 
-                                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                     <div
                                       class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                       <img loading="eager"
                                         src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_45b654.png?itok=kTxXwSj9"
                                         width="1065" height="550" alt="" class="img-fluid image-style-wide" />
@@ -1487,12 +1476,10 @@
                                     <h4><a href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html"
                                         rel="bookmark">
 
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Coming
                                           Home to Yourself: Turiya Hanover on the World of Wisdom Podcast</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </a></h4>
                                     <div class="blog-text">

@@ -1,13 +1,3 @@
-
-<!-- THEME HOOK: 'html' -->
-<!-- FILE NAME SUGGESTIONS:
-   ▪️ html--node--209.html.twig
-   ▪️ html--node--%.html.twig
-   ▪️ html--node.html.twig
-   ✅ html.html.twig
--->
-<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
 

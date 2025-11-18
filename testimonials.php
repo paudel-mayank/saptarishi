@@ -56,24 +56,79 @@
         margin-top: 60px;
     }
 
-    /* Make testimonial cards clickable links */
+    /* Match blog card feel */
     .testimonial-card {
-        /* background: linear-gradient(135deg, #2d2d44 0%, #1f1f32 100%); */
-        border: 1px solid #3d3d52;
-        border-radius: 12px;
-        padding: 32px;
-        transition: all 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: inherit;
-        cursor: pointer;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        overflow: hidden;
+        background: #ffffff;
+        transition: 0.3s ease;
+        padding: 0;
     }
 
     .testimonial-card:hover {
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
         transform: translateY(-4px);
-        border-color: var(--accent);
-        box-shadow: 0 20px 40px rgba(99, 102, 241, 0.1);
+    }
+
+    /* inner structure same as blog card */
+    .testimonial-inner {
+        padding: 28px 32px;
+    }
+
+    /* rating (replacing blog category label) */
+    .testimonial-rating {
+        font-size: 0.9rem;
+        color: #fbbf24;
+        margin-bottom: 12px;
+    }
+
+    /* title like blog titles */
+    .testimonial-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #1f2937;
+    }
+
+    /* description matches blog text */
+    .testimonial-description {
+        color: #4b5563;
+        margin-bottom: 24px;
+        line-height: 1.6;
+    }
+
+    /* client info matches blog meta layout */
+    .client-info {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-top: 20px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .client-avatar {
+        width: 52px;
+        height: 52px;
+        background: #6366f1;
+        color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    .client-name {
+        font-weight: 600;
+        font-size: 0.95rem;
+        color: #111827;
+    }
+
+    .client-location {
+        font-size: 0.85rem;
+        color: #6b7280;
     }
 
     .stars {
@@ -144,7 +199,7 @@
     .client-name {
         font-weight: 600;
         font-size: 0.95rem;
-        color: var(--secondary);
+        color: var(--c-primary);
     }
 
     .client-location {
@@ -273,195 +328,107 @@
 
                             <div class="paragraph paragraph--type--long-lasting-benefits paragraph--view-mode--default"
                                 style="padding-bottom:0px;">
-                                <section class="long-lasting-benefits bg-light" id="testimonials"
-                                    style="padding-bottom:30px; margin-bottom:80px;">
-                                    <div class="container">
-                                        <!-- Heading -->
-                                        <div class="lasting-benefits-heading text-center " style="padding-bottom: 0px;">
-                                            <h5 class="text-uppercase small-title">What Our Clients Say</h5>
-                                            <!-- <h2 class="fw-bold">Real feedback from real customers who have transformed
-                                                their business with our
-                                                solutions</h2> -->
+                                <div class="paragraph paragraph--type--long-lasting-benefits paragraph--view-mode--default"
+                                    style="padding-bottom:0px;">
+
+                                    <section class="long-lasting-benefits bg-light" id="testimonials"
+                                        style="padding-bottom:30px; margin-bottom:80px;">
+                                        <div class="container">
+
+                                            <!-- Heading -->
+                                            <div class="lasting-benefits-heading text-center"
+                                                style="padding-bottom: 0px;">
+                                                <h5 class="text-uppercase small-title">What Our Clients Say</h5>
+                                            </div>
+
+                                            <!-- BLOG-STYLE GRID -->
+                                            <div class="testimonials-grid">
+
+                                                <div class="testimonial-card">
+                                                    <div class="testimonial-inner">
+
+                                                        <div class="testimonial-rating">★★★★★</div>
+
+                                                        <h3 class="testimonial-title">Game-Changing Platform</h3>
+
+                                                        <p class="testimonial-description">
+                                                            The efficiency gains we've seen are remarkable. Our team was
+                                                            able
+                                                            to streamline workflows and reduce deployment time by 70%.
+                                                        </p>
+
+                                                        <div class="client-info">
+                                                            <div class="client-avatar">AM</div>
+                                                            <div>
+                                                                <div class="client-name">Amanda Martinez</div>
+                                                                <div class="client-location">📍 San Francisco, CA</div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="testimonial-card">
+                                                    <div class="testimonial-inner">
+
+                                                        <div class="testimonial-rating">★★★★★</div>
+
+                                                        <h3 class="testimonial-title">Exceptional Customer Support</h3>
+
+                                                        <p class="testimonial-description">
+                                                            The support team went above and beyond to help us integrate
+                                                            with our
+                                                            existing systems. Their guidance was invaluable.
+                                                        </p>
+
+                                                        <div class="client-info">
+                                                            <div class="client-avatar">JK</div>
+                                                            <div>
+                                                                <div class="client-name">James Kim</div>
+                                                                <div class="client-location">📍 New York, NY</div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="testimonial-card">
+                                                    <div class="testimonial-inner">
+
+                                                        <div class="testimonial-rating">★★★★★</div>
+
+                                                        <h3 class="testimonial-title">Intuitive & Powerful</h3>
+
+                                                        <p class="testimonial-description">
+                                                            The interface is clean and intuitive, making it easy for the
+                                                            entire
+                                                            team to adopt without extensive training.
+                                                        </p>
+
+                                                        <div class="client-info">
+                                                            <div class="client-avatar">SR</div>
+                                                            <div>
+                                                                <div class="client-name">Sarah Rodriguez</div>
+                                                                <div class="client-location">📍 Austin, TX</div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div style="max-width: 200px; margin: 30px auto; text-align: center;">
+                                                <p class="button-contact">See More</p>
+                                            </div>
+
                                         </div>
+                                    </section>
+                                </div>
 
-                                        <!-- Gallery Wrapper -->
-
-
-                                        <div class="testimonials-grid">
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Game-Changing Platform</h3>
-                                                <p class="review-description">
-                                                    The efficiency gains we've seen are remarkable. Our team was
-                                                    able to
-                                                    streamline workflows and reduce deployment time by 70%. Highly
-                                                    recommend to
-                                                    any growing business.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">AM</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">Amanda Martinez</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> San Francisco, CA
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Exceptional Customer Support</h3>
-                                                <p class="review-description">
-                                                    The support team went above and beyond to help us integrate with
-                                                    our
-                                                    existing systems. They answered every question and provided
-                                                    detailed
-                                                    guidance throughout the process.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">JK</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">James Kim</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> New York, NY
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Intuitive & Powerful</h3>
-                                                <p class="review-description">
-                                                    We were up and running within days. The interface is clean and
-                                                    intuitive,
-                                                    making it easy for our entire team to adopt without extensive
-                                                    training.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">SR</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">Sarah Rodriguez</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> Austin, TX
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Incredible ROI</h3>
-                                                <p class="review-description">
-                                                    The investment paid for itself within the first quarter. The
-                                                    cost savings,
-                                                    combined with improved productivity, made this one of our best
-                                                    business
-                                                    decisions.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">MJ</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">Michael Johnson</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> Boston, MA
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Best Decision We Made</h3>
-                                                <p class="review-description">
-                                                    The scalability and reliability are unmatched. As we've grown,
-                                                    the platform
-                                                    has grown with us without any hiccups or performance issues.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">EC</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">Emma Chen</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> Seattle, WA
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="testimonial-card">
-                                                <div class="stars">
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                    <span class="star">★</span>
-                                                </div>
-                                                <h3 class="review-title">Perfect Implementation</h3>
-                                                <p class="review-description">
-                                                    The onboarding process was seamless and well-organized. The team
-                                                    provided
-                                                    excellent training resources, and migration from our old system
-                                                    was
-                                                    painless.
-                                                </p>
-                                                <div class="client-info">
-                                                    <div class="client-avatar">DP</div>
-                                                    <div class="client-details">
-                                                        <div class="client-name">David Park</div>
-                                                        <div class="client-location">
-                                                            <span>📍</span> Los Angeles, CA
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div style="max-width: 200px; margin: 30px auto; text-align: center;">
-                                            <p class="button-contact">See More</p>
-                                        </div>
-
-
-
-                                    </div>
-                                </section>
 
 
                             </div>

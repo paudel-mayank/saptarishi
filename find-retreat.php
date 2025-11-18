@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'?>
+<?php include 'includes/header.php' ?>
 
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
@@ -129,7 +129,6 @@
    ✅ field--text-long.html.twig
    ▪️ field.html.twig
 -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -427,7 +426,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -439,7 +437,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
                                               height="344" alt="Walking the path USA" class="img-fluid" />
 
@@ -451,7 +448,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -471,12 +467,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Walking
                                           the Path USA</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -581,7 +575,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -593,7 +586,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20224_3.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -605,7 +597,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -627,12 +618,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -742,7 +731,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -754,7 +742,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
                                               src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
                                               width="464" height="344" alt="Sweden Retreat" class="img-fluid" />
@@ -767,7 +754,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -786,12 +772,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Sweden</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -897,7 +881,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -909,7 +892,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/zurichoverview.png"
                                               width="463" height="344" alt="Awakening of Love Zurich"
                                               class="img-fluid" />
@@ -922,7 +904,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -945,12 +926,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Schweiz</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1058,7 +1037,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1070,7 +1048,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
                                               src="sites/default/files/2025-04/Hunter%20Valley%20Retreat%20visuals.jpg"
                                               width="464" height="344" alt="POL Australia" class="img-fluid" />
@@ -1083,7 +1060,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1102,12 +1078,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Australia</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1213,7 +1187,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1225,7 +1198,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
                                               width="464" height="344" alt="Alps Path of Love" class="img-fluid" />
 
@@ -1237,7 +1209,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1259,12 +1230,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1370,7 +1339,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1382,7 +1350,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
                                               height="344" alt="Path of Love USA" class="img-fluid" />
 
@@ -1394,7 +1361,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1413,12 +1379,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love USA</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1524,7 +1488,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1536,7 +1499,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
                                               width="464" height="344" alt="Walking the Path UK" class="img-fluid" />
 
@@ -1548,7 +1510,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1568,12 +1529,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Walking
                                           the Path, UK</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1678,7 +1637,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1690,7 +1648,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
                                               width="464" height="344" alt="POL UK" class="img-fluid" />
 
@@ -1702,7 +1659,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1724,12 +1680,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love UK</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1835,7 +1789,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -1847,7 +1800,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Yukon.png" width="464"
                                               height="344" alt="AOL Yukon" class="img-fluid" />
 
@@ -1859,7 +1811,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -1879,12 +1830,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Canada</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -1989,7 +1938,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2001,7 +1949,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
                                               src="sites/default/files/2025-07/healingattachmentwounds_preview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
@@ -2014,7 +1961,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2034,12 +1980,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Healing
                                           Attachment Wounds</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2145,7 +2089,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2157,7 +2100,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy"
                                               src="sites/default/files/2025-04/Hunter%20Valley%20Retreat%20visuals.jpg"
                                               width="464" height="344" alt="Walking the Path Australia"
@@ -2171,7 +2113,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2191,12 +2132,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Walking
                                           the Path Australia</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2301,7 +2240,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2313,7 +2251,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-02/pol-Italy.png"
                                               width="927" height="687" alt="" class="img-fluid" />
 
@@ -2325,7 +2262,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2344,12 +2280,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2455,7 +2389,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2467,7 +2400,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/Germay_AOL_Koln.jpg"
                                               width="1600" height="1200" alt="Awakening of Love Koln venue courtyard"
                                               class="img-fluid" />
@@ -2480,7 +2412,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2503,12 +2434,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2616,7 +2545,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2628,7 +2556,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/aolvancouver.png"
                                               width="464" height="344" alt="Vancouver Awakening of Love"
                                               class="img-fluid" />
@@ -2641,7 +2568,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2661,12 +2587,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Canada</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2771,7 +2695,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2783,7 +2706,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/brazil%20overview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -2795,7 +2717,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2814,12 +2735,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Brazil</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -2925,7 +2844,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -2937,7 +2855,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-05/brazil%20overview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -2949,7 +2866,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2968,12 +2884,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Brasil</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3079,7 +2993,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3091,7 +3004,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Bali%20overview.png"
                                               width="464" height="344" alt="Bali Path of Love" class="img-fluid" />
 
@@ -3103,7 +3015,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3122,12 +3033,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Retreat Bali</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3233,7 +3142,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3245,7 +3153,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
                                               height="344" alt="Boulder USA" class="img-fluid" />
 
@@ -3257,7 +3164,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3277,12 +3183,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love USA</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3387,7 +3291,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3399,7 +3302,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
                                               width="464" height="344" alt="Alps Path of Love" class="img-fluid" />
 
@@ -3411,7 +3313,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3430,12 +3331,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3541,7 +3440,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3553,7 +3451,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/MaRah_overview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -3565,7 +3462,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3584,12 +3480,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3698,7 +3592,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3710,7 +3603,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
                                               width="464" height="344" alt="Path of Love Tuscany" class="img-fluid" />
 
@@ -3722,7 +3614,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3741,12 +3632,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -3852,7 +3741,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -3864,7 +3752,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
                                               width="464" height="344" alt="POL UK" class="img-fluid" />
 
@@ -3876,7 +3763,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3895,12 +3781,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love UK</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4006,7 +3890,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4018,7 +3901,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-08/havenoverview.png"
                                               width="463" height="344" alt="Path of Love Canada" class="img-fluid" />
 
@@ -4030,7 +3912,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4049,12 +3930,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Canada</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4160,7 +4039,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4172,7 +4050,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -4184,7 +4061,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4204,12 +4080,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4317,7 +4191,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4329,7 +4202,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
                                               width="464" height="344" alt="Alps Path of Love" class="img-fluid" />
 
@@ -4341,7 +4213,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4360,12 +4231,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4471,7 +4340,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4483,7 +4351,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
                                               width="464" height="344" alt="Tuscany POL" class="img-fluid" />
 
@@ -4495,7 +4362,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4514,12 +4380,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4625,7 +4489,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4637,7 +4500,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
                                               height="344" alt="Path of Love USA" class="img-fluid" />
 
@@ -4649,7 +4511,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4668,12 +4529,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love USA</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4779,7 +4638,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4791,7 +4649,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/walkingthepathuk.png"
                                               width="464" height="344" alt="POL UK" class="img-fluid" />
 
@@ -4803,7 +4660,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4822,12 +4678,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love UK</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -4933,7 +4787,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -4945,7 +4798,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-07/MaRah_overview.png"
                                               width="464" height="344" alt="MaRah Outdoor" class="img-fluid" />
 
@@ -4957,7 +4809,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -4976,12 +4827,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5090,7 +4939,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5102,7 +4950,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/pol%20canada.png"
                                               width="464" height="344" alt="POL Canada" class="img-fluid" />
 
@@ -5114,7 +4961,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5133,12 +4979,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Canada</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5244,7 +5088,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5256,7 +5099,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/italyalps.png"
                                               width="464" height="344" alt="Alps Path of Love" class="img-fluid" />
 
@@ -5268,7 +5110,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5287,12 +5128,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italien</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5402,7 +5241,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5414,7 +5252,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -5426,7 +5263,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5446,12 +5282,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5559,7 +5393,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5571,7 +5404,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20224_3.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -5583,7 +5415,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5602,12 +5433,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5717,7 +5546,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5729,7 +5557,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/poltuscany.png"
                                               width="464" height="344" alt="Path of Love Tuscany" class="img-fluid" />
 
@@ -5741,7 +5568,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5760,12 +5586,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Path of
                                           Love Italy</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -5871,7 +5695,6 @@
    ▪️ field--image.html.twig
    ✅ field.html.twig
 -->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
@@ -5883,7 +5706,6 @@
 
 
                                             <!-- THEME HOOK: 'image' -->
-                                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                             <img loading="lazy" src="sites/default/files/2025-03/kolnoverview.png"
                                               width="464" height="344" alt="" class="img-fluid" />
 
@@ -5895,7 +5717,6 @@
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -5915,12 +5736,10 @@
    ▪️ field--string.html.twig
    ▪️ field.html.twig
 -->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                         <span
                                           class="field field--name-title field--type-string field--label-hidden">Awakening
                                           of Love Deutschland</span>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                       </h4>
 
@@ -6108,7 +5927,6 @@
    ✅ field--text-long.html.twig
    ▪️ field.html.twig
 -->
-                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                           <div
                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -6213,4 +6031,4 @@
 
 </div>
 
-<?php include 'includes/footer.php'?>
+<?php include 'includes/footer.php' ?>

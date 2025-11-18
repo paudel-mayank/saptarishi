@@ -3,15 +3,9 @@
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
 
-
-
   <div class="region region-content">
 
     <div data-drupal-messages-fallback class="hidden"></div>
-
-
-
-
 
     <div id="block-pathretreats-content" class="block block-system block-system-main-block">
 
@@ -582,7 +576,6 @@
 
 
                                             -->
-                                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                             <div
                                               class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
@@ -593,7 +586,6 @@
 
 
                                               <!-- THEME HOOK: 'image' -->
-                                              <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                               <img loading="lazy"
                                                 src="sites/default/files/2025-06/Untitled%20design%20(5).png"
                                                 width="1060" height="550" alt="Laura Seiler Path of Love Process"
@@ -602,7 +594,6 @@
 
                                             </div>
 
-                                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                           </div>
@@ -614,13 +605,11 @@
 
 
 
-                                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
                                                   Saptarishi</div>
 
-                                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                               </span>
                                             </div>
@@ -680,7 +669,6 @@
 
                                             </div>
 
-                                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                           </div>
@@ -769,7 +757,6 @@
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
                                                   Saptarishi</div>
 
-                                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                               </span>
                                             </div>
@@ -871,295 +858,7 @@
                                   </article>
 
                                 </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
 
-
-                                  <article data-history-node-id="208"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-
-
-
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-
-
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-02/Rectangle%20128_10.png" width="1065"
-                                                height="550" alt="" class="img-fluid" />
-
-
-
-                                            </div>
-
-                                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-
-
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
-
-
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a
-                                                  href="blog/path-love-path-feeling-truly-and-deeply-alive-published-yoga-international.html">
-
-
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">The
-                                                    Path of Love is the Path of Feeling Truly and Deeply Alive —
-                                                    Published in Yoga International</span>
-
-
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              It is often said that the goal of yoga is to heal the dis-ease of
-                                              separation. In which case, the Path of Love, a…
-                                            </div>
-                                            <div class="link">
-                                              <a
-                                                href="blog/path-love-path-feeling-truly-and-deeply-alive-published-yoga-international.html">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                  </article>
-
-                                </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-
-
-
-
-
-                                  <article data-history-node-id="207"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-
-
-
-
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-
-
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-02/Rectangle%20128_8.png" width="1060"
-                                                height="550" alt="" class="img-fluid" />
-
-
-                                            </div>
-
-                                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-
-
-
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
-
-
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a
-                                                  href="blog/week-i-burned-my-ego-published-spirituality-health-magazine">
-
-
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">The
-                                                    Week I Burned My Ego — Published in Spirituality &amp; Health
-                                                    Magazine</span>
-
-
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              As I pulled into the retreat center circled with towering cedars,
-                                              blossoming wildflowers, and the deep green richness…
-                                            </div>
-                                            <div class="link">
-                                              <a
-                                                href="blog/week-i-burned-my-ego-published-spirituality-health-magazine">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                  </article>
-
-                                </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-
-
-
-                                  <article data-history-node-id="206"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-
-
-
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-
-
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-02/Rectangle%20128_6.png" width="1060"
-                                                height="550" alt="" class="img-fluid" />
-
-
-
-                                            </div>
-
-
-
-
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-
-
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
-
-
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a href="blog/path-love-boot-camp-soul-published-huffington-post">
-
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">Path
-                                                    of Love: Boot Camp for the Soul! — Published in The Huffington
-                                                    Post</span>
-
-
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              After almost a decade of numerous health issues, different
-                                              medications, operations and hospital treatments, my body was…
-                                            </div>
-                                            <div class="link">
-                                              <a href="blog/path-love-boot-camp-soul-published-huffington-post">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                  </article>
-
-                                </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-
-
-                                  <article data-history-node-id="205"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-
-
-
-
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-
-
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-02/Rectangle%20128_4.png" width="1060"
-                                                height="550" alt="" class="img-fluid" />
-
-
-                                            </div>
-
-
-
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-
-
-
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
-
-
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a
-                                                  href="blog/boot-camp-heart-brigid-delaney-treads-path-love-journey-inwards-published-sydney-morning.html">
-
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">Boot
-                                                    Camp for the Heart: Brigid Delaney Treads the Path of Love, a
-                                                    Journey Inwards — Published in The Sydney Morning Herald</span>
-
-
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              Is she psychologically strong enough to endure the mysterious Path of
-                                              Love retreat? With emotional baggage in hand,…
-                                            </div>
-                                            <div class="link">
-                                              <a
-                                                href="blog/boot-camp-heart-brigid-delaney-treads-path-love-journey-inwards-published-sydney-morning.html">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                  </article>
-
-                                </div>
                               </div>
                             </div>
                           </div>

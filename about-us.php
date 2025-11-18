@@ -69,39 +69,18 @@
 
 
 
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-image--image-and-content.html.twig
-   ▪️ field--paragraph--field-image.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
+
                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                        <!-- THEME HOOK: 'image_formatter' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                        <!-- THEME HOOK: 'image' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy" src="sites/default/files/2024-03/Inclusivity.jpg" width="1286" height="1572"
                           alt="Inclusivity" class="img-fluid" />
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                       </div>
-
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                     </div>
@@ -130,38 +109,17 @@
                       <div class="heading-text">
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
                           <h2>Inclusivity</h2>
                         </div>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
                       </div>
                       <div class="content">
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--image-and-content.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
+
 
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -192,13 +150,7 @@
             <div class="field__item">
 
 
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ▪️ paragraph--image-and-content--default.html.twig
-   ✅ paragraph--image-and-content.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
+
               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
               <div class="paragraph paragraph--type--image-and-content paragraph--view-mode--default">
                 <div class="container type-col">
@@ -207,36 +159,14 @@
 
 
 
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-image--image-and-content.html.twig
-   ▪️ field--paragraph--field-image.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                        <!-- THEME HOOK: 'image_formatter' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                        <!-- THEME HOOK: 'image' -->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                         <img loading="lazy"
                           src="sites/default/files/2024-09/Rafia%20and%20Turiya%20Laughing%20on%20Bench.jpg"
                           width="1284" height="1570" alt="Rafia and Turiya laughing on a bench" class="img-fluid" />
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                       </div>
 
@@ -248,59 +178,25 @@
                       <div class="small-title">
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-small-title--image-and-content.html.twig
-   ▪️ field--paragraph--field-small-title.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-small-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                         <div
                           class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                           Rafia Morgan and Turiya Hanover</div>
 
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                       </div>
                       <div class="heading-text">
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-heading-text--image-and-content.html.twig
-   ▪️ field--paragraph--field-heading-text.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-heading-text.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
                           <h2>Turiya and Rafia, Founders of Saptarishi</h2>
                         </div>
 
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-
                       </div>
                       <div class="content">
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-content--image-and-content.html.twig
-   ▪️ field--paragraph--field-content.html.twig
-   ▪️ field--paragraph--image-and-content.html.twig
-   ▪️ field--field-content.html.twig
-   ✅ field--text-long.html.twig
-   ▪️ field.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
 
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -343,13 +239,6 @@
             <div class="field__item">
 
 
-              <!-- THEME HOOK: 'paragraph' -->
-              <!-- FILE NAME SUGGESTIONS:
-   ✅ paragraph--team--default.html.twig
-   ▪️ paragraph--team.html.twig
-   ▪️ paragraph--default.html.twig
-   ▪️ paragraph.html.twig
--->
               <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--team--default.html.twig' -->
               <div class="paragraph paragraph--type--team paragraph--view-mode--default">
                 <div class="container">
@@ -358,15 +247,6 @@
                       <h2>
 
 
-                        <!-- THEME HOOK: 'field' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--paragraph--field-title--team.html.twig
-   ▪️ field--paragraph--field-title.html.twig
-   ▪️ field--paragraph--team.html.twig
-   ▪️ field--field-title.html.twig
-   ▪️ field--string.html.twig
-   ✅ field.html.twig
--->
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
@@ -381,15 +261,6 @@
 
 
 
-                      <!-- THEME HOOK: 'field' -->
-                      <!-- FILE NAME SUGGESTIONS:
-   ✅ field--paragraph--field-select-team-member--team.html.twig
-   ▪️ field--paragraph--field-select-team-member.html.twig
-   ▪️ field--paragraph--team.html.twig
-   ▪️ field--field-select-team-member.html.twig
-   ▪️ field--entity-reference.html.twig
-   ▪️ field.html.twig
--->
                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-select-team-member--team.html.twig' -->
 
                       <div
@@ -399,57 +270,25 @@
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--41--teaser.html.twig
-   ▪️ node--41.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
-
-                            <!-- Article Section -->
                             <article data-history-node-id="41" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2033.webp" width="1122"
                                       height="1492" alt="Abigail Iquo Isuo" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -457,20 +296,9 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span class="field field--name-title field--type-string field--label-hidden">Abigail
                                       Iquo Isuo</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -484,7 +312,6 @@
                                     Abigail is an Integrative Transpersonal Psychotherapist with an MA in
                                     Transperson...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-41">
                                     Read More
@@ -502,21 +329,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-41">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Abigail
                                         Iquo Isuo</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -528,57 +345,21 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twigp
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2033.webp"
                                             width="1122" height="1492" alt="Abigail Iquo Isuo" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
-
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -609,7 +390,6 @@
                                             spiritual and the soul in herself and in everybody she works with.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -621,64 +401,27 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
-
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--262--teaser.html.twig
-   ▪️ node--262.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
-
-                            <!-- Article Section -->
                             <article data-history-node-id="262" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg" width="374"
                                       height="498" alt="Coral Jones" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -686,20 +429,9 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span class="field field--name-title field--type-string field--label-hidden">Coral
                                       Jones</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -713,7 +445,6 @@
                                     Coral has been working in &amp;nbsp;a broad range of personal growth and
                                     spiritual en...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-262">
                                     Read More
@@ -731,20 +462,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-262">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Coral
                                         Jones</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -756,57 +477,24 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg" width="374"
                                             height="498" alt="Coral Jones" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -818,8 +506,6 @@
                                             therapeutic, mindfulness and enquiry practices.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
-
 
                                       </div>
                                     </div>
@@ -830,64 +516,32 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--39--teaser.html.twig
-   ▪️ node--39.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
-
-                            <!-- Article Section -->
                             <article data-history-node-id="39" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Gita%20Wagner.jpg" width="375"
                                       height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -895,20 +549,9 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span class="field field--name-title field--type-string field--label-hidden">Gita
                                       Wagner</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -922,7 +565,6 @@
                                     After life changing events in her early twenties, Gita began studying
                                     somato-emot...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-39">
                                     Read More
@@ -940,20 +582,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-39">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Gita
                                         Wagner</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -965,57 +597,25 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Gita%20Wagner.jpg"
                                             width="375" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -1027,7 +627,6 @@
                                             women’s and relational freedom, since her late twenties.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -1039,64 +638,23 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--38--teaser.html.twig
-   ▪️ node--38.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="38" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
-
-
-
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Halima%20Hane.jpg" width="376"
                                       height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
                                   </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -1104,20 +662,9 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span class="field field--name-title field--type-string field--label-hidden">Halima
                                       Hane</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -1131,7 +678,6 @@
                                     Halima Hane is Heilpraktikerin for Psychotherapy with a private practice in
                                     Frank...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-38">
                                     Read More
@@ -1149,21 +695,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-38">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Halima
                                         Hane</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -1175,57 +711,25 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Halima%20Hane.jpg"
                                             width="376" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -1239,7 +743,6 @@
                                             seminars as well as Women’s Groups.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -1251,64 +754,25 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--36--teaser.html.twig
-   ▪️ node--36.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="36" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
-
-
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
-
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Prema%20McKeever.jpg"
                                       width="375" height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -1316,21 +780,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span
                                       class="field field--name-title field--type-string field--label-hidden">Jennifer
                                       McKeever</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -1344,7 +797,6 @@
                                     Jennifer McKeever is a Registered Clinical Counsellor (RCC) and Canadian
                                     Certifie...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-36">
                                     Read More
@@ -1362,21 +814,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-36">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Jennifer
                                         McKeever</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -1388,57 +830,25 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Prema%20McKeever.jpg"
                                             width="375" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -1452,7 +862,6 @@
                                             return to essence, presence, and the heart’s longing to come home.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -1464,64 +873,30 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--37--teaser.html.twig
-   ▪️ node--37.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="37" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2037.webp" width="1122"
                                       height="1492" alt="Nirodha Stearns" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -1529,20 +904,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Nirodha
                                       Stearns</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -1556,7 +921,6 @@
                                     Nirodha first dove into the human potential movement in 1982. He become involved
                                     ...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-37">
                                     Read More
@@ -1574,21 +938,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-37">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Nirodha
                                         Stearns</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -1600,57 +954,25 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2037.webp"
                                             width="1122" height="1492" alt="Nirodha Stearns" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -1660,7 +982,6 @@
                                             abuse and somatic approaches to working with people.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -1672,64 +993,29 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--28--teaser.html.twig
-   ▪️ node--28.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="28" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2046.webp" width="1123"
                                       height="1492" alt="Rafia Morgan" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
                                   </div>
-
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -1737,20 +1023,9 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
                                     <span class="field field--name-title field--type-string field--label-hidden">Rafia
                                       Morgan</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -1764,7 +1039,6 @@
                                     Since 1976 Rafia Morgan has been deeply involved with spiritual and personal
                                     grow...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-28">
                                     Read More
@@ -1782,20 +1056,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-28">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Rafia
                                         Morgan</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -1806,58 +1070,22 @@
                                       <div class="member-image">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
-
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2046.webp"
                                             width="1123" height="1492" alt="Rafia Morgan" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
                                       <div class="member-caption">
 
 
-
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -1879,7 +1107,6 @@
                                             situation of certain human beings that love and seek the Truth.”</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -1891,64 +1118,33 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--181--teaser.html.twig
-   ▪️ node--181.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="181" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-01/ranibio.jpg" width="374"
                                       height="497" alt="Rani Bossot Path of Love" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -1956,20 +1152,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Rani
                                       Bossot</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -1983,7 +1169,6 @@
                                     Rani has been deeply involved in the Path of Love since 1996, a long love affair
                                     ...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-181">
                                     Read More
@@ -2001,20 +1186,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-181">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Rani
                                         Bossot</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -2026,40 +1201,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-01/ranibio.jpg" width="374"
                                             height="497" alt="Rani Bossot Path of Love" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2067,16 +1221,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -2089,7 +1234,6 @@
                                             (SIAF)</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -2101,64 +1245,33 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--35--teaser.html.twig
-   ▪️ node--35.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="35" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Sambhavo%20Lombardo.jpg"
                                       width="376" height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -2166,21 +1279,11 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span
                                       class="field field--name-title field--type-string field--label-hidden">Sambhavo
                                       Lombardo</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -2194,7 +1297,6 @@
                                     Sambhavo is a specialized therapist with a Clinical Master and Ph.D. in
                                     Psycholog...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-35">
                                     Read More
@@ -2212,21 +1314,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-35">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Sambhavo
                                         Lombardo</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -2238,40 +1330,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Sambhavo%20Lombardo.jpg"
                                             width="376" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2279,16 +1350,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -2298,7 +1360,6 @@
                                             English, Italian and Spanish.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -2310,64 +1371,34 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--34--teaser.html.twig
-   ▪️ node--34.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="34" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-08/samved2.png" width="375"
                                       height="498" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -2375,20 +1406,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Samved
                                       Dass</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -2402,7 +1423,6 @@
                                     Samved has worked in the world of psychotherapy and meditation for more than 35
                                     y...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-34">
                                     Read More
@@ -2420,21 +1440,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-34">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Samved
                                         Dass</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -2446,40 +1456,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-08/samved2.png" width="375"
                                             height="498" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2487,16 +1476,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -2510,7 +1490,6 @@
                                             insight and transformation provided by the Process.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -2522,64 +1501,34 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--33--teaser.html.twig
-   ▪️ node--33.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="33" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Shubhaa%20Fisher.jpg"
                                       width="375" height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -2587,20 +1536,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Shubhaa
                                       Fisher</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -2614,7 +1553,6 @@
                                     Shubhaa holds a degree in Psychology. She is specialized in Relationship
                                     Therapy,...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-33">
                                     Read More
@@ -2632,21 +1570,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-33">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Shubhaa
                                         Fisher</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -2658,40 +1586,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Shubhaa%20Fisher.jpg"
                                             width="375" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2699,16 +1606,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -2733,7 +1631,6 @@
                                             develop themselves personally and spiritually.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -2745,64 +1642,33 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--32--teaser.html.twig
-   ▪️ node--32.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="32" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Sudhir%20Seyboth.jpg"
                                       width="376" height="499" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -2810,20 +1676,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Sudhir
                                       Seyboth</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -2837,7 +1693,6 @@
                                     After years of practice and education in Meditation, Inner Child Therapy,
                                     Bioener...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-32">
                                     Read More
@@ -2855,21 +1710,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-32">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Sudhir
                                         Seyboth</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -2881,40 +1726,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Sudhir%20Seyboth.jpg"
                                             width="376" height="499" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -2922,16 +1746,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -2944,7 +1759,6 @@
                                             transformation, helping them to live their full potential.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -2956,64 +1770,34 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--31--teaser.html.twig
-   ▪️ node--31.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="31" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2043.webp" width="1123"
                                       height="1492" alt="Talib Fisher" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -3021,20 +1805,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Talib
                                       Fisher</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -3048,7 +1822,6 @@
                                     Talib Fisher is an international educator and speaker specialized in Relational
                                     a...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-31">
                                     Read More
@@ -3066,20 +1839,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-31">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Talib
                                         Fisher</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -3091,40 +1854,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2043.webp"
                                             width="1123" height="1492" alt="Talib Fisher" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3132,16 +1874,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -3164,7 +1897,6 @@
                                             Family Systems Therapy, Craniosacral Therapy, and Neurofeedback.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -3176,64 +1908,34 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--30--teaser.html.twig
-   ▪️ node--30.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
+
                             <article data-history-node-id="30" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2025-03/image%2044.webp" width="1123"
                                       height="1492" alt="Turiya Hanover" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -3241,20 +1943,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Turiya
                                       Hanover</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -3268,7 +1960,6 @@
                                     Turiya Hanover has extensive experience in leading personal development groups
                                     an...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-30">
                                     Read More
@@ -3286,21 +1977,11 @@
                                     <h5 class="modal-title" id="memberModalLabel-30">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span
                                         class="field field--name-title field--type-string field--label-hidden">Turiya
                                         Hanover</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -3312,40 +1993,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2025-03/image%2044.webp"
                                             width="1123" height="1492" alt="Turiya Hanover" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3353,16 +2013,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -3395,7 +2046,6 @@
                                           <p>Turiyas’ other great love is painting.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -3407,64 +2057,33 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                           <div class="field__item col-6 col-lg-4">
 
 
 
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ node--29--teaser.html.twig
-   ▪️ node--29.html.twig
-   ✅ node--team--teaser.html.twig
-   ▪️ node--team.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
-                            <!-- Article Section -->
                             <article data-history-node-id="29" class="node node--type-team node--view-mode-teaser">
                               <div class="member-item">
                                 <div class="member-image">
 
 
 
-                                  <!-- THEME HOOK: 'field' -->
-                                  <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                  <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                   <div
                                     class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                    <!-- THEME HOOK: 'image_formatter' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                    <!-- THEME HOOK: 'image' -->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                     <img loading="lazy" src="sites/default/files/2024-03/Veeto%20Eitel.jpg" width="376"
                                       height="498" alt="" class="img-fluid" />
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
 
-
-
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                   </div>
 
-                                  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                 </div>
@@ -3472,20 +2091,10 @@
                                   <h4>
 
 
-                                    <!-- THEME HOOK: 'field' -->
-                                    <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                     <span class="field field--name-title field--type-string field--label-hidden">Veeto
                                       Eitel</span>
 
-                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                   </h4>
                                   <p>
@@ -3499,7 +2108,6 @@
                                     From Germany, Veeto holds an MA in Social Science and is a licensed
                                     psychotherapi...
                                   </p>
-                                  <!-- Read More Button -->
                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#memberModal-29">
                                     Read More
@@ -3517,20 +2125,10 @@
                                     <h5 class="modal-title" id="memberModalLabel-29">
 
 
-                                      <!-- THEME HOOK: 'field' -->
-                                      <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--title--team.html.twig
-   ✅ field--node--title.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--title.html.twig
-   ▪️ field--string.html.twig
-   ▪️ field.html.twig
--->
-                                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
+
                                       <span class="field field--name-title field--type-string field--label-hidden">Veeto
                                         Eitel</span>
 
-                                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--node--title.html.twig' -->
 
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -3542,40 +2140,19 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--field-image--team.html.twig
-   ▪️ field--node--field-image.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--field-image.html.twig
-   ▪️ field--image.html.twig
-   ✅ field.html.twig
--->
-                                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+
 
                                         <div
                                           class="field field--name-field-image field--type-image field--label-hidden field__item">
 
 
-                                          <!-- THEME HOOK: 'image_formatter' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
-
-
-                                          <!-- THEME HOOK: 'image' -->
-                                          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                           <img loading="lazy" src="sites/default/files/2024-03/Veeto%20Eitel.jpg"
                                             width="376" height="498" alt="" class="img-fluid" />
 
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-                                          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
 
                                         </div>
 
-                                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
 
                                       </div>
@@ -3583,16 +2160,7 @@
 
 
 
-                                        <!-- THEME HOOK: 'field' -->
-                                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ field--node--body--team.html.twig
-   ▪️ field--node--body.html.twig
-   ▪️ field--node--team.html.twig
-   ▪️ field--body.html.twig
-   ✅ field--text-with-summary.html.twig
-   ▪️ field.html.twig
--->
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
                                         <div
                                           class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -3604,7 +2172,6 @@
                                             Eastern and Western approaches to human development.</p>
                                         </div>
 
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
 
                                       </div>
@@ -3616,13 +2183,11 @@
 
 
 
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--team--teaser.html.twig' -->
 
                           </div>
                         </div>
                       </div>
 
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-select-team-member--team.html.twig' -->
 
 
                     </div>
@@ -3630,42 +2195,26 @@
                 </div>
               </div>
 
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--team--default.html.twig' -->
+
 
             </div>
           </div>
 
-          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
 
-
-
-
-          <!-- THEME HOOK: 'links__node' -->
-          <!-- FILE NAME SUGGESTIONS:
-   ✅ links--node.html.twig
-   ✅ links--node.html.twig
-   ▪️ links.html.twig
--->
-          <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/content/links--node.html.twig' -->
-
-          <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/content/links--node.html.twig' -->
 
 
         </div>
 
       </article>
 
-      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node.html.twig' -->
-
 
     </div>
 
-    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
+
 
 
   </div>
 
-  <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
 
 
 </div>
