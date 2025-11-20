@@ -3736,7 +3736,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: var(--bs-body-color);
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-active-bg: var(--c-primary);
   --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -14664,5 +14664,249 @@ code {
 }
 
 .text-primary {
+  color: var(--c-primary)
+}
+
+.gallery-item {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.gallery-img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  /* width: 100%; */
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover .gallery-img {
+  transform: scale(1.05);
+}
+
+
+.dink a {
+
+  font-size: 15px;
+  color: var(--c-primary);
+  /* border: 1px solid currentColor; */
+  border-radius: 50px;
+  text-decoration: none;
+  line-height: clac(24/18);
+  font-family: var(--tag-font-family);
+  display: inline-block;
+  /* padding: 14px 24px; */
+  -webkit-transition: all 0.32s ease-in-out;
+  transition: all 0.32s ease-in-out;
+}
+
+.dink a::after {
+  content: " →";
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: all 0.35s ease;
+  cursor: pointer;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.12);
+  border-color: #d9d9d9;
+}
+
+/* Image */
+.service-img {
+  width: 100%;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.service-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+
+.service-card:hover .service-img img {
+  transform: scale(1.08);
+}
+
+/* Learn More link */
+.learn-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #5a3dff;
+  margin-top: auto;
+  display: inline-block;
+  transition: color .3s ease, transform .3s ease;
+}
+
+.learn-link:hover {
+  color: #351bcc;
+  transform: translateX(4px);
+}
+
+.testimonial-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  background-color: white;
+  padding: 60px 40px;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #944361;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.testimonial-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #944361;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
+.nav-button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #944361;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #944361;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.nav-button:hover {
+  background-color: #944361;
+  color: white;
+}
+
+.testimonial-content {
+  flex: 1;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  object-fit: cover;
+  border: 3px solid #e0e0e0;
+}
+
+.student-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #944361;
+  margin-bottom: 5px;
+}
+
+.student-location {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.star {
+  color: #ff9800;
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 40px 20px;
+  }
+
+  .testimonial-title {
+    font-size: 28px;
+  }
+
+  .slider-wrapper {
+    gap: 15px;
+  }
+
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .testimonial-content {
+    min-height: 350px;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+}
+
+.section-title,
+.sidebar-card strong,
+.lasting-benefits-heading h5, .retreat-caption h4,
+.link a:hover {
   color: var(--c-primary)
 }

@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../themes/custom/pathretreats/favicon.jpg" type="image/jpeg" />
 
-    <title>Jennifer McKeever Talks Freedom From the Inner Critic (New Podcast) | Saptarishi</title>
+    <title>Jennifer McKeever Talks Freedom From the Inner Critic (New Podcast) | Takshashelaa</title>
     <link rel="stylesheet" media="all"
         href="../core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"

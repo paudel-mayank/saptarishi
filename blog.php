@@ -50,7 +50,7 @@
 
                       <div
                         class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                        <p>The Saptarishi blog gives ideas and practical applications for conscious relating,
+                        <p>The Takshashelaa blog gives ideas and practical applications for conscious relating,
                           authentic connection, helping you maintain a robust sense of self in your everyday life.
                         </p>
                       </div>
@@ -112,7 +112,7 @@
 
                                               <div
                                                 class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                Saptarishi</div>
+                                                Takshashelaa</div>
 
 
 
@@ -444,7 +444,7 @@
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
+                                                  Takshashelaa</div>
 
 
                                               </span>
@@ -520,7 +520,7 @@
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
+                                                  Takshashelaa</div>
 
 
                                               </span>
@@ -585,7 +585,6 @@
 
 
 
-                                              <!-- THEME HOOK: 'image' -->
                                               <img loading="lazy"
                                                 src="sites/default/files/2025-06/Untitled%20design%20(5).png"
                                                 width="1060" height="550" alt="Laura Seiler Path of Love Process"
@@ -608,7 +607,7 @@
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
+                                                  Takshashelaa</div>
 
 
                                               </span>
@@ -681,7 +680,7 @@
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
+                                                  Takshashelaa</div>
 
 
                                               </span>
@@ -755,7 +754,7 @@
 
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Saptarishi</div>
+                                                  Takshashelaa</div>
 
 
                                               </span>

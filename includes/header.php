@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description"
-        content="Saptarishi welcomes you to dive deeper, connecting you with life-changing experiences through our program of worldwide self-healing retreats | Path of Love, Awakening of Love, and advanced workshops." />
+        content="Takshashelaa welcomes you to dive deeper, connecting you with life-changing experiences through our program of worldwide self-healing retreats | Path of Love, Awakening of Love, and advanced workshops." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="index.html" />
     <link rel="shortlink" href="index.html" />
@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="themes/custom/pathretreats/favicon.jpg" type="image/jpeg" />
 
-    <title>Saptarishi | International Self-Development and Healing Retreats</title>
+    <title>Takshashelaa | International Self-Development and Healing Retreats</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -125,14 +125,12 @@
         <img height="1" width="1"
             src="https://www.facebook.com/tr?id=2208157052968698&amp;ev=PageView&amp;noscript=1" />
     </noscript>
-    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="node-type-homepage page-id-1 path-frontpage page-node-type-homepage   d-flex flex-column h-100">
-    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9TGZHBP" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
 
     <div class="visually-hidden-focusable skip-link p-3 container">
         <a href="#main-content" class="p-2">
@@ -143,8 +141,6 @@
 
 
 
-    <!-- THEME HOOK: 'off_canvas_page_wrapper' -->
-    <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/content/off-canvas-page-wrapper.html.twig' -->
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
 
 
@@ -227,85 +223,7 @@
 
 
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
-                                                <!-- <li class="nav-item dropdown">
-                          <a href="find-retreat.html" class="nav-link dropdown-toggle"
-                            data-drupal-link-system-path="node/11">Find a Retreat</a>
-                          <span class="caret-mobile"></span>
-                          <ul data-block="nav_main" class="sub-menu nav-level-1">
-                            <li class="nav-item">
-                              <a href="find-retreat.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/11">Explore Retreats</a>
-                            </li>
 
-                            <li class="nav-item">
-                              <a href="find-retreat8932.html?type=path_of_love" class="dropdown-item"
-                                data-drupal-link-query="{&quot;type&quot;:&quot;path_of_love&quot;}"
-                                data-drupal-link-system-path="node/11">Path of Love</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="find-retreat37bd.html?type=awakening_of_love" class="dropdown-item"
-                                data-drupal-link-query="{&quot;type&quot;:&quot;awakening_of_love&quot;}"
-                                data-drupal-link-system-path="node/11">Introductory Courses</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="find-retreatf01b.html?type=walking_the_path" class="dropdown-item"
-                                data-drupal-link-query="{&quot;type&quot;:&quot;walking_the_path&quot;}"
-                                data-drupal-link-system-path="node/11">Advanced Work</a>
-                            </li>
-
-                          </ul>
-
-                        </li> -->
-
-                                                <!-- <li class="nav-item dropdown">
-                          <a href="personal-growth-retreat-workshop.html" class="nav-link dropdown-toggle"
-                            data-drupal-link-system-path="node/13">Path of Love Retreat</a>
-                          <span class="caret-mobile"></span>
-                          <ul data-block="nav_main" class="sub-menu nav-level-1">
-                            <li class="nav-item">
-                              <a href="personal-growth-retreat-workshop.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/13">About Path of Love</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="about-us.html#retreats-leaders" class="dropdown-item"
-                                data-drupal-link-system-path="node/24">Retreat Leaders</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="science-and-spirituality-retreats.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/14">The Science Behind Path of Love</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="staffing-path-love.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/323">Staffing Path of Love</a>
-                            </li>
-
-                          </ul>
-
-                        </li> -->
-
-                                                <!-- <li class="nav-item dropdown">
-                          <a href="blog.html" class="nav-link dropdown-toggle"
-                            data-drupal-link-system-path="node/58">Resources</a>
-                          <span class="caret-mobile"></span>
-                          <ul data-block="nav_main" class="sub-menu nav-level-1">
-                            <li class="nav-item">
-                              <a href="blog.html" class="dropdown-item" data-drupal-link-system-path="node/58">Resource
-                                Library</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a href="online-courses" class="dropdown-item"
-                                data-drupal-link-system-path="node/15">Online Courses</a>
-                            </li>
-
-                          </ul>
-
-                        </li> -->
                                                 <li>
                                                     <a href="about-us.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">About</a>
@@ -320,40 +238,47 @@
 
                                                             <!-- PACKAGES COLUMN -->
                                                             <div class="col-6">
-                                                                <h6 class="dropdown-header fw-bold text-primary">
+                                                                <a href='/packages.php'
+                                                                    class="dropdown-header fw-bold text-primary">
                                                                     Packages</h6>
 
-                                                                <a class="dropdown-item" href="package-1.php">7-Day
-                                                                    Healing Package</a>
-                                                                <a class="dropdown-item" href="package-2.php">14-Day
-                                                                    Transformation</a>
-                                                                <a class="dropdown-item" href="package-3.php">21-Day
-                                                                    Meditation</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">7-Day
+                                                                        Healing Package</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">14-Day
+                                                                        Transformation</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">21-Day
+                                                                        Meditation</a>
 
-                                                                <!-- See More Button -->
-                                                                <a href="packages.php "
-                                                                    class=" dropdown-item mt-2 w-100">
-                                                                    See More →
-                                                                </a>
+                                                                    <!-- See More Button -->
+                                                                    <a href="packages.php "
+                                                                        class="small-title dropdown-item mt-2 w-100">
+                                                                        See More →
+                                                                    </a>
                                                             </div>
 
                                                             <!-- SERVICES COLUMN -->
                                                             <div class="col-6">
-                                                                <h6 class="dropdown-header fw-bold text-primary">
-                                                                    Services</h6>
+                                                                <a href="services.php"
+                                                                    class="dropdown-header fw-bold text-primary">
+                                                                    Services</a href="services.php">
 
-                                                                <a class="dropdown-item" href="service-1.php">Emotional
+                                                                <a class="dropdown-item"
+                                                                    href="service-detail.php">Emotional
                                                                     Healing</a>
                                                                 <a class="dropdown-item"
-                                                                    href="service-2.php">Mindfulness Training</a>
-                                                                <a class="dropdown-item" href="service-3.php">Trauma
+                                                                    href="service-detail.php">Mindfulness Training</a>
+                                                                <a class="dropdown-item"
+                                                                    href="service-detail.php">Trauma
                                                                     Release Therapy</a>
 
                                                                 <!-- See More Button -->
-                                                                <a href="services.php "
-                                                                    class="dropdown-item mt-2 w-100">
-                                                                    See More →
-                                                                </a>
+                                                              <a href="services.php "
+                                                                        class="small-title dropdown-item mt-2 w-100">
+                                                                        See More →
+                                                                    </a>
                                                             </div>
 
                                                         </div>

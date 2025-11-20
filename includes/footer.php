@@ -9,7 +9,6 @@
                     <div class="region region-footer-logo">
 
 
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
                         <div id="block-pathretreats-globalinformation"
                             class="block block-block-content block-block-content8494125e-0c1b-454c-9d41-bccc29672a7f">
 
@@ -29,7 +28,7 @@
 
 
 
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
+
 
                             </div>
 
@@ -54,7 +53,6 @@
                     <div class="region region-footer">
 
 
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
                         <div id="block-pathretreats-pathoflove7dayretreats"
                             class="block block-block-content block-block-content2b7137a5-d865-4c27-a4e8-fb296ef55a3a">
 
@@ -62,7 +60,6 @@
 
 
 
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
 
                             <div
                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
@@ -75,7 +72,7 @@
 
                             </div>
 
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-with-summary.html.twig' -->
+
 
 
                         </div>
@@ -258,7 +255,7 @@
             <div class="row">
                 <div class="col-copyright">
                     <div class="copyright">
-                        <p>©Saptarishi 2025</p>
+                        <p>©Takshashelaa 2025</p>
                     </div>
                 </div>
                 <div class="col-privacy">
@@ -280,18 +277,18 @@
 
 
                             <ul data-block="footer_bottom" class="nav navbar-nav">
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="cookies.html" class="nav-link"
                                         data-drupal-link-system-path="node/49">Cookies</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a href="path-retreats-privacy-policy.html" class="nav-link"
                                         data-drupal-link-system-path="node/48">Privacy Policy</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="sitemap.xml" class="nav-link"
                                         data-drupal-link-system-path="sitemap.xml">Sitemap</a>
-                                </li>
+                                </li> -->
                             </ul>
 
 
@@ -304,7 +301,7 @@
                     <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
 
 
-                    <div class="design-by">
+                    <!-- <div class="design-by">
                         <p>Website by <a href="https://coraldigital.live/" target="_blank"><svg fill="none" height="16"
                                     viewBox="0 0 15 16" width="15" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -312,7 +309,7 @@
                                         fill="#F9F8F2"></path>
                                 </svg>Coral Digital</a>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-social">
                     <label>Find us on socials</label>
