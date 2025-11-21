@@ -238,7 +238,10 @@
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
                                 <div class="background-img"
-                                    style="background-image:url(sites/default/files/2024-03/about%20banner.png);">
+                                    style="background-image:url(sites/default/files/2024-03/about%20banner.png);
+                                     background-size: cover;
+                          background-position: center;
+                          position: relative;">
                                     <div class="container container-l">
                                         <h1>Real feedback from real customers who have transformed their business with
                                             our

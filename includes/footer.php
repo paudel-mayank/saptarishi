@@ -82,7 +82,7 @@
                         <nav role="navigation" aria-labelledby="block-pathretreats-resources-menu"
                             id="block-pathretreats-resources" class="block block-menu navigation menu--resources">
 
-                            <h5 id="block-pathretreats-resources-menu">Resources</h5>
+                            <h5 id="block-pathretreats-resources-menu">Services</h5>
 
 
 

@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
-
-
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
 <head>
     <meta charset="utf-8" />
     <meta name="description"
@@ -16,11 +13,9 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="themes/custom/pathretreats/favicon.jpg" type="image/jpeg" />
-
     <title>Takshashelaa | International Self-Development and Healing Retreats</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
@@ -79,12 +74,10 @@
     <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/style1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/theme1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/custom1e7c.css?t33iat" />
-
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>
-
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -95,14 +88,12 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-K9TGZHBP');</script>
     <!-- End Google Tag Manager -->
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZKCH8742R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-ZZKCH8742R');
     </script>
     <!-- Meta Pixel Code -->
@@ -126,104 +117,55 @@
             src="https://www.facebook.com/tr?id=2208157052968698&amp;ev=PageView&amp;noscript=1" />
     </noscript>
 </head>
-
 <body class="node-type-homepage page-id-1 path-frontpage page-node-type-homepage   d-flex flex-column h-100">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9TGZHBP" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-
-
     <div class="visually-hidden-focusable skip-link p-3 container">
         <a href="#main-content" class="p-2">
             Skip to main content
         </a>
     </div>
-
-
-
-
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
-
-
-
         <header class="header">
             <div class="container-fluid" style="padding: 0px 30px;">
                 <div class="wrapper">
                     <div class="branding-menu-wrapper">
                         <div class="logo">
                             <div class="scroll">
-
-
-
                                 <div class="region region-branding">
-
-
                                     <div id="block-pathretreats-branding"
                                         class="block block-system block-system-branding-block">
-
-
                                         <div class="navbar-brand d-flex align-items-center">
-
                                             <a href="index.php" title="Home" rel="home" class="site-logo d-block">
-                                                <img src="../LOGOBLACKBG.jpg" alt="Home" fetchpriority="high" />
+                                                <img src="../main.png" alt="Home" fetchpriority="high" />
                                             </a>
-
                                             <div>
-
                                             </div>
                                         </div>
                                     </div>
-
-
-
                                 </div>
-
-
-
                             </div>
-
                             <div class="default-logo">
                                 <a href="index.php" title="Home" rel="home">
-                                    <img src="themes/custom/pathretreats/logo_front.png" alt="Home"
+                                    <img src="../main.png" alt="Home"
                                         fetchpriority="high">
                                 </a>
                             </div>
-
-
                         </div>
                         <div class="menus-wrapper">
                             <div class="top-header">
-
-
                                 <div class="region region-top-header">
-
                                 </div>
-
-
-
                             </div>
                             <div class="navigation-wrapper">
                                 <div class="navigation-container">
-
-
-
                                     <div class="region region-nav-main">
-
-
-
                                         <nav role="navigation" aria-labelledby="block-pathretreats-main-navigation-menu"
                                             id="block-pathretreats-main-navigation"
                                             class="block block-menu navigation menu--main">
-
                                             <h5 class="visually-hidden" id="block-pathretreats-main-navigation-menu">
                                                 Main navigation</h5>
-
-
-
-
-
-
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
-
                                                 <li>
                                                     <a href="about-us.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">About</a>
@@ -231,17 +173,13 @@
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
                                                         data-bs-toggle="dropdown">Wellness Programs</a>
-
                                                     <div class="dropdown-menu p-4" style="min-width: 480px;">
-
                                                         <div class="row">
-
                                                             <!-- PACKAGES COLUMN -->
                                                             <div class="col-6">
                                                                 <a href='/packages.php'
                                                                     class="dropdown-header fw-bold text-primary">
                                                                     Packages</h6>
-
                                                                     <a class="dropdown-item"
                                                                         href="package-detail.php">7-Day
                                                                         Healing Package</a>
@@ -251,20 +189,17 @@
                                                                     <a class="dropdown-item"
                                                                         href="package-detail.php">21-Day
                                                                         Meditation</a>
-
                                                                     <!-- See More Button -->
                                                                     <a href="packages.php "
                                                                         class="small-title dropdown-item mt-2 w-100">
                                                                         See More →
                                                                     </a>
                                                             </div>
-
                                                             <!-- SERVICES COLUMN -->
                                                             <div class="col-6">
                                                                 <a href="services.php"
                                                                     class="dropdown-header fw-bold text-primary">
                                                                     Services</a href="services.php">
-
                                                                 <a class="dropdown-item"
                                                                     href="service-detail.php">Emotional
                                                                     Healing</a>
@@ -273,20 +208,15 @@
                                                                 <a class="dropdown-item"
                                                                     href="service-detail.php">Trauma
                                                                     Release Therapy</a>
-
                                                                 <!-- See More Button -->
                                                               <a href="services.php "
                                                                         class="small-title dropdown-item mt-2 w-100">
                                                                         See More →
                                                                     </a>
                                                             </div>
-
                                                         </div>
-
                                                     </div>
                                                 </li>
-
-
                                                 <li class="nav-item dropdown">
                                                     <a href="testimonials.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Testimonials</a>
@@ -300,13 +230,9 @@
                                                         data-drupal-link-system-path="node/24">Blog</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-
                                                     <!-- <li class="nav-item dropdown">
                           <a href="about-us.html" class="nav-link " data-drupal-link-system-path="node/24">Book</a>
                         </li> -->
-
-
-
                                                     <!-- <li class="nav-item dropdown">
                           <a href="about-us.html" class="nav-link dropdown-toggle"
                             data-drupal-link-system-path="node/24">About</a>
@@ -316,41 +242,23 @@
                               <a href="about-us.html" class="dropdown-item" data-drupal-link-system-path="node/24">About
                                 Us</a>
                             </li>
-
                             <li class="nav-item">
                               <a href="financial-assistance-and-scholarship-information.html" class="dropdown-item"
                                 data-drupal-link-system-path="node/43">Scholarships</a>
                             </li>
-
                             <li class="nav-item">
                               <a href="support-us.html" class="dropdown-item"
                                 data-drupal-link-system-path="node/42">Donations</a>
                             </li>
-
                           </ul>
-
                         </li> -->
-
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"
                                                         data-drupal-link-system-path="node/11">Contact </a>
                                                 </li>
-
                                             </ul>
-
-
-
-
-
-
                                         </nav>
-
-
-
                                     </div>
-
-
-
                                     <div class="speek-to-advisor">
                                         <a href="discovery-call-booking-form.html"><img
                                                 src="themes/custom/pathretreats/images/speak.svg">

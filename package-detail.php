@@ -7,63 +7,24 @@
             <article data-history-node-id="59" class="node node--type-path-of-love node--view-mode-full">
                 <div class="node__content">
                     <div
-                        class="field field--name-field-retreat-banner field--type-entity-reference-revisions field--label-hidden field__item">
-                        <div class="paragraph paragraph--type--retreat-banner paragraph--view-mode--default">
-                            <div class="background-img"
-                                style="background-image:url(../../sites/default/files/2024-05/DSC_0354a-1.jpg);">
-                                <div class="container">
-                                    <h1>Path of Love UK</h1>
-                                    <div class="retreat-details">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="retreat-banner-bottom" id="about">
-                                <div class="border-with-icon">
-                                    <div
-                                        class="field field--name-field-icon field--type-image field--label-hidden field__item">
-                                        <img loading="lazy" src="../../sites/default/files/2024-04/star.svg" alt=""
-                                            class="img-fluid" />
-                                    </div> -->
-                                <!-- </div> -->
-                                <!-- <div class="container">
-                                    <div class="content-outer">
-                                        <div class="small-title">Path of Love</div>
-                                        <h2>
-                                            <div
-                                                class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
-                                                A life-changing personal growth and <br>wellness retreat</div>
-                                        </h2>
-                                        <div class="content">
-                                            <div
-                                                class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                <p>The Path of Love 7-day wellness retreat is one of the most intensive
-                                                    and life-changing process in the world today. Called “5 years of
-                                                    transformation in one week”, this meditation and personal
-                                                    development retreat will challenge and enrich you, and give you the
-                                                    meaning and fulfillment we all long for.</p>
-                                                <p>Established 30 years ago in India, this residential personal
-                                                    development and meditation retreat is now conducted in 17 countries,
-                                                    on five continents and in six languages. It has gained an
-                                                    extraordinary reputation amongst people who really want to come to
-                                                    know the truth about themselves.</p>
-                                            </div>
-                                        </div>
-                                        <div class="youtube-video">
-                                            <iframe width="560" height="315"
-                                                src="https://www.youtube.com/embed/tVAgYqYIjwk?si=uMqixc5hUiKXj9ug&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                allowfullscreen></iframe>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            <!-- </div> -->
-                        </div>
-                    </div>
+            class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
+                  <div class="field__item">
+              <div class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
+                <div class="background-img"
+                  style="background-image:url(assets/about.png);
+                           background-size: cover;
+                          background-position: center;
+                          position: relative;">
+                  <div class="container container-l" style="z-index: 999;">
+                    <h1>Takshashelaa offers worldwide, life-changing, personal growth and self-development
+                      processes.</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
                     <div
                         class="field field--name-field-retreat-content field--type-entity-reference-revisions field--label-hidden field__items">
-                        <div class="field__item">
-                        </div>
                         <div class="field__item">
                             <div
                                 class="paragraph paragraph--type--retreat-bg-with-image-content paragraph--view-mode--default">
@@ -373,7 +334,6 @@
                         <div class="field__item">
                         </div>
                         <div class="field__item">
-                          
                             <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/path-of-love/paragraph--retreat-gallery.html.twig' -->
                             <div class="paragraph paragraph--type--retreat-gallery paragraph--view-mode--default">
                                 <div class="container">
@@ -406,79 +366,60 @@
                                                     src="../../sites/default/files/2024-09/uk%20gallery%202.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                              
                                             </div>
                                             <div class="swiper-slide">
-                                   
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%203.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                              
                                             </div>
                                             <div class="swiper-slide">
-                                               
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%204.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                               
                                             </div>
                                             <div class="swiper-slide">
-                                               
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%205.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                               
                                             </div>
                                             <div class="swiper-slide">
-                                     
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%206.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                               
                                             </div>
                                             <div class="swiper-slide">
-                                                
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%207.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                               
                                             </div>
                                             <div class="swiper-slide">
-                                                
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%208.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                              
                                             </div>
                                             <div class="swiper-slide">
-                                                
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%209.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                               
                                             </div>
                                             <div class="swiper-slide">
-                                               
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%2010.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                              
                                             </div>
                                             <div class="swiper-slide">
-                                              
                                                 <img loading="lazy"
                                                     src="../../sites/default/files/2024-09/uk%20gallery%2011.jpg"
                                                     width="842" height="1034" alt="Path of Love Wellness Retreat UK"
                                                     class="img-fluid" />
-                                                
                                             </div>
                                         </div>
                                     </div>
@@ -493,11 +434,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                      
                     </div>
                 </div>
             </article>

@@ -11,8 +11,11 @@
             <div class="field__item">
               <div class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
                 <div class="background-img"
-                  style="background-image:url(sites/default/files/2024-03/about%20banner.png);">
-                  <div class="container container-l">
+                  style="background-image:url(assets/about.png);
+                           background-size: cover;
+                          background-position: center;
+                          position: relative;">
+                  <div class="container container-l" style="z-index: 999;">
                     <h1>Takshashelaa offers worldwide, life-changing, personal growth and self-development
                       processes.</h1>
                   </div>
@@ -161,7 +164,7 @@
                                   </h4>
                                   <p>
                                     Abigail is an Integrative Transpersonal Psychotherapist with an MA in
-                                    Transperson...
+                                    Transperson.
                                   </p>
                                 </div>
                               </div>
@@ -242,12 +245,9 @@
                                   </h4>
                                   <p>
                                     Coral has been working in &amp;nbsp;a broad range of personal growth and
-                                    spiritual en...
+                                    spiritual en.
                                   </p>
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#memberModal-262">
-                                    Read More
-                                  </button>
+                            
                                 </div>
                               </div>
                             </article>
@@ -307,53 +307,13 @@
                                   </h4>
                                   <p>
                                     After life changing events in her early twenties, Gita began studying
-                                    somato-emot...
+                                    somato-emot.
                                   </p>
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#memberModal-39">
-                                    Read More
-                                  </button>
+                                 
                                 </div>
                               </div>
                             </article>
-                            <!-- Bootstrap Modal -->
-                            <div class="modal fade" id="memberModal-39" tabindex="-1" aria-labelledby="memberModalLabel"
-                              aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="memberModalLabel-39">
-                                      <span class="field field--name-title field--type-string field--label-hidden">Gita
-                                        Wagner</span>
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                      aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body text-center">
-                                    <div class="member-item">
-                                      <div class="member-image">
-                                        <div
-                                          class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                          <img loading="lazy" src="sites/default/files/2024-03/Gita%20Wagner.jpg"
-                                            width="375" height="499" alt="" class="img-fluid" />
-                                        </div>
-                                      </div>
-                                      <div class="member-caption">
-                                        <div
-                                          class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                          <p>After life changing events in her early twenties, Gita began studying
-                                            somato-emotional healing modalities including Gestalt, Somatic
-                                            Experiencing, parts work and family constellations. She has been
-                                            offering residential retreats and trainings around meditation, somatic
-                                            and archetypal healing, developmental and transgenerational trauma, and
-                                            women’s and relational freedom, since her late twenties.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                         
                           </div>
                         </div>
                       </div>

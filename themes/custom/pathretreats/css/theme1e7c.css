@@ -5,11 +5,11 @@
   --c-black: #000;
   --c-body: #000;
   --c-white: #ffffff;
-  --c-primary: #944361;
+  --c-primary: #91cc33;
   --c-light-primary: #FFEEF4;
   --c-light-primary2: #FFCDE0;
   --c-title: #223745;
-  --c-secondary: #01524D;
+  --c-secondary: #6bae00;
   --c-bg-light: #F9F8F5;
   --body-font-family: "Roboto Flex", sans-serif;
   --header-font-family: "Libre Caslon Display", serif;
@@ -2621,7 +2621,7 @@ footer.footer .field--name-body p a:hover {
 .small-title {
   font-size: 14px;
   letter-spacing: 0.3333333333em;
-  color: var(--c-primary);
+  color: var(--c-secondary);
   margin-bottom: 12px;
 }
 
