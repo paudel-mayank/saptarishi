@@ -3,64 +3,24 @@
         <div class="container container-l">
             <div class="row">
                 <div class="col-logo">
-
-
-
                     <div class="region region-footer-logo">
-
-
                         <div id="block-pathretreats-globalinformation"
                             class="block block-block-content block-block-content8494125e-0c1b-454c-9d41-bccc29672a7f">
-
-
-
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
+                           
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
-
-
-                                <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                 <img loading="lazy" src="sites/default/files/2024-03/footer-logo.svg" alt="Footer logo"
                                     class="img-fluid" />
-
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-
-
-
-
-
                             </div>
-
-                            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-
-
                         </div>
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
-
-
                     </div>
-
-                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
-
-
                 </div>
                 <div class="col-mid">
-
-
                     <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
                     <div class="region region-footer">
-
-
                         <div id="block-pathretreats-pathoflove7dayretreats"
                             class="block block-block-content block-block-content2b7137a5-d865-4c27-a4e8-fb296ef55a3a">
-
                             <!-- <h2>Path of Love 7 day retreats</h2> -->
-
-
-
-
                             <div
                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
                                 <p><a href="wellness-retreat/usa/10-2025.html">Home</a></p>
@@ -68,27 +28,11 @@
                                 <p><a href="wellness-retreat/italy/11-2025.html">Services</a></p>
                                 <p><a href="retreat/path-love-brasil.html">About</a></p>
                                 <p><a href="wellness-retreat/bali/1-2026.html">Contact</a></p>
-
-
                             </div>
-
-
-
-
                         </div>
-
-
-
                         <nav role="navigation" aria-labelledby="block-pathretreats-resources-menu"
                             id="block-pathretreats-resources" class="block block-menu navigation menu--resources">
-
                             <h5 id="block-pathretreats-resources-menu">Services</h5>
-
-
-
-
-
-
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
                                     <a href="financial-assistance-and-scholarship-information.html" class="nav-link"
@@ -104,47 +48,15 @@
                                         FAQs</a>
                                 </li>
                             </ul>
-
-
-
                             <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
-
-
                         </nav>
-
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
-
-
-
-
-                        <!-- THEME HOOK: 'block' -->
-                        <!-- FILE NAME SUGGESTIONS:
-   ▪️ block--pathretreats-landingpages.html.twig
-   ▪️ block--system-menu-block--landing-pages.html.twig
-   ✅ block--system-menu-block.html.twig
-   ▪️ block--system.html.twig
-   ▪️ block.html.twig
--->
-                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
+                        
                         <nav role="navigation" aria-labelledby="block-pathretreats-landingpages-menu"
                             id="block-pathretreats-landingpages"
                             class="block block-menu navigation menu--landing-pages">
-
                             <h5 id="block-pathretreats-landingpages-menu">Landing Pages</h5>
-
-
-
-
-
-                            <!-- THEME HOOK: 'menu__landing_pages' -->
-                            <!-- FILE NAME SUGGESTIONS:
-   ▪️ menu--landing-pages.html.twig
-   ▪️ menu--footer.html.twig
-   ▪️ menu--landing-pages--footer.html.twig
-   ✅ menu.html.twig
--->
+ 
                             <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
-
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
                                     <a href="node/377.html" class="nav-link"
@@ -152,22 +64,10 @@
                                         Retreat</a>
                                 </li>
                             </ul>
-
-
-
                             <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
-
-
                         </nav>
-
                         <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
-
-
                     </div>
-
-                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
-
-
                 </div>
                 <div class="col-newsletter">
                     <div id="mc_embed_shell">
@@ -181,7 +81,6 @@
                                 font: 14px Helvetica, Arial, sans-serif;
                                 width: 600px;
                             }
-
                             /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
                      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                         </style>
@@ -191,15 +90,12 @@
                                 width: auto;
                                 margin-right: 10px;
                             }
-
                             #mergeRow-gdpr {
                                 margin-top: 20px;
                             }
-
                             #mergeRow-gdpr fieldset label {
                                 font-weight: normal;
                             }
-
                             #mc-embedded-subscribe-form .mc_fieldset {
                                 border: none;
                                 min-height: 0px;
@@ -218,7 +114,6 @@
                                     <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
                                                 class="asterisk">*</span></label><input type="email" name="EMAIL"
                                             class="required email" id="mce-EMAIL" required="" value=""></div>
-
                                     <div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe"
                                             class="button" value="Subscribe"></div>
                                 </div>
@@ -259,23 +154,10 @@
                     </div>
                 </div>
                 <div class="col-privacy">
-
-
-
-
                     <div class="region region-footer-bottom">
-
-
-
                         <nav role="navigation" aria-labelledby="block-pathretreats-footer-menu"
                             id="block-pathretreats-footer" class="block block-menu navigation menu--footer">
-
                             <h5 class="visually-hidden" id="block-pathretreats-footer-menu">Footer</h5>
-
-
-
-
-
                             <ul data-block="footer_bottom" class="nav navbar-nav">
                                 <!-- <li class="nav-item">
                                     <a href="cookies.html" class="nav-link"
@@ -290,17 +172,8 @@
                                         data-drupal-link-system-path="sitemap.xml">Sitemap</a>
                                 </li> -->
                             </ul>
-
-
                         </nav>
-
-
-
                     </div>
-
-                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
-
-
                     <!-- <div class="design-by">
                         <p>Website by <a href="https://coraldigital.live/" target="_blank"><svg fill="none" height="16"
                                     viewBox="0 0 15 16" width="15" xmlns="http://www.w3.org/2000/svg">
@@ -313,116 +186,72 @@
                 </div>
                 <div class="col-social">
                     <label>Find us on socials</label>
-
-
-
                     <!-- THEME HOOK: 'container' -->
-
                     <div class="views-element-container">
-
-
                         <!-- THEME HOOK: 'views_view' -->
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
                         <div
                             class="view view-top-social-links view-id-top_social_links view-display-id-block_1 js-view-dom-id-cebb7cbc5be5a680f811a44096d5c79733ca835ea173529f294e99dad61a193a">
-
-
-
                             <div class="view-content">
-
-
-
                                 <!-- THEME HOOK: 'views_view_unformatted' -->
                                 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted.html.twig' -->
                                 <div class="views-row">
-
-
                                     <!-- THEME HOOK: 'linkicon' -->
                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon.html.twig' -->
-
                                     <div class="item-list item-list--linkicon">
                                         <ul id="linkicon-block-content-global-information-field-social-links-2"
                                             class="linkicon">
                                             <li>
                                                 <a href="https://www.facebook.com/pathretreats" target="_blank"
                                                     class="linkicon__item">
-
-
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-facebook"></span>
                                                     <span class="linkicon__text">Facebook</span>
-
                                                     <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
-
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.youtube.com/@PathRetreats" target="_blank"
                                                     class="linkicon__item">
-
-
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-youtube"></span>
                                                     <span class="linkicon__text">YouTube</span>
-
                                                     <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
-
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.instagram.com/pathretreats/" target="_blank"
                                                     class="linkicon__item">
-
-
                                                     <!-- THEME HOOK: 'linkicon_item' -->
                                                     <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-instagram"></span>
                                                     <span class="linkicon__text">Instagram</span>
-
                                                     <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
-
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
-
                                     <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon.html.twig' -->
-
                                 </div>
-
                                 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted.html.twig' -->
-
-
                             </div>
-
                         </div>
-
                         <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
-
                     </div>
-
                     <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
-
-
                 </div>
             </div>
         </div>
     </div>
 </footer>
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/page--front.html.twig' -->
-
-
 </div>
-
 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/content/off-canvas-page-wrapper.html.twig' -->
-
-
-
 <script type="application/json"
     data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"b1a06f0b48a69a2a323289f3fb5b8bd58b7ec93368f761714b6fe3d80cc5ce37"}}</script>
 <script src="core/assets/vendor/jquery/jquery.mind734.js?v=3.7.1"></script>
@@ -432,18 +261,11 @@
 <script src="themes/contrib/bootstrap5/dist/bootstrap/5.3.3/dist/js/bootstrap.bundle47fd.js?v=5.3.3"></script>
 <script src="themes/custom/pathretreats/js/swiper-bundle.min1e7c.js?t33iat"></script>
 <script src="themes/custom/pathretreats/js/custom1e7c.js?t33iat" defer></script>
-
-
 <!-- Load Usercentrics LAST -->
 <script defer src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
 <script id="usercentrics-cmp" defer src="https://web.cmp.usercentrics.eu/ui/loader.js"
     data-settings-id="65ny2jYlZm_wpW"></script>
-
 </body>
-
 <!-- Mirrored from pathretreats.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Oct 2025 06:15:47 GMT -->
-
 </html>
-
-
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->

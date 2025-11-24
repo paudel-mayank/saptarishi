@@ -190,31 +190,26 @@
                           <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
                           <div class="paragraph paragraph--type--card paragraph--view-mode--default">
                             <div class="card-image">
-                              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                             
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                 <img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg"
                                   width="633" height="577" alt="Path of love cover" class="img-fluid">
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                               </div>
-                              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                            </div>
+                              </div>
                             <div class="card-info">
                               <div class="small-title">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                                   7-Day retreat</div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </div>
+                                  </div>
                               <h4 class="card-title">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-title field--type-string field--label-hidden field__item">
                                   Path of Love Process</div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </h4>
+                                  </h4>
                               <div class="content">
                                 <div
                                   class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -225,12 +220,11 @@
                                 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
                               </div>
                               <div class="link small">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
                                     href="/personal-growth-retreat-workshop">Learn more</a></div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </div>
+                                  </div>
                             </div>
                           </div>
                           <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
@@ -239,31 +233,26 @@
                           <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
                           <div class="paragraph paragraph--type--card paragraph--view-mode--default">
                             <div class="card-image">
-                              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                             
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                                 <img loading="lazy" src="/sites/default/files/2025-03/advancedworkcover.png" width="422"
                                   height="385" alt="Advanced spiritual work" class="img-fluid">
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
                               </div>
-                              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                            </div>
+                              </div>
                             <div class="card-info">
                               <div class="small-title">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                                   3-5 day retreats</div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </div>
+                                  </div>
                               <h4 class="card-title">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-title field--type-string field--label-hidden field__item">
                                   Advanced Work</div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </h4>
+                                  </h4>
                               <div class="content">
                                 <div
                                   class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -273,12 +262,11 @@
                                 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
                               </div>
                               <div class="link small">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                               
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
                                     href="/find-retreat">Learn more</a></div>
-                                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                              </div>
+                                  </div>
                             </div>
                           </div>
                           <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
@@ -505,7 +493,7 @@
                           long lasting benefits</div>
                       </h5>
                       <h2>
-                        <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                       
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                           What you can receive from our retreats</div>
                         <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
@@ -677,7 +665,7 @@
                           <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
                         </h6>
                         <h3>
-                          <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                         
                           <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                             What you can receive from our retreats</div>
                           <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
@@ -901,8 +889,7 @@
                                         <img loading="eager"
                                           src="sites/default/files/styles/wide/public/2025-06/Untitled%20design%20(5)_01392.png?itok=-82Eya0G"
                                           width="1060" height="550" alt="" class="img-fluid image-style-wide" />
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
+                                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
                                       </div>
                                     </div>
                                     <div class="blog-article-content">
@@ -938,8 +925,7 @@
                                         <img loading="eager"
                                           src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_474135.png?itok=SJWBPuM9"
                                           width="1060" height="550" alt="" class="img-fluid image-style-wide" />
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image.html.twig' -->
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
+                                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
                                       </div>
                                     </div>
                                     <div class="blog-article-content">
@@ -1005,7 +991,7 @@
                     <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
                   </div>
                   <div class="all-link link">
-                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                   
                     <div class="field field--name-field-all-articles field--type-link field--label-hidden field__item">
                       <a href="blog.html">All articles</a>
                     </div>

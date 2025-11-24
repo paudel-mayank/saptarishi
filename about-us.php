@@ -30,7 +30,7 @@
                 <div class="container type-col">
                   <div class="row">
                     <div class="col-md-6">
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
+                     
                       <div class="field field--name-field-image field--type-image field--label-hidden field__item">
                         <img loading="lazy" src="sites/default/files/2024-03/Inclusivity.jpg" width="1286" height="1572"
                           alt="Inclusivity" class="img-fluid" />
