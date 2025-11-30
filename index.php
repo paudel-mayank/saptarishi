@@ -1,9 +1,9 @@
   <?php include 'includes/header.php' ?>
 
   <div class="main-content">
-    <a id="main-content" tabindex="-1"></a>
+    <!-- <a id="main-content" tabindex="-1"></a> -->
     <div class="region region-content">
-      <div data-drupal-messages-fallback class="hidden"></div>
+      <!-- <div data-drupal-messages-fallback class="hidden"></div> -->
       <div id="block-pathretreats-content" class="block block-system block-system-main-block">
         <article data-history-node-id="1" class="node node--type-homepage node--view-mode-full">
           <div class="node__content">
@@ -91,8 +91,8 @@
                           </div>
                         </div> -->
                   </div>
-                  <div class="bg-svg-logo">
-                  </div>
+                  <!-- <div class="bg-svg-logo">
+                  </div> -->
                 </div>
               </div>
               <div class="field__item">
@@ -101,24 +101,29 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-                          <img loading="lazy" src="sites/default/files/2025-03/Rectangle%2015.jpg" width="977"
-                            height="956" alt="Participants on the Path of Love" class="img-fluid" />
+                          <img loading="lazy" src="assets/indexabout.png" width="977"
+                            height="956" alt="Participants on the Path of Love" style="height:400px; width:100%; object-fit:cover;" />
                         </div>
                       </div>
                       <div class="col-md-6 intro-type-1">
                         <div class="small-title"></div>
-                        <div class="heading-text">
+                        <!-- <div class="content">
                           <div
-                            class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
+                            class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                             <h4>We inspire people to live life with genuine connection, igniting their spiritual
                               growth and courage to reclaim parts of themselves that have been lost—to meet and live
                               their truth.</h4>
                           </div>
-                        </div>
+                        </div> -->
                         <div class="content">
+                          
                           <div
                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                             <p>We are proud of our extraordinary reputation for facilitating profound transformational
+                              work. Our retreats also address emotional trauma and pain, depression, anxiety, fear,
+                              grief, addiction, loneliness, separation, and relationship problems, and can therefore
+                              radically reduce physical conditions such as stress and burnout.
+                            We are proud of our extraordinary reputation for facilitating profound transformational
                               work. Our retreats also address emotional trauma and pain, depression, anxiety, fear,
                               grief, addiction, loneliness, separation, and relationship problems, and can therefore
                               radically reduce physical conditions such as stress and burnout.</p>
@@ -482,348 +487,7 @@
                 </div>
               </div>
             </div> -->
-            <div class="field__item">
-              <div class="paragraph paragraph--type--long-lasting-benefits paragraph--view-mode--default">
-                <section class="long-lasting-benefits" id="benefits">
-                  <div class="container">
-                    <div class="lasting-benefits-heading">
-                      <h5>
-                        <div
-                          class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                          long lasting benefits</div>
-                      </h5>
-                      <h2>
-                       
-                        <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                          What you can receive from our retreats</div>
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                      </h2>
-                    </div>
-                    <div class="wrapper">
-                      <div class="content-outer">
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-06/aliveness-and-resilience_compressed.webp"
-                              class="img-fluid" alt="Aliveness and Resilience">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Aliveness and Resilience</h4>
-                            <div class="benefit-caption">
-                              <p>Awaken the capacity to feel the full spectrum of your feelings, and cultivate a
-                                deep self-love and compassion. Discover a new relationship to the sensitivity,
-                                aliveness and beauty of your body and being.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-06/natural-confidence-and-joy_compressed.webp"
-                              class="img-fluid" alt="Natural Confidence and Joy">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Natural Confidence and Joy</h4>
-                            <div class="benefit-caption">
-                              <p>Discover relaxed confidence and your innate capacity to move through life with more
-                                ease and dignity, and less stress, fear and anxiety. Recognise your true value,
-                                inherent self-worth, and strength to face challenges, and thereby experience
-                                newfound clarity, passion and joy for life.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img
-                              src="sites/default/files/2025-06/authentic-connection-and-community-updated_compressed.webp"
-                              class="img-fluid" alt="Authentic Connection and Community">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Authentic Connection and Community</h4>
-                            <div class="benefit-caption">
-                              <p>Discover a love and deep appreciation for the power of speaking the truth. Face the
-                                pain of separation and isolation that causes so much suffering, and come to see it
-                                as a portal to genuine love. Feel authentic love and connection with yourself and
-                                others, with lessened fear of judgments and criticism.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-03/humanity-and-inclusiveness.webp" class="img-fluid"
-                              alt="Humanity and Inclusiveness">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Humanity and Inclusiveness</h4>
-                            <div class="benefit-caption">
-                              <p>Recognition of our shared and diverse humanity. Inclusiveness of all life
-                                experiences: religion, race, caste, cultural background, gender, social status, and
-                                all perceived and lived differences. This leads to a deep integrated acceptance of
-                                our most authentic humanness, and capacity to live with more ease and peace.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-03/spiritual-connection.webp" class="img-fluid"
-                              alt="Love, Trust and Spiritual Connection">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Love, Trust and Spiritual Connection</h4>
-                            <div class="benefit-caption">
-                              <p>Open to pure love and connection with the part of you that exists beyond the
-                                conditioned layer of the personality. Unveil the trust, courage and commitment
-                                needed to follow your spiritual longing, whether you are new to this or a lifelong
-                                seeker.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-03/presence-and-groundedness.webp" class="img-fluid"
-                              alt="Presence and Groundedness">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Presence and Groundedness</h4>
-                            <div class="benefit-caption">
-                              <p>Cultivate deep presence and groundedness. Awaken your inherent intelligence so you
-                                can meet life’s challenges, know and choose what is good for you, and create the
-                                life that you long for. Connect and abide as your essence and nourish your spirit.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="content-item">
-                          <div class="lasting-benefit-image">
-                            <img src="sites/default/files/2025-06/transformation-and-healing_compressed.webp"
-                              class="img-fluid" alt="Transformation and Healing">
-                          </div>
-                          <div class="lasting-benefit-caption">
-                            <h4>Transformation and Healing</h4>
-                            <div class="benefit-caption">
-                              <p>Shift your self-image and gain deep insights into old self-limiting and sabotaging
-                                beliefs. Experience the power and transformation that arises from facing shadow
-                                aspects of your personality. Heal from grief and loss, and address trauma in a safe
-                                and supportive environment.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="title-outer">
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Aliveness and Resilience
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Natural Confidence and Joy
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Authentic Connection and Community
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Humanity and Inclusiveness
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Love, Trust and Spiritual Connection
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Presence and Groundedness
-                        </div>
-                        <div class="title-item">
-                          <div class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                              <path
-                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                            </svg></div>Transformation and Healing
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section class="long-lasting-benefits-mobile" id="benefits">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-12 text-center">
-                        <h6>
-                          <div
-                            class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                            long lasting benefits</div>
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                        </h6>
-                        <h3>
-                         
-                          <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                            What you can receive from our retreats</div>
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                        </h3>
-                      </div>
-                    </div>
-                    <div class="swiper mobilebenefitSwiper">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Aliveness and Resilience</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-06/aliveness-and-resilience_compressed.webp"
-                                class="img-fluid" alt="Aliveness and Resilience">
-                            </div>
-                            <div class="content">
-                              <h4>Aliveness and Resilience</h4>
-                              <p>Awaken the capacity to feel the full spectrum of your feelings, and cultivate a
-                                deep self-love and compassion. Discover a new relationship to the sensitivity,
-                                aliveness and beauty of your body and being.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Natural Confidence and Joy</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-06/natural-confidence-and-joy_compressed.webp"
-                                class="img-fluid" alt="Natural Confidence and Joy">
-                            </div>
-                            <div class="content">
-                              <h4>Natural Confidence and Joy</h4>
-                              <p>Discover relaxed confidence and your innate capacity to move through life with more
-                                ease and dignity, and less stress, fear and anxiety. Recognise your true value,
-                                inherent self-worth, and strength to face challenges, and thereby experience
-                                newfound clarity, passion and joy for life.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Authentic Connection and Community</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img
-                                src="sites/default/files/2025-06/authentic-connection-and-community-updated_compressed.webp"
-                                class="img-fluid" alt="Authentic Connection and Community">
-                            </div>
-                            <div class="content">
-                              <h4>Authentic Connection and Community</h4>
-                              <p>Discover a love and deep appreciation for the power of speaking the truth. Face the
-                                pain of separation and isolation that causes so much suffering, and come to see it
-                                as a portal to genuine love. Feel authentic love and connection with yourself and
-                                others, with lessened fear of judgments and criticism.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Humanity and Inclusiveness</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-03/humanity-and-inclusiveness.webp" class="img-fluid"
-                                alt="Humanity and Inclusiveness">
-                            </div>
-                            <div class="content">
-                              <h4>Humanity and Inclusiveness</h4>
-                              <p>Recognition of our shared and diverse humanity. Inclusiveness of all life
-                                experiences: religion, race, caste, cultural background, gender, social status, and
-                                all perceived and lived differences. This leads to a deep integrated acceptance of
-                                our most authentic humanness, and capacity to live with more ease and peace.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Love, Trust and Spiritual Connection</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-03/spiritual-connection.webp" class="img-fluid"
-                                alt="Love, Trust and Spiritual Connection">
-                            </div>
-                            <div class="content">
-                              <h4>Love, Trust and Spiritual Connection</h4>
-                              <p>Open to pure love and connection with the part of you that exists beyond the
-                                conditioned layer of the personality. Unveil the trust, courage and commitment
-                                needed to follow your spiritual longing, whether you are new to this or a lifelong
-                                seeker.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Presence and Groundedness</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-03/presence-and-groundedness.webp" class="img-fluid"
-                                alt="Presence and Groundedness">
-                            </div>
-                            <div class="content">
-                              <h4>Presence and Groundedness</h4>
-                              <p>Cultivate deep presence and groundedness. Awaken your inherent intelligence so you
-                                can meet life’s challenges, know and choose what is good for you, and create the
-                                life that you long for. Connect and abide as your essence and nourish your spirit.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="top-title">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4>Transformation and Healing</h4>
-                          </div>
-                          <div class="content-with-img">
-                            <div class="image">
-                              <img src="sites/default/files/2025-06/transformation-and-healing_compressed.webp"
-                                class="img-fluid" alt="Transformation and Healing">
-                            </div>
-                            <div class="content">
-                              <h4>Transformation and Healing</h4>
-                              <p>Shift your self-image and gain deep insights into old self-limiting and sabotaging
-                                beliefs. Experience the power and transformation that arises from facing shadow
-                                aspects of your personality. Heal from grief and loss, and address trauma in a safe
-                                and supportive environment.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-control">
-                        <div class="swiper-pagination"></div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--long-lasting-benefits--default.html.twig' -->
-            </div>
+         
             <div class="testimonial-container">
               <div
                 class=" small-title field field--name-field-small-title field--type-string field--label-hidden field__item text-center">

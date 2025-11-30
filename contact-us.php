@@ -42,22 +42,22 @@
                       <form>
                         <div class="mb-3">
                           <label for="name" class=" mysubtext
-form-label fw-semibold">Full Name</label>
+                                form-label fw-semibold">Full Name</label>
                           <input type="text" class="form-control" id="name" placeholder="Your name" required>
                         </div>
                         <div class="mb-3">
                           <label for="email" class=" mysubtext
- form-label fw-semibold">Email</label>
+                                form-label fw-semibold">Email</label>
                           <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
                         </div>
                         <div class="mb-3">
                           <label for="message" class=" mysubtext
- form-label fw-semibold">Message</label>
+                                form-label fw-semibold">Message</label>
                           <textarea class="form-control" id="message" rows="4" placeholder="Your message..."
                             required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100 b-none border-0" style="background-color: #944361
-;">Send Message</button>
+                        <button type="submit" class="btn btn-primary w-100 b-none border-0" style="background-color: #91cc33
+                          ;">Send Message</button>
                       </form>
                     </div>
                     <!-- Organization Details -->

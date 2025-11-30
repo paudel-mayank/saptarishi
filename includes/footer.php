@@ -9,7 +9,7 @@
                            
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="sites/default/files/2024-03/footer-logo.svg" alt="Footer logo"
+                                <img loading="lazy" src="../assets/main.png" alt="Footer logo"
                                     class="img-fluid" />
                             </div>
                         </div>
@@ -163,10 +163,10 @@
                                     <a href="cookies.html" class="nav-link"
                                         data-drupal-link-system-path="node/49">Cookies</a>
                                 </li> -->
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="path-retreats-privacy-policy.html" class="nav-link"
                                         data-drupal-link-system-path="node/48">Privacy Policy</a>
-                                </li>
+                                </li> -->
                                 <!-- <li class="nav-item">
                                     <a href="sitemap.xml" class="nav-link"
                                         data-drupal-link-system-path="sitemap.xml">Sitemap</a>

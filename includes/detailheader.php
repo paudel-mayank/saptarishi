@@ -24,7 +24,7 @@
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../themes/custom/pathretreats/favicon.jpg" type="image/jpeg" />
+    <link rel="icon" href="./assets/fav.png" type="image/png" />
 
     <title>Jennifer McKeever Talks Freedom From the Inner Critic (New Podcast) | Saptarishi</title>
     <link rel="stylesheet" media="all"
@@ -95,27 +95,27 @@
         data-search-pseudo-elements></script>
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <!-- <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K9TGZHBP');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-K9TGZHBP');</script> -->
     <!-- End Google Tag Manager -->
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZKCH8742R"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZKCH8742R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-ZZKCH8742R');
-    </script>
+    </script> -->
     <!-- Meta Pixel Code -->
-    <script>
+    <!-- <script>
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
@@ -133,21 +133,21 @@
     <noscript>
         <img height="1" width="1"
             src="https://www.facebook.com/tr?id=2208157052968698&amp;ev=PageView&amp;noscript=1" />
-    </noscript>
+    </noscript> -->
     <!-- End Meta Pixel Code -->
 </head>
 
 <body class="node-type-blog page-id-209 path-node page-node-type-blog   d-flex flex-column h-100">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9TGZHBP" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9TGZHBP" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
-
+<!-- 
     <div class="visually-hidden-focusable skip-link p-3 container">
         <a href="#main-content" class="p-2">
             Skip to main content
         </a>
-    </div>
+    </div> -->
 
 
 
@@ -200,7 +200,7 @@
                                     <div class="navbar-brand d-flex align-items-center">
 
                                         <a href="../index.php" title="Home" rel="home" class="site-logo d-block">
-                                            <img src="../themes/custom/pathretreats/logo.svg" alt="Home"
+                                            <img src="../assets/main.png" alt="Home"
                                                 fetchpriority="high" />
                                         </a>
 

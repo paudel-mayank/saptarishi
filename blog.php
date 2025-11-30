@@ -260,7 +260,7 @@
                                       <div class="row">
                                         <div class="col-md-6">
                                           <div class="blog-image">
-                                            -->
+                                          
                                             <div
                                               class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
                                               <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->

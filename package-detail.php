@@ -66,10 +66,10 @@
                                                     </div>
                                                     <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
                                                     <div class="button-fill arrow">
-                                                        <div
+                                                        <!-- <div
                                                             class="field field--name-field-link field--type-link field--label-hidden field__item">
                                                             <a href="../../node/95.html">Book now</a>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -159,19 +159,19 @@
                                                                 requirements.</p>
                                                         </div>
                                                     </div>
-                                                    <div class="link">
+                                                    <!-- <div class="link">
                                                         <div
                                                             class="field field--name-field-link field--type-link field--label-hidden field__item">
                                                             <a href="../../node/95.html">Book this retreat</a>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="button-bottom-text">
-                                                        <div
+                                                        <!-- <div
                                                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                             <p>Need more information? <a
                                                                     href="../../discovery-call-booking-form.html">Book a
                                                                     free discovery call</a></p>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="field__item">
+                        <!-- <div class="field__item">
                             <div class="paragraph paragraph--type--retreat-faq-s paragraph--view-mode--default">
                                 <div class="faq-sec">
                                     <div class="container">
@@ -330,113 +330,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="field__item">
                         </div>
-                        <div class="field__item">
-                            <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/path-of-love/paragraph--retreat-gallery.html.twig' -->
-                            <div class="paragraph paragraph--type--retreat-gallery paragraph--view-mode--default">
-                                <div class="container">
-                                    <div class="heading">
-                                        <h2>Broughton Sanctuary</h2>
-                                        <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                                        <div
-                                            class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                            <p>Broughton Sanctuary, situated on the edge of the Yorkshire Dales National
-                                                Park, is on 3000 acres of beautiful landscape acting as a sanctuary for
-                                                well-being. An inspirational space in which to take refuge, renew and
-                                                transform, it holds the perfect synergy for stillness, healing and peace
-                                                within the whirlwind of modern life.</p>
-                                        </div>
-                                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                                    </div>
-                                </div>
-                                <div class="retreat-gallery">
-                                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-gallery-images.html.twig' -->
-                                    <div class="swiper gallerySwiper">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%201.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%202.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%203.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%204.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%205.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%206.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%207.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%208.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%209.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%2010.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img loading="lazy"
-                                                    src="../../sites/default/files/2024-09/uk%20gallery%2011.jpg"
-                                                    width="842" height="1034" alt="Path of Love Wellness Retreat UK"
-                                                    class="img-fluid" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="swiper-control">
-                                            <div class="swiper-button-prev gallery-prev"> <img
-                                                    src="../../themes/custom/pathretreats/images/left-arrow.svg" alt="">
-                                            </div>
-                                            <div class="swiper-button-next gallery-next"><img
-                                                    src="../../themes/custom/pathretreats/images/right-arrow.svg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
             </article>

@@ -426,9 +426,9 @@
                                                         <li>Tailored Ayurvedic meals</li>
                                                         <li>Dosha-specific herbal supplements</li>
                                                     </ul>
-                                                    <div class=" mt-4">
+                                                    <!-- <div class=" mt-4">
                                                         <a href="#" class="">Book This Service</a>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
