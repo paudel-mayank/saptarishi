@@ -168,7 +168,7 @@
 -->
         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/page.html.twig' -->
         <header class="header">
-            <div class="container">
+            <div class="container-fluid" style ="padding:0px 30px;">
                 <div class="wrapper">
                     <div class="branding-menu-wrapper">
                         <div class="logo">
