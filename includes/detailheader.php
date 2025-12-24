@@ -405,7 +405,7 @@
                                                         data-drupal-link-system-path="node/24">Wellness Programs</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <a href="find-retreat.php" class="nav-link "
+                                                    <a href="testimonials.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Testimonials</a>
                                                 </li>
                                                 <li class="nav-item dropdown">

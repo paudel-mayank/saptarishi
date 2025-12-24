@@ -84,74 +84,7 @@
                         <div class="views-element-container">
                           <div
                             class="view view-all-blogs view-id-all_blogs view-display-id-block_2 js-view-dom-id-e361ca561461ed2e0a9e24764ddd47bc551bd9d00c0a9e2c141346cc343071d9">
-                            <div class="view-filters">
-                              <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit-full-form=""
-                                data-bef-auto-submit="" data-bef-auto-submit-delay="500"
-                                data-bef-auto-submit-minimum-length="3"
-                                data-drupal-selector="views-exposed-form-all-blogs-block-2"
-                                action="https://pathretreats.com/blog" method="get"
-                                id="views-exposed-form-all-blogs-block-2" accept-charset="UTF-8">
-                                <div class="form--inline clearfix">
-                                  <fieldset data-drupal-selector="edit-field-blog-type-target-id"
-                                    id="edit-field-blog-type-target-id--wrapper"
-                                    class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper">
-                                    <legend>
-                                      <span class="fieldset-legend">Blog type</span>
-                                    </legend>
-                                    <div class="fieldset-wrapper">
-                                      <div id="edit-field-blog-type-target-id" class="form-radios">
-                                        <div class="form-radios">
-                                          <div
-                                            class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-field-blog-type-target-id form-item-field-blog-type-target-id">
-                                            <input data-drupal-selector="edit-field-blog-type-target-id-all"
-                                              type="radio" id="edit-field-blog-type-target-id-all"
-                                              name="field_blog_type_target_id" value="All" checked="checked"
-                                              class="form-radio" />
-                                            <label for="edit-field-blog-type-target-id-all" class="option">All</label>
-                                          </div>
-                                          <div
-                                            class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-field-blog-type-target-id form-item-field-blog-type-target-id">
-                                            <input data-drupal-selector="edit-field-blog-type-target-id-1" type="radio"
-                                              id="edit-field-blog-type-target-id-1" name="field_blog_type_target_id"
-                                              value="1" class="form-radio" />
-                                            <label for="edit-field-blog-type-target-id-1"
-                                              class="option">Research</label>
-                                          </div>
-                                          <div
-                                            class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-field-blog-type-target-id form-item-field-blog-type-target-id">
-                                            <input data-drupal-selector="edit-field-blog-type-target-id-2" type="radio"
-                                              id="edit-field-blog-type-target-id-2" name="field_blog_type_target_id"
-                                              value="2" class="form-radio" />
-                                            <label for="edit-field-blog-type-target-id-2" class="option">Article</label>
-                                          </div>
-                                          <div
-                                            class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-field-blog-type-target-id form-item-field-blog-type-target-id">
-                                            <input data-drupal-selector="edit-field-blog-type-target-id-3" type="radio"
-                                              id="edit-field-blog-type-target-id-3" name="field_blog_type_target_id"
-                                              value="3" class="form-radio" />
-                                            <label for="edit-field-blog-type-target-id-3" class="option">Blog</label>
-                                          </div>
-                                          <div
-                                            class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-field-blog-type-target-id form-item-field-blog-type-target-id">
-                                            <input data-drupal-selector="edit-field-blog-type-target-id-4" type="radio"
-                                              id="edit-field-blog-type-target-id-4" name="field_blog_type_target_id"
-                                              value="4" class="form-radio" />
-                                            <label for="edit-field-blog-type-target-id-4" class="option">Video</label>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </fieldset>
-                                  <div data-drupal-selector="edit-actions"
-                                    class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
-                                    <input data-bef-auto-submit-click=""
-                                      class="js-hide button js-form-submit form-submit btn btn-primary"
-                                      data-drupal-selector="edit-submit-all-blogs" type="submit"
-                                      id="edit-submit-all-blogs" value="Apply" />
-                                  </div>
-                                </div>
-                              </form>
-                            </div>
+                        
                             <div class="view-content">
                               <div class="row">
                                 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted--all-blogs--block-2.html.twig' -->
@@ -212,7 +145,7 @@
                                             <div
                                               class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
                                               <img loading="lazy"
-                                                src="sites/default/files/2025-07/Rectangle%20128_4.png" width="1059"
+                                                src="sites/default/files/2025-06/Untitled%20design%20(5).png" width="1059"
                                                 height="550" alt="" class="img-fluid" />
                                             </div>
                                           </div>
@@ -304,149 +237,7 @@
                                     </div>
                                   </article>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-                                  <article data-history-node-id="362"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-06/Untitled%20design%20(5).png"
-                                                width="1060" height="550" alt="Laura Seiler Path of Love Process"
-                                                class="img-fluid" />
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Takshashelaa</div>
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a
-                                                  href="blog/verletzlichkeit-ist-kein-bruch-sie-ist-der-eingang-laura-seiler.html">
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">Verletzlichkeit
-                                                    ist kein Bruch. Sie ist der Eingang ~ Laura Seiler</span>
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              In einer Welt, die uns so oft suggeriert, dass Stärke gleichbedeutend
-                                              ist mit Kontrolle, dass Entwicklung bedeutet, immer souveräner,
-                                              klarer, gefestigter zu werden – in genau dieser Welt ist es ein Akt
-                                              von unfassbarer Kraft, weich zu bleiben.
-                                            </div>
-                                            <div class="link">
-                                              <a
-                                                href="blog/verletzlichkeit-ist-kein-bruch-sie-ist-der-eingang-laura-seiler.html">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </article>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-                                  <article data-history-node-id="264"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-03/Rectangle%20128_48.png" width="1060"
-                                                height="550" alt="" class="img-fluid" />
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Takshashelaa</div>
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a href="blog/path-love-transformative-journey-your-true-self.html">
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">The
-                                                    Path of Love: A Transformative Journey to Your True Self</span>
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              Path of Love is a 7-day immersive experience of deep inner work. It is
-                                              a transformative journey designed to strip away…
-                                            </div>
-                                            <div class="link">
-                                              <a href="blog/path-love-transformative-journey-your-true-self.html">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </article>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 views-row">
-                                  <article data-history-node-id="263"
-                                    class="node node--type-blog node--view-mode-teaser">
-                                    <div class="blog-teaser">
-                                      <div class="row">
-                                        <div class="col-md-6">
-                                          <div class="blog-image">
-                                            <div
-                                              class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
-                                              <img loading="lazy"
-                                                src="sites/default/files/2025-03/Rectangle%20128_46.png" width="1065"
-                                                height="550" alt="" class="img-fluid" />
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="blog-content">
-                                            <div class="blog-for">
-                                              <span>
-                                                <div
-                                                  class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Personal Growth</div>
-                                              </span>
-                                            </div>
-                                            <div class="title">
-                                              <h4><a
-                                                  href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html">
-                                                  <span
-                                                    class="field field--name-title field--type-string field--label-hidden">Coming
-                                                    Home to Yourself: Turiya Hanover on the World of Wisdom
-                                                    Podcast</span>
-                                                </a></h4>
-                                            </div>
-                                            <div class="blog-text">
-                                              We are delighted to share a recent episode of the World of Wisdom
-                                              podcast featuring our co-founder, Turiya Hanover. In…
-                                            </div>
-                                            <div class="link">
-                                              <a
-                                                href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html">Read
-                                                More</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </article>
-                                </div>
+                               
                               </div>
                             </div>
                           </div>

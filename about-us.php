@@ -112,13 +112,7 @@
                             experiences give insight into and freedom from the way our personality structure
                             habitually functions. Thus true awakening needs psychology and true psychology needs the
                             recognition of awakened consciousness.</p>
-                          <p>For nearly 30 years, since our first retreat in India in 1995, Path of Love has grown
-                            organically - &nbsp;with over 95% of people learning about the retreat from a referral
-                            by a friend or family member. This, together with our hundreds of amazing volunteers, is
-                            a testament to the effectiveness of this beautiful, revolutionary, deep work, which
-                            integrates the latest research in Western psychology with proven practices of Eastern
-                            mindfulness and meditation, resulting in real transformation and happiness with life.
-                          </p>
+                          
                         </div>
                         <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
                       </div>
