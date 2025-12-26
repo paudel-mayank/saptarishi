@@ -550,7 +550,7 @@
                                                                                     <a href="wellness-retreat/deutschland/9-2025.html"
                                                                                         hreflang="en">
                                                                                         <img loading="lazy"
-                                                                                            src="sites/default/files/2025-03/Rectangle%20224_3.png"
+                                                                                            src="sites/default/files/2025-03/polusa.png"
                                                                                             width="464" height="344"
                                                                                             alt=""
                                                                                             class="img-fluid w-100" />
