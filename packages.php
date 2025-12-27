@@ -20,8 +20,7 @@
                         <h1>
                           <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                             Explore our natural healing packages</div>
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                        </h1>
+                                              </h1>
                         <div
                           class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                           <p data-pm-slice="1 1 [&quot;blockquote&quot;,{}]">At Takshasheela Ayurveda Aashram, we offer

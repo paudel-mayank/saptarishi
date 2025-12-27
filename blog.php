@@ -16,17 +16,14 @@
                       <h2>
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                           Staying Inspired &amp; Connected</div>
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                      </h2>
-                      <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                      <div
+                                          </h2>
+                                          <div
                         class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                         <p>The Takshashelaa blog gives ideas and practical applications for conscious relating,
                           authentic connection, helping you maintain a robust sense of self in your everyday life.
                         </p>
                       </div>
-                      <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                    </div>
+                                        </div>
                     <div class="all-blogs">
                       <div class="latest-blog">
                         <div class="views-element-container">

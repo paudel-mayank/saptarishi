@@ -180,28 +180,7 @@
                                                         data-drupal-link-system-path="node/24">Blog</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <!-- <li class="nav-item dropdown">
-                          <a href="about-us.html" class="nav-link " data-drupal-link-system-path="node/24">Book</a>
-                        </li> -->
-                                                    <!-- <li class="nav-item dropdown">
-                          <a href="about-us.html" class="nav-link dropdown-toggle"
-                            data-drupal-link-system-path="node/24">About</a>
-                          <span class="caret-mobile"></span>
-                          <ul data-block="nav_main" class="sub-menu nav-level-1">
-                            <li class="nav-item">
-                              <a href="about-us.html" class="dropdown-item" data-drupal-link-system-path="node/24">About
-                                Us</a>
-                            </li>
-                            <li class="nav-item">
-                              <a href="financial-assistance-and-scholarship-information.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/43">Scholarships</a>
-                            </li>
-                            <li class="nav-item">
-                              <a href="support-us.html" class="dropdown-item"
-                                data-drupal-link-system-path="node/42">Donations</a>
-                            </li>
-                          </ul>
-                        </li> -->
+                                                 
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"
                                                         data-drupal-link-system-path="node/11">Contact </a>

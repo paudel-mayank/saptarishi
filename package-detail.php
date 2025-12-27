@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include 'includes/header.php'?>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -22,7 +22,7 @@
                 </div>
               </div>
             </div>
-             
+
                     <div
                         class="field field--name-field-retreat-content field--type-entity-reference-revisions field--label-hidden field__items">
                         <div class="field__item">
@@ -32,46 +32,34 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <div class="content-item">
-                                                    <h2>
-                                                        <div
-                                                            class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
-                                                            Retreat Package</div>
-                                                    </h2>
-                                                    <div
-                                                        class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                        <h4>Meet yourself and your longing at a deeper level.</h4>
-                                                        <p>The 7-Day Path of Love Retreat Package includes:</p>
-                                                        <ul>
-                                                            <li>A one-to-one enrollment consultation with a Path of Love
-                                                                facilitator before the retreat.</li>
-                                                            <li>7 days of immersion in the life-changing Path of Love
-                                                                process with over 100 hours of the retreat, course
-                                                                materials and support.</li>
-                                                            <li>5-day Integration Process to support you after the Path
-                                                                of Love.</li>
-                                                            <li>3 group video follow-up sessions after the Path of Love
-                                                                retreat, led by a Path Retreats facilitator.</li>
-                                                            <li>3 weeks of follow-up sharings with another group member.
-                                                            </li>
-                                                            <li>A 12-week Online Aftercare Program with guidance,
-                                                                insights, and exercises, as well as videos and
-                                                                meditations from our global Path of Love leaders to
-                                                                support your integration.</li>
-                                                            <li>Access to our Advanced Programs, and membership in our
-                                                                worldwide community of graduates, including our Graduate
-                                                                Facebook page, and in-person group sharing and
-                                                                meditation evenings in select cities.</li>
-                                                        </ul>
-                                                    </div>
-                                                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                                                    <div class="button-fill arrow">
-                                                        <!-- <div
-                                                            class="field field--name-field-link field--type-link field--label-hidden field__item">
-                                                            <a href="../../node/95.html">Book now</a>
-                                                        </div> -->
-                                                    </div>
-                                                </div>
+                                               <div class="content-item">
+                                                            <h3>
+                                                                <div
+                                                                    class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
+                                                                    Ayurveda Retreat Package</div>
+                                                        </h3>
+    <div
+        class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
+        <h4>Reconnect with your body, mind, and inner balance.</h4>
+        <p>The 7-Day Saptarishi Ayurveda Ashram Retreat Package includes:</p>
+        <ul>
+            <li>A one-to-one wellness consultation with an experienced Ayurveda practitioner prior to your stay at Saptarishi Ayurveda Ashram.</li>
+            <li>7 days of immersive Ayurvedic living at Saptarishi Ayurveda Ashram, including personalized therapies, daily routines, guidance, and continuous care.</li>
+            <li>A 5-day post-retreat wellness integration plan to help you maintain balance after returning home.</li>
+            <li>3 guided group online follow-up sessions conducted by Saptarishi Ayurveda Ashram wellness experts.</li>
+            <li>3 weeks of personalized wellness check-ins and shared reflections with fellow retreat participants.</li>
+            <li>A 12-week online Ayurveda aftercare program offering dietary guidance, lifestyle practices, herbal insights, and recorded sessions from Saptarishi Ayurveda Ashram teachers.</li>
+            <li>Access to advanced wellness programs and lifelong connection with the Saptarishi Ayurveda Ashram community through group discussions, events, and guided practices.</li>
+        </ul>
+    </div>
+      <div class="button-fill arrow">
+        <!-- <div
+            class="field field--name-field-link field--type-link field--label-hidden field__item">
+            <a href="../../node/95.html">Book now</a>
+        </div> -->
+    </div>
+</div>
+
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="img-item">
@@ -115,48 +103,34 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                         <div class="col-md-6">
                                                 <div class="inner-wrapper">
                                                     <div class="retreat-fees">
                                                         <h4>Package Fees</h4>
                                                         <div class="reserve-price">
                                                             <h5>£2,720</h5>
-                                                            <p>(Price shown includes taxes)</p>
+                                                            <p>(Price shown includes all applicable taxes)</p>
                                                         </div>
                                                     </div>
                                                     <div class="accomodation">
                                                         <h4>Accommodation starting at <span>£795</span></h4>
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-accommodation-starting field--type-text-long field--label-hidden field__item">
-                                                            <p>Accommodation for 7 nights is in addition to the retreat
-                                                                fee and includes meals and tea breaks. At Broughton
-                                                                Sanctuary, guests can choose from a variety of elegant
-                                                                and luxurious rooms within the historic property nestled
-                                                                in the serene Yorkshire countryside. Available
-                                                                accommodation options will be provided after
-                                                                application.</p>
+                                                            <p>Accommodation for 7 nights is separate from the retreat fee and includes wholesome Ayurvedic meals and herbal tea breaks. At Saptarishi Ayurveda Ashram, guests stay in peaceful, comfortable rooms designed to support rest, healing, and balance in a serene natural environment. Available accommodation options will be shared after application.</p>
                                                         </div>
                                                     </div>
                                                     <div class="scholarships">
-                                                        <h4>Scholarships</h4>
+                                                        <h4>Additionals</h4>
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-scholarships field--type-text-long field--label-hidden field__item">
-                                                            <p>Our scholarship program offers a number of partial
-                                                                scholarships for this retreat. If you require financial
-                                                                assistance, please indicate this on the application
-                                                                form.</p>
+                                                            <p>Additional services such as personalized Ayurvedic consultations, Panchakarma therapies, herbal medicines, yoga sessions, and wellness treatments may be added to your retreat experience based on individual needs and recommendations from the Saptarishi Ayurveda Ashram team.</p>
                                                         </div>
                                                     </div>
                                                     <div class="deposit">
                                                         <h4>Deposit</h4>
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-deposit field--type-text-long field--label-hidden field__item">
-                                                            <p>A £500 deposit is payable at time of booking to hold your
-                                                                space. This deposit will be refunded in full if it is
-                                                                decided during the interview that the Path of Love is
-                                                                not the right retreat for you at this time in your life,
-                                                                or if we are not able to meet your financial assistance
-                                                                requirements.</p>
+                                                            <p>A £500 deposit is required at the time of booking to reserve your place. This deposit will be fully refunded if, during the consultation, it is determined that the retreat is not suitable for your current health or wellness needs, or if your financial assistance requirements cannot be accommodated.</p>
                                                         </div>
                                                     </div>
                                                     <!-- <div class="link">
@@ -175,169 +149,20 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="field__item">
-                            <div class="paragraph paragraph--type--retreat-faq-s paragraph--view-mode--default">
-                                <div class="faq-sec">
-                                    <div class="container">
-                                        <div class="heading">
-                                            <h2>
-                                                <div
-                                                    class="field field--name-field-title field--type-string field--label-hidden field__item">
-                                                    What happens during the 7-day Path of Love Process?</div>
-                                            </h2>
-                                        </div>
-                                        <div class="faq-items">
-                                            <div class="views-element-container block block-views block-views-blockpol-faq-block-1"
-                                                id="block-pathretreats-views-block-pol-faq-block-1">
-                                                <div data-block="content">
-                                                    <div
-                                                        class="view view-pol-faq view-id-pol_faq view-display-id-block_1 js-view-dom-id-ba9902ed8dbb3f868ed6989966b535aa6101865e7b107bb96da7774115969be2">
-                                                        <div class="view-content">
-                                                            <div class="views-row">
-                                                                <div class="views-row">
-                                                                    <div
-                                                                        class="views-field views-field-title-1 views-accordion-header js-views-accordion-header-ba9902ed8dbb3f868ed6989966b535aa6101865e7b107bb96da7774115969be2">
-                                                                        <h4 class="field-content">
-                                                                            What happens in the Path of Love?
-                                                                        </h4>
-                                                                    </div>
-                                                                    <div class="views-field views-field-body">
-                                                                        <div class="field-content">
-                                                                            <p>Path of Love is a 7-day immersive
-                                                                                experience of deep inner work. We
-                                                                                intentionally keep the specifics of
-                                                                                process structure confidential, as this
-                                                                                is an essential part of its
-                                                                                effectiveness, but just imagine being in
-                                                                                a room with 30-40 other like minded
-                                                                                individuals, each of you committed to
-                                                                                discovering and transforming the parts
-                                                                                of yourselves that no longer serve you.
-                                                                                Within this group, you’ll work closely
-                                                                                with a smaller group of around 8-12
-                                                                                people, guided by highly skilled
-                                                                                facilitators. The work is supported
-                                                                                through both active and silent
-                                                                                meditations, and the group is held in
-                                                                                silence outside of the group room.</p>
-                                                                            <p>The process unfolds with incredible
-                                                                                precision, each day building on the
-                                                                                last, taking you deeper. It’s a journey
-                                                                                of intensity, profound connection, and
-                                                                                ultimately lightness and freedom—but
-                                                                                that lightness is earned through
-                                                                                courageous self-exploration.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="views-row">
-                                                                    <div
-                                                                        class="views-field views-field-title-1 views-accordion-header js-views-accordion-header-ba9902ed8dbb3f868ed6989966b535aa6101865e7b107bb96da7774115969be2">
-                                                                        <h4 class="field-content">
-                                                                            What is the daily schedule of the Path of
-                                                                            Love?
-                                                                        </h4>
-                                                                    </div>
-                                                                    <div class="views-field views-field-body">
-                                                                        <div class="field-content">
-                                                                            <p>This week-long personal and spiritual
-                                                                                development process is a very safe and
-                                                                                supportive environment for you to engage
-                                                                                in deep inner work in absolute
-                                                                                confidentiality. Though we intentionally
-                                                                                keep the specifics of process structure
-                                                                                confidential, as this is an essential
-                                                                                part of its effectiveness, some of the
-                                                                                elements include:</p>
-                                                                            <p>- Individual and group work within what
-                                                                                we call a small group (around 8-12
-                                                                                people)<br>- Honest self reflection and
-                                                                                inquiry<br>- Deep authentic
-                                                                                sharing&nbsp;<br>- Shadow and exposure
-                                                                                work<br>- Emotional release work<br>-
-                                                                                Physical movement and dance<br>-
-                                                                                Meditation, contemplation and
-                                                                                self-inquiry&nbsp;<br>- Writing
-                                                                                assignments<br>- A staff to participant
-                                                                                ratio up to 1:1</p>
-                                                                            <p>Path of Love, however, is much more than
-                                                                                the sum of its parts. It is an
-                                                                                incredibly well crafted process that
-                                                                                evolves and takes you on a journey like
-                                                                                no other, challenging and enriching you
-                                                                                along the way—many graduates share that
-                                                                                they experienced years of transformation
-                                                                                in one week.</p>
-                                                                            <p>The process unfolds with incredible
-                                                                                precision, each day building on the
-                                                                                last, taking you deeper. It’s a journey
-                                                                                of intensity, profound connection, and
-                                                                                ultimately lightness and freedom—but
-                                                                                that lightness is earned through
-                                                                                courageous self-exploration.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="views-row">
-                                                                    <div
-                                                                        class="views-field views-field-title-1 views-accordion-header js-views-accordion-header-ba9902ed8dbb3f868ed6989966b535aa6101865e7b107bb96da7774115969be2">
-                                                                        <h4 class="field-content">
-                                                                            Is Path of Love right for me at this time?
-                                                                        </h4>
-                                                                    </div>
-                                                                    <div class="views-field views-field-body">
-                                                                        <div class="field-content">
-                                                                            <p>Path of Love is for anyone longing for
-                                                                                personal or spiritual development; for a
-                                                                                meaningful change in their life. The
-                                                                                application process helps determine if
-                                                                                this is the right retreat and the right
-                                                                                time for you. We offer a friendly and
-                                                                                comprehensive interview with one of our
-                                                                                leaders or facilitators where you will
-                                                                                be met compassionately, answer important
-                                                                                questions to support your process, and
-                                                                                where you can ask all and any questions
-                                                                                you may have.</p>
-                                                                            <p>You will find you will get from the
-                                                                                process what you bring and so finding
-                                                                                the right time and place for you to
-                                                                                address all your desires will be of
-                                                                                uttermost importance. If the time is not
-                                                                                quite right, we may suggest other
-                                                                                preparatory steps to support you in the
-                                                                                future and next phases of your life.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="link">
-                                            <div
-                                                class="field field--name-field-link field--type-link field--label-hidden field__item">
-                                                <a href="../../about-us.html">Read more FAQs</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+
                         <div class="field__item">
                         </div>
-                    
+
                     </div>
                 </div>
             </article>
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include 'includes/footer.php'?>

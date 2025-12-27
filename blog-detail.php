@@ -28,8 +28,7 @@
                     src="../sites/default/files/styles/wide/public/2025-02/Rectangle%20128_1107dc.png?itok=P9K6jJjc"
                     width="1065" height="550" alt="" class="img-fluid image-style-wide" />
                 </div>
-                <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-              </div>
+                          </div>
               <div class="row">
                 <div class="col-md-12">
                   <div class="blog-full-text">

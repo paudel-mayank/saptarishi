@@ -222,8 +222,7 @@
                                     growth and meditation retreat that will alter your life in a substantial and enduring
                                     way.</p>
                                 </div>
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                              </div>
+                                                            </div>
                               <div class="link small">
                                
                                 <div
@@ -264,8 +263,7 @@
                                   <p>Extensive ongoing support, integration and advanced retreats for Path of Love
                                     graduates, including residential, weekend and conscious relating courses.</p>
                                 </div>
-                                <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                              </div>
+                                                            </div>
                               <div class="link small">
                                
                                 <div
@@ -659,16 +657,14 @@
                     <div class="field field--name-field-all-articles field--type-link field--label-hidden field__item">
                       <a href="blog.html">All articles</a>
                     </div>
-                    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                  </div>
+                                  </div>
                 </div>
               </div>
             </div>
             <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--blogs-articles.html.twig' -->
           </div>
       </div>
-      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-    </div>
+      </div>
     </article>
     <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node.html.twig' -->
   </div>

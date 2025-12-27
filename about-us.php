@@ -23,7 +23,6 @@
               </div>
             </div>
             <div class="field__item">
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph.html.twig' -->
             </div>
             <div class="field__item">
               <div class="paragraph image-right paragraph--type--image-and-content paragraph--view-mode--default">
@@ -41,8 +40,7 @@
                         <div
                           class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                           shifting global consciousness</div>
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                      </div>
+                                          </div>
                       <div class="heading-text">
                         <div
                           class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
@@ -62,18 +60,17 @@
                             which makes you the unique and beautiful human being that you are, Takshashelaa invites
                             you to join our community and welcomes the contribution your difference makes.</p>
                         </div>
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                      </div>
+                                            </div>
                       <div class="link"></div>
                       <div class="spacer"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
+             
             </div>
             <div class="field__item">
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
+          
               <div class="paragraph paragraph--type--image-and-content paragraph--view-mode--default">
                 <div class="container type-col">
                   <div class="row">
@@ -83,8 +80,7 @@
                           src="sites/default/files/2024-09/Rafia%20and%20Turiya%20Laughing%20on%20Bench.jpg"
                           width="1284" height="1570" alt="Rafia and Turiya laughing on a bench" class="img-fluid" />
                       </div>
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                    </div>
+                                      </div>
                     <div class="col-md-6 intro-type-1">
                       <div class="small-title">
                         <div
@@ -114,18 +110,17 @@
                             recognition of awakened consciousness.</p>
                           
                         </div>
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/field--text-long.html.twig' -->
-                      </div>
+                                            </div>
                       <div class="link"></div>
                       <div class="spacer"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--image-and-content.html.twig' -->
+             
             </div>
             <div class="field__item">
-              <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--team--default.html.twig' -->
+            
               <div class="paragraph paragraph--type--team paragraph--view-mode--default">
                 <div class="container">
                   <div class="team-member-sec" id="retreats-leaders">
@@ -133,8 +128,7 @@
                       <h2>
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                           Meet the Takshashelaa Leaders</div>
-                        <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field.html.twig' -->
-                      </h2>
+                                          </h2>
                     </div>
                     <div class="member-items">
                       <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-select-team-member--team.html.twig' -->
