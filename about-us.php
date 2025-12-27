@@ -131,7 +131,7 @@
                                           </h2>
                     </div>
                     <div class="member-items">
-                      <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/field/field--paragraph--field-select-team-member--team.html.twig' -->
+                     
                       <div
                         class="field field--name-field-select-team-member field--type-entity-reference field--label-hidden field__items">
                         <div class="row">

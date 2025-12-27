@@ -9,25 +9,7 @@
           <div
             class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
             <div class="field__item">
-              <!-- <div class="paragraph paragraph--type--contact-form-with-image paragraph--view-mode--default"> -->
-              <!-- <div class="paragraph paragraph--type--blog paragraph--view-mode--default">
-                  <div class="container">
-                    <div class="blog-overview">
-                      <div class="blog-upper-content">
-                        <h2>
-                          <div class="field field--name-field-title field--type-string field--label-hidden field__item">
-                      Contact</div>
-                        </h2>
-                        <div
-                          class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                          <p>The Takshashelaa blog gives ideas and practical applications for conscious relating,
-                            authentic connection, helping you maintain a robust sense of self in your everyday life.
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div> -->
+           
               <section class="py-5 bg-light" id="contact">
                 <div class="container">
                   <div class="text-center mb-5">

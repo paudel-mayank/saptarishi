@@ -84,7 +84,6 @@
                         
                             <div class="view-content">
                               <div class="row">
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted--all-blogs--block-2.html.twig' -->
                                 <div class="col-sm-6 col-lg-4 views-row">
                                   <article data-history-node-id="430"
                                     class="node node--type-blog node--view-mode-teaser">
