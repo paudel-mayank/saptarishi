@@ -131,7 +131,7 @@
                         </div>
                         <div class="link">
                           <div class="field field--name-field-link field--type-link field--label-hidden field__item">
-                            <a href="about-us.html">About Takshashelaa</a>
+                            <a href="about-us.php">About Takshashelaa</a>
                           </div>
                         </div>
                         <div class="spacer"></div>
@@ -186,7 +186,7 @@
                               <div class="link small">
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
-                                    href="/find-retreat">Learn more</a></div>
+                                    href="package-detail.php">Learn more</a></div>
                               </div>
                             </div>
                           </div>
@@ -227,7 +227,7 @@
                                
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
-                                    href="/personal-growth-retreat-workshop">Learn more</a></div>
+                                    href="package-detail.php">Learn more</a></div>
                                   </div>
                             </div>
                           </div>
@@ -268,7 +268,7 @@
                                
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
-                                    href="/find-retreat">Learn more</a></div>
+                                    href="package-detail.php">Learn more</a></div>
                                   </div>
                             </div>
                           </div>
@@ -300,161 +300,151 @@
                       </div>
                     </div>
                     <!-- Services Grid -->
-                  <div class="field__item">
-                            
-                                  <div class="container">
-                                      <div>
-                                          
-                                                      <div class="view-content">
-                                                          <!-- Updated retreat cards for Takshasheela Ayurveda Aashram -->
-                                                          <!-- Updated version with card classes applied -->
-                                                          <div class="row gy-2">
-                                                              <div class="col-md-6 col-lg-4 views-row">
-                                                                  <article data-history-node-id="79"
-                                                                      class="node node--type-walking-the-path node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                                                                      <div class="retreat-inner card-body p-0">
-                                                                          <div
-                                                                              class="retreat-image-type-sold card-img-top">
-                                                                              <div class="retreat-overview-image">
-                                                                                  <div
-                                                                                      class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                                      <a href="advanced-retreat/usa/9-2025.html"
-                                                                                          hreflang="en">
-                                                                                          <img loading="lazy"
-                                                                                              src="sites/default/files/2025-03/polusa.png"
-                                                                                              width="464" height="344"
-                                                                                              alt="Walking the path USA"
-                                                                                              class="img-fluid w-100" />
-                                                                                      </a>
-                                                                                  </div>
-                                                                              </div>
-                                                                          </div>
-                                                                          <div class="retreat-caption p-3">
-                                                                              <h4 class=" mb-2">
-                                                                                  <span
-                                                                                      class="field field--name-title field--type-string field--label-hidden">Walking
-                                                                                      the Path USA</span>
-                                                                              </h4>
-                                                                              <div
-                                                                                  class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                                  <p style="height:100px;">Path of Love
-                                                                                      graduates, find utter peace in an
-                                                                                      experience that encourages deep
-                                                                                      reflection among the rolling hills
-                                                                                      of Boulder.&nbsp;</p>
-                                                                              </div>
-                                                                              <div class='dink'><a class=" w-100"
-                                                                                      href="advanced-retreat/usa/9-2025.html">Find
-                                                                                      out more</a>
-                                                                              </div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </article>
-                                                              </div>
-                                                              <div class="col-md-6 col-lg-4 views-row">
-                                                                  <article data-history-node-id="164"
-                                                                      class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                                                                      <div class="retreat-inner card-body p-0">
-                                                                          <div
-                                                                              class="retreat-image-type-sold sold-gradient card-img-top position-relative">
-                                                                              <!-- <div
-                                                                                  class="retreat-type position-absolute top-2 left-2 bg-white px-3 py-1 rounded-full text-sm fw-bold">
-                                                                                  <p>7-day retreat</p>
-                                                                              </div> -->
-                                                                              <div class="retreat-overview-image">
-                                                                                  <div
-                                                                                      class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                                      <a href="wellness-retreat/deutschland/9-2025.html"
-                                                                                          hreflang="en">
-                                                                                          <img loading="lazy"
-                                                                                              src="sites/default/files/2025-03/polusa.png"
-                                                                                              width="464" height="344"
-                                                                                              alt=""
-                                                                                              class="img-fluid w-100" />
-                                                                                      </a>
-                                                                                  </div>
-                                                                              </div>
-                                                                              <!-- <div
-                                                                                  class="sold-out position-absolute bottom-2 right-2 bg-danger text-white px-3 py-1 rounded-full fw-bold">
-                                                                                  <p>SOLD OUT</p>
-                                                                              </div> -->
-                                                                          </div>
-                                                                          <div class="retreat-caption p-3">
-                                                                              <h4 class=" mb-2">
-                                                                                  <span
-                                                                                      class="field field--name-title field--type-string field--label-hidden">Path
-                                                                                      of Love Deutschland</span>
-                                                                              </h4>
-                                                                              <div
-                                                                                  class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                                  <p style="height:100px;">Ziehe dich für
-                                                                                      eine außergewöhnliche Woche in den
-                                                                                      natürlichen Charme Bayerns zurück,
-                                                                                      um dich von alten Mustern zu
-                                                                                      befreien und ein lebendigeres Leben
-                                                                                      zu umarmen...</p>
-                                                                              </div>
-                                                                              <div class='dink'><a class=" w-100"
-                                                                                      href="wellness-retreat/deutschland/9-2025.html">Find
-                                                                                      out more</a>
-                                                                              </div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </article>
-                                                              </div>
-                                                              <div class="col-md-6 col-lg-4 views-row">
-                                                                  <article data-history-node-id="324"
-                                                                      class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                                                                      <div class="retreat-inner card-body p-0">
-                                                                          <div
-                                                                              class="retreat-image-type-sold card-img-top">
-                                                                              <!-- <div
-                                                                                  class="retreat-type position-absolute top-2 left-2 bg-white px-3 py-1 rounded-full text-sm ">
-                                                                                  <p>7-day retreat</p>
-                                                                              </div> -->
-                                                                              <div class="retreat-overview-image">
-                                                                                  <div
-                                                                                      class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                                      <a href="wellness-retreat/sweden/10-2025.html"
-                                                                                          hreflang="en">
-                                                                                          <img loading="lazy"
-                                                                                              src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
-                                                                                              width="464" height="344"
-                                                                                              alt="Sweden Retreat"
-                                                                                              class="img-fluid w-100" />
-                                                                                      </a>
-                                                                                  </div>
-                                                                              </div>
-                                                                          </div>
-                                                                          <div class="retreat-caption p-3">
-                                                                              <h4 class=" mb-2">
-                                                                                  <span
-                                                                                      class="field field--name-title field--type-string field--label-hidden">Path
-                                                                                      of Love Sweden</span>
-                                                                              </h4>
-                                                                              <div
-                                                                                  class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                                  <p style="height:100px;">Seven days of
-                                                                                      profound self-exploration and inner
-                                                                                      connection in the Swedish
-                                                                                      countryside.</p>
-                                                                              </div>
-                                                                              <div class='dink'><a class=" w-100"
-                                                                                      href="wellness-retreat/sweden/10-2025.html">Find
-                                                                                      out more</a>
-                                                                              </div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </article>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  
-                                    
-                                  </div>
-                              </div>
-                          </div>
-                  </div>
+                 <div class="field__item">
+    <div class="container">
+        <div>
+            <div class="view-content">
+                <!-- Takshasheela Ayurveda Aashram Services -->
+                <div class="row gy-2">
+
+                    <!-- Service 1 -->
+                    <div class="col-md-6 col-lg-4 views-row">
+                        <article
+                            class="node node--type-walking-the-path node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                            <div class="retreat-inner card-body p-0">
+                                <div class="retreat-image-type-sold card-img-top">
+                                    <div class="retreat-overview-image">
+                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                            <a href="service-detail.php">
+                                                <img loading="lazy"
+                                                    src="sites/default/files/2025-03/polusa.png"
+                                                    width="464" height="344"
+                                                    alt="Panchakarma Therapy"
+                                                    class="img-fluid w-100" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="retreat-caption p-3">
+                                    <h4 class="mb-2">
+                                        <span class="field field--name-title field--type-string field--label-hidden">
+                                            Panchakarma & Detox Therapy
+                                        </span>
+                                    </h4>
+
+                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                        <p style="height:100px;">
+                                            Experience authentic Panchakarma therapies designed to cleanse the body,
+                                            eliminate toxins, and restore internal balance through classical Ayurvedic
+                                            treatments ..
+                                        </p>
+                                    </div>
+
+                                    <div class="dink">
+                                        <a class="w-100" href="service-detail.php">
+                                            Explore Treatment
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="col-md-6 col-lg-4 views-row">
+                        <article
+                            class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                            <div class="retreat-inner card-body p-0">
+                                <div class="retreat-image-type-sold card-img-top position-relative">
+                                    <div class="retreat-overview-image">
+                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                            <a href="service-detail.php">
+                                                <img loading="lazy"
+                                                    src="sites/default/files/2025-03/polusa.png"
+                                                    width="464" height="344"
+                                                    alt="Ayurvedic Wellness Retreats"
+                                                    class="img-fluid w-100" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="retreat-caption p-3">
+                                    <h4 class="mb-2">
+                                        <span class="field field--name-title field--type-string field--label-hidden">
+                                            Ayurvedic Wellness Retreats
+                                        </span>
+                                    </h4>
+
+                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                        <p style="height:100px;">
+                                            Immerse yourself in holistic wellness retreats combining Ayurvedic
+                                            therapies, yoga, meditation, and mindful living practices to promote
+                                            long-term health, vitality..
+                                        </p>
+                                    </div>
+
+                                    <div class="dink">
+                                        <a class="w-100" href="service-detail.php">
+                                            View Retreat Details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="col-md-6 col-lg-4 views-row">
+                        <article
+                            class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                            <div class="retreat-inner card-body p-0">
+                                <div class="retreat-image-type-sold card-img-top">
+                                    <div class="retreat-overview-image">
+                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                            <a href="service-detail.php">
+                                                <img loading="lazy"
+                                                    src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
+                                                    width="464" height="344"
+                                                    alt="Personalized Healing Programs"
+                                                    class="img-fluid w-100" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="retreat-caption p-3">
+                                    <h4 class="mb-2">
+                                        <span class="field field--name-title field--type-string field--label-hidden">
+                                            Personalized Healing Programs
+                                        </span>
+                                    </h4>
+
+                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                        <p style="height:100px;">
+                                            Receive individualized Ayurvedic healing programs based on your unique
+                                            body constitution (Dosha), health conditions, and lifestyle—guided by
+                                            experienced Ayurvedic ..
+                                        </p>
+                                    </div>
+
+                                    <div class="dink">
+                                        <a class="w-100" href="service-detail.php">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                   <div style="max-width: 200px; margin: 30px auto; text-align: center;">
                     <p class="button-contact">See More</p>
                   </div>
@@ -567,7 +557,7 @@
                                         about her Path of Love journey
                                       </div>
                                       <div class="normal-link">
-                                        <a href="blog/vulnerability-not-fragility-it-entrance-reflections-laura-seiler">Read
+                                        <a href="blog-detail.php">Read
                                           More</a>
                                       </div>
                                     </div>
@@ -591,7 +581,7 @@
                                       </div>
                                     </div>
                                     <div class="blog-article-content">
-                                      <h4><a href="blog/path-love-transformative-journey-your-true-self.html"
+                                      <h4><a href="blog-detail.php"
                                           rel="bookmark">
                                           <span class="field field--name-title field--type-string field--label-hidden">The
                                             Path of Love: A Transformative Journey to Your True Self</span>
@@ -601,7 +591,7 @@
                                         transformative journey designed to strip away…
                                       </div>
                                       <div class="normal-link">
-                                        <a href="blog/path-love-transformative-journey-your-true-self.html">Read
+                                        <a href="blog-detail.php">Read
                                           More</a>
                                       </div>
                                     </div>
@@ -624,7 +614,7 @@
                                       </div>
                                     </div>
                                     <div class="blog-article-content">
-                                      <h4><a href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html"
+                                      <h4><a href="blog-detail.php"
                                           rel="bookmark">
                                           <span
                                             class="field field--name-title field--type-string field--label-hidden">Coming
@@ -635,22 +625,19 @@
                                         featuring our co-founder, Turiya Hanover. In…
                                       </div>
                                       <div class="normal-link">
-                                        <a href="blog/coming-home-yourself-turiya-hanover-world-wisdom-podcast.html">Read
+                                        <a href="blog-detail.php">Read
                                           More</a>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </article>
-                              <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node--blog--home-blogs.html.twig' -->
+                            
                             </div>
                           </div>
-                          <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted--blogs-articles.html.twig' -->
                         </div>
                       </div>
-                      <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
                     </div>
-                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
                   </div>
                   <div class="all-link link">
                    
@@ -661,14 +648,11 @@
                 </div>
               </div>
             </div>
-            <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--blogs-articles.html.twig' -->
           </div>
       </div>
       </div>
     </article>
-    <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/content/node.html.twig' -->
   </div>
-  <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block.html.twig' -->
   </div>
   </div>
   <script>

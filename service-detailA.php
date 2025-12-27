@@ -374,7 +374,7 @@
                     <ul>
                       <li><strong>Duration:</strong> 90 minutes</li>
                       <li><strong>Location:</strong> Takshasheela Ayurveda Aashram</li>
-                      <li><strong>Price:</strong> ₹4,500</li>
+                      <!-- <li><strong>Price:</strong> ₹4,500</li> -->
                     </ul>
                   </div>
 
@@ -393,7 +393,7 @@
                     <ul>
                       <li>English</li>
                       <li>Hindi</li>
-                      <li>Kannada</li>
+                      <li>Nepali</li>
                     </ul>
                   </div>
                 </div>

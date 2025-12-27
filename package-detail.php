@@ -106,14 +106,14 @@
                                          <div class="col-md-6">
                                                 <div class="inner-wrapper">
                                                     <div class="retreat-fees">
-                                                        <h4>Package Fees</h4>
+                                                        <!-- <h4>Package Fees</h4>
                                                         <div class="reserve-price">
                                                             <h5>£2,720</h5>
                                                             <p>(Price shown includes all applicable taxes)</p>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="accomodation">
-                                                        <h4>Accommodation starting at <span>£795</span></h4>
+                                                        <!-- <h4>Accommodation starting at <span>£795</span></h4> -->
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-accommodation-starting field--type-text-long field--label-hidden field__item">
                                                             <p>Accommodation for 7 nights is separate from the retreat fee and includes wholesome Ayurvedic meals and herbal tea breaks. At Saptarishi Ayurveda Ashram, guests stay in peaceful, comfortable rooms designed to support rest, healing, and balance in a serene natural environment. Available accommodation options will be shared after application.</p>
@@ -130,7 +130,7 @@
                                                         <h4>Deposit</h4>
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-deposit field--type-text-long field--label-hidden field__item">
-                                                            <p>A £500 deposit is required at the time of booking to reserve your place. This deposit will be fully refunded if, during the consultation, it is determined that the retreat is not suitable for your current health or wellness needs, or if your financial assistance requirements cannot be accommodated.</p>
+                                                            <p>A  deposit is required at the time of booking to reserve your place. This deposit will be fully refunded if, during the consultation, it is determined that the retreat is not suitable for your current health or wellness needs, or if your financial assistance requirements cannot be accommodated.</p>
                                                         </div>
                                                     </div>
                                                     <!-- <div class="link">
