@@ -49,128 +49,129 @@
                           <div class="lasting-benefits-heading text-center" style="padding-bottom: 30px;">
                             <h5 class="text-uppercase small-title">Packages</h5>
                           </div>
-                          <div class="view-content">
-                            <div class="row">
-                              <div class="col-md-6 col-lg-4 views-row">
-                                <article data-history-node-id="79"
-                                  class="node node--type-walking-the-path node--view-mode-find-you-retreat">
-                                  <div class="retreat-inner">
-                                    <div class="retreat-image-type-sold">
-                                      <div class="retreat-type">
-                                        <p>Advanced retreat</p>
-                                      </div>
-                                      <div class="retreat-overview-image">
-                                        <div
-                                          class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                          <a href="advanced-retreat/usa/9-2025.html" hreflang="en">
-                                            <img loading="lazy" src="sites/default/files/2025-03/polusa.png" width="464"
-                                              height="344" alt="Walking the path USA" class="img-fluid" />
-                                          </a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="retreat-caption">
-                                      <h4>
-                                        <span
-                                          class="field field--name-title field--type-string field--label-hidden">Walking
-                                          the Path USA</span>
-                                      </h4>
-                                      <div
-                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                        <p style="height:100px;">Path of Love graduates, find utter peace in an
-                                          experience that encourages
-                                          deep reflection among the rolling hills of Boulder.&nbsp;</p>
-                                      </div>
-         
-                                      <div class="link">
-                                        <a href="package-detail.php">Find out more</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </article>
-                              </div>
-                              <div class="col-md-6 col-lg-4 views-row">
-                                <article data-history-node-id="164"
-                                  class="node node--type-path-of-love node--view-mode-find-you-retreat">
-                                  <div class="retreat-inner">
-                                    <div class="retreat-image-type-sold sold-gradient">
-                                      <div class="retreat-type">
-                                        <p>7-day retreat</p>
-                                      </div>
-                                      <div class="retreat-overview-image">
-                                        <div
-                                          class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                          <a href="wellness-retreat/deutschland/9-2025.html" hreflang="en">
-                                            <img loading="lazy" src="sites/default/files/2025-03/Rectangle%20224_3.png"
-                                              width="464" height="344" alt="" class="img-fluid" />
-                                          </a>
-                                        </div>
-                                      </div>
-                                      <div class="sold-out">
-                                        <p>SOLD OUT</p>
-                                      </div>
-                                    </div>
-                                    <div class="retreat-caption">
-                                      <h4>
-                                        <span
-                                          class="field field--name-title field--type-string field--label-hidden">Path of
-                                          Love Deutschland</span>
-                                      </h4>
-                                      <div
-                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                        <p style="height:100px;">Ziehe dich für eine außergewöhnliche Woche in den
-                                          natürlichen Charme Bayerns
-                                          zurück, um dich von alten Mustern zu befreien und ein lebendigeres Leben zu
-                                          umarmen...</p>
-                                      </div>
-                                  
-                                      <div class="link">
-                                        <a href="package-detail.php">Find out more</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </article>
-                              </div>
-                              <div class="col-md-6 col-lg-4 views-row">
-                                <article data-history-node-id="324"
-                                  class="node node--type-path-of-love node--view-mode-find-you-retreat">
-                                  <div class="retreat-inner">
-                                    <div class="retreat-image-type-sold">
-                                      <div class="retreat-type">
-                                        <p>7-day retreat</p>
-                                      </div>
-                                      <div class="retreat-overview-image">
-                                        <div
-                                          class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                          <a href="wellness-retreat/sweden/10-2025.html" hreflang="en">
-                                            <img loading="lazy"
-                                              src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
-                                              width="464" height="344" alt="Sweden Retreat" class="img-fluid" />
-                                          </a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="retreat-caption">
-                                      <h4>
-                                        <span
-                                          class="field field--name-title field--type-string field--label-hidden">Path of
-                                          Love Sweden</span>
-                                      </h4>
-                                      <div
-                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                        <p style="height:100px;">Seven days of profound self-exploration and inner
-                                          connection in the Swedish
-                                          countryside.</p>
-                                      </div>
-                                      <div class="link">
-                                        <a href="package-detail.php">Find out more</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </article>
-                              </div>
-                            </div>
-                          </div>
+                     <div class="view-content">
+  <div class="row">
+
+    <!-- Package 1 -->
+    <div class="col-md-6 col-lg-4 views-row">
+      <article class="node node--type-walking-the-path node--view-mode-find-you-retreat">
+        <div class="retreat-inner">
+          <div class="retreat-image-type-sold">
+            <div class="retreat-type">
+              <p>Intensive Healing Program</p>
+            </div>
+            <div class="retreat-overview-image">
+              <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                <a href="panchakarma-retreat.html">
+                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                       width="464" height="344" alt="Panchakarma Retreat" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="retreat-caption">
+            <h4>
+              <span class="field field--name-title field--type-string field--label-hidden">
+                Panchakarma Rejuvenation 
+              </span>
+            </h4>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+              <p style="height:100px;">
+                A deeply therapeutic Ayurvedic detox designed to cleanse the body, restore balance,
+                and rejuvenate the mind through personalized treatments.
+              </p>
+            </div>
+            <div class="link">
+              <a href="package-detail.php">Find out more</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Package 2 -->
+    <div class="col-md-6 col-lg-4 views-row">
+      <article class="node node--type-path-of-love node--view-mode-find-you-retreat">
+        <div class="retreat-inner">
+          <div class="retreat-image-type-sold sold-gradient">
+            <div class="retreat-type">
+              <p>7-Day Ayurveda Retreat</p>
+            </div>
+            <div class="retreat-overview-image">
+              <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                <a href="ayurveda-wellness-retreat.html">
+                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                       width="464" height="344" alt="Ayurvedic Wellness Retreat" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+            <!-- <div class="sold-out">
+              <p>SOLD OUT</p>
+            </div> -->
+          </div>
+
+          <div class="retreat-caption">
+            <h4>
+              <span class="field field--name-title field--type-string field--label-hidden">
+                Ayurvedic Wellness Immersion
+              </span>
+            </h4>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+              <p style="height:100px;">
+                Discover the foundations of Ayurveda with daily therapies, sattvic meals,
+                yoga, and meditation—ideal for stress relief, lifestyle reset, and holistic well-being.
+              </p>
+            </div>
+            <div class="link">
+              <a href="package-detail.php">Find out more</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Package 3 -->
+    <div class="col-md-6 col-lg-4 views-row">
+      <article class="node node--type-path-of-love node--view-mode-find-you-retreat">
+        <div class="retreat-inner">
+          <div class="retreat-image-type-sold">
+            <div class="retreat-type">
+              <p>7-Day Retreat</p>
+            </div>
+            <div class="retreat-overview-image">
+              <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                <a href="mind-body-balance-retreat.html">
+                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                       width="464" height="344" alt="Mind Body Balance Retreat" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="retreat-caption">
+            <h4>
+              <span class="field field--name-title field--type-string field--label-hidden">
+                Mind–Body Balance Retreat
+              </span>
+            </h4>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+              <p style="height:100px;">
+                Reconnect with yourself in a peaceful ashram setting through Ayurvedic therapies,
+                pranayama, meditation, and nature-based healing practices.
+              </p>
+            </div>
+            <div class="link">
+              <a href="package-detail.php">Find out more</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</div>
+
                         </div>
                       </div>
                     </div>

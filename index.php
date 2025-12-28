@@ -642,7 +642,7 @@
                   <div class="all-link link">
                    
                     <div class="field field--name-field-all-articles field--type-link field--label-hidden field__item">
-                      <a href="blog.html">All articles</a>
+                      <a href="blog.php">All articles</a>
                     </div>
                                   </div>
                 </div>

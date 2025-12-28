@@ -35,28 +35,25 @@
                             <h5 id="block-pathretreats-resources-menu">Services</h5>
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
-                                    <a href="financial-assistance-and-scholarship-information.html" class="nav-link"
-                                        data-drupal-link-system-path="node/43">Applying for Financial Aid</a>
+                                    <a href="service-detail.php" class="nav-link"
+                                        data-drupal-link-system-path="node/43">Emotional Healing</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="contact-us.html" class="nav-link"
-                                        data-drupal-link-system-path="node/46">Contact Us </a>
+                               <li class="nav-item">
+                                    <a href="service-detail.php" class="nav-link"
+                                        data-drupal-link-system-path="node/43">Mindfullness Release</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="about-us.html#faq-sec" class="nav-link"
-                                        data-drupal-link-system-path="node/24">Retreat
-                                        FAQs</a>
+                               <li class="nav-item">
+                                    <a href="service-detail.php" class="nav-link"
+                                        data-drupal-link-system-path="node/43">Trauma Release Therapy</a>
                                 </li>
                             </ul>
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
                         </nav>
                         
-                        <nav role="navigation" aria-labelledby="block-pathretreats-landingpages-menu"
+                        <!-- <nav role="navigation" aria-labelledby="block-pathretreats-landingpages-menu"
                             id="block-pathretreats-landingpages"
                             class="block block-menu navigation menu--landing-pages">
                             <h5 id="block-pathretreats-landingpages-menu">Landing Pages</h5>
  
-                            <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
                                     <a href="node/377.html" class="nav-link"
@@ -64,9 +61,8 @@
                                         Retreat</a>
                                 </li>
                             </ul>
-                            <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/navigation/menu.html.twig' -->
-                        </nav>
-                        <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/block/block--system-menu-block.html.twig' -->
+            
+                        </nav> -->
                     </div>
                 </div>
                 <div class="col-newsletter">

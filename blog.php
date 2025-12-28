@@ -39,7 +39,7 @@
                                           <div
                                             class="field field--name-field-overview-image field--type-image field--label-hidden field__item">
                                             <img loading="lazy"
-                                              src="sites/default/files/2025-10/aaron-brunhofer-SwwoxDZrW5I-unsplash.jpg"
+                                              src="sites/default/files/2025-10/caroline-hernandez-TMpQ5R9mbOc-unsplash_3.jpg"
                                               width="2048" height="1536" alt="" class="img-fluid" />
                                           </div>
                                         </div>
