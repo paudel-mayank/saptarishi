@@ -450,32 +450,7 @@
                   </div>
               </section>
             </div>
-            <!-- <div class="field__item">
-              <div class="paragraph paragraph--type--what-our-retreats-bring paragraph--view-mode--default">
-                <div class="rotate-image-outer">
-                  <div class="container">
-                    <div class="rotate-image">
-                      <div class="rotate-text">
-                        <div class="circle">
-                          <div class="logo"><img src="themes/custom/pathretreats/images/widhet-icon.svg"
-                              class="img-fluid"></div>
-                          <div class="circle-text">
-                            <p>Find your path Find your path</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="half-above-img">
-                        <div class="field field--name-field-image field--type-image field--label-hidden field__item">
-                          <img loading="lazy" src="sites/default/files/2024-09/hugging%20cropped.jpg" width="1006"
-                            height="738" alt="POL participants" class="img-fluid" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-         
+
             <div class="testimonial-container">
               <div
                 class=" small-title field field--name-field-small-title field--type-string field--label-hidden field__item text-center">
@@ -507,7 +482,7 @@
                 <button class="nav-button next-btn">&#10095;</button>
               </div>
             </div>
-          </div>
+      
           <div class="field__item">
             <div class="paragraph paragraph--type--blogs-articles paragraph--view-mode--default">
               <div class="container">
@@ -539,7 +514,7 @@
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
                                         <img loading="eager"
-                                          src="sites/default/files/styles/wide/public/2025-06/Untitled%20design%20(5)_01392.png?itok=-82Eya0G"
+                                          src="assets/2025-06/Untitled%20design%20(5)_01392.png?itok=-82Eya0G"
                                           width="1060" height="550" alt="" class="img-fluid image-style-wide" />
                                                 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
                                       </div>
@@ -575,7 +550,7 @@
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
                                         <img loading="eager"
-                                          src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_474135.png?itok=SJWBPuM9"
+                                          src="assets/2025-03/Rectangle%20128_474135.png?itok=SJWBPuM9"
                                           width="1060" height="550" alt="" class="img-fluid image-style-wide" />
                                                 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-style.html.twig' -->
                                       </div>
@@ -609,7 +584,7 @@
                                       <div
                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
                                         <img loading="eager"
-                                          src="sites/default/files/styles/wide/public/2025-03/Rectangle%20128_45b654.png?itok=kTxXwSj9"
+                                          src="assets/2025-03/Rectangle%20128_45b654.png?itok=kTxXwSj9"
                                           width="1065" height="550" alt="" class="img-fluid image-style-wide" />
                                       </div>
                                     </div>
@@ -649,7 +624,7 @@
               </div>
             </div>
           </div>
-      </div>
+ 
       </div>
     </article>
   </div>

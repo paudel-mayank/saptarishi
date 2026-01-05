@@ -25,7 +25,7 @@
               <div class="blog-full-image">
                 <div class="field field--name-field-image field--type-image field--label-hidden field__item">
                   <img loading="lazy"
-                    src="../sites/default/files/styles/wide/public/2025-02/Rectangle%20128_1107dc.png?itok=P9K6jJjc"
+                    src="assets/2025-02/Rectangle%20128_1107dc.png?itok=P9K6jJjc"
                     width="1065" height="550" alt="" class="img-fluid image-style-wide" />
                 </div>
                           </div>
@@ -52,9 +52,7 @@
                         process Path of Love.</p>
                       <p>Her work is about healing the effects of trauma and supporting the journey to wholeness and
                         clarity about who you really are.&nbsp;</p>
-                      <p><a
-                          href="https://open.spotify.com/episode/1QwB9YkMWr1jr4AVb1aGov?si=ycBHJG4kQ9SWmFurcqb3Uw&amp;nd=1&amp;dlsi=b4b43dea8ce64fca">Listen
-                          to this incredible episode&gt;</a></p>
+                      <p></p>
                     </div>
                   </div>
                 </div>

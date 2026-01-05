@@ -54,7 +54,7 @@
                                             </span>
                                           </div>
                                           <div class="title">
-                                            <h4><a href="blog/what-actually-happens-path-love.html">
+                                            <h4><a href="blog-detail.php">
                                                 <span
                                                   class="field field--name-title field--type-string field--label-hidden">What
                                                   Actually Happens at Path of Love</span>
@@ -110,7 +110,7 @@
                                             </div>
                                             <div class="title">
                                               <h4><a
-                                                  href="blog/path-love-retreat-why-every-parent-deserves-seven-days-me-time.html">
+                                                  href="blog-detail.php">
                                                   <span
                                                     class="field field--name-title field--type-string field--label-hidden">The
                                                     Path of Love Retreat: Why Every Parent Deserves Seven Days of Me
@@ -122,7 +122,7 @@
                                               Even when you’re technically “off,” you’re not…
                                             </div>
                                             <div class="link">
-                                              <a href="details/blog-detail.php">Read
+                                              <a href="blog-detail.php">Read
                                                 More</a>
                                             </div>
                                           </div>
@@ -156,7 +156,7 @@
                                               </span>
                                             </div>
                                             <div class="title">
-                                              <h4><a href="blog/magic-path-love-coming-home-wholeness-ines-schonenberg">
+                                              <h4><a href="blog-detail.php">
                                                   <span
                                                     class="field field--name-title field--type-string field--label-hidden">The
                                                     Magic of Path of Love – Coming Home to Wholeness by Ines
@@ -171,7 +171,7 @@
                                               around me).&quot;
                                             </div>
                                             <div class="link">
-                                              <a href="blog/magic-path-love-coming-home-wholeness-ines-schonenberg">Read
+                                              <a href="blog-detail.php">Read
                                                 More</a>
                                             </div>
                                           </div>
@@ -211,7 +211,7 @@
                                             </div>
                                             <div class="title">
                                               <h4><a
-                                                  href="blog/vulnerability-not-fragility-it-entrance-reflections-laura-seiler">
+                                                  href="blog-detail.php">
                                                   <span
                                                     class="field field--name-title field--type-string field--label-hidden">Vulnerability
                                                     is not Fragility. It is the Entrance — Reflections by Laura
@@ -224,7 +224,7 @@
                                             </div>
                                             <div class="link">
                                               <a
-                                                href="blog/vulnerability-not-fragility-it-entrance-reflections-laura-seiler">Read
+                                                href="blog-detail.php">Read
                                                 More</a>
                                             </div>
                                           </div>

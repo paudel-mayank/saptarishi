@@ -82,6 +82,7 @@
         color: #4b5563;
         margin-bottom: 24px;
         line-height: 1.6;
+        height:100px;
     }
     /* client info matches blog meta layout */
     .client-info {
