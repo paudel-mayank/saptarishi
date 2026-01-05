@@ -79,6 +79,7 @@
         data-search-pseudo-elements></script>
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 </head>
 
@@ -97,7 +98,7 @@
 
 
 
- 
+
                             <div class="region region-branding">
 
 
@@ -133,7 +134,7 @@
 
                                 </div>
 
-                                
+
 
 
                             </div>
@@ -154,7 +155,7 @@
 
 
 
-                                        
+
 
 
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
@@ -205,8 +206,8 @@
 
 
                                     <div class="speek-to-advisor">
-                                        <a href="../discovery-call-booking-form.html"><img
-                                                src="../themes/custom/pathretreats/images/speak.svg"> Book a
+                                        <a href="discovery-call-booking-form.html"><img
+                                                src="themes/custom/pathretreats/images/speak.svg"> Book a
                                             Discovery Call</a>
                                     </div>
                                 </div>

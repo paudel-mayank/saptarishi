@@ -43,7 +43,7 @@
                       </form>
                     </div>
                     <!-- Organization Details -->
-                    <div class="flex-fill d-flex flex-column justify-content-center">
+                    <div class="flex-fill d-flex flex-column justify-content-center pt-4">
                       <h5 class="fw-bold mb-4">Contact Details</h5>
                       <!-- Address -->
                       <div class="d-flex align-items-start mb-4">
@@ -83,12 +83,7 @@
                       </div>
                       <hr class="my-3">
                       <!-- Social Links -->
-                      <h6 class="fw-semibold mt-3 mb-2">Follow Us</h6>
-                      <div class="d-flex gap-3 fs-4">
-                        <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="text-primary"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="text-primary"><i class="bi bi-twitter-x"></i></a>
-                      </div>
+          
                     </div>
                   </div>
                 </div>

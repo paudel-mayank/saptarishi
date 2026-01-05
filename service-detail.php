@@ -521,7 +521,7 @@
 
                                     <div class="dink">
                                         <a class="w-100" href="service-detail.php">
-                                            Explore Treatment
+                                            View Details
                                         </a>
                                     </div>
                                 </div>
@@ -565,7 +565,7 @@
 
                                     <div class="dink">
                                         <a class="w-100" href="service-detail.php">
-                                            View Retreat Details
+                                            View Details
                                         </a>
                                     </div>
                                 </div>

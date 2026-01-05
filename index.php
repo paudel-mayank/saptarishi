@@ -1,4 +1,4 @@
-  <?php include 'includes/header.php' ?>
+  <?php include 'includes/header.php'?>
 
   <div class="main-content">
     <!-- <a id="main-content" tabindex="-1"></a> -->
@@ -116,7 +116,7 @@
                           </div>
                         </div> -->
                         <div class="content">
-                          
+
                           <div
                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                             <p>We are proud of our extraordinary reputation for facilitating profound transformational
@@ -195,7 +195,7 @@
                           <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
                           <div class="paragraph paragraph--type--card paragraph--view-mode--default">
                             <div class="card-image">
-                             
+
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
                                 <img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg"
@@ -204,13 +204,13 @@
                               </div>
                             <div class="card-info">
                               <div class="small-title">
-                               
+
                                 <div
                                   class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                                   7-Day retreat</div>
                                   </div>
                               <h4 class="card-title">
-                               
+
                                 <div
                                   class="field field--name-field-title field--type-string field--label-hidden field__item">
                                   Path of Love Process</div>
@@ -224,7 +224,7 @@
                                 </div>
                                                             </div>
                               <div class="link small">
-                               
+
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
                                     href="package-detail.php">Learn more</a></div>
@@ -237,7 +237,7 @@
                           <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--card.html.twig' -->
                           <div class="paragraph paragraph--type--card paragraph--view-mode--default">
                             <div class="card-image">
-                             
+
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
                                 <img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="422"
@@ -246,13 +246,13 @@
                               </div>
                             <div class="card-info">
                               <div class="small-title">
-                               
+
                                 <div
                                   class="field field--name-field-small-title field--type-string field--label-hidden field__item">
                                   3-5 day retreats</div>
                                   </div>
                               <h4 class="card-title">
-                               
+
                                 <div
                                   class="field field--name-field-title field--type-string field--label-hidden field__item">
                                   Advanced Work</div>
@@ -265,7 +265,7 @@
                                 </div>
                                                             </div>
                               <div class="link small">
-                               
+
                                 <div
                                   class="field field--name-field-link field--type-link field--label-hidden field__item"><a
                                     href="package-detail.php">Learn more</a></div>
@@ -343,7 +343,7 @@
 
                                     <div class="dink">
                                         <a class="w-100" href="service-detail.php">
-                                            Explore Treatment
+                                            View Details
                                         </a>
                                     </div>
                                 </div>
@@ -387,7 +387,7 @@
 
                                     <div class="dink">
                                         <a class="w-100" href="service-detail.php">
-                                            View Retreat Details
+                                            View Details
                                         </a>
                                     </div>
                                 </div>
@@ -431,7 +431,7 @@
 
                                     <div class="dink">
                                         <a class="w-100" href="service-detail.php">
-                                            Learn More
+                                           View Details
                                         </a>
                                     </div>
                                 </div>
@@ -443,7 +443,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
                   <div style="max-width: 200px; margin: 30px auto; text-align: center;">
                     <p class="button-contact">See More</p>
@@ -482,7 +482,7 @@
                 <button class="nav-button next-btn">&#10095;</button>
               </div>
             </div>
-      
+
           <div class="field__item">
             <div class="paragraph paragraph--type--blogs-articles paragraph--view-mode--default">
               <div class="container">
@@ -607,7 +607,7 @@
                                   </div>
                                 </div>
                               </article>
-                            
+
                             </div>
                           </div>
                         </div>
@@ -615,16 +615,16 @@
                     </div>
                   </div>
                   <div class="all-link link">
-                   
+
                     <div class="field field--name-field-all-articles field--type-link field--label-hidden field__item">
                       <a href="blog.php">All articles</a>
                     </div>
-                                  </div>
+                </div>
                 </div>
               </div>
             </div>
           </div>
- 
+
       </div>
     </article>
   </div>
@@ -685,5 +685,5 @@
       updateTestimonial(currentIndex);
     }, 3000);
   </script>
-  <?php include 'includes/footer.php' ?>
+  <?php include 'includes/footer.php'?>
   <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->

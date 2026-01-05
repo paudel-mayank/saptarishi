@@ -1527,6 +1527,7 @@ footer.footer .field--name-body p a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  justify-content: space-evenly
 }
 
 .region.region-footer>.block {

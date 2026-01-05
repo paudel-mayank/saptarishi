@@ -6,7 +6,7 @@
                     <div class="region region-footer-logo">
                         <div id="block-pathretreats-globalinformation"
                             class="block block-block-content block-block-content8494125e-0c1b-454c-9d41-bccc29672a7f">
-                           
+
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
                                 <img loading="lazy" src="../assets/main.png" alt="Footer logo"
@@ -48,12 +48,12 @@
                                 </li>
                             </ul>
                         </nav>
-                        
+
                         <!-- <nav role="navigation" aria-labelledby="block-pathretreats-landingpages-menu"
                             id="block-pathretreats-landingpages"
                             class="block block-menu navigation menu--landing-pages">
                             <h5 id="block-pathretreats-landingpages-menu">Landing Pages</h5>
- 
+
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
                                     <a href="node/377.html" class="nav-link"
@@ -61,7 +61,7 @@
                                         Retreat</a>
                                 </li>
                             </ul>
-            
+
                         </nav> -->
                     </div>
                 </div>
@@ -189,41 +189,34 @@
                         <div
                             class="view view-top-social-links view-id-top_social_links view-display-id-block_1 js-view-dom-id-cebb7cbc5be5a680f811a44096d5c79733ca835ea173529f294e99dad61a193a">
                             <div class="view-content">
-                                <!-- THEME HOOK: 'views_view_unformatted' -->
-                                <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view-unformatted.html.twig' -->
                                 <div class="views-row">
-                                    <!-- THEME HOOK: 'linkicon' -->
-                                    <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon.html.twig' -->
+                                   
                                     <div class="item-list item-list--linkicon">
                                         <ul id="linkicon-block-content-global-information-field-social-links-2"
                                             class="linkicon">
                                             <li>
-                                                <a href="https://www.facebook.com/pathretreats" target="_blank"
+                                                <a href="https://www.facebook.com" target="_blank"
                                                     class="linkicon__item">
-                                                    <!-- THEME HOOK: 'linkicon_item' -->
-                                                    <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
+                                                   
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-facebook"></span>
                                                     <span class="linkicon__text">Facebook</span>
-                                                    <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
+                                                    
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.youtube.com/@PathRetreats" target="_blank"
+                                                <a href="https://www.youtube.com" target="_blank"
                                                     class="linkicon__item">
-                                                    <!-- THEME HOOK: 'linkicon_item' -->
-                                                    <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
+                                                   
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-youtube"></span>
                                                     <span class="linkicon__text">YouTube</span>
-                                                    <!-- END OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.instagram.com/pathretreats/" target="_blank"
+                                                <a href="https://www.instagram.com" target="_blank"
                                                     class="linkicon__item">
-                                                    <!-- THEME HOOK: 'linkicon_item' -->
-                                                    <!-- BEGIN OUTPUT from 'modules/contrib/linkicon/templates/linkicon-item.html.twig' -->
+                                                   
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-instagram"></span>
                                                     <span class="linkicon__text">Instagram</span>
@@ -239,7 +232,7 @@
                         </div>
                         <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
                     </div>
-                    <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/form/container.html.twig' -->
+                    
                 </div>
             </div>
         </div>
