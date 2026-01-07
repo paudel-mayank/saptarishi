@@ -165,7 +165,7 @@
     }
 
     .lasting-benefits-heading h5 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         /* color: var(--primary-green); */
         font-weight: 700;
         position: relative;
@@ -311,6 +311,7 @@
 
         .service-detail-wrapper {
             flex-direction: column;
+            margin-top:300px;
         }
 
         .service-sidebar {
@@ -334,6 +335,9 @@
         .lasting-benefits-heading h5 {
             font-size: 1.8rem;
         }
+        .sidebar-card {
+            margin: 10px 0px
+        }
     }
 
     @media (max-width: 480px) {
@@ -343,6 +347,8 @@
 
         .inner-banner-caption {
             padding: 40px 15px;
+        }.sidebar-card {
+            margin: 10px 0px
         }
 
         .service-detail {
@@ -356,6 +362,10 @@
         .btn-primary {
             width: 100%;
             text-align: center;
+        }
+           .service-detail-wrapper {
+            flex-direction: column;
+            margin-top:450px;
         }
     }
 </style>
@@ -478,9 +488,13 @@
                                 </div>
                             </div>
                         </div>
-                                       <div class="field__item" style="margin: -20px 0px 80px 0px ">
+                          <div class="lasting-benefits-heading text-center" style="padding: 40px 0px 0px;">
+                            <h5 class=" small-title">Related Services</h5>
+                          </div>
+                                       <div class="field__item" style="margin: -00px 0px 80px 0px ">
     <div class="container">
         <div>
+            
             <div class="view-content">
                 <!-- Takshasheela Ayurveda Aashram Services -->
                 <div class="row gy-2">

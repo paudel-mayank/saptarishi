@@ -87,7 +87,7 @@
                                         class="block block-system block-system-branding-block">
                                         <div class="navbar-brand d-flex align-items-center">
                                             <a href="index.php" title="Home" rel="home" class="site-logo d-block">
-                                                <img src="../assets/main.png" alt="Home" fetchpriority="high" />
+                                                <img src="assets/main.png" alt="Home" fetchpriority="high" />
                                             </a>
                                             <div>
                                             </div>
@@ -97,7 +97,7 @@
                             </div>
                             <div class="default-logo">
                                 <a href="index.php" title="Home" rel="home">
-                                    <img src="../assets/main.png" alt="Home"
+                                    <img src="assets/main.png" alt="Home"
                                         fetchpriority="high">
                                 </a>
                             </div>
@@ -189,10 +189,10 @@
                                         </nav>
                                     </div>
                                     <div class="speek-to-advisor">
-                                        <a href="discovery-call-booking-form.html"><img
+                                        <!-- <a href="discovery-call-booking-form.html"><img
                                                 src="themes/custom/pathretreats/images/speak.svg">
                                             Book a
-                                            Discovery Call</a>
+                                            Discovery Call</a> -->
                                     </div>
                                 </div>
                             </div>

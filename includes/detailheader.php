@@ -108,8 +108,8 @@
 
                                     <div class="navbar-brand d-flex align-items-center">
 
-                                        <a href="../index.php" title="Home" rel="home" class="site-logo d-block">
-                                            <img src="../assets/main.png" alt="Home"
+                                        <a href="index.php" title="Home" rel="home" class="site-logo d-block">
+                                            <img src="assets/main.png" alt="Home"
                                                 fetchpriority="high" />
                                         </a>
 
@@ -164,9 +164,52 @@
                                                     <a href="about-us.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">About</a>
                                                 </li>
-                                                <li>
-                                                    <a href="about-us.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Wellness Programs</a>
+                                                    <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="find-retreat.php"
+                                                        data-bs-toggle="dropdown">Wellness Programs</a>
+                                                    <div class="dropdown-menu p-4" style="min-width: 480px;">
+                                                        <div class="row">
+                                                            <!-- PACKAGES COLUMN -->
+                                                            <div class="col-6">
+                                                                <a href='/packages.php'
+                                                                    class="dropdown-header fw-bold text-primary">
+                                                                    Packages</h6>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">7-Day
+                                                                        Healing Package</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">14-Day
+                                                                        Transformation</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="package-detail.php">21-Day
+                                                                        Meditation</a>
+                                                                    <!-- See More Button -->
+                                                                    <a href="packages.php "
+                                                                        class="small-title dropdown-item mt-2 w-100">
+                                                                        See More →
+                                                                    </a>
+                                                            </div>
+                                                            <!-- SERVICES COLUMN -->
+                                                            <div class="col-6">
+                                                                <a href="services.php"
+                                                                    class="dropdown-header fw-bold text-primary">
+                                                                    Services</a href="services.php">
+                                                                <a class="dropdown-item"
+                                                                    href="service-detail.php">Emotional
+                                                                    Healing</a>
+                                                                <a class="dropdown-item"
+                                                                    href="service-detail.php">Mindfulness Training</a>
+                                                                <a class="dropdown-item"
+                                                                    href="service-detail.php">Trauma
+                                                                    Release Therapy</a>
+                                                                <!-- See More Button -->
+                                                              <a href="services.php "
+                                                                        class="small-title dropdown-item mt-2 w-100">
+                                                                        See More →
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a href="testimonials.php" class="nav-link "
@@ -206,9 +249,9 @@
 
 
                                     <div class="speek-to-advisor">
-                                        <a href="discovery-call-booking-form.html"><img
+                                        <!-- <a href="discovery-call-booking-form.html"><img
                                                 src="themes/custom/pathretreats/images/speak.svg"> Book a
-                                            Discovery Call</a>
+                                            Discovery Call</a> -->
                                     </div>
                                 </div>
                             </div>
