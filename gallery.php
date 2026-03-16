@@ -47,40 +47,40 @@
                     <!-- Gallery Item 1 -->
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/emotional.jpg" alt="Retreat Space" class=" w-100 gallery-img">
+                        <img src="assets/emotional.jpg" alt="Retreat Space" class=" w-100 gallery-img">
                       </div>
                     </div>
                     <!-- Gallery Item 2 -->
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/mindfullness.jpg" alt="Meditation Session" class=" w-100 gallery-img">
+                        <img src="assets/mindfullness.jpg" alt="Meditation Session" class=" w-100 gallery-img">
                       </div>
                     </div>
                     <!-- Gallery Item 3 -->
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/emotional.jpg" alt="Nature Walk" class=" w-100 gallery-img">
+                        <img src="assets/emotional.jpg" alt="Nature Walk" class=" w-100 gallery-img">
                       </div>
                     </div>
                     <!-- Gallery Item 4 -->
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
+                        <img src="assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
                       </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
+                        <img src="assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
                       </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
+                        <img src="assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
                       </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                       <div class="gallery-item overflow-hidden rounded-4 shadow-sm">
-                        <img src="/assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
+                        <img src="assets/mindfullness.jpg" alt="Group Workshop" class="img-fluid w-100 gallery-img">
                       </div>
                     </div>
                     <!-- Add more items as needed -->

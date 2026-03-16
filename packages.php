@@ -63,7 +63,7 @@
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
                 <a href="panchakarma-retreat.html">
-                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                  <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Panchakarma Retreat" class="img-fluid" />
                 </a>
               </div>
@@ -101,7 +101,7 @@
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
                 <a href="ayurveda-wellness-retreat.html">
-                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                  <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Ayurvedic Wellness Retreat" class="img-fluid" />
                 </a>
               </div>
@@ -142,7 +142,7 @@
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
                 <a href="mind-body-balance-retreat.html">
-                  <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                  <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Mind Body Balance Retreat" class="img-fluid" />
                 </a>
               </div>

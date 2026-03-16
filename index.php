@@ -161,7 +161,7 @@
                             <div class="card-image">
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="/sites/default/files/2025-03/introductory%20courses.jpg"
+                                <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                                   width="629" height="574" alt="Awakening of love" class="img-fluid">
                               </div>
                             </div>
@@ -198,7 +198,7 @@
 
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg"
+                                <img loading="lazy" src="sites/default/files/2025-03/path%20of%20love%20homepage.jpg"
                                   width="633" height="577" alt="Path of love cover" class="img-fluid">
                               </div>
                               </div>
@@ -240,7 +240,7 @@
 
                               <div
                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="/sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="422"
+                                <img loading="lazy" src="sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="422"
                                   height="385" alt="Advanced spiritual work" class="img-fluid">
                               </div>
                               </div>

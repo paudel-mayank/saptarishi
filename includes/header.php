@@ -127,7 +127,7 @@
                                                         <div class="row">
                                                             <!-- PACKAGES COLUMN -->
                                                             <div class="col-6">
-                                                                <a href='/packages.php'
+                                                                <a href="packages.php"
                                                                     class="dropdown-header fw-bold text-primary">
                                                                     Packages</h6>
                                                                     <a class="dropdown-item"

@@ -9,7 +9,7 @@
 
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="../assets/main.png" alt="Footer logo"
+                                <img loading="lazy" src="assets/main.png" alt="Footer logo"
                                     class="img-fluid" />
                             </div>
                         </div>

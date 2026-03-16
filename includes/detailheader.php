@@ -10,70 +10,70 @@
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/fav.png" type="image/png" />
+    <link rel="icon" href="assets/fav.png" type="image/png" />
 
     <title>Gallery| Saptarishi</title>
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/fieldgroup.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/fieldgroup.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/container-inline.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/container-inline.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/clearfix.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/clearfix.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/details.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/details.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/hidden.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/hidden.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/item-list.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../core/themes/stable9/css/system/components/js.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/item-list.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/js.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/nowrap.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/nowrap.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/position-container.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/position-container.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/reset-appearance.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/reset-appearance.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/resize.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/resize.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/system-status-counter1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/system-status-counter1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/system-status-report-counters1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/system-status-report-counters1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/system-status-report-general-info1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/system-status-report-general-info1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/system/components/tablesort.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../core/themes/stable9/css/views/views.module1e7c.css?t33iat" />
+        href="core/themes/stable9/css/system/components/tablesort.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/views/views.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../core/themes/stable9/css/core/assets/vendor/normalize-css/normalize1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/action-links1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/breadcrumb1e7c.css?t33iat" />
+        href="core/themes/stable9/css/core/assets/vendor/normalize-css/normalize1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/action-links1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/breadcrumb1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../themes/contrib/bootstrap5/css/components/container-inline1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/details1e7c.css?t33iat" />
+        href="themes/contrib/bootstrap5/css/components/container-inline1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/details1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
-        href="../themes/contrib/bootstrap5/css/components/exposed-filters1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/field1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/form1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/icons1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/inline-form1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/item-list1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/links1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/menu1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/more-link1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/pager1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/tabledrag1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/tableselect1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/tablesort1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/textarea1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/ui-dialog1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/messages1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/contrib/bootstrap5/css/components/node1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/custom/pathretreats/css/swiper-bundle.min1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/custom/pathretreats/css/style1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/custom/pathretreats/css/theme1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="../themes/custom/pathretreats/css/custom1e7c.css?t33iat" />
+        href="themes/contrib/bootstrap5/css/components/exposed-filters1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/field1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/form1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/icons1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/inline-form1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/item-list1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/links1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/menu1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/more-link1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/pager1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/tabledrag1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/tableselect1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/tablesort1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/textarea1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/ui-dialog1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/messages1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/node1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/swiper-bundle.min1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/style1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/theme1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/custom/pathretreats/css/custom1e7c.css?t33iat" />
 
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>

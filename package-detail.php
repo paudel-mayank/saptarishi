@@ -66,7 +66,7 @@
                                                     <div
                                                         class="field field--name-field-image field--type-image field--label-hidden field__item">
                                                         <img loading="lazy"
-                                                            src="../../sites/default/files/2024-09/uk%20yorkshire.jpg"
+                                                            src="sites/default/files/2024-09/uk%20yorkshire.jpg"
                                                             width="1294" height="1506"
                                                             alt="Yorkshire Meditation Retreat" class="img-fluid" />
                                                     </div>
@@ -97,7 +97,7 @@
                                                     <div
                                                         class="field field--name-field-reserve-image field--type-image field--label-hidden field__item">
                                                         <img loading="lazy"
-                                                            src="../../sites/default/files/2025-04/Booking_UK.png"
+                                                            src="sites/default/files/2025-04/Booking_UK.png"
                                                             width="790" height="920" alt="Broughton Hall Landscape"
                                                             class="img-fluid" />
                                                     </div>
