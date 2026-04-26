@@ -560,7 +560,7 @@
   $(document).ready(function () {
     const $selectMenu = $("#edit-type--HKWEswzY96Q");
     const $dropdownToggles = $(".nav-item.dropdown > .nav-link"); // Parent menu items
-    const $submenuLinks = $(".sub-menu .dropdown-item"); // Submenu links
+    const $submenuLinks = $(".sub-menu .dropdown-item");
 
     // Allow parent menu ("Find a Retreat") to navigate normally
     $dropdownToggles.on("click", function (e) {

@@ -23,7 +23,7 @@
                                                     <div
                                                         class="field field--name-field-title field--type-string field--label-hidden field__item">
                                                         Explore our natural healing packages</div>
-                                                                        </h1>
+                                                </h1>
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                     <p data-pm-slice="1 1 [&quot;blockquote&quot;,{}]">At Takshasheela
@@ -43,156 +43,168 @@
                             </div>
                             <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--banner--default.html.twig' -->
                         </div>
-                        
-                                    <div class="field__item">
-    <div class="container">
-        <div style="margin: 50px 0px;">
-            <div class="view-content">
-                <!-- Takshasheela Ayurveda Aashram Services -->
-                <div class="row gy-2">
 
-                    <!-- Service 1 -->
-                    <div class="col-md-6 col-lg-4 views-row">
-                        <article
-                            class="node node--type-walking-the-path node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                            <div class="retreat-inner card-body p-0">
-                                <div class="retreat-image-type-sold card-img-top">
-                                    <div class="retreat-overview-image">
-                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                            <a href="service-detail.php">
-                                                <img loading="lazy"
-                                                    src="sites/default/files/2025-03/polusa.png"
-                                                    width="464" height="344"
-                                                    alt="Panchakarma Therapy"
-                                                    class="img-fluid w-100" />
-                                            </a>
+                        <div class="field__item" style="margin:80px 0px;">
+                            <div class="container">
+                                <div>
+                                    <div class="view-content">
+                                        <!-- Takshasheela Ayurveda Aashram Services -->
+                                        <div class="row gy-2">
+
+                                            <!-- Service 1 -->
+                                            <div class="col-md-6 col-lg-4 views-row">
+                                                <article
+                                                    class="node node--type-walking-the-path node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                                                    <div class="retreat-inner card-body p-0">
+                                                        <div class="retreat-image-type-sold card-img-top">
+                                                            <div class="retreat-overview-image">
+                                                                <div
+                                                                    class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                                                    <a href="service-detail.php">
+                                                                        <img loading="lazy"
+                                                                            src="sites/default/files/2025-03/polusa.png"
+                                                                            width="464" height="344"
+                                                                            alt="Panchakarma Therapy"
+                                                                            class="img-fluid w-100" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="retreat-caption p-3">
+                                                            <h4 class="my-2 mb-4">
+                                                                <span
+                                                                    class="field field--name-title field--type-string field--label-hidden">
+                                                                    Panchakarma & Detox Therapy
+                                                                </span>
+                                                            </h4>
+
+                                                            <div
+                                                                class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                                                <p style="height:100px;">
+                                                                    Experience authentic Panchakarma therapies designed
+                                                                    to cleanse the body,
+                                                                    eliminate toxins, and restore internal balance
+                                                                    through classical Ayurvedic
+                                                                    treatments ..
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="dink">
+                                                                <a class="w-100" href="service-detail.php">
+                                                                    View Details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+
+                                            <!-- Service 2 -->
+                                            <div class="col-md-6 col-lg-4 views-row">
+                                                <article
+                                                    class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                                                    <div class="retreat-inner card-body p-0">
+                                                        <div
+                                                            class="retreat-image-type-sold card-img-top position-relative">
+                                                            <div class="retreat-overview-image">
+                                                                <div
+                                                                    class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                                                    <a href="service-detail.php">
+                                                                        <img loading="lazy"
+                                                                            src="sites/default/files/2025-03/polusa.png"
+                                                                            width="464" height="344"
+                                                                            alt="Ayurvedic Wellness Retreats"
+                                                                            class="img-fluid w-100" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="retreat-caption p-3">
+                                                            <h4 class="my-2 mb-4">
+                                                                <span
+                                                                    class="field field--name-title field--type-string field--label-hidden">
+                                                                    Ayurvedic Wellness Retreats
+                                                                </span>
+                                                            </h4>
+
+                                                            <div
+                                                                class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                                                <p style="height:100px;">
+                                                                    Immerse yourself in holistic wellness retreats
+                                                                    combining Ayurvedic
+                                                                    therapies, yoga, meditation, and mindful living
+                                                                    practices to promote
+                                                                    long-term health, vitality..
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="dink">
+                                                                <a class="w-100" href="service-detail.php">
+                                                                    View Details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+
+                                            <!-- Service 3 -->
+                                            <div class="col-md-6 col-lg-4 views-row">
+                                                <article
+                                                    class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
+                                                    <div class="retreat-inner card-body p-0">
+                                                        <div class="retreat-image-type-sold card-img-top">
+                                                            <div class="retreat-overview-image">
+                                                                <div
+                                                                    class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
+                                                                    <a href="service-detail.php">
+                                                                        <img loading="lazy"
+                                                                            src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
+                                                                            width="464" height="344"
+                                                                            alt="Personalized Healing Programs"
+                                                                            class="img-fluid w-100" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="retreat-caption p-3">
+                                                            <h4 class="my-2 mb-4">
+                                                                <span
+                                                                    class="field field--name-title field--type-string field--label-hidden">
+                                                                    Personalized Healing Programs
+                                                                </span>
+                                                            </h4>
+
+                                                            <div
+                                                                class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
+                                                                <p style="height:100px;">
+                                                                    Receive individualized Ayurvedic healing programs
+                                                                    based on your unique
+                                                                    body constitution (Dosha), health conditions, and
+                                                                    lifestyle—guided by
+                                                                    experienced Ayurvedic ..
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="dink">
+                                                                <a class="w-100" href="service-detail.php">
+                                                                    View Details
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="retreat-caption p-3">
-                                    <h4 class="mb-2">
-                                        <span class="field field--name-title field--type-string field--label-hidden">
-                                            Panchakarma & Detox Therapy
-                                        </span>
-                                    </h4>
-
-                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                        <p style="height:100px;">
-                                            Experience authentic Panchakarma therapies designed to cleanse the body,
-                                            eliminate toxins, and restore internal balance through classical Ayurvedic
-                                            treatments ..
-                                        </p>
-                                    </div>
-
-                                  <div class="dink">
-                                        <a class="w-100" href="service-detail.php">
-                                           Find Out More
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
-                        </article>
-                    </div>
 
-                    <!-- Service 2 -->
-                    <div class="col-md-6 col-lg-4 views-row">
-                        <article
-                            class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                            <div class="retreat-inner card-body p-0">
-                                <div class="retreat-image-type-sold card-img-top position-relative">
-                                    <div class="retreat-overview-image">
-                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                            <a href="service-detail.php">
-                                                <img loading="lazy"
-                                                    src="sites/default/files/2025-03/polusa.png"
-                                                    width="464" height="344"
-                                                    alt="Ayurvedic Wellness Retreats"
-                                                    class="img-fluid w-100" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="retreat-caption p-3">
-                                    <h4 class="mb-2">
-                                        <span class="field field--name-title field--type-string field--label-hidden">
-                                            Ayurvedic Wellness &nbsp; &nbsp; Retreats
-                                        </span>
-                                    </h4>
-
-                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                        <p style="height:100px;">
-                                            Immerse yourself in holistic wellness retreats combining Ayurvedic
-                                            therapies, yoga, meditation, and mindful living practices to promote
-                                            long-term health, vitality and a wellbeing life..
-                                        </p>
-                                    </div>
-
-                                    <div class="dink">
-                                        <a class="w-100" href="service-detail.php">
-                                           Find Out More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="col-md-6 col-lg-4 views-row">
-                        <article
-                            class="node node--type-path-of-love node--view-mode-find-you-retreat card shadow-lg rounded-2xl overflow-hidden">
-                            <div class="retreat-inner card-body p-0">
-                                <div class="retreat-image-type-sold card-img-top">
-                                    <div class="retreat-overview-image">
-                                        <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                            <a href="service-detail.php">
-                                                <img loading="lazy"
-                                                    src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
-                                                    width="464" height="344"
-                                                    alt="Personalized Healing Programs"
-                                                    class="img-fluid w-100" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="retreat-caption p-3">
-                                    <h4 class="mb-2">
-                                        <span class="field field--name-title field--type-string field--label-hidden">
-                                            Personalized Healing Programs
-                                        </span>
-                                    </h4>
-
-                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                        <p style="height:100px;">
-                                            Receive individualized Ayurvedic healing programs based on your unique
-                                            body constitution (Dosha), health conditions, and lifestyle—guided by
-                                            experienced Ayurvedic ..
-                                        </p>
-                                    </div>
-
-                                    <div class="dink">
-                                       <a class="w-100" href="service-detail.php">
-                                           Find Out More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-<div  style="margin: 0px 0px 80px 0px;">
-      <div style="max-width: 200px; margin: 30px auto; text-align: center;">
-                    <p class="button-contact">See More</p>
-                  </div>
-</div>
-</div>
+                        </div>
                     </div>
                 </div>
             </article>

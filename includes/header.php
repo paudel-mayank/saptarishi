@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
     <meta charset="utf-8" />
 
@@ -71,10 +72,29 @@
         data-search-pseudo-elements></script>
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>
-  
+
+    <style>
+    .items {
+        min-width: 480px
+    }
+
+    .nav-link.dropdown-toggle::after {
+        display: block;
+        border-width: 0 1px 1px 0;
+        border-color: var(--changecolor, var(--c-black));
+        padding: 3px;
+        border-style: solid;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+    </style>
+
 </head>
+
 <body class="node-type-homepage page-id-1 path-frontpage page-node-type-homepage   d-flex flex-column h-100">
-    
+
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
         <header class="header">
             <div class="container-fluid" style="padding: 0px 30px;">
@@ -97,8 +117,7 @@
                             </div>
                             <div class="default-logo">
                                 <a href="index.php" title="Home" rel="home">
-                                    <img src="assets/main.png" alt="Home"
-                                        fetchpriority="high">
+                                    <img src="assets/main.png" alt="Home" fetchpriority="high">
                                 </a>
                             </div>
                         </div>
@@ -122,8 +141,10 @@
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
-                                                        data-bs-toggle="dropdown">Wellness Programs</a>
-                                                    <div class="dropdown-menu p-4" style="min-width: 480px;">
+                                                        data-bs-toggle="dropdown">Wellness Programs
+
+                                                    </a>
+                                                    <div class="dropdown-menu p-4 items">
                                                         <div class="row">
                                                             <!-- PACKAGES COLUMN -->
                                                             <div class="col-6">
@@ -159,13 +180,17 @@
                                                                     href="service-detail.php">Trauma
                                                                     Release Therapy</a>
                                                                 <!-- See More Button -->
-                                                              <a href="services.php "
-                                                                        class="small-title dropdown-item mt-2 w-100">
-                                                                        See More →
-                                                                    </a>
+                                                                <a href="services.php "
+                                                                    class="small-title dropdown-item mt-2 w-100">
+                                                                    See More →
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="accomodations.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">Accomodations</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a href="testimonials.php" class="nav-link "
@@ -180,7 +205,7 @@
                                                         data-drupal-link-system-path="node/24">Blog</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                 
+
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"
                                                         data-drupal-link-system-path="node/11">Contact </a>

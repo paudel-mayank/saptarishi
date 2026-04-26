@@ -17,6 +17,7 @@
   --footer-bg: #223745;
 }
 
+
 html body {
   color: var(--c-body);
   font-size: 16px;
@@ -1260,8 +1261,8 @@ h5 {
 }
 
 .branding-menu-wrapper .navbar-nav>li>a.dropdown-toggle::after {
-  display: none;
-}
+  display: block;
+} 
 
 @media screen and (min-width: 992px) {
   .branding-menu-wrapper .navbar-nav>li>a.dropdown-toggle::after {
@@ -1294,7 +1295,7 @@ h5 {
 
 @media screen and (min-width: 992px) {
   .branding-menu-wrapper .navbar-nav>li .caret-mobile {
-    display: none;
+    display: flex;
   }
 }
 
@@ -2098,7 +2099,7 @@ footer.footer .field--name-body p a:hover {
 .banner-outer .banner-captions {
   color: var(--c-white);
   text-align: center;
-  margin-top: -24%;
+  margin-top: 10%;
   position: relative;
   z-index: 1;
 }
@@ -2108,7 +2109,7 @@ footer.footer .field--name-body p a:hover {
   max-width: 11em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   font-size: 48px;
 }
 

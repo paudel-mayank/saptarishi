@@ -11,31 +11,25 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/fav.png" type="image/png" />
-
     <title>Gallery| Saptarishi</title>
-    <link rel="stylesheet" media="all"
-        href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/fieldgroup.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/container-inline.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/clearfix.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all"
-        href="core/themes/stable9/css/system/components/details.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all"
-        href="core/themes/stable9/css/system/components/hidden.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/details.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/hidden.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/item-list.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/js.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all"
-        href="core/themes/stable9/css/system/components/nowrap.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/nowrap.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/position-container.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/reset-appearance.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all"
-        href="core/themes/stable9/css/system/components/resize.module1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/resize.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/system-status-counter1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
@@ -52,8 +46,7 @@
     <link rel="stylesheet" media="all"
         href="themes/contrib/bootstrap5/css/components/container-inline1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/details1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all"
-        href="themes/contrib/bootstrap5/css/components/exposed-filters1e7c.css?t33iat" />
+    <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/exposed-filters1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/field1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/form1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/icons1e7c.css?t33iat" />
@@ -79,7 +72,7 @@
         data-search-pseudo-elements></script>
     <script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"
         data-search-pseudo-elements></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 </head>
 
@@ -109,8 +102,7 @@
                                     <div class="navbar-brand d-flex align-items-center">
 
                                         <a href="index.php" title="Home" rel="home" class="site-logo d-block">
-                                            <img src="assets/main.png" alt="Home"
-                                                fetchpriority="high" />
+                                            <img src="assets/main.png" alt="Home" fetchpriority="high" />
                                         </a>
 
                                         <div>
@@ -164,7 +156,7 @@
                                                     <a href="about-us.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">About</a>
                                                 </li>
-                                                    <li class="nav-item dropdown">
+                                                <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
                                                         data-bs-toggle="dropdown">Wellness Programs</a>
                                                     <div class="dropdown-menu p-4" style="min-width: 480px;">
@@ -203,18 +195,23 @@
                                                                     href="service-detail.php">Trauma
                                                                     Release Therapy</a>
                                                                 <!-- See More Button -->
-                                                              <a href="services.php "
-                                                                        class="small-title dropdown-item mt-2 w-100">
-                                                                        See More →
-                                                                    </a>
+                                                                <a href="services.php "
+                                                                    class="small-title dropdown-item mt-2 w-100">
+                                                                    See More →
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li class="nav-item dropdown">
+                                                    <a href="accomodations.php" class="nav-link "
+                                                        data-drupal-link-system-path="node/24">Accomodations</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
                                                     <a href="testimonials.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Testimonials</a>
                                                 </li>
+
                                                 <li class="nav-item dropdown">
                                                     <a href="gallery.php" class="nav-link "
                                                         data-drupal-link-system-path="node/24">Gallery</a>
