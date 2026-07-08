@@ -1,4 +1,43 @@
 <?php include 'includes/detailheader.php' ?>
+<style>
+.news-hero {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+        url('sites/default/files/2024-03/about%20banner.png') center/cover;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-hero .container {
+    padding: 70px 20px;
+}
+
+.news-hero h1 {
+    font-family: var(--header-font-family);
+    color: #ffffff;
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.news-hero p {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: var(--body-font-family);
+    font-size: 1.06rem;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .news-hero {
+        min-height: 360px;
+    }
+}
+</style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -8,6 +47,18 @@
                 <div class="node__content">
                     <div
                         class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
+                        <div class="field__item">
+                            <div
+                                class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
+                                <div class="news-hero">
+                                    <div class="container container-l">
+                                        <h1>News & Events</h1>
+                                        <p>Stay connected with the retreats, healing programs, community gatherings, and
+                                            seasonal moments unfolding at Takshasheela Ayurveda Aashram.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="field__item">
                             <div class="paragraph paragraph--type--blog paragraph--view-mode--default">
                                 <div class="container">

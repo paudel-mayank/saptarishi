@@ -1,4 +1,43 @@
 <?php include 'includes/header.php' ?>
+<style>
+.team-hero {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+        url('sites/default/files/2024-03/about%20banner.png') center/cover;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-hero .container {
+    padding: 70px 20px;
+}
+
+.team-hero h1 {
+    font-family: var(--header-font-family);
+    color: #ffffff;
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.team-hero p {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: var(--body-font-family);
+    font-size: 1.06rem;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .team-hero {
+        min-height: 360px;
+    }
+}
+</style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -11,14 +50,11 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img" style="background-image:url(assets/about.png);
-                           background-size: cover;
-                          background-position: center;
-                          position: relative;">
-                                    <div class="container container-l" style="z-index: 999;">
+                                <div class="team-hero">
+                                    <div class="container container-l">
                                         <h1>Meet the compassionate leaders and wellness practitioners of Takshasheela
                                             Ayurveda Aashram.</h1>
-                                        <p style="color:#fff; max-width:760px; margin-top:16px; font-size:18px;">Rooted
+                                        <p>Rooted
                                             in Nepali wisdom and heartfelt service, our team is dedicated to guiding
                                             guests through healing, transformation, and deep inner connection.</p>
                                     </div>
@@ -102,8 +138,7 @@
                                             <div
                                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
                                                 <img loading="lazy" src="sites/default/files/2025-03/image%2033.webp"
-                                                    width="1122" height="1492" alt="Anita Gurung"
-                                                    class="img-fluid" />
+                                                    width="1122" height="1492" alt="Anita Gurung" class="img-fluid" />
                                             </div>
                                         </div>
                                         <div class="member-caption">
@@ -113,7 +148,8 @@
                                                     Gurung</span>
                                             </h4>
                                             <p>
-                                                Anita is a compassionate wellness guide and spiritual counsellor committed to supporting personal healing and growth.
+                                                Anita is a compassionate wellness guide and spiritual counsellor
+                                                committed to supporting personal healing and growth.
                                             </p>
                                         </div>
                                     </div>
@@ -146,9 +182,15 @@
                                                     <div class="member-caption">
                                                         <div
                                                             class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                                            <p>Anita brings a calm, compassionate presence to healing work and guides individuals with care, empathy, and deep awareness.</p>
-                                                            <p>She supports guests through reflective practices, emotional healing, and personal growth in a nurturing environment rooted in kindness and trust.</p>
-                                                            <p>Anita is especially devoted to helping people reconnect with their inner strength, clarity, and sense of peace.</p>
+                                                            <p>Anita brings a calm, compassionate presence to healing
+                                                                work and guides individuals with care, empathy, and deep
+                                                                awareness.</p>
+                                                            <p>She supports guests through reflective practices,
+                                                                emotional healing, and personal growth in a nurturing
+                                                                environment rooted in kindness and trust.</p>
+                                                            <p>Anita is especially devoted to helping people reconnect
+                                                                with their inner strength, clarity, and sense of peace.
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -174,7 +216,8 @@
                                                     Adhikari</span>
                                             </h4>
                                             <p>
-                                                Bina has long supported healing circles and wellness programs with warmth, wisdom, and deep compassion.
+                                                Bina has long supported healing circles and wellness programs with
+                                                warmth, wisdom, and deep compassion.
                                             </p>
 
                                         </div>
@@ -207,7 +250,9 @@
                                                     <div class="member-caption">
                                                         <div
                                                             class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                                            <p>Bina has worked closely with wellness communities, offering compassionate support, reflective guidance, and heartfelt care throughout healing journeys.</p>
+                                                            <p>Bina has worked closely with wellness communities,
+                                                                offering compassionate support, reflective guidance, and
+                                                                heartfelt care throughout healing journeys.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -233,7 +278,8 @@
                                                     Tamang</span>
                                             </h4>
                                             <p>
-                                                Sangita brings calm presence and deep insight to healing journeys, guided reflection, and wellness practice.
+                                                Sangita brings calm presence and deep insight to healing journeys,
+                                                guided reflection, and wellness practice.
                                             </p>
 
                                         </div>
@@ -260,8 +306,8 @@
                                 <article class="node node--type-team node--view-mode-teaser">
                                     <div class="member-item">
                                         <div class="member-image">
-                                            <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg"
-                                                width="374" height="498" alt="Bikash Karki" class="img-fluid" />
+                                            <img loading="lazy" src="sites/default/files/2025-03/Coral.jpg" width="374"
+                                                height="498" alt="Bikash Karki" class="img-fluid" />
                                         </div>
                                         <div class="member-caption">
                                             <h4>Bikash Karki</h4>

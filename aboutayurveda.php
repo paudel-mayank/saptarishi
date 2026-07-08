@@ -1,4 +1,35 @@
 <?php include 'includes/header.php' ?>
+<style>
+.ayurveda-hero {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+        url('sites/default/files/2024-03/about%20banner.png') center/cover;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ayurveda-hero .container {
+    padding: 70px 20px;
+}
+
+.ayurveda-hero h1 {
+    font-family: var(--header-font-family);
+    color: #ffffff;
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .ayurveda-hero {
+        min-height: 360px;
+    }
+}
+</style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -11,11 +42,8 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img" style="background-image:url(assets/about.png);
-                           background-size: cover;
-                          background-position: center;
-                          position: relative;">
-                                    <div class="container container-l" style="z-index: 999;">
+                                <div class="ayurveda-hero">
+                                    <div class="container container-l">
                                         <h1>Discover the timeless healing wisdom of Ayurveda at Takshasheela.</h1>
                                     </div>
                                 </div>

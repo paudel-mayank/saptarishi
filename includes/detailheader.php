@@ -158,8 +158,11 @@
                                                     <div class="dropdown-menu p-3" style="min-width: 220px;">
                                                         <a href="about-us.php" class="dropdown-item">About
                                                             Takshasheela</a>
-                                                        <a href="about-us.php" class="dropdown-item">Our Teams</a>
-                                                        <a href="about-us.php" class="dropdown-item">Our Approach</a>
+                                                        <a href="aboutayurveda.php" class="dropdown-item">About
+                                                            Ayurveda</a>
+
+                                                        <a href="ourteams.php" class="dropdown-item">Our Teams</a>
+                                                        <a href="ourapproach.php" class="dropdown-item">Our Approach</a>
                                                     </div>
                                                 </li>
                                                 <li class="nav-item dropdown">

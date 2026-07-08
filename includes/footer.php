@@ -11,11 +11,24 @@
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
                                 <img loading="lazy" src="assets/main.png" alt="Footer logo" class="img-fluid" />
                             </div>
+                            <div class="footer-contact-info mt-3">
+                                <p class="mb-2" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
+                                    Email: <a href="mailto:info@takshasheela.com"
+                                        style="color: #91cc33; text-decoration: none;">info@takshasheela.com</a>
+                                </p>
+                                <p class="mb-2" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
+                                    Phone: <a href="tel:+9779800000000"
+                                        style="color: #91cc33; text-decoration: none;">+977 9800 000 000</a>
+                                </p>
+                                <p class="mb-0" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
+                                    Location: Kathmandu, Nepal
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-mid">
-                    <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
+                    <!--  BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/region/region.html.twig' -->
                     <div class="region region-footer">
                         <div id="block-pathretreats-pathoflove7dayretreats"
                             class="block block-block-content block-block-content2b7137a5-d865-4c27-a4e8-fb296ef55a3a">
