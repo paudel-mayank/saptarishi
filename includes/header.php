@@ -135,29 +135,25 @@
                                             <h5 class="visually-hidden" id="block-pathretreats-main-navigation-menu">
                                                 Main navigation</h5>
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
+
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="about-us.php"
                                                         data-bs-toggle="dropdown">Discover</a>
                                                     <div class="dropdown-menu p-3" style="min-width: 220px;">
                                                         <a href="about-us.php" class="dropdown-item">About
                                                             Takshasheela</a>
-                                                        <a href="aboutayurveda.php" class="dropdown-item">About
-                                                            Ayurveda</a>
-                                                        <a href="ourteams.php" class="dropdown-item">Our Teams</a>
-                                                        <a href="ourapproach.php" class="dropdown-item">Our Approach</a>
-
+                                                        <a href="about-us.php" class="dropdown-item">Our Teams</a>
+                                                        <a href="about-us.php" class="dropdown-item">Our Approach</a>
                                                     </div>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
-                                                        data-bs-toggle="dropdown">Wellness Programs
-
-                                                    </a>
-                                                    <div class="dropdown-menu p-4 items">
+                                                        data-bs-toggle="dropdown">Wellness Programs</a>
+                                                    <div class="dropdown-menu p-4" style="min-width: 480px;">
                                                         <div class="row">
                                                             <!-- PACKAGES COLUMN -->
                                                             <div class="col-6">
-                                                                <a href="packages.php"
+                                                                <a href='/packages.php'
                                                                     class="dropdown-header fw-bold text-primary">
                                                                     Packages</h6>
                                                                     <a class="dropdown-item"
@@ -208,15 +204,15 @@
                                                         <a href="testimonials.php"
                                                             class="dropdown-item">Testimonials</a>
                                                         <a href="blog.php" class="dropdown-item">Blogs</a>
-                                                        <a href="newsandevents.php" class="dropdown-item">News &
-                                                            Events</a>
-                                                        <a href="gallery.php" class="dropdown-item">Gallery</a>
+                                                        <a href="blog.php" class="dropdown-item">News & Events</a>
                                                     </div>
                                                 </li>
+
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"
                                                         data-drupal-link-system-path="node/11">Contact </a>
                                                 </li>
+
                                             </ul>
                                         </nav>
                                     </div>

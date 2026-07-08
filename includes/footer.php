@@ -9,8 +9,7 @@
 
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="assets/main.png" alt="Footer logo"
-                                    class="img-fluid" />
+                                <img loading="lazy" src="assets/main.png" alt="Footer logo" class="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -23,28 +22,31 @@
                             <!-- <h2>Path of Love 7 day retreats</h2> -->
                             <div
                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                                <p><a href="wellness-retreat/usa/10-2025.html">Home</a></p>
-                                <p><a href="wellness-retreat/uk/11-2025.html">Packages</a></p>
-                                <p><a href="wellness-retreat/italy/11-2025.html">Services</a></p>
-                                <p><a href="retreat/path-love-brasil.html">About</a></p>
-                                <p><a href="wellness-retreat/bali/1-2026.html">Contact</a></p>
+                                <p><a href="index.php">Home</a></p>
+                                <p><a href="packages.php">Packages</a></p>
+                                <p><a href="services.php">Services</a></p>
+                                <p><a href="about-us.php">About</a></p>
+                                <p><a href="contact-us.php">Contact</a></p>
                             </div>
                         </div>
                         <nav role="navigation" aria-labelledby="block-pathretreats-resources-menu"
                             id="block-pathretreats-resources" class="block block-menu navigation menu--resources">
-                            <h5 id="block-pathretreats-resources-menu">Services</h5>
+                            <h5 id="block-pathretreats-resources-menu">Explore</h5>
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
-                                    <a href="service-detail.php" class="nav-link"
-                                        data-drupal-link-system-path="node/43">Emotional Healing</a>
+                                    <a href="accomodations.php" class="nav-link">Accommodations</a>
                                 </li>
-                               <li class="nav-item">
-                                    <a href="service-detail.php" class="nav-link"
-                                        data-drupal-link-system-path="node/43">Mindfullness Release</a>
+                                <li class="nav-item">
+                                    <a href="ourapproach.php" class="nav-link">Our Approach</a>
                                 </li>
-                               <li class="nav-item">
-                                    <a href="service-detail.php" class="nav-link"
-                                        data-drupal-link-system-path="node/43">Trauma Release Therapy</a>
+                                <li class="nav-item">
+                                    <a href="ourteams.php" class="nav-link">Our Teams</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="gallery.php" class="nav-link">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="newsandevents.php" class="nav-link">News & Events</a>
                                 </li>
                             </ul>
                         </nav>
@@ -70,33 +72,37 @@
                         <link href="http://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
                             type="text/css">
                         <style type="text/css">
-                            #mc_embed_signup {
-                                background: #fff;
-                                false;
-                                clear: left;
-                                font: 14px Helvetica, Arial, sans-serif;
-                                width: 600px;
-                            }
-                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        #mc_embed_signup {
+                            background: #fff;
+                            false;
+                            clear: left;
+                            font: 14px Helvetica, Arial, sans-serif;
+                            width: 600px;
+                        }
+
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
                      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                         </style>
                         <style type="text/css">
-                            #mc-embedded-subscribe-form input[type=checkbox] {
-                                display: inline;
-                                width: auto;
-                                margin-right: 10px;
-                            }
-                            #mergeRow-gdpr {
-                                margin-top: 20px;
-                            }
-                            #mergeRow-gdpr fieldset label {
-                                font-weight: normal;
-                            }
-                            #mc-embedded-subscribe-form .mc_fieldset {
-                                border: none;
-                                min-height: 0px;
-                                padding-bottom: 0px;
-                            }
+                        #mc-embedded-subscribe-form input[type=checkbox] {
+                            display: inline;
+                            width: auto;
+                            margin-right: 10px;
+                        }
+
+                        #mergeRow-gdpr {
+                            margin-top: 20px;
+                        }
+
+                        #mergeRow-gdpr fieldset label {
+                            font-weight: normal;
+                        }
+
+                        #mc-embedded-subscribe-form .mc_fieldset {
+                            border: none;
+                            min-height: 0px;
+                            padding-bottom: 0px;
+                        }
                         </style>
                         <div id="mc_embed_signup">
                             <form
@@ -118,23 +124,23 @@
                         <script type="text/javascript"
                             src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
                         <script type="text/javascript">
-                            (function ($) {
-                                window.fnames = new Array();
-                                window.ftypes = new Array();
-                                fnames[0] = 'EMAIL';
-                                ftypes[0] = 'email';
-                                fnames[1] = 'FNAME';
-                                ftypes[1] = 'text';
-                                fnames[2] = 'LNAME';
-                                ftypes[2] = 'text';
-                                fnames[3] = 'MMERGE3';
-                                ftypes[3] = 'text';
-                                fnames[23] = 'MMERGE23';
-                                ftypes[23] = 'text';
-                                fnames[21] = 'MMERGE21';
-                                ftypes[21] = 'radio';
-                            }(jQuery));
-                            var $mcj = jQuery.noConflict(true);
+                        (function($) {
+                            window.fnames = new Array();
+                            window.ftypes = new Array();
+                            fnames[0] = 'EMAIL';
+                            ftypes[0] = 'email';
+                            fnames[1] = 'FNAME';
+                            ftypes[1] = 'text';
+                            fnames[2] = 'LNAME';
+                            ftypes[2] = 'text';
+                            fnames[3] = 'MMERGE3';
+                            ftypes[3] = 'text';
+                            fnames[23] = 'MMERGE23';
+                            ftypes[23] = 'text';
+                            fnames[21] = 'MMERGE21';
+                            ftypes[21] = 'radio';
+                        }(jQuery));
+                        var $mcj = jQuery.noConflict(true);
                         </script>
                     </div>
                 </div>
@@ -190,24 +196,24 @@
                             class="view view-top-social-links view-id-top_social_links view-display-id-block_1 js-view-dom-id-cebb7cbc5be5a680f811a44096d5c79733ca835ea173529f294e99dad61a193a">
                             <div class="view-content">
                                 <div class="views-row">
-                                   
+
                                     <div class="item-list item-list--linkicon">
                                         <ul id="linkicon-block-content-global-information-field-social-links-2"
                                             class="linkicon">
                                             <li>
                                                 <a href="https://www.facebook.com" target="_blank"
                                                     class="linkicon__item">
-                                                   
+
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-facebook"></span>
                                                     <span class="linkicon__text">Facebook</span>
-                                                    
+
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="https://www.youtube.com" target="_blank"
                                                     class="linkicon__item">
-                                                   
+
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-youtube"></span>
                                                     <span class="linkicon__text">YouTube</span>
@@ -216,7 +222,7 @@
                                             <li>
                                                 <a href="https://www.instagram.com" target="_blank"
                                                     class="linkicon__item">
-                                                   
+
                                                     <span aria-hidden="true"
                                                         class="linkicon__icon icon fa fa-instagram"></span>
                                                     <span class="linkicon__text">Instagram</span>
@@ -232,7 +238,7 @@
                         </div>
                         <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view.html.twig' -->
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -241,8 +247,24 @@
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/page--front.html.twig' -->
 </div>
 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/content/off-canvas-page-wrapper.html.twig' -->
-<script type="application/json"
-    data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"b1a06f0b48a69a2a323289f3fb5b8bd58b7ec93368f761714b6fe3d80cc5ce37"}}</script>
+<script type="application/json" data-drupal-selector="drupal-settings-json">
+{
+    "path": {
+        "baseUrl": "\/",
+        "pathPrefix": "",
+        "currentPath": "node\/1",
+        "currentPathIsAdmin": false,
+        "isFront": true,
+        "currentLanguage": "en"
+    },
+    "pluralDelimiter": "\u0003",
+    "suppressDeprecationErrors": true,
+    "user": {
+        "uid": 0,
+        "permissionsHash": "b1a06f0b48a69a2a323289f3fb5b8bd58b7ec93368f761714b6fe3d80cc5ce37"
+    }
+}
+</script>
 <script src="core/assets/vendor/jquery/jquery.mind734.js?v=3.7.1"></script>
 <script src="core/misc/drupalSettingsLoader4b24.js?v=10.4.5"></script>
 <script src="core/misc/drupal4b24.js?v=10.4.5"></script>
@@ -256,5 +278,6 @@
     data-settings-id="65ny2jYlZm_wpW"></script>
 </body>
 <!-- Mirrored from pathretreats.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Oct 2025 06:15:47 GMT -->
+
 </html>
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->
