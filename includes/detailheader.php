@@ -152,9 +152,15 @@
 
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
 
-                                                <li>
-                                                    <a href="about-us.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">About</a>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="about-us.php"
+                                                        data-bs-toggle="dropdown">Discover</a>
+                                                    <div class="dropdown-menu p-3" style="min-width: 220px;">
+                                                        <a href="about-us.php" class="dropdown-item">About
+                                                            Takshasheela</a>
+                                                        <a href="about-us.php" class="dropdown-item">Our Teams</a>
+                                                        <a href="about-us.php" class="dropdown-item">Our Approach</a>
+                                                    </div>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
@@ -208,20 +214,15 @@
                                                         data-drupal-link-system-path="node/24">Accomodations</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <a href="testimonials.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Testimonials</a>
+                                                    <a class="nav-link dropdown-toggle" href="blog.php"
+                                                        data-bs-toggle="dropdown">Chronicles</a>
+                                                    <div class="dropdown-menu p-3" style="min-width: 220px;">
+                                                        <a href="testimonials.php"
+                                                            class="dropdown-item">Testimonials</a>
+                                                        <a href="blog.php" class="dropdown-item">Blogs</a>
+                                                        <a href="blog.php" class="dropdown-item">News & Events</a>
+                                                    </div>
                                                 </li>
-
-                                                <li class="nav-item dropdown">
-                                                    <a href="gallery.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Gallery</a>
-                                                </li>
-                                                <li class="nav-item dropdown">
-                                                    <a href="blog.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Blog</a>
-                                                </li>
-                                                <li class="nav-item dropdown">
-
 
                                                 <li class="nav-item">
                                                     <a href="contact-us.php" class="nav-link"

@@ -16,9 +16,7 @@
                           background-position: center;
                           position: relative;">
                                     <div class="container container-l" style="z-index: 999;">
-                                        <h1>Takshashelaa offers worldwide, life-changing, personal growth and
-                                            self-development
-                                            processes.</h1>
+                                        <h1>Discover the timeless healing wisdom of Ayurveda at Takshasheela.</h1>
                                     </div>
                                 </div>
                             </div>
@@ -42,34 +40,25 @@
                                             <div class="small-title">
                                                 <div
                                                     class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                                                    shifting global consciousness</div>
+                                                    Ancient wisdom for modern life</div>
                                             </div>
                                             <div class="heading-text">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                                    <h2>Inclusivity</h2>
+                                                    <h2>What is Ayurveda?</h2>
                                                 </div>
                                             </div>
                                             <div class="content">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                    <p>Takshashelaa aims to contribute to a significant shift in global
-                                                        consciousness through
-                                                        actively pursuing our commitment to foster global appreciation
-                                                        of our diversity as
-                                                        humans.&nbsp;</p>
-                                                    <p>No matter the age of your body, your physical characteristics,
-                                                        your ethnicity, your
-                                                        indigeneity, what religion or spiritual path you follow, gender
-                                                        you identify as, your
-                                                        sexual orientation, political beliefs you hold, cultural or
-                                                        socioeconomic background you
-                                                        originate from, whether you identify with any of these or none
-                                                        of them, or anything else
-                                                        which makes you the unique and beautiful human being that you
-                                                        are, Takshashelaa invites
-                                                        you to join our community and welcomes the contribution your
-                                                        difference makes.</p>
+                                                    <p>Ayurveda is a time-tested healing science from India that focuses
+                                                        on restoring balance between the body, mind, and spirit. At
+                                                        Takshasheela Ayurveda Aashram, we use this sacred knowledge to
+                                                        guide guests towards natural harmony, vitality, and inner peace.
+                                                    </p>
+                                                    <p>Through personalised care, nourishing food, herbal support,
+                                                        mindful movement, and restorative therapies, Ayurveda helps
+                                                        create lasting wellbeing rather than temporary relief.</p>
                                                 </div>
                                             </div>
                                             <div class="link"></div>
@@ -98,41 +87,24 @@
                                             <div class="small-title">
                                                 <div
                                                     class="field field--name-field-small-title field--type-string field--label-hidden field__item">
-                                                    Rafia Morgan and Turiya Hanover</div>
+                                                    Healing through balance and awareness</div>
                                             </div>
                                             <div class="heading-text">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                                    <h2>Turiya and Rafia, Founders of Takshashelaa</h2>
+                                                    <h2>Our Ayurvedic Approach</h2>
                                                 </div>
                                             </div>
                                             <div class="content">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                    <p>Rafia Morgan and Turiya Hanover, over the last 40 years, have
-                                                        been trained in a
-                                                        multitude of therapeutic modalities. For a great part of that
-                                                        time they also received
-                                                        personal guidance and life-training from an enlightened master,
-                                                        which has given them a
-                                                        deep understanding and great sensitivity to the powerful, yet
-                                                        subtle inter-relatedness
-                                                        of psychological issues and the realisation of our true
-                                                        spiritual nature.</p>
-                                                    <p>In their experience, only when we bring psychological and
-                                                        spiritual work together is
-                                                        true transformation possible. This synthesis truly enhances deep
-                                                        and lasting growth.
-                                                        With this approach we discover that every emotional and
-                                                        psychological issue is actually
-                                                        a potential doorway to grounded and embodied awakening.
-                                                        Conversely, spiritual
-                                                        experiences give insight into and freedom from the way our
-                                                        personality structure
-                                                        habitually functions. Thus true awakening needs psychology and
-                                                        true psychology needs the
-                                                        recognition of awakened consciousness.</p>
-
+                                                    <p>Our Ayurvedic approach is rooted in understanding the unique
+                                                        constitution of each guest. We support healing through a blend
+                                                        of therapeutic care, mindful routines, herbal wisdom, seasonal
+                                                        living, and deep rest.</p>
+                                                    <p>Whether you are seeking relief from stress, renewal after
+                                                        fatigue, or a deeper connection with yourself, Ayurveda offers a
+                                                        gentle and effective path back to balance.</p>
                                                 </div>
                                             </div>
                                             <div class="link"></div>
@@ -146,8 +118,14 @@
 
                     </div>
                 </div>
-            </article>
         </div>
     </div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
 </div>
 <?php include 'includes/footer.php' ?>

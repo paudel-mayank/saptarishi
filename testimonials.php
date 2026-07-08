@@ -1,230 +1,171 @@
 <?php include 'includes/header.php' ?>
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+:root {
+    --c-primary: #91cc33;
+    --ink: #2f2f2f;
+    --muted: #6f6f6f;
+    --cream: #f7f3eb;
+    --white: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.testimonial-hero {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 0 0 40px 40px; */
+    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+        url('sites/default/files/2024-03/about%20banner.png') center/cover;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    text-align: center;
+}
+
+.testimonial-hero .container {
+    padding: 70px 20px;
+}
+
+.testimonial-hero h1 {
+    font-family: var(--header-font-family);
+    color: var(--white);
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    tex-align: center;
+    justify-content: center;
+    /* max-width: 850px; */
+}
+
+.testimonial-hero p {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: var(--body-font-family);
+    font-size: 1.06rem;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 28px;
+    margin-top: 36px;
+}
+
+.testimonial-card {
+    background: linear-gradient(145deg, var(--white), var(--cream));
+    border: 1px solid rgba(145, 204, 51, 0.18);
+    border-radius: 22px;
+    box-shadow: 0 16px 40px rgba(47, 47, 47, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px rgba(47, 47, 47, 0.12);
+}
+
+.testimonial-inner {
+    padding: 28px 28px 24px;
+}
+
+.testimonial-rating {
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    color: #e1a93b;
+    margin-bottom: 12px;
+}
+
+.testimonial-title {
+    font-family: var(--header-font-family);
+    font-size: 1.35rem;
+    color: var(--ink);
+    margin-bottom: 12px;
+}
+
+.testimonial-description {
+    font-family: var(--body-font-family);
+    color: var(--muted);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    min-height: 96px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(47, 47, 47, 0.1);
+}
+
+.client-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--c-primary), #b9df74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--ink);
+    font-family: var(--tag-font-family);
+    flex-shrink: 0;
+}
+
+.client-name {
+    font-family: var(--tag-font-family);
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 0.95rem;
+}
+
+.client-location {
+    font-family: var(--body-font-family);
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
+
+.cta-row {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.button-contact {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 999px;
+    background: var(--c-primary);
+    color: var(--ink);
+    font-family: var(--tag-font-family);
+    font-weight: 600;
+    border: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.button-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(145, 204, 51, 0.2);
+}
+
+@media (max-width: 768px) {
+    .testimonial-hero {
+        min-height: 360px;
     }
-    :root {
-        --primary: #1a1a2e;
-        --secondary: #ffffff;
-        --accent: #6366f1;
-        --neutral-light: #f3f4f6;
-        /* --neutral-dark: #374151; */
-    }
-    /* */
-    */
-    /* body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-            background-color: var(--primary);
-            color: var(--secondary);
-            line-height: 1.6;
-        } */
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 60px 20px;
-    }
-    .header {
-        text-align: center;
-        margin-bottom: 80px;
-    }
-    .header h1 {
-        font-size: 3rem;
-        font-weight: 700;
-        margin-bottom: 16px;
-        letter-spacing: -0.02em;
-    }
-    .header p {
-        font-size: 1.1rem;
-        color: #d1d5db;
-        max-width: 600px;
-        margin: 0 auto;
-    }
+
     .testimonials-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 32px;
-        margin-top: 60px;
+        grid-template-columns: 1fr;
     }
-    /* Match blog card feel */
-    .testimonial-card {
-        border: 1px solid #e5e7eb;
-        border-radius: 16px;
-        overflow: hidden;
-        background: #ffffff;
-        transition: 0.3s ease;
-        padding: 0;
-    }
-    .testimonial-card:hover {
-        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-        transform: translateY(-4px);
-    }
-    /* inner structure same as blog card */
-    .testimonial-inner {
-        padding: 28px 32px;
-    }
-    /* rating (replacing blog category label) */
-    .testimonial-rating {
-        font-size: 0.9rem;
-        color: #fbbf24;
-        margin-bottom: 12px;
-    }
-    /* title like blog titles */
-    .testimonial-title {
-        font-size: 1.25rem;
-        font-weight: 600;
-        margin-bottom: 12px;
-        color: #1f2937;
-    }
-    /* description matches blog text */
-    .testimonial-description {
-        color: #4b5563;
-        margin-bottom: 24px;
-        line-height: 1.6;
-        height:100px;
-    }
-    /* client info matches blog meta layout */
-    .client-info {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        padding-top: 20px;
-        border-top: 1px solid #e5e7eb;
-    }
-    .client-avatar {
-        width: 52px;
-        height: 52px;
-        background: #6366f1;
-        color: #ffffff;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-    .client-name {
-        font-weight: 600;
-        font-size: 0.95rem;
-        color: #111827;
-    }
-    .client-location {
-        font-size: 0.85rem;
-        color: #6b7280;
-    }
-    .stars {
-        display: flex;
-        gap: 4px;
-        margin-bottom: 20px;
-    }
-    .star {
-        color: #ff9800;
-        font-size: 1.2rem;
-    }
-    .review-title {
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-bottom: 12px;
-        color: var(--secondary);
-    }
-    .review-description {
-        font-size: 0.95rem;
-        color: #d1d5db;
-        margin-bottom: 28px;
-        flex-grow: 1;
-        line-height: 1.7;
-    }
-    /* Add call-to-action link to full story */
-    .read-more {
-        font-size: 0.9rem;
-        color: var(--accent);
-        font-weight: 600;
-        margin-bottom: 20px;
-        transition: color 0.3s ease;
-    }
-    .testimonial-card:hover .read-more {
-        color: #a78bfa;
-    }
-    .client-info {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        padding-top: 20px;
-        border-top: 1px solid #3d3d52;
-    }
-    .client-avatar {
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--accent), #a78bfa);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 1.2rem;
-        color: var(--primary);
-        flex-shrink: 0;
-    }
-    .client-details {
-        flex-grow: 1;
-    }
-    .client-name {
-        font-weight: 600;
-        font-size: 0.95rem;
-        color: var(--c-primary);
-    }
-    .client-location {
-        font-size: 0.85rem;
-        color: #9ca3af;
-        margin-top: 2px;
-        display: flex;
-        align-items: center;
-        gap: 4px;
-    }
-    @media (max-width: 768px) {
-        .header h1 {
-            font-size: 2rem;
-        }
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: 1fr !important;
-            gap: 24px;
-            width: 100%;
-        }
-        .testimonial-card {
-            padding: 24px;
-            width: 100%;
-        }
-    }
-    @media (max-width: 480px) {
-        .container {
-            padding: 40px 16px;
-        }
-        .header {
-            margin-bottom: 50px;
-        }
-        .header h1 {
-            font-size: 1.5rem;
-            margin-bottom: 12px;
-        }
-        .header p {
-            font-size: 0.95rem;
-        }
-        .testimonials-grid {
-            gap: 16px;
-            margin-top: 40px;
-        }
-        .testimonial-card {
-            padding: 20px;
-        }
-        .review-title {
-            font-size: 1.1rem;
-        }
-        .review-description {
-            font-size: 0.9rem;
-        }
-    }
+}
 </style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
@@ -238,15 +179,12 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img"
-                                    style="background-image:url(sites/default/files/2024-03/about%20banner.png);
-                                     background-size: cover;
-                          background-position: center;
-                          position: relative;">
+                                <div class="testimonial-hero">
                                     <div class="container container-l">
-                                        <h1>Real feedback from real customers who have transformed their business with
-                                            our
-                                            solutions.</h1>
+                                        <h1 style="text-align: center;">Stories of healing, renewal, and lasting peace
+                                            from our guests.</h1>
+                                        <p>These heartfelt reflections share the calm, transformation, and inner clarity
+                                            experienced at Takshasheela Ayurveda Aashram.</p>
                                     </div>
                                 </div>
                             </div>
@@ -262,24 +200,24 @@
                                             <!-- Heading -->
                                             <div class="lasting-benefits-heading text-center"
                                                 style="padding-bottom: 0px;">
-                                                <h5 class="text-uppercase small-title">What Our Clients Say</h5>
+                                                <h5 class="text-uppercase small-title">Guest Reflections</h5>
                                             </div>
                                             <!-- BLOG-STYLE GRID -->
                                             <div class="testimonials-grid">
                                                 <div class="testimonial-card">
                                                     <div class="testimonial-inner">
                                                         <div class="testimonial-rating">★★★★★</div>
-                                                        <h3 class="testimonial-title">Game-Changing Platform</h3>
+                                                        <h3 class="testimonial-title">A Deep Sense of Calm</h3>
                                                         <p class="testimonial-description">
-                                                            The efficiency gains we've seen are remarkable. Our team was
-                                                            able
-                                                            to streamline workflows and reduce deployment time by 70%.
+                                                            The retreat felt like a true reset for my body and mind.
+                                                            Every treatment was thoughtful, grounding, and deeply
+                                                            restorative.
                                                         </p>
                                                         <div class="client-info">
-                                                            <div class="client-avatar">AM</div>
+                                                            <div class="client-avatar">AS</div>
                                                             <div>
-                                                                <div class="client-name">Amanda Martinez</div>
-                                                                <div class="client-location">📍 San Francisco, CA</div>
+                                                                <div class="client-name">Asha Sharma</div>
+                                                                <div class="client-location">Kathmandu, Nepal</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -287,17 +225,16 @@
                                                 <div class="testimonial-card">
                                                     <div class="testimonial-inner">
                                                         <div class="testimonial-rating">★★★★★</div>
-                                                        <h3 class="testimonial-title">Exceptional Customer Support</h3>
+                                                        <h3 class="testimonial-title">Warmth and Healing</h3>
                                                         <p class="testimonial-description">
-                                                            The support team went above and beyond to help us integrate
-                                                            with our
-                                                            existing systems. Their guidance was invaluable.
+                                                            I came seeking peace and left with clarity, balance, and a
+                                                            renewed sense of connection to myself and nature.
                                                         </p>
                                                         <div class="client-info">
-                                                            <div class="client-avatar">JK</div>
+                                                            <div class="client-avatar">PK</div>
                                                             <div>
-                                                                <div class="client-name">James Kim</div>
-                                                                <div class="client-location">📍 New York, NY</div>
+                                                                <div class="client-name">Pooja K.C.</div>
+                                                                <div class="client-location">Pokhara, Nepal</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -305,24 +242,24 @@
                                                 <div class="testimonial-card">
                                                     <div class="testimonial-inner">
                                                         <div class="testimonial-rating">★★★★★</div>
-                                                        <h3 class="testimonial-title">Intuitive & Powerful</h3>
+                                                        <h3 class="testimonial-title">A Beautiful Retreat Experience
+                                                        </h3>
                                                         <p class="testimonial-description">
-                                                            The interface is clean and intuitive, making it easy for the
-                                                            entire
-                                                            team to adopt without extensive training.
+                                                            The atmosphere was serene, the care was genuine, and every
+                                                            moment felt aligned with healing and self-discovery.
                                                         </p>
                                                         <div class="client-info">
-                                                            <div class="client-avatar">SR</div>
+                                                            <div class="client-avatar">RB</div>
                                                             <div>
-                                                                <div class="client-name">Sarah Rodriguez</div>
-                                                                <div class="client-location">📍 Austin, TX</div>
+                                                                <div class="client-name">Rina Bhandari</div>
+                                                                <div class="client-location">Lalitpur, Nepal</div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div style="max-width: 200px; margin: 30px auto; text-align: center;">
-                                                <p class="button-contact">See More</p>
+                                            <div class="cta-row">
+                                                <!-- <p class="button-contact">Book Your Retreat</p> -->
                                             </div>
                                         </div>
                                     </section>
