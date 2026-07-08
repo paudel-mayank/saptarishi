@@ -3,56 +3,33 @@
 .gallery-hero {
     position: relative;
     overflow: hidden;
-    min-height: 430px;
+    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+        url('sites/default/files/2024-03/about%20banner.png') center/cover;
+    min-height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, rgba(47, 47, 47, 0.80), rgba(47, 47, 47, 0.42)), url('assets/main.png') center/cover;
-    margin-bottom: 32px;
 }
 
-.gallery-hero::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at top right, rgba(145, 204, 51, 0.20), transparent 35%);
-    pointer-events: none;
+.gallery-hero .container {
+    padding: 70px 20px;
 }
 
-.gallery-hero .hero-content {
-    position: relative;
-    z-index: 1;
-    max-width: 760px;
-    padding: 48px 24px;
-    color: #fff;
-}
-
-.gallery-pill {
-    display: inline-block;
-    margin-bottom: 16px;
-    padding: 8px 14px;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.16);
-    border: 1px solid rgba(255, 255, 255, 0.24);
-    font-family: var(--tag-font-family);
-    font-size: 0.78rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-}
-
-.gallery-hero h2 {
+.gallery-hero h1 {
     font-family: var(--header-font-family);
-    font-size: clamp(2rem, 3.6vw, 2.8rem);
-    line-height: 1.15;
-    margin-bottom: 14px;
+    color: #ffffff;
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
 .gallery-hero p {
+    color: rgba(255, 255, 255, 0.9);
     font-family: var(--body-font-family);
-    font-size: 1.02rem;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.92);
+    font-size: 1.06rem;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .gallery-shell {
@@ -135,6 +112,12 @@
     font-size: 0.82rem;
     color: rgba(255, 255, 255, 0.84);
 }
+
+@media (max-width: 768px) {
+    .gallery-hero {
+        min-height: 360px;
+    }
+}
 </style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
@@ -148,9 +131,8 @@
                         <div class="field__item">
                             <div class="paragraph paragraph--type--blog paragraph--view-mode--default">
                                 <div class="gallery-hero">
-                                    <div class="hero-content">
-                                        <span class="gallery-pill">A peaceful sanctuary</span>
-                                        <h2>Moments of Healing &amp; Serenity</h2>
+                                    <div class="container container-l">
+                                        <h1>Moments of Healing &amp; Serenity</h1>
                                         <p>Step into the calm of Saptarishi Ayurveda Ashram and discover the spaces
                                             where restorative care, mindful rituals, and natural beauty come together.
                                         </p>
