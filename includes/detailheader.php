@@ -224,6 +224,8 @@
                                                             class="dropdown-item">Testimonials</a>
                                                         <a href="blog.php" class="dropdown-item">Blogs</a>
                                                         <a href="blog.php" class="dropdown-item">News & Events</a>
+                                                        <a href="gallery.php" class="dropdown-item">Gallery</a>
+
                                                     </div>
                                                 </li>
 

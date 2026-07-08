@@ -4,7 +4,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[php]": {
-    "editor.defaultFormatter": "rifi2k.format-html-in-php",
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
     "editor.formatOnSave": true
 },
 

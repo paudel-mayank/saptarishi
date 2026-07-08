@@ -9,13 +9,14 @@
           <div
             class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
             <div class="field__item">
-           
+
               <section class="py-5 bg-light" id="contact">
                 <div class="container">
                   <div class="text-center mb-5">
                     <h6 class="text-uppercase small-title ">Get In Touch</h6>
                     <h3 class="fw-bold">We’d love to hear from you</h3>
-                    <p class="text-muted">Have questions or want to learn more? Reach out using the form below.</p>
+                    <p class="text-muted">Have questions or want to learn more? Reach out using the
+                      form below.</p>
                   </div>
                   <div class="d-flex flex-column flex-lg-row gap-5 align-items-start">
                     <!-- Contact Form (in Card) -->
@@ -83,7 +84,7 @@
                       </div>
                       <hr class="my-3">
                       <!-- Social Links -->
-          
+
                     </div>
                   </div>
                 </div>

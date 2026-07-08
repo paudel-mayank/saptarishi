@@ -74,21 +74,21 @@
         data-search-pseudo-elements></script>
 
     <style>
-    .items {
-        min-width: 480px
-    }
+        .items {
+            min-width: 480px
+        }
 
-    .nav-link.dropdown-toggle::after {
-        display: block;
-        border-width: 0 1px 1px 0;
-        border-color: var(--changecolor, var(--c-black));
-        padding: 3px;
-        border-style: solid;
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        margin-left: 10px;
-        margin-bottom: 3px;
-    }
+        .nav-link.dropdown-toggle::after {
+            display: block;
+            border-width: 0 1px 1px 0;
+            border-color: var(--changecolor, var(--c-black));
+            padding: 3px;
+            border-style: solid;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            margin-left: 10px;
+            margin-bottom: 3px;
+        }
     </style>
 
 </head>
@@ -208,6 +208,8 @@
                                                             class="dropdown-item">Testimonials</a>
                                                         <a href="blog.php" class="dropdown-item">Blogs</a>
                                                         <a href="blog.php" class="dropdown-item">News & Events</a>
+                                                        <a href="gallery.php" class="dropdown-item">Gallery</a>
+
                                                     </div>
                                                 </li>
 
