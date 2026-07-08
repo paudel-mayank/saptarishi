@@ -1,36 +1,95 @@
 <?php include 'includes/detailHeader.php' ?>
 
 <style>
-.service-benefits,
-.service-includes {
-    list-style: none;
-    margin: 25px 0;
-    padding: 0;
-}
+    .service-benefits,
+    .service-includes {
+        list-style: none;
+        margin: 25px 0;
+        padding: 0;
+    }
 
-.service-benefits li,
-.service-includes li {
-    padding: 12px 0 12px 40px;
-    position: relative;
-    font-size: 1.05rem;
-    color: #555;
-    border-bottom: 1px solid var(--border-light);
-}
+    .service-benefits li,
+    .service-includes li {
+        padding: 12px 0 12px 40px;
+        position: relative;
+        font-size: 1.05rem;
+        color: #555;
+        border-bottom: 1px solid var(--border-light);
+    }
 
-.service-benefits li::before,
-.service-includes li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--accent-gold);
-    font-weight: bold;
-    font-size: 1.3rem;
-}
+    .service-benefits li::before,
+    .service-includes li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: var(--accent-gold);
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
 
-.service-benefits li:last-child,
-.service-includes li:last-child {
-    border-bottom: none;
-}
+    .service-benefits li:last-child,
+    .service-includes li:last-child {
+        border-bottom: none;
+    }
+
+    .blog-upper-content {
+        animation: fadeUp 0.8s ease both;
+    }
+
+    .blog-upper-content h2,
+    .blog-upper-content p {
+        animation: fadeIn 0.9s ease both;
+        animation-delay: 0.1s;
+    }
+
+    .accommodation-item {
+        animation: fadeUp 0.8s ease both;
+    }
+
+    .accommodation-image {
+        overflow: hidden;
+        border-radius: 18px;
+        box-shadow: 0 16px 40px rgba(34, 55, 69, 0.12);
+    }
+
+    .accommodation-image img {
+        transition: transform 0.7s ease, filter 0.7s ease;
+        transform-origin: center;
+    }
+
+    .accommodation-image:hover img {
+        transform: scale(1.05);
+        filter: brightness(1.03);
+    }
+
+    .accommodation-content {
+        animation: fadeIn 0.9s ease both;
+        animation-delay: 0.15s;
+    }
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateX(12px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 </style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
@@ -79,17 +138,15 @@
                                         <div class="container" style="padding-bottom:80px;">
                                             <div class="wrapper row my-4 g-4">
                                                 <div class="col-6">
-                                                    <div class="">
+                                                    <div class="accommodation-item accommodation-image">
                                                         <img src="assets/images.jpg" alt="Retreat Space"
                                                             style="height: 500px; object-fit: cover;"
-                                                            class=" w-100 gallery-img">
-
+                                                            class="w-100 gallery-img">
                                                     </div>
-
                                                 </div>
                                                 <div class="col-6">
                                                     <div
-                                                        class="paragraph paragraph--type--image-and-content paragraph--view-mode--default">
+                                                        class="paragraph paragraph--type--image-and-content paragraph--view-mode--default accommodation-content">
                                                         <div class="content">
                                                             <div
                                                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -129,16 +186,16 @@
 
                                                 <div class=" wrapper row mb-4 g-4">
                                                     <div class="col-6">
-                                                        <div class="">
+                                                        <div class="accommodation-item accommodation-image">
                                                             <img src="assets/DeluxeKing.jpg" alt="Retreat Space"
                                                                 style="height: 500px; object-fit: cover;"
-                                                                class=" w-100 gallery-img">
+                                                                class="w-100 gallery-img">
                                                         </div>
                                                     </div>
 
                                                     <div class="col-6">
                                                         <div
-                                                            class="paragraph paragraph--type--image-and-content paragraph--view-mode--default">
+                                                            class="paragraph paragraph--type--image-and-content paragraph--view-mode--default accommodation-content">
                                                             <div class="content">
                                                                 <div
                                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">

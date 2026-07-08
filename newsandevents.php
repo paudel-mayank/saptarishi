@@ -19,15 +19,19 @@
     .news-hero h1 {
         font-family: var(--header-font-family);
         color: #ffffff;
-        font-size: clamp(2.1rem, 4vw, 3rem);
+        font-size: clamp(2rem, 3vw, 2.75rem);
+        font-weight: 600;
         line-height: 1.2;
-        margin-bottom: 16px;
+        letter-spacing: 0;
+        margin-bottom: 20px;
     }
 
     .news-hero p {
         color: rgba(255, 255, 255, 0.9);
         font-family: var(--body-font-family);
-        font-size: 1.06rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8;
         max-width: 720px;
         margin: 0 auto;
     }

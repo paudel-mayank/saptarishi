@@ -1,34 +1,77 @@
 <?php include 'includes/header.php' ?>
 <style>
-.ayurveda-hero {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
-        url('sites/default/files/2024-03/about%20banner.png') center/cover;
-    min-height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.ayurveda-hero .container {
-    padding: 70px 20px;
-}
-
-.ayurveda-hero h1 {
-    font-family: var(--header-font-family);
-    color: #ffffff;
-    font-size: clamp(2.1rem, 4vw, 3rem);
-    line-height: 1.2;
-    margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
     .ayurveda-hero {
-        min-height: 360px;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
+            url('sites/default/files/2024-03/about%20banner.png') center/cover;
+        min-height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-}
+
+    .ayurveda-hero .container {
+        padding: 70px 20px;
+    }
+
+    .ayurveda-hero h1 {
+        font-family: var(--header-font-family);
+        color: #ffffff;
+        font-size: clamp(2.1rem, 4vw, 3rem);
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        .ayurveda-hero {
+            min-height: 360px;
+        }
+    }
+
+    .ayurveda-hero {
+        animation: fadeUp 0.8s ease both;
+    }
+
+    .ayurveda-hero h1 {
+        animation: fadeIn 0.9s ease both;
+        animation-delay: 0.1s;
+    }
+
+    .ayurveda-image-block,
+    .ayurveda-content-block {
+        animation: fadeUp 0.8s ease both;
+    }
+
+    .ayurveda-content-block {
+        animation: fadeIn 0.9s ease both;
+        animation-delay: 0.15s;
+    }
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateX(12px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 </style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
@@ -56,7 +99,7 @@
                                 class="paragraph image-right paragraph--type--image-and-content paragraph--view-mode--default">
                                 <div class="container type-col">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 ayurveda-image-block">
 
                                             <div
                                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
@@ -64,7 +107,7 @@
                                                     width="1286" height="1572" alt="Inclusivity" class="img-fluid" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6 intro-type-1">
+                                        <div class="col-md-6 intro-type-1 ayurveda-content-block">
                                             <div class="small-title">
                                                 <div
                                                     class="field field--name-field-small-title field--type-string field--label-hidden field__item">
@@ -102,7 +145,7 @@
                             <div class="paragraph paragraph--type--image-and-content paragraph--view-mode--default">
                                 <div class="container type-col">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 ayurveda-image-block">
                                             <div
                                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
                                                 <img loading="lazy"
@@ -111,7 +154,7 @@
                                                     alt="Rafia and Turiya laughing on a bench" class="img-fluid" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6 intro-type-1">
+                                        <div class="col-md-6 intro-type-1 ayurveda-content-block">
                                             <div class="small-title">
                                                 <div
                                                     class="field field--name-field-small-title field--type-string field--label-hidden field__item">
