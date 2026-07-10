@@ -91,44 +91,241 @@
         }
 
 
-        .header.site-header-main .wellness-programs-menu .wellness-mega-menu {
-            min-width: 560px !important;
-            padding: 18px !important;
-            border: 0;
-            box-shadow: none;
+        .header .wellness-programs-menu>.wellness-menu {
+            min-width: 340px !important;
+            padding: 14px !important;
+            border: 1px solid rgba(34, 55, 69, 0.08);
+            border-radius: 12px;
+            box-shadow: 0 18px 45px rgba(34, 55, 69, 0.16);
             background: #ffffff;
         }
 
-        .header.site-header-main .wellness-programs-menu .wellness-group {
-            background: #f7f3eb;
+        .header .wellness-programs-menu .wellness-submenu {
+            position: relative;
+        }
+
+        .header .wellness-programs-menu .wellness-submenu-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 46px;
+            font-weight: 600;
+        }
+
+        .header .wellness-programs-menu .wellness-submenu-toggle>span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header .wellness-programs-menu .wellness-submenu-toggle i {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
             border-radius: 8px;
-            padding: 16px;
+            color: var(--c-primary, #78ad27);
+            background: rgba(145, 204, 51, 0.12);
+            font-size: 0.95rem;
         }
 
-        .header.site-header-main .wellness-programs-menu .dropdown-header {
-            padding: 0 0 10px;
-            color: var(--c-primary, #91cc33) !important;
-            font-family: var(--tag-font-family);
-            font-size: 0.82rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
+        .header .wellness-programs-menu .wellness-submenu-toggle::after {
+            content: '';
+            width: 7px;
+            height: 7px;
+            margin-left: 16px;
+            border-top: 1px solid currentColor;
+            border-right: 1px solid currentColor;
+            transform: rotate(135deg);
         }
 
-        .header.site-header-main .wellness-programs-menu .dropdown-item {
-            border-radius: 6px;
-            padding: 9px 10px;
+        .header .wellness-programs-menu .wellness-submenu-menu {
+            position: static;
+            display: none;
+            width: auto;
+            min-width: 0;
+            padding: 8px 0 10px 14px;
+            margin: 5px 0 7px 16px;
+            border: 0;
+            border-left: 2px solid rgba(145, 204, 51, 0.32);
+            border-radius: 0;
+            box-shadow: none;
+            background: rgba(247, 249, 243, 0.72);
+        }
+
+        .header .wellness-programs-menu .wellness-submenu.nested-dropdown-open>.wellness-submenu-menu {
+            display: block;
+        }
+
+        .header .wellness-programs-menu .wellness-submenu.nested-dropdown-open>.wellness-submenu-toggle::after {
+            transform: rotate(-45deg);
+        }
+
+        .header .wellness-programs-menu .wellness-submenu.nested-dropdown-open>.wellness-submenu-toggle {
+            color: var(--c-title, #223745);
+            background: rgba(145, 204, 51, 0.14);
+        }
+
+        .header .wellness-programs-menu .dropdown-item {
+            margin: 2px 0;
+            border-radius: 8px;
+            padding: 10px 12px;
             line-height: 1.35;
             white-space: normal;
+            transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
         }
 
-        .header.site-header-main .wellness-programs-menu .dropdown-item:hover {
+        .header .wellness-programs-menu .dropdown-item:hover,
+        .header .wellness-programs-menu .dropdown-item:focus {
             background: rgba(145, 204, 51, 0.12);
             color: var(--c-title, #2f2f2f);
         }
 
-        .header.site-header-main .wellness-programs-menu .small-title {
+        .header .wellness-programs-menu .small-title {
             color: var(--c-primary, #91cc33);
             font-weight: 700;
+        }
+
+        .header .wellness-programs-menu .wellness-menu-label {
+            padding: 5px 12px 10px;
+            color: #7c878d;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .header .wellness-programs-menu .wellness-category,
+        .header .wellness-programs-menu .wellness-subcategory {
+            color: var(--c-title, #223745);
+        }
+
+        .header .wellness-programs-menu .wellness-leaf {
+            position: relative;
+            padding-left: 30px;
+            color: #48585f;
+            font-size: 0.92rem;
+        }
+
+        .header .wellness-programs-menu .wellness-leaf::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 12px;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--c-primary, #91cc33);
+            transform: translateY(-50%);
+        }
+
+        .header .wellness-programs-menu .wellness-leaf:hover,
+        .header .wellness-programs-menu .wellness-leaf:focus {
+            transform: translateX(2px);
+        }
+
+        .header .wellness-programs-menu .wellness-view-all {
+            margin: 0 0 7px;
+            padding: 9px 12px 12px;
+            border-bottom: 1px solid rgba(34, 55, 69, 0.1);
+            border-radius: 0;
+            font-size: 0.82rem;
+        }
+
+        .header .standard-menu {
+            min-width: 260px !important;
+            padding: 12px !important;
+            border: 1px solid rgba(34, 55, 69, 0.08);
+            border-radius: 12px;
+            box-shadow: 0 18px 45px rgba(34, 55, 69, 0.16);
+            background: #ffffff;
+        }
+
+        .header .standard-menu .standard-menu-label {
+            padding: 5px 12px 10px;
+            color: #7c878d;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .header .standard-menu .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            min-height: 44px;
+            margin: 2px 0;
+            padding: 9px 11px;
+            border-radius: 8px;
+            color: var(--c-title, #223745);
+            line-height: 1.35;
+            white-space: normal;
+            transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+        }
+
+        .header .standard-menu .dropdown-item i {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 32px;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            color: var(--c-primary, #78ad27);
+            background: rgba(145, 204, 51, 0.12);
+            font-size: 0.92rem;
+        }
+
+        .header .standard-menu .dropdown-item:hover,
+        .header .standard-menu .dropdown-item:focus {
+            color: var(--c-title, #223745);
+            background: rgba(145, 204, 51, 0.12);
+            transform: translateX(2px);
+        }
+
+        @media (min-width: 992px) {
+            .header .wellness-programs-menu>.wellness-menu {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 10px;
+                margin-top: 0 !important;
+            }
+
+            .header .wellness-programs-menu>.wellness-menu.show {
+                display: grid;
+            }
+
+            .header .wellness-programs-menu>.wellness-menu>.wellness-menu-label {
+                grid-column: 1 / -1;
+            }
+
+            .header .wellness-programs-menu>.wellness-menu>.wellness-submenu {
+                position: static;
+            }
+
+            .header .wellness-programs-menu>.wellness-menu>.wellness-submenu>.wellness-submenu-menu {
+                position: absolute;
+                top: calc(100% - 2px);
+                right: 0;
+                left: 0;
+                width: 100%;
+                margin: 0;
+                padding: 16px;
+                border: 1px solid rgba(34, 55, 69, 0.08);
+                border-radius: 0 0 12px 12px;
+                box-shadow: 0 18px 45px rgba(34, 55, 69, 0.16);
+                background: #ffffff;
+            }
+
+            .header .wellness-programs-menu .wellness-category {
+                justify-content: center;
+                padding: 10px 12px;
+            }
+
+            .header .wellness-programs-menu .wellness-category::after {
+                display: none;
+            }
         }
 
         @media (max-width: 991.72px) {
@@ -182,7 +379,7 @@
                 background: #f7f3eb;
             }
 
-            .header.site-header-main .navbar-nav>li.mobile-dropdown-open .dropdown-menu {
+            .header.site-header-main .navbar-nav>li.mobile-dropdown-open>.dropdown-menu {
                 display: block;
             }
 
@@ -197,14 +394,40 @@
                 padding: 10px 0 0;
             }
 
-            .header.site-header-main .wellness-programs-menu .wellness-mega-menu {
-                padding: 6px 0 14px !important;
+            .header.site-header-main .wellness-programs-menu>.wellness-menu {
+                min-width: 0 !important;
+                padding: 6px 14px 14px !important;
                 background: #f7f3eb;
             }
 
-            .header.site-header-main .wellness-programs-menu .wellness-group {
-                padding: 12px 14px;
+            .header.site-header-main .wellness-programs-menu .wellness-submenu-menu {
+                position: static;
+                display: none;
+                min-width: 0;
+                width: auto;
+                padding: 5px 0 7px 12px !important;
+                margin: 3px 0 5px 14px;
+                border: 0;
+                border-left: 2px solid rgba(145, 204, 51, 0.32);
+                border-radius: 0;
+                box-shadow: none;
                 background: transparent;
+            }
+
+            .header.site-header-main .wellness-programs-menu .wellness-menu-label {
+                padding: 7px 10px 5px;
+            }
+
+            .header.site-header-main .wellness-programs-menu .wellness-submenu-toggle {
+                min-height: 44px;
+            }
+
+            .header.site-header-main .wellness-programs-menu .wellness-submenu.nested-dropdown-open>.wellness-submenu-menu {
+                display: block;
+            }
+
+            .header.site-header-main .wellness-programs-menu .wellness-submenu.nested-dropdown-open>.wellness-submenu-toggle::after {
+                transform: rotate(-45deg);
             }
 
             .header.site-header-main .dropdown-menu .dropdown-header {
@@ -219,6 +442,15 @@
                 border-radius: 6px;
                 white-space: normal;
                 line-height: 1.35;
+            }
+
+            .header.site-header-main .standard-menu {
+                min-width: 0 !important;
+                padding: 8px 14px 14px !important;
+                border: 0;
+                border-radius: 0;
+                box-shadow: none;
+                background: #f7f3eb;
             }
 
             .header.site-header-main .navbar-nav>li:last-child {
@@ -277,63 +509,68 @@
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="about-us.php"
                                                         data-bs-toggle="dropdown">Discover</a>
-                                                    <div class="dropdown-menu p-3" style="min-width: 220px;">
-                                                        <a href="about-us.php" class="dropdown-item">About
-                                                            Takshasheela</a>
-                                                        <a href="aboutayurveda.php" class="dropdown-item">About
-                                                            Ayurveda</a>
-
-                                                        <a href="ourteams.php" class="dropdown-item">Our Teams</a>
-                                                        <a href="ourapproach.php" class="dropdown-item">Our Approach</a>
+                                                    <div class="dropdown-menu standard-menu">
+                                                        <div class="standard-menu-label">Discover Us</div>
+                                                        <a href="about-us.php" class="dropdown-item"><i
+                                                                class="bi bi-building"></i>About Takshasheela</a>
+                                                        <a href="aboutayurveda.php" class="dropdown-item"><i
+                                                                class="bi bi-flower1"></i>About Ayurveda</a>
+                                                        <a href="ourteams.php" class="dropdown-item"><i
+                                                                class="bi bi-people"></i>Our Teams</a>
+                                                        <a href="ourapproach.php" class="dropdown-item"><i
+                                                                class="bi bi-compass"></i>Our Approach</a>
                                                     </div>
                                                 </li>
                                                 <li class="nav-item dropdown wellness-programs-menu">
                                                     <a class="nav-link dropdown-toggle" href="find-retreat.php"
-                                                        data-bs-toggle="dropdown">Wellness Programs</a>
-                                                    <div class="dropdown-menu wellness-mega-menu p-4">
-                                                        <div class="row">
-                                                            <!-- PACKAGES COLUMN -->
-                                                            <div class="col-6">
-                                                                <div class="wellness-group">
-                                                                    <a href="packages.php"
-                                                                        class="dropdown-header fw-bold text-primary">
-                                                                        Packages</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="package-detail.php">7-Day
-                                                                        Healing Package</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="package-detail.php">14-Day
-                                                                        Transformation</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="package-detail.php">21-Day
-                                                                        Meditation</a>
-                                                                    <!-- See More Button -->
-                                                                    <a href="packages.php"
-                                                                        class="small-title dropdown-item mt-2 w-100">
-                                                                        See More &rarr;
-                                                                    </a>
+                                                        data-bs-toggle="dropdown" aria-expanded="false">Wellness Programs</a>
+                                                    <div class="dropdown-menu wellness-menu">
+                                                        <div class="wellness-menu-label">Explore Wellness</div>
+                                                        <div class="wellness-submenu">
+                                                            <a class="dropdown-item wellness-submenu-toggle wellness-category"
+                                                                href="packages.php" aria-haspopup="true"
+                                                                aria-expanded="false"><span><i class="bi bi-box-seam"></i>Packages</span></a>
+                                                            <div class="dropdown-menu wellness-submenu-menu">
+                                                                <div class="wellness-menu-label">Package Types</div>
+                                                                <a class="small-title dropdown-item wellness-view-all"
+                                                                    href="packages.php">View All Packages &rarr;</a>
+                                                                <div class="wellness-submenu">
+                                                                    <a class="dropdown-item wellness-submenu-toggle wellness-subcategory"
+                                                                        href="packages.php" aria-haspopup="true"
+                                                                        aria-expanded="false"><span><i class="bi bi-stars"></i>Retreat Packages</span></a>
+                                                                    <div class="dropdown-menu wellness-submenu-menu wellness-item-list">
+                                                                        <div class="wellness-menu-label">Retreat Packages</div>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="package-detail.php">Panchakarma Rejuvenation</a>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="package-detail.php">Ayurvedic Wellness Immersion</a>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="package-detail.php">Mind–Body Balance Retreat</a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <!-- SERVICES COLUMN -->
-                                                            <div class="col-6">
-                                                                <div class="wellness-group">
-                                                                    <a href="services.php"
-                                                                        class="dropdown-header fw-bold text-primary">
-                                                                        Services</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="service-detail.php">Emotional
-                                                                        Healing</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="service-detail.php">Mindfulness
-                                                                        Training</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="service-detail.php">Trauma
-                                                                        Release Therapy</a>
-                                                                    <!-- See More Button -->
-                                                                    <a href="services.php"
-                                                                        class="small-title dropdown-item mt-2 w-100">
-                                                                        See More &rarr;
-                                                                    </a>
+                                                        </div>
+                                                        <div class="wellness-submenu">
+                                                            <a class="dropdown-item wellness-submenu-toggle wellness-category"
+                                                                href="services.php" aria-haspopup="true"
+                                                                aria-expanded="false"><span><i class="bi bi-heart-pulse"></i>Services</span></a>
+                                                            <div class="dropdown-menu wellness-submenu-menu">
+                                                                <div class="wellness-menu-label">Service Types</div>
+                                                                <a class="small-title dropdown-item wellness-view-all"
+                                                                    href="services.php">View All Services &rarr;</a>
+                                                                <div class="wellness-submenu">
+                                                                    <a class="dropdown-item wellness-submenu-toggle wellness-subcategory"
+                                                                        href="services.php" aria-haspopup="true"
+                                                                        aria-expanded="false"><span><i class="bi bi-flower1"></i>Healing Services</span></a>
+                                                                    <div class="dropdown-menu wellness-submenu-menu wellness-item-list">
+                                                                        <div class="wellness-menu-label">Healing Services</div>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="service-detail.php">Panchakarma &amp; Detox Therapy</a>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="service-detail.php">Ayurvedic Wellness Retreats</a>
+                                                                        <a class="dropdown-item wellness-leaf"
+                                                                            href="service-detail.php">Personalized Healing Programs</a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -346,13 +583,16 @@
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="blog.php"
                                                         data-bs-toggle="dropdown">Chronicles</a>
-                                                    <div class="dropdown-menu p-3" style="min-width: 220px;">
-                                                        <a href="testimonials.php"
-                                                            class="dropdown-item">Testimonials</a>
-                                                        <a href="blog.php" class="dropdown-item">Blogs</a>
-                                                        <a href="newsandevents.php" class="dropdown-item">News &
-                                                            Events</a>
-                                                        <a href="gallery.php" class="dropdown-item">Gallery</a>
+                                                    <div class="dropdown-menu standard-menu">
+                                                        <div class="standard-menu-label">Explore Stories</div>
+                                                        <a href="testimonials.php" class="dropdown-item"><i
+                                                                class="bi bi-chat-quote"></i>Testimonials</a>
+                                                        <a href="blog.php" class="dropdown-item"><i
+                                                                class="bi bi-journal-text"></i>Blogs</a>
+                                                        <a href="newsandevents.php" class="dropdown-item"><i
+                                                                class="bi bi-calendar-event"></i>News &amp; Events</a>
+                                                        <a href="gallery.php" class="dropdown-item"><i
+                                                                class="bi bi-images"></i>Gallery</a>
 
                                                     </div>
                                                 </li>
@@ -391,6 +631,34 @@
                 if (!header) return;
 
                 header.addEventListener('click', function (event) {
+                    var nestedToggle = event.target.closest('.wellness-submenu-toggle');
+                    if (nestedToggle) {
+                        event.preventDefault();
+                        event.stopPropagation();
+
+                        var submenu = nestedToggle.closest('.wellness-submenu');
+                        var nestedIsOpen = !submenu.classList.contains('nested-dropdown-open');
+
+                        Array.prototype.forEach.call(submenu.parentElement.children, function (sibling) {
+                            if (sibling !== submenu && sibling.classList && sibling.classList.contains(
+                                    'wellness-submenu')) {
+                                sibling.classList.remove('nested-dropdown-open');
+                                sibling.querySelectorAll('.nested-dropdown-open').forEach(function (child) {
+                                    child.classList.remove('nested-dropdown-open');
+                                });
+                            }
+                        });
+
+                        submenu.classList.toggle('nested-dropdown-open', nestedIsOpen);
+                        if (!nestedIsOpen) {
+                            submenu.querySelectorAll('.nested-dropdown-open').forEach(function (child) {
+                                child.classList.remove('nested-dropdown-open');
+                            });
+                        }
+                        nestedToggle.setAttribute('aria-expanded', String(nestedIsOpen));
+                        return;
+                    }
+
                     var toggle = event.target.closest('.nav-item.dropdown > .dropdown-toggle');
                     if (!toggle || window.innerWidth > 991.72) return;
 

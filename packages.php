@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include 'includes/detailheader.php' ?>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
