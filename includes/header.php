@@ -1,16 +1,21 @@
+<?php require_once __DIR__ . '/site-config.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../assets/fav.png" type="image/png" />
-    <title>Takshashelaa | International Self-Development and Healing Retreats</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
+    <meta name="description" content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8') ?>" />
+    <meta name="theme-color" content="#223745" />
+    <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8') ?>" />
+    <meta property="og:description" content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8') ?>" />
+    <meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>" />
+    <meta property="og:image" content="<?= htmlspecialchars($requestScheme . '://' . $requestHost . '/assets/main.png', ENT_QUOTES, 'UTF-8') ?>" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/fav.png" type="image/png" />
+    <title><?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8') ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/system/components/align.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
@@ -39,7 +44,6 @@
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/system/components/tablesort.module1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="core/themes/stable9/css/views/views.module1e7c.css?t33iat" />
-    <link rel="stylesheet" media="all" href="modules/contrib/paragraphs/css/paragraphs.unpublished1e7c.css?t33iat" />
     <link rel="stylesheet" media="all"
         href="core/themes/stable9/css/core/assets/vendor/normalize-css/normalize1e7c.css?t33iat" />
     <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/components/action-links1e7c.css?t33iat" />
@@ -461,12 +465,19 @@
         }
     </style>
 
+    <script type="application/ld+json"><?= json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'Organization',
+        'name' => 'Takshasheela Ayurveda Aashram',
+        'url' => $requestScheme . '://' . $requestHost . '/index.php',
+        'logo' => $requestScheme . '://' . $requestHost . '/assets/main.png',
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
 </head>
 
-<body class="node-type-homepage page-id-1 path-frontpage page-node-type-homepage   d-flex flex-column h-100">
+<body class="<?= $isHomeHeader ? 'node-type-homepage path-frontpage page-node-type-homepage' : 'path-node page-node-type-page' ?> d-flex flex-column h-100">
 
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
-        <header class="header site-header-main">
+        <header class="header site-header-main<?= $isHomeHeader ? '' : ' site-header-detail' ?>">
             <div class="container-fluid" style="padding: 0px 30px;">
                 <div class="wrapper">
                     <div class="branding-menu-wrapper">
@@ -477,7 +488,7 @@
                                         class="block block-system block-system-branding-block">
                                         <div class="navbar-brand d-flex align-items-center">
                                             <a href="index.php" title="Home" rel="home" class="site-logo d-block">
-                                                <img src="assets/main.png" alt="Home" fetchpriority="high" />
+                                                <img src="assets/main.png" alt="Takshasheela Ayurveda Aashram" width="290" height="80" fetchpriority="high" />
                                             </a>
                                             <div>
                                             </div>
@@ -487,7 +498,7 @@
                             </div>
                             <div class="default-logo">
                                 <a href="index.php" title="Home" rel="home">
-                                    <img src="assets/main.png" alt="Home" fetchpriority="high">
+                                    <img src="assets/main.png" alt="Takshasheela Ayurveda Aashram" width="290" height="80" fetchpriority="high">
                                 </a>
                             </div>
                         </div>
@@ -506,24 +517,24 @@
                                                 Main navigation</h5>
                                             <ul data-block="nav_main" class="navbar-nav nav-level-0">
 
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" href="about-us.php"
-                                                        data-bs-toggle="dropdown">Discover</a>
+                                                <li class="nav-item dropdown<?= nav_is_active(['about-us.php', 'aboutayurveda.php', 'ourteams.php', 'ourapproach.php']) ? ' active' : '' ?>">
+                                                    <a class="nav-link dropdown-toggle<?= nav_is_active(['about-us.php', 'aboutayurveda.php', 'ourteams.php', 'ourapproach.php']) ? ' active' : '' ?>" href="about-us.php"
+                                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discover</a>
                                                     <div class="dropdown-menu standard-menu">
                                                         <div class="standard-menu-label">Discover Us</div>
-                                                        <a href="about-us.php" class="dropdown-item"><i
+                                                        <a href="about-us.php" class="dropdown-item<?= nav_link_attributes(['about-us.php']) ?>"><i
                                                                 class="bi bi-building"></i>About Takshasheela</a>
-                                                        <a href="aboutayurveda.php" class="dropdown-item"><i
+                                                        <a href="aboutayurveda.php" class="dropdown-item<?= nav_link_attributes(['aboutayurveda.php']) ?>"><i
                                                                 class="bi bi-flower1"></i>About Ayurveda</a>
-                                                        <a href="ourteams.php" class="dropdown-item"><i
+                                                        <a href="ourteams.php" class="dropdown-item<?= nav_link_attributes(['ourteams.php']) ?>"><i
                                                                 class="bi bi-people"></i>Our Teams</a>
-                                                        <a href="ourapproach.php" class="dropdown-item"><i
+                                                        <a href="ourapproach.php" class="dropdown-item<?= nav_link_attributes(['ourapproach.php']) ?>"><i
                                                                 class="bi bi-compass"></i>Our Approach</a>
                                                     </div>
                                                 </li>
-                                                <li class="nav-item dropdown wellness-programs-menu">
-                                                    <a class="nav-link dropdown-toggle" href="find-retreat.php"
-                                                        data-bs-toggle="dropdown" aria-expanded="false">Wellness Programs</a>
+                                                <li class="nav-item dropdown wellness-programs-menu<?= nav_is_active(['find-retreat.php', 'packages.php', 'package-detail.php', 'services.php', 'service-detail.php']) ? ' active' : '' ?>">
+                                                    <a class="nav-link dropdown-toggle<?= nav_is_active(['find-retreat.php', 'packages.php', 'package-detail.php', 'services.php', 'service-detail.php']) ? ' active' : '' ?>" href="find-retreat.php"
+                                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wellness Programs</a>
                                                     <div class="dropdown-menu wellness-menu">
                                                         <div class="wellness-menu-label">Explore Wellness</div>
                                                         <div class="wellness-submenu">
@@ -532,7 +543,7 @@
                                                                 aria-expanded="false"><span><i class="bi bi-box-seam"></i>Packages</span></a>
                                                             <div class="dropdown-menu wellness-submenu-menu">
                                                                 <div class="wellness-menu-label">Package Types</div>
-                                                                <a class="small-title dropdown-item wellness-view-all"
+                                                                <a class="small-title dropdown-item wellness-view-all<?= nav_link_attributes(['packages.php']) ?>"
                                                                     href="packages.php">View All Packages &rarr;</a>
                                                                 <div class="wellness-submenu">
                                                                     <a class="dropdown-item wellness-submenu-toggle wellness-subcategory"
@@ -540,12 +551,12 @@
                                                                         aria-expanded="false"><span><i class="bi bi-stars"></i>Retreat Packages</span></a>
                                                                     <div class="dropdown-menu wellness-submenu-menu wellness-item-list">
                                                                         <div class="wellness-menu-label">Retreat Packages</div>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="package-detail.php">Panchakarma Rejuvenation</a>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="package-detail.php">Ayurvedic Wellness Immersion</a>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="package-detail.php">Mind–Body Balance Retreat</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('package-detail.php', 'program', 'panchakarma-rejuvenation') ?>"
+                                                                            href="package-detail.php?program=panchakarma-rejuvenation">Panchakarma Rejuvenation</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('package-detail.php', 'program', 'ayurvedic-wellness-immersion') ?>"
+                                                                            href="package-detail.php?program=ayurvedic-wellness-immersion">Ayurvedic Wellness Immersion</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('package-detail.php', 'program', 'mind-body-balance') ?>"
+                                                                            href="package-detail.php?program=mind-body-balance">Mind–Body Balance Retreat</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -556,7 +567,7 @@
                                                                 aria-expanded="false"><span><i class="bi bi-heart-pulse"></i>Services</span></a>
                                                             <div class="dropdown-menu wellness-submenu-menu">
                                                                 <div class="wellness-menu-label">Service Types</div>
-                                                                <a class="small-title dropdown-item wellness-view-all"
+                                                                <a class="small-title dropdown-item wellness-view-all<?= nav_link_attributes(['services.php']) ?>"
                                                                     href="services.php">View All Services &rarr;</a>
                                                                 <div class="wellness-submenu">
                                                                     <a class="dropdown-item wellness-submenu-toggle wellness-subcategory"
@@ -564,12 +575,12 @@
                                                                         aria-expanded="false"><span><i class="bi bi-flower1"></i>Healing Services</span></a>
                                                                     <div class="dropdown-menu wellness-submenu-menu wellness-item-list">
                                                                         <div class="wellness-menu-label">Healing Services</div>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="service-detail.php">Panchakarma &amp; Detox Therapy</a>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="service-detail.php">Ayurvedic Wellness Retreats</a>
-                                                                        <a class="dropdown-item wellness-leaf"
-                                                                            href="service-detail.php">Personalized Healing Programs</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('service-detail.php', 'service', 'panchakarma-detox') ?>"
+                                                                            href="service-detail.php?service=panchakarma-detox">Panchakarma &amp; Detox Therapy</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('service-detail.php', 'service', 'ayurvedic-wellness') ?>"
+                                                                            href="service-detail.php?service=ayurvedic-wellness">Ayurvedic Wellness Retreats</a>
+                                                                        <a class="dropdown-item wellness-leaf<?= detail_link_attributes('service-detail.php', 'service', 'personalized-healing') ?>"
+                                                                            href="service-detail.php?service=personalized-healing">Personalized Healing Programs</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -577,29 +588,27 @@
                                                     </div>
                                                 </li>
                                                 <li class="nav-item dropdown">
-                                                    <a href="accomodations.php" class="nav-link "
-                                                        data-drupal-link-system-path="node/24">Accomodations</a>
+                                                    <a href="accommodations.php" class="nav-link<?= nav_link_attributes(['accommodations.php', 'accomodations.php']) ?>">Accommodations</a>
                                                 </li>
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" href="blog.php"
-                                                        data-bs-toggle="dropdown">Chronicles</a>
+                                                <li class="nav-item dropdown<?= nav_is_active(['testimonials.php', 'blog.php', 'blog-detail.php', 'newsandevents.php', 'news-events-details.php', 'gallery.php']) ? ' active' : '' ?>">
+                                                    <a class="nav-link dropdown-toggle<?= nav_is_active(['testimonials.php', 'blog.php', 'blog-detail.php', 'newsandevents.php', 'news-events-details.php', 'gallery.php']) ? ' active' : '' ?>" href="blog.php"
+                                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chronicles</a>
                                                     <div class="dropdown-menu standard-menu">
                                                         <div class="standard-menu-label">Explore Stories</div>
-                                                        <a href="testimonials.php" class="dropdown-item"><i
+                                                        <a href="testimonials.php" class="dropdown-item<?= nav_link_attributes(['testimonials.php']) ?>"><i
                                                                 class="bi bi-chat-quote"></i>Testimonials</a>
-                                                        <a href="blog.php" class="dropdown-item"><i
+                                                        <a href="blog.php" class="dropdown-item<?= nav_link_attributes(['blog.php', 'blog-detail.php']) ?>"><i
                                                                 class="bi bi-journal-text"></i>Blogs</a>
-                                                        <a href="newsandevents.php" class="dropdown-item"><i
+                                                        <a href="newsandevents.php" class="dropdown-item<?= nav_link_attributes(['newsandevents.php', 'news-events-details.php']) ?>"><i
                                                                 class="bi bi-calendar-event"></i>News &amp; Events</a>
-                                                        <a href="gallery.php" class="dropdown-item"><i
+                                                        <a href="gallery.php" class="dropdown-item<?= nav_link_attributes(['gallery.php']) ?>"><i
                                                                 class="bi bi-images"></i>Gallery</a>
 
                                                     </div>
                                                 </li>
 
                                                 <li class="nav-item">
-                                                    <a href="contact-us.php" class="nav-link"
-                                                        data-drupal-link-system-path="node/11">Contact </a>
+                                                    <a href="contact-us.php" class="nav-link<?= nav_link_attributes(['contact-us.php']) ?>">Contact</a>
                                                 </li>
 
                                             </ul>
@@ -615,11 +624,11 @@
                             </div>
                         </div>
                         <div class="hamburger-col">
-                            <div class="hamburger">
+                            <button class="hamburger" type="button" aria-label="Toggle main navigation" aria-expanded="false" aria-controls="block-pathretreats-main-navigation">
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -643,8 +652,12 @@
                             if (sibling !== submenu && sibling.classList && sibling.classList.contains(
                                     'wellness-submenu')) {
                                 sibling.classList.remove('nested-dropdown-open');
+                                var siblingToggle = sibling.querySelector(':scope > .wellness-submenu-toggle');
+                                if (siblingToggle) siblingToggle.setAttribute('aria-expanded', 'false');
                                 sibling.querySelectorAll('.nested-dropdown-open').forEach(function (child) {
                                     child.classList.remove('nested-dropdown-open');
+                                    var childToggle = child.querySelector(':scope > .wellness-submenu-toggle');
+                                    if (childToggle) childToggle.setAttribute('aria-expanded', 'false');
                                 });
                             }
                         });
@@ -653,6 +666,8 @@
                         if (!nestedIsOpen) {
                             submenu.querySelectorAll('.nested-dropdown-open').forEach(function (child) {
                                 child.classList.remove('nested-dropdown-open');
+                                var childToggle = child.querySelector(':scope > .wellness-submenu-toggle');
+                                if (childToggle) childToggle.setAttribute('aria-expanded', 'false');
                             });
                         }
                         nestedToggle.setAttribute('aria-expanded', String(nestedIsOpen));
@@ -680,5 +695,50 @@
                     item.classList.toggle('mobile-dropdown-open', !isOpen);
                     toggle.setAttribute('aria-expanded', String(!isOpen));
                 }, true);
+
+                var hamburger = header.querySelector('.hamburger');
+                if (hamburger) {
+                    hamburger.addEventListener('click', function () {
+                        var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+                        hamburger.setAttribute('aria-expanded', String(!expanded));
+                    });
+                }
+
+                function closeCustomMenus() {
+                    header.querySelectorAll('.mobile-dropdown-open, .nested-dropdown-open').forEach(function (item) {
+                        item.classList.remove('mobile-dropdown-open', 'nested-dropdown-open');
+                    });
+                    header.querySelectorAll('[aria-expanded="true"]').forEach(function (toggle) {
+                        if (!toggle.classList.contains('hamburger')) toggle.setAttribute('aria-expanded', 'false');
+                    });
+                }
+
+                document.addEventListener('click', function (event) {
+                    if (!header.contains(event.target)) closeCustomMenus();
+                });
+
+                document.addEventListener('keydown', function (event) {
+                    if (event.key === ' ' && event.target.closest('.dropdown-toggle, .wellness-submenu-toggle, .hamburger')) {
+                        event.preventDefault();
+                        event.target.closest('.dropdown-toggle, .wellness-submenu-toggle, .hamburger').click();
+                        return;
+                    }
+                    if (event.key !== 'Escape') return;
+                    closeCustomMenus();
+                    var openBootstrapToggle = header.querySelector('.dropdown-toggle.show');
+                    if (openBootstrapToggle && window.bootstrap) {
+                        bootstrap.Dropdown.getOrCreateInstance(openBootstrapToggle).hide();
+                        openBootstrapToggle.focus();
+                    }
+                });
+
+                header.addEventListener('hidden.bs.dropdown', function () {
+                    header.querySelectorAll('.nested-dropdown-open').forEach(function (item) {
+                        item.classList.remove('nested-dropdown-open');
+                    });
+                    header.querySelectorAll('.wellness-submenu-toggle').forEach(function (toggle) {
+                        toggle.setAttribute('aria-expanded', 'false');
+                    });
+                });
             })();
         </script>

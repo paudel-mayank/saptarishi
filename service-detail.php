@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <style>
     /* ============ Root Variables & Base Styles ============ */
     :root {
@@ -382,7 +382,7 @@
                             <div class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
                                 <div class="inner-banner">
                                     <div class="background-img">
-                                        <img src="sites/default/files/2024-04/inner-banner_0.png" alt="" class="img-fluid">
+                                        <img src="sites/default/files/2024-04/inner-banner_0.png" width="1920" height="933" alt="" class="img-fluid">
                                     </div>
                                     <div class="inner-banner-caption">
                                         <div class="container container-l">
@@ -446,7 +446,7 @@
                                     <!-- Sidebar Section -->
                                     <div class="field__item">
                                         <div class="paragraph paragraph--type--find-your-retreat paragraph--view-mode--default"
-                                            id="find-your-retreat">
+                                            id="related-services">
                                             <div class="row">
                                                 <!-- Service Details -->
                                                 <div class="col-md-4 views-row">
@@ -642,4 +642,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

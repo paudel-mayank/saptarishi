@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include __DIR__ . '/includes/header.php'; ?>
 <style>
     :root {
         --c-primary: #91cc33;
@@ -233,4 +233,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

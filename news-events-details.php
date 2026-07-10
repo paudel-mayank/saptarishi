@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -9,10 +9,10 @@
                     <div class="container">
                         <div class="blog-detail-content">
                             <div class="blog-title">
-                                <h2>
+                                <h1>
                                     <span class="field field--name-title field--type-string field--label-hidden">News &
                                         Events at Takshasheela Ayurveda Aashram</span>
-                                </h2>
+                                </h1>
                             </div>
                             <div class="blog-tags-date">
                                 <p>08 Jul 2026
@@ -66,4 +66,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

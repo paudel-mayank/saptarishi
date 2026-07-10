@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <style>
 .gallery-hero {
     position: relative;
@@ -155,28 +155,28 @@
 
                                                 <div class="gallery-grid">
                                                     <div class="gallery-card">
-                                                        <img src="assets/about.png" alt="Retreat garden view">
+                                                        <img loading="lazy" src="assets/about.png" width="864" height="636" alt="Retreat garden view">
                                                         <div class="gallery-caption">
                                                             <span>Serene Gardens</span>
                                                             <small>Quiet corners for reflection</small>
                                                         </div>
                                                     </div>
                                                     <div class="gallery-card">
-                                                        <img src="assets/main.png" alt="Ayurvedic wellness setting">
+                                                        <img loading="lazy" src="assets/main.png" width="290" height="80" alt="Ayurvedic wellness setting">
                                                         <div class="gallery-caption">
                                                             <span>Holistic Wellness</span>
                                                             <small>Gentle healing in every detail</small>
                                                         </div>
                                                     </div>
                                                     <div class="gallery-card">
-                                                        <img src="assets/h&w.jpg" alt="Healing therapy space">
+                                                        <img loading="lazy" src="assets/h&w.jpg" width="768" height="512" alt="Healing therapy space">
                                                         <div class="gallery-caption">
                                                             <span>Restorative Spaces</span>
                                                             <small>Comfort designed for calm</small>
                                                         </div>
                                                     </div>
                                                     <div class="gallery-card">
-                                                        <img src="assets/DeluxeKing.jpg"
+                                                        <img loading="lazy" src="assets/DeluxeKing.jpg" width="1100" height="618"
                                                             alt="Comfortable accommodation">
                                                         <div class="gallery-caption">
                                                             <span>Peaceful Stay</span>
@@ -184,7 +184,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="gallery-card">
-                                                        <img src="assets/images.jpg"
+                                                        <img loading="lazy" src="assets/images.jpg" width="275" height="183"
                                                             alt="Meditation and mindfulness session">
                                                         <div class="gallery-caption">
                                                             <span>Mindful Practice</span>
@@ -192,7 +192,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="gallery-card">
-                                                        <img src="assets/p.jpg" alt="Natural retreat atmosphere">
+                                                        <img loading="lazy" src="assets/p.jpg" width="1024" height="683" alt="Natural retreat atmosphere">
                                                         <div class="gallery-caption">
                                                             <span>Natural Beauty</span>
                                                             <small>Surrounded by serenity</small>
@@ -212,4 +212,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
@@ -13,10 +13,10 @@
                 <div class="container">
                   <div class="blog-overview">
                     <div class="blog-upper-content">
-                      <h2>
+                      <h1>
                         <div class="field field--name-field-title field--type-string field--label-hidden field__item">
                           Staying Inspired &amp; Connected</div>
-                                          </h2>
+                                          </h1>
                                           <div
                         class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                         <p>The Takshashelaa blog gives ideas and practical applications for conscious relating,
@@ -250,4 +250,4 @@
     </div>
   </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

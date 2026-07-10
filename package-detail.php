@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -199,4 +199,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

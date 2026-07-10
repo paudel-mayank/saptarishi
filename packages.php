@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
@@ -12,7 +12,7 @@
               <div class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
                 <div class="inner-banner">
                   <div class="background-img">
-                    <img src="sites/default/files/2024-04/inner-banner_0.png" alt="" class="img-fluid">
+                    <img src="sites/default/files/2024-04/inner-banner_0.png" width="1920" height="933" alt="" class="img-fluid">
                   </div>
                   <div class="inner-banner-caption">
                     <div class="container container-l">
@@ -62,7 +62,7 @@
             </div>
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                <a href="panchakarma-retreat.html">
+                <a href="package-detail.php?program=panchakarma-rejuvenation">
                   <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Panchakarma Retreat" class="img-fluid" />
                 </a>
@@ -83,7 +83,7 @@
               </p>
             </div>
             <div class="link">
-              <a href="package-detail.php">Find out more</a>
+              <a href="package-detail.php?program=panchakarma-rejuvenation">Find out more</a>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                <a href="ayurveda-wellness-retreat.html">
+                <a href="package-detail.php?program=ayurvedic-wellness-immersion">
                   <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Ayurvedic Wellness Retreat" class="img-fluid" />
                 </a>
@@ -124,7 +124,7 @@
               </p>
             </div>
             <div class="link">
-              <a href="package-detail.php">Find out more</a>
+              <a href="package-detail.php?program=ayurvedic-wellness-immersion">Find out more</a>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@
             </div>
             <div class="retreat-overview-image">
               <div class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                <a href="mind-body-balance-retreat.html">
+                <a href="package-detail.php?program=mind-body-balance">
                   <img loading="lazy" src="sites/default/files/2025-03/introductory%20courses.jpg"
                        width="464" height="344" alt="Mind Body Balance Retreat" class="img-fluid" />
                 </a>
@@ -162,7 +162,7 @@
               </p>
             </div>
             <div class="link">
-              <a href="package-detail.php">Find out more</a>
+              <a href="package-detail.php?program=mind-body-balance">Find out more</a>
             </div>
           </div>
         </div>
@@ -185,4 +185,4 @@
     </div>
   </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

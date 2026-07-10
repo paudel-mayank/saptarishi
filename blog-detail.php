@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
@@ -9,9 +9,9 @@
           <div class="container">
             <div class="blog-detail-content">
               <div class="blog-title">
-                <h2>
+                <h1>
                   <span class="field field--name-title field--type-string field--label-hidden">Jennifer McKeever Talks
-                    Freedom From the Inner Critic (New Podcast)</span>
+                    Freedom From the Inner Critic (New Podcast)</span></h1>
               </div>
               <div class="blog-tags-date">
                 <p>16 Oct
@@ -64,4 +64,4 @@
     </div>
   </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
 <style>
     /* ===== NEWSLETTER BAND ===== */
@@ -560,19 +560,19 @@
                                                         <div
                                                             class="paragraph paragraph--type--banner-slide-item paragraph--view-mode--default">
                                                             <div class="">
-                                                                <video autoplay muted loop playsinline
+                                                                <video autoplay muted loop playsinline preload="metadata"
+                                                                    poster="sites/default/files/2025-03/homepagebanner1.webp"
                                                                     class="background-video">
-                                                                    <source src="assets/Homepage-big-page-video-final-.mp4
-                                    " type="video/mp4">
+                                                                    <source src="assets/Homepage-big-page-video-final-.mp4" type="video/mp4">
                                                                 </video>
                                                             </div>
                                                             <div class="banner-captions">
                                                                 <div class="container">
-                                                                    <h2>
+                                                                    <h1>
                                                                         <div style="z-index:999;"
                                                                             class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
                                                                             A JOURNEY AWAITS
-                                                                    </h2>
+                                                                    </h1>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1048,7 +1048,7 @@
                         <div class="slider-wrapper">
                             <button class="nav-button prev-btn">&#10094;</button>
                             <div class="testimonial-content">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                                <img loading="lazy" src="assets/p.jpg" width="200" height="200"
                                     alt="Student" class="profile-image">
                                 <div class="student-name" id="studentName">Jedd Horowitz</div>
                                 <div class="student-location" id="studentLocation">USA</div>
@@ -1087,10 +1087,11 @@
                                     community — sent monthly.</p>
                             </div>
                             <div class="nl-right">
-                                <div class="nl-row">
-                                    <input class="nl-input" type="email" placeholder="Your email address" />
-                                    <button class="nl-btn">Subscribe</button>
-                                </div>
+                                <form class="nl-row" action="https://pathretreats.us18.list-manage.com/subscribe/post?u=a3106ca66b6dbaa171683ae30&amp;id=90a6f3c136" method="post" target="_blank">
+                                    <label class="visually-hidden" for="homepage-newsletter-email">Email address</label>
+                                    <input class="nl-input" id="homepage-newsletter-email" name="EMAIL" type="email" autocomplete="email" placeholder="Your email address" required />
+                                    <button class="nl-btn" type="submit">Subscribe</button>
+                                </form>
                                 <div class="nl-checks">
                                     <div class="nl-check">
                                         <div class="nl-check-dot"></div>Monthly digest
@@ -1113,7 +1114,7 @@
                                         <div class="ev-tag">Upcoming</div>
                                         <h2 class="ev-title">Events &amp; Retreats</h2>
                                     </div>
-                                    <a class="ev-all-link" href="events.php">View all events →</a>
+                                    <a class="ev-all-link" href="newsandevents.php">View all events →</a>
                                 </div>
 
                                 <div class="ev-grid">
@@ -1121,7 +1122,7 @@
                                     <!-- Featured Card (spans 2 cols) -->
                                     <div class="ev-card featured">
                                         <div class="ev-card-img">
-                                            <img src="assets/path-of-love-summer.jpg"
+                                            <img loading="lazy" src="sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="633" height="577"
                                                 alt="Path of Love Summer Immersion" />
                                             <div class="ev-badge badge-retreat">7-Day Retreat</div>
                                         </div>
@@ -1159,7 +1160,7 @@
                                     <!-- Card 2 -->
                                     <div class="ev-card">
                                         <div class="ev-card-img">
-                                            <img src="assets/heart-opening.jpg" alt="Introductory Heart Opening" />
+                                            <img loading="lazy" src="sites/default/files/2025-03/homepagebanner1.webp" width="2877" height="1856" alt="Introductory Heart Opening" />
                                             <div class="ev-badge badge-workshop">Workshop</div>
                                         </div>
                                         <div class="ev-date-strip">
@@ -1189,7 +1190,7 @@
                                     <!-- Card 3 -->
                                     <div class="ev-card">
                                         <div class="ev-card-img">
-                                            <img src="assets/webinar.jpg" alt="Ayurveda Webinar" />
+                                            <img loading="lazy" src="sites/default/files/2025-03/homepagebanner2.webp" width="2880" height="1799" alt="Ayurveda Webinar" />
                                             <div class="ev-badge badge-online">Online</div>
                                         </div>
                                         <div class="ev-date-strip">
@@ -1218,7 +1219,7 @@
                                     <!-- Card 4 -->
                                     <div class="ev-card">
                                         <div class="ev-card-img">
-                                            <img src="assets/panchakarma.jpg" alt="Panchakarma Weekend" />
+                                            <img loading="lazy" src="sites/default/files/2025-03/homepagebanner3.webp" width="2880" height="1799" alt="Panchakarma Weekend" />
                                             <div class="ev-badge badge-retreat">3-Day Detox</div>
                                         </div>
                                         <div class="ev-date-strip">
@@ -1291,7 +1292,7 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="blog-article-content">
-                                                                            <h4><a href="blog/vulnerability-not-fragility-it-entrance-reflections-laura-seiler"
+                                                                            <h4><a href="blog-detail.php"
                                                                                     rel="bookmark">
                                                                                     <span
                                                                                         class="field field--name-title field--type-string field--label-hidden">Vulnerability
@@ -1473,5 +1474,5 @@
         updateTestimonial(currentIndex);
     }, 3000);
 </script>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/html.html.twig' -->

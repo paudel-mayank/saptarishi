@@ -1,4 +1,4 @@
-<?php include 'includes/detailheader.php' ?>
+<?php include __DIR__ . '/includes/detailheader.php'; ?>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">
@@ -13,7 +13,7 @@
                                 class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
                                 <div class="inner-banner">
                                     <div class="background-img">
-                                        <img src="sites/default/files/2024-04/inner-banner_0.png" alt=""
+                                        <img src="sites/default/files/2024-04/inner-banner_0.png" width="1920" height="933" alt=""
                                             class="img-fluid">
                                     </div>
                                     <div class="inner-banner-caption">
@@ -60,7 +60,7 @@
                                                             <div class="retreat-overview-image">
                                                                 <div
                                                                     class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                    <a href="service-detail.php">
+                                                                    <a href="service-detail.php?service=panchakarma-detox">
                                                                         <img loading="lazy"
                                                                             src="sites/default/files/2025-03/polusa.png"
                                                                             width="464" height="344"
@@ -91,7 +91,7 @@
                                                             </div>
 
                                                             <div class="dink">
-                                                                <a class="w-100" href="service-detail.php">
+                                                                <a class="w-100" href="service-detail.php?service=panchakarma-detox">
                                                                     View Details
                                                                 </a>
                                                             </div>
@@ -110,7 +110,7 @@
                                                             <div class="retreat-overview-image">
                                                                 <div
                                                                     class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                    <a href="service-detail.php">
+                                                                    <a href="service-detail.php?service=ayurvedic-wellness">
                                                                         <img loading="lazy"
                                                                             src="sites/default/files/2025-03/polusa.png"
                                                                             width="464" height="344"
@@ -141,7 +141,7 @@
                                                             </div>
 
                                                             <div class="dink">
-                                                                <a class="w-100" href="service-detail.php">
+                                                                <a class="w-100" href="service-detail.php?service=ayurvedic-wellness">
                                                                     View Details
                                                                 </a>
                                                             </div>
@@ -159,7 +159,7 @@
                                                             <div class="retreat-overview-image">
                                                                 <div
                                                                     class="field field--name-field-retreat-overview-image field--type-image field--label-hidden field__item">
-                                                                    <a href="service-detail.php">
+                                                                    <a href="service-detail.php?service=personalized-healing">
                                                                         <img loading="lazy"
                                                                             src="sites/default/files/2025-04/Grytsberg_Explore%20retreat.jpg"
                                                                             width="464" height="344"
@@ -190,7 +190,7 @@
                                                             </div>
 
                                                             <div class="dink">
-                                                                <a class="w-100" href="service-detail.php">
+                                                                <a class="w-100" href="service-detail.php?service=personalized-healing">
                                                                     View Details
                                                                 </a>
                                                             </div>
@@ -211,4 +211,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

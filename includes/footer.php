@@ -9,7 +9,7 @@
 
                             <div
                                 class="field field--name-field-footer-logo field--type-image field--label-hidden field__item">
-                                <img loading="lazy" src="assets/main.png" alt="Footer logo" class="img-fluid" />
+                                <img loading="lazy" src="assets/main.png" width="290" height="80" alt="Takshasheela Ayurveda Aashram" class="img-fluid" />
                             </div>
                             <div class="footer-contact-info mt-3">
                                 <p class="mb-2" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
@@ -47,7 +47,7 @@
                             <h5 id="block-pathretreats-resources-menu">Explore</h5>
                             <ul data-block="footer" class="nav navbar-nav">
                                 <li class="nav-item">
-                                    <a href="accomodations.php" class="nav-link">Accommodations</a>
+                                    <a href="accommodations.php" class="nav-link">Accommodations</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="ourapproach.php" class="nav-link">Our Approach</a>
@@ -82,12 +82,11 @@
                 </div>
                 <div class="col-newsletter">
                     <div id="mc_embed_shell">
-                        <link href="http://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
+                        <link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
                             type="text/css">
                         <style type="text/css">
                         #mc_embed_signup {
                             background: #fff;
-                            false;
                             clear: left;
                             font: 14px Helvetica, Arial, sans-serif;
                             width: 600px;
@@ -134,8 +133,8 @@
                                 </div>
                             </form>
                         </div>
-                        <script type="text/javascript"
-                            src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                        <script defer
+                            src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
                         <script type="text/javascript">
                         (function($) {
                             window.fnames = new Array();
@@ -165,7 +164,7 @@
             <div class="row">
                 <div class="col-copyright">
                     <div class="copyright">
-                        <p>©Takshashelaa 2025</p>
+                        <p>&copy; Takshasheela <?= date('Y') ?></p>
                     </div>
                 </div>
                 <div class="col-privacy">
@@ -174,14 +173,12 @@
                             id="block-pathretreats-footer" class="block block-menu navigation menu--footer">
                             <h5 class="visually-hidden" id="block-pathretreats-footer-menu">Footer</h5>
                             <ul data-block="footer_bottom" class="nav navbar-nav">
-                                <!-- <li class="nav-item">
-                                    <a href="cookies.html" class="nav-link"
-                                        data-drupal-link-system-path="node/49">Cookies</a>
-                                </li> -->
-                                <!-- <li class="nav-item">
-                                    <a href="path-retreats-privacy-policy.html" class="nav-link"
-                                        data-drupal-link-system-path="node/48">Privacy Policy</a>
-                                </li> -->
+                                <li class="nav-item">
+                                    <a href="cookies.php" class="nav-link">Cookies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="privacy-policy.php" class="nav-link">Privacy Policy</a>
+                                </li>
                                 <!-- <li class="nav-item">
                                     <a href="sitemap.xml" class="nav-link"
                                         data-drupal-link-system-path="sitemap.xml">Sitemap</a>
@@ -200,7 +197,7 @@
                     </div> -->
                 </div>
                 <div class="col-social">
-                    <label>Find us on socials</label>
+                    <p class="footer-social-title">Find us on social media</p>
                     <!-- THEME HOOK: 'container' -->
                     <div class="views-element-container">
                         <!-- THEME HOOK: 'views_view' -->

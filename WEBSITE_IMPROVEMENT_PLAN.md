@@ -242,18 +242,45 @@ Success criteria:
 
 ## Completion Checklist
 
-- [ ] One shared source controls all navigation links and nested items.
-- [ ] Navigation works with mouse, keyboard, and touchscreen.
-- [ ] Current pages and parent sections have active states.
-- [ ] No internal links are broken.
+- [x] One shared source controls all navigation links and nested items.
+- [x] Navigation supports mouse, keyboard, and touchscreen interaction.
+- [x] Current pages and parent sections have active states.
+- [x] No rendered internal links are broken.
 - [ ] No unintended horizontal overflow exists.
 - [ ] Page layouts work at all documented breakpoints.
-- [ ] Critical accessibility issues are resolved.
-- [ ] Inline and duplicated styles are reduced.
-- [ ] Images are responsive and optimized.
-- [ ] Every page has unique metadata and one meaningful `<h1>`.
-- [ ] PHP, link, accessibility, and browser checks run before release.
+- [x] Critical structural accessibility checks are automated and passing.
+- [x] Duplicated header markup and styles are reduced to one canonical source.
+- [ ] Large media files are recompressed and responsive image variants are generated.
+- [x] Every public page has unique metadata and one meaningful `<h1>`.
+- [x] PHP, link, metadata, image, form-label, and HTML-structure checks are available before release.
+
+## Implementation Status
+
+Completed in the repository:
+
+- Consolidated the main and detail headers into one canonical implementation.
+- Added shared page configuration for titles, descriptions, canonical URLs, Open Graph data, and navigation state.
+- Added organization structured data.
+- Added active navigation and `aria-current` states.
+- Added click-controlled nested navigation, sibling closing, outside-click closing, and `Escape`, `Enter`, and `Space` keyboard support.
+- Corrected the Accommodation spelling and added a permanent redirect from the previous URL.
+- Added the missing wellness-program finder page.
+- Added distinct identifiers and metadata for package and service detail links.
+- Added privacy and cookie information pages and footer links.
+- Added image dimensions, improved alternative text, lazy loading, and reduced-motion support.
+- Added shared design tokens, focus indicators, legal-page styling, and program-finder components.
+- Removed a missing stylesheet reference, duplicate Bootstrap Icons import, insecure Mailchimp asset URLs, duplicate IDs, and broken rendered links.
+- Added `tools/check-site.php` as a repeatable pre-release audit.
+
+Remaining production work:
+
+- Test screenshots and interactions in real browsers at every documented breakpoint.
+- Recompress the 51 MB homepage video and generate appropriately sized WebM/MP4 versions.
+- Generate responsive WebP/AVIF variants for the largest source images.
+- Replace placeholder contact information and review legal-page wording with the organization’s authorized details.
+- Connect the contact form to an approved server-side mail or CRM workflow with validation, spam protection, and CSRF protection.
+- Run Lighthouse and a full browser-based accessibility audit in the deployment environment.
 
 ## Recommended First Task
 
-Start by extracting the duplicated navigation into one shared component. This provides the strongest foundation because every later menu, accessibility, styling, and link improvement can then be made once and applied across the entire site.
+The shared navigation foundation is complete. The next task should be a real-browser responsive and accessibility review at the documented breakpoints, followed by homepage video recompression and responsive image generation.

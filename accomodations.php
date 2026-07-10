@@ -1,4 +1,10 @@
-<?php include 'includes/detailheader.php' ?>
+<?php
+if (basename((string) ($_SERVER['SCRIPT_NAME'] ?? '')) === 'accomodations.php') {
+    header('Location: accommodations.php', true, 301);
+    exit;
+}
+include __DIR__ . '/includes/detailheader.php';
+?>
 
 <style>
     .service-benefits,
@@ -105,11 +111,11 @@
                                 <div class="container">
                                     <div class="blog-overview">
                                         <div class="blog-upper-content">
-                                            <h2>
+                                            <h1>
                                                 <div
                                                     class="field field--name-field-title field--type-string field--label-hidden field__item">
                                                     Comfortable and Tranquil Accommodation Options</div>
-                                            </h2>
+                                            </h1>
                                             <div
                                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                 <p>Explore a variety of thoughtfully designed accommodations tailored
@@ -139,7 +145,7 @@
                                             <div class="wrapper row my-4 g-4">
                                                 <div class="col-6">
                                                     <div class="accommodation-item accommodation-image">
-                                                        <img src="assets/images.jpg" alt="Retreat Space"
+                                                        <img loading="lazy" src="assets/images.jpg" width="275" height="183" alt="Standard room at Takshasheela"
                                                             style="height: 500px; object-fit: cover;"
                                                             class="w-100 gallery-img">
                                                     </div>
@@ -187,7 +193,7 @@
                                                 <div class=" wrapper row mb-4 g-4">
                                                     <div class="col-6">
                                                         <div class="accommodation-item accommodation-image">
-                                                            <img src="assets/DeluxeKing.jpg" alt="Retreat Space"
+                                                            <img loading="lazy" src="assets/DeluxeKing.jpg" width="1100" height="618" alt="Deluxe room at Takshasheela"
                                                                 style="height: 500px; object-fit: cover;"
                                                                 class="w-100 gallery-img">
                                                         </div>
@@ -246,4 +252,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

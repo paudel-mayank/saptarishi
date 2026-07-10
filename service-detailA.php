@@ -1,3 +1,7 @@
+<?php
+header('Location: service-detail.php?service=personalized-healing', true, 301);
+exit;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

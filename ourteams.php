@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include __DIR__ . '/includes/header.php'; ?>
 <style>
     .team-hero {
         position: relative;
@@ -360,4 +360,4 @@
 </div>
 </div>
 </div>
-<?php include 'includes/footer.php' ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
