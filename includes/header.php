@@ -7,13 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8') ?>" />
     <meta name="theme-color" content="#223745" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&amp;family=Libre+Caslon+Display&amp;family=Roboto+Flex:opsz,wght@8..144,400;500;600;700&amp;display=swap" rel="stylesheet" />
     <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Takshasheela Ayurveda Aashram" />
     <meta property="og:title" content="<?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8') ?>" />
     <meta property="og:description" content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8') ?>" />
     <meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>" />
-    <meta property="og:image" content="<?= htmlspecialchars($requestScheme . '://' . $requestHost . '/assets/main.png', ENT_QUOTES, 'UTF-8') ?>" />
+    <meta property="og:image" content="<?= htmlspecialchars($siteBaseUrl . '/assets/main.png', ENT_QUOTES, 'UTF-8') ?>" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8') ?>" />
+    <meta name="twitter:description" content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8') ?>" />
     <link rel="icon" href="assets/fav.png" type="image/png" />
     <title><?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8') ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
@@ -469,12 +475,20 @@
         '@context' => 'https://schema.org',
         '@type' => 'Organization',
         'name' => 'Takshasheela Ayurveda Aashram',
-        'url' => $requestScheme . '://' . $requestHost . '/index.php',
-        'logo' => $requestScheme . '://' . $requestHost . '/assets/main.png',
+        'url' => $siteBaseUrl . '/index.php',
+        'logo' => $siteBaseUrl . '/assets/main.png',
+        'email' => 'info@takshasheela.com',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'addressLocality' => 'Kathmandu',
+            'addressCountry' => 'NP',
+        ],
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
 </head>
 
 <body class="<?= $isHomeHeader ? 'node-type-homepage path-frontpage page-node-type-homepage' : 'path-node page-node-type-page' ?> d-flex flex-column h-100">
+
+    <a class="site-skip-link" href="#main-content">Skip to main content</a>
 
     <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
         <header class="header site-header-main<?= $isHomeHeader ? '' : ' site-header-detail' ?>">

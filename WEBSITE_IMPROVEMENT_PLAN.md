@@ -1,286 +1,237 @@
-# Website Improvement Plan
+# Takshasheela Website Improvement Plan
 
-This document outlines recommended improvements for the Takshasheela website. It is organized by priority so changes can be implemented safely and measured clearly.
+## Purpose
 
-## Goals
+This document records improvement opportunities found during a source-code review of the current PHP website. The recommendations are prioritized by user impact, business value, security, and implementation effort.
 
-- Provide a consistent experience across all pages and screen sizes.
-- Make navigation reliable, accessible, and easy to maintain.
-- Improve page speed, search visibility, and content quality.
-- Reduce duplicated code and prevent regressions.
+## Implementation status (10 July 2026)
 
-## Priority 1: Navigation and Reliability
+Completed in the current update:
 
-### 1. Consolidate shared headers
+- Secure contact processing with server validation, CSRF protection, honeypot spam detection, session rate limiting, consent, configurable recipient, and accessible feedback.
+- Consistent Kathmandu/Takshasheela contact information on the contact page.
+- Security and privacy response headers, secure session-cookie settings, and environment-based production URLs.
+- Expanded Open Graph/Twitter metadata and Organization structured data.
+- Keyboard skip link, visible focus treatment, and reduced-motion handling.
+- Conditional hero-video loading for mobile, reduced-motion, and data-saver users.
+- Expanded privacy/cookie disclosures, `robots.txt`, XML sitemap, `.env.example`, and developer/deployment README.
+- Automated checks for likely encoding corruption and temporary media-size budgets.
 
-The navigation markup and styling are currently duplicated in `includes/header.php` and `includes/detailheader.php`.
+Still requires business or production access:
 
-Actions:
+- Verify phone number, address, claims, credentials, prices, dates, testimonials, and policies with the owner.
+- Configure and test the production mail transport and `CONTACT_RECIPIENT`.
+- Re-encode the source hero video and large photographs with a media tool; conditional loading reduces transfer but does not shrink the original file.
+- Run real-device, screen-reader, Lighthouse, social-preview, consent, and production security-header testing.
+- Submit the sitemap to search engines and configure production analytics only after approving a privacy-conscious measurement plan.
 
-- Extract menu data and shared markup into one reusable PHP include.
-- Keep only page-specific header classes and styling in each header.
-- Move navigation CSS and JavaScript into dedicated external files.
+## Current strengths
 
-Success criteria:
+- Shared header, footer, and site metadata configuration are already in use.
+- Public pages have unique titles, meta descriptions, canonical URLs, and a single `<h1>`.
+- Images currently pass the project's checks for alternative text and explicit dimensions.
+- The misspelled `accomodations.php` URL redirects to the correct `accommodations.php` URL.
+- `php tools/check-site.php` provides a useful automated baseline and currently passes all 20 public pages.
 
-- A navigation change only needs to be made once.
-- The same links, dropdown behavior, and styling appear on every page.
+## Priority 0: Release blockers
 
-### 2. Improve dropdown behavior
+### 1. Fix visible character-encoding corruption
 
-Actions:
+**Evidence:** Misdecoded UTF-8 text is present in PHP source where apostrophes, em dashes, and check marks were intended. It can appear incorrectly in page titles, metadata, and page content.
 
-- Keep click-controlled nested dropdowns on desktop and mobile.
-- Allow only one sibling branch to remain open at a time.
-- Close menus when clicking outside or pressing `Escape`.
-- Keep Packages and Services in fixed positions when their children open.
-- Test all menu links before deployment.
+**Recommended action:**
 
-Success criteria:
+- Convert affected source files to UTF-8 without BOM.
+- Replace corrupted sequences with the intended apostrophe, dash, quotation mark, or symbol.
+- Add an automated check for common mojibake (misdecoded text) byte patterns and the Unicode replacement character.
 
-- Menus do not jump, overflow, or disappear during use.
-- All controls work with a mouse, keyboard, and touchscreen.
+**Done when:** No corrupted characters appear in rendered pages, browser titles, social previews, or source checks.
 
-### 3. Add active navigation states
+### 2. Implement working enquiry and retreat-conversion flows
 
-Actions:
+**Evidence:** The project contains `contact-us.php` and `find-retreat.php`, but the reviewed public PHP files contain no HTML form controls or server-side submission handler.
 
-- Highlight the current page in the navbar.
-- Highlight the parent section when viewing a nested page.
-- Add `aria-current="page"` to the active link.
+**Recommended action:**
 
-Success criteria:
+- Add a clear enquiry form with name, email/phone, preferred program, intended dates, message, and consent.
+- Validate on both client and server; escape output and protect submissions with CSRF tokens.
+- Add spam protection, rate limiting, safe email/CRM delivery, and user-friendly success/error states.
+- Never store SMTP/API secrets in source control; use environment configuration.
+- Track successful enquiries as a conversion event without sending personal data to analytics.
 
-- Visitors can immediately identify their current section.
+**Done when:** A test enquiry reaches the intended recipient/system, failures are recoverable, spam controls work, and keyboard/screen-reader users can complete the form.
 
-### 4. Correct routes and naming
+### 3. Confirm and replace placeholder business information
 
-Actions:
+Review all contact details, locations, practitioner credentials, program inclusions, prices, dates, testimonials, and legal text with the business owner. Health and wellness claims should be factual, attributable, and avoid promising medical outcomes.
 
-- Rename `accomodations.php` and the visible label to “Accommodations.”
-- Preserve the old URL with a redirect to avoid broken bookmarks.
-- Add or replace the missing `find-retreat.php` route.
-- Give each package and service a unique detail URL or identifier.
+**Done when:** Content has a named owner and approval date, and every public claim and contact method is verified.
 
-Success criteria:
+## Priority 1: High-impact improvements
 
-- Automated link checks report no broken internal links.
-- Every menu item opens its intended content.
+### 4. Improve page-load performance and Core Web Vitals
 
-## Priority 2: Responsive Design and Accessibility
+**Evidence:** `assets/Homepage-big-page-video-final-.mp4` is approximately 53 MB. Several images are 1–3 MB, and the shared header loads many separate Drupal/Bootstrap component styles plus third-party icon resources on every page.
 
-### 5. Test responsive layouts
+**Recommended action:**
 
-Test at minimum:
+- Re-encode the hero video at web-friendly bitrates, provide mobile and desktop variants, set a poster image, and avoid downloading it for users who prefer reduced motion or are on small screens.
+- Convert suitable photographs to responsive AVIF/WebP variants and use `srcset`/`sizes`.
+- Keep eager loading for the likely Largest Contentful Paint image; lazy-load below-the-fold media.
+- Remove unused Drupal/Bootstrap CSS, consolidate/minify production assets, and self-host or reduce icon/font dependencies.
+- Add long-lived cache headers for versioned static assets and Brotli/Gzip compression.
+- Measure before and after with Lighthouse on a throttled mobile profile.
 
-- 320px and 375px mobile widths
-- 768px tablet width
-- 1024px small laptop width
-- 1366px standard desktop width
-- 1920px large desktop width
+**Targets:** LCP below 2.5 s, INP below 200 ms, CLS below 0.1, and materially smaller initial page weight on mobile.
 
-Check navigation, banners, cards, images, forms, footer content, and horizontal overflow at every size.
+### 5. Complete responsive and accessibility testing
 
-Success criteria:
+The source has a good baseline, but automated markup checks alone cannot confirm usability.
 
-- No horizontal scrollbar appears unintentionally.
-- Text remains readable and controls remain usable at every breakpoint.
+**Recommended action:**
 
-### 6. Improve accessibility
+- Test at 320 px width and common mobile/tablet/desktop breakpoints; replace fixed widths/heights where they cause overflow or cropping.
+- Verify navigation and nested menus using keyboard only, including Escape behavior and accurate `aria-expanded` state.
+- Ensure a visible skip link and strong focus indicators are available throughout the site.
+- Check color contrast, zoom to 200%, heading order, link purpose, carousel controls, and reduced-motion behavior.
+- Use empty `alt=""` for decorative images and meaningful descriptions for informative images.
+- Test with axe and at least one real screen reader; target WCAG 2.2 AA.
 
-Actions:
+**Done when:** All core journeys work with keyboard, mobile viewport, zoom, and a screen reader, with no serious automated accessibility violations.
 
-- Use semantic navigation lists and descriptive link labels.
-- Add accurate `aria-expanded`, `aria-haspopup`, and `aria-current` states.
-- Support `Tab`, `Shift+Tab`, `Enter`, `Space`, and `Escape` interactions.
-- Add visible keyboard focus styles.
-- Verify text and control color contrast.
-- Ensure touch targets are at least 44 by 44 pixels.
-- Add meaningful alternative text to informative images.
-- Maintain a logical heading hierarchy on every page.
+### 6. Strengthen SEO and social sharing
 
-Success criteria:
+Existing titles, descriptions, canonicals, and basic Open Graph tags are a strong start.
 
-- Navigation is usable without a mouse.
-- Automated accessibility checks have no critical errors.
+**Recommended action:**
 
-## Priority 3: Visual Consistency
+- Generate canonical URLs from a configured production base URL instead of the request `Host` header.
+- Add `og:site_name`, appropriate page-specific social images, Twitter title/description, and absolute production URLs.
+- Add Organization/LocalBusiness, BreadcrumbList, Article, Event, and relevant Offer structured data where truthful.
+- Create `robots.txt` and an XML sitemap, then connect Google Search Console and Bing Webmaster Tools.
+- Use clean, stable detail-page URLs rather than relying only on query strings.
+- Add visible breadcrumbs to deep pages and intentional internal links between services, packages, accommodation, articles, and enquiry CTAs.
 
-### 7. Establish a small design system
+**Done when:** Rich Results validation passes where applicable, the sitemap is indexed, and social previews are correct for representative pages.
 
-Define reusable values for:
+### 7. Improve security and privacy controls
 
-- Brand colors
-- Typography and heading sizes
-- Spacing increments
-- Border radii
-- Shadows
-- Buttons and links
-- Cards and form controls
-- Animation duration and easing
+**Recommended action:**
 
-Actions:
+- Add production headers: Content-Security-Policy, HSTS (HTTPS only), Referrer-Policy, Permissions-Policy, and clickjacking protection via CSP `frame-ancestors`.
+- Pin or self-host third-party assets where practical and remove unused external scripts.
+- Prevent verbose PHP errors in production while retaining server-side logs.
+- Keep PHP and all libraries supported and patched; document the update process.
+- Expand the privacy and cookie pages with the actual data collected, purpose, retention, processors, user rights, and contact method.
+- If non-essential analytics/marketing cookies are introduced, obtain consent before loading them and support withdrawal.
 
-- Store design tokens as CSS custom properties.
-- Replace repeated inline styles with reusable classes.
-- Apply the same card, button, and heading patterns across all pages.
+**Done when:** HTTPS and security-header scans pass, secrets are externalized, dependencies are supported, and documented privacy behavior matches actual behavior.
 
-Success criteria:
+## Priority 2: Maintainability and content operations
 
-- Similar components look and behave consistently.
-- New sections can be built without copying large style blocks.
+### 8. Reduce duplicated and legacy code
 
-### 8. Refine content presentation
+The pages contain large blocks of CMS-export-style markup, inline CSS, and page-specific repeated structures. The repository also retains compatibility/duplicate files such as `accomodations.php` and `service-detailA.php`.
 
-Actions:
+**Recommended action:**
 
-- Ensure menu names match page titles.
-- Standardize capitalization and terminology.
-- Break long paragraphs into readable sections.
-- Use consistent image ratios and card heights.
-- Keep animations subtle and respect `prefers-reduced-motion`.
+- Extract repeatable cards, hero sections, breadcrumbs, CTA blocks, and detail layouts into PHP components.
+- Move inline styles and scripts into organized, versioned assets.
+- Define design tokens for colors, spacing, type, radii, and breakpoints.
+- Inventory Drupal-era CSS/JS and remove files that rendered pages no longer use.
+- Keep redirects at the web-server/router layer when possible, and document when legacy files can be removed.
+- Adopt consistent naming and formatting, enforced by PHP_CodeSniffer or PHP-CS-Fixer.
 
-## Priority 4: Performance
+**Done when:** Common UI changes are made once, dead assets are removed safely, and all pages retain visual and functional parity.
 
-### 9. Optimize images
+### 9. Introduce structured content management
 
-Actions:
+Packages, services, articles, events, testimonials, team profiles, and gallery entries are currently difficult to maintain consistently when embedded directly in page templates.
 
-- Convert suitable images to WebP or AVIF.
-- Provide responsive image sizes with `srcset` and `sizes`.
-- Lazy-load below-the-fold images.
-- Define image width and height to reduce layout shift.
-- Compress images before deployment.
+**Recommended action:**
 
-Success criteria:
+- Store repeated content in a database, CMS, or validated data files with stable IDs/slugs.
+- Add fields for publication status, author/owner, update date, SEO data, image metadata, and ordering.
+- Make detail pages return a real 404 for unknown content rather than generic or misleading content.
+- Establish an editorial workflow for review, expiry, and archiving of events and offers.
 
-- Pages load quickly on a typical mobile connection.
-- Large layout shifts are eliminated.
+**Done when:** An authorized editor can update content without modifying layout code and stale content has a clear lifecycle.
 
-### 10. Reduce frontend overhead
+### 10. Add project and deployment documentation
 
-Actions:
+Create a root `README.md` covering prerequisites, local XAMPP setup, configuration/environment variables, URL setup, site-check commands, content editing, deployment, rollback, backups, and troubleshooting. Add `.env.example` if environment variables are introduced, but never commit the real `.env`.
 
-- Remove duplicate Bootstrap Icons imports.
-- Remove unused CSS and JavaScript.
-- Minify production assets.
-- Load non-critical scripts with `defer` where safe.
-- Add cache-friendly versioning to local assets.
-- Avoid large page-specific inline style blocks.
+**Done when:** A new developer can run and validate the site from a fresh checkout using only documented steps.
 
-Success criteria:
+## Priority 3: Quality, analytics, and growth
 
-- Lighthouse performance improves without visual regressions.
-- Browser developer tools show no missing assets or console errors.
+### 11. Expand automated quality checks
 
-## Priority 5: SEO and Content Discovery
+Extend `tools/check-site.php` or add a test suite to cover:
 
-### 11. Add page-specific metadata
+- Corrupted character sequences and placeholder content.
+- Internal redirect chains and broken external links.
+- Valid form submission, validation, CSRF rejection, rate limiting, and failure handling.
+- Correct HTTP statuses for valid, redirected, and missing pages.
+- Structured-data validity, sitemap coverage, and robots directives.
+- Responsive browser smoke tests for navigation and top conversion journeys.
+- Performance budgets for page weight, image size, and key Lighthouse metrics.
 
-Each page should include:
+Run syntax checks and the site audit automatically in CI for every proposed change.
 
-- A unique and descriptive `<title>`
-- A unique meta description
-- A canonical URL
-- Open Graph and social-sharing metadata
-- A meaningful single `<h1>`
+### 12. Add privacy-conscious measurement
 
-### 12. Add structured data
+Define a small measurement plan before adding analytics:
 
-Consider relevant schema for:
+- Enquiry starts and successful submissions.
+- Clicks on phone, email, directions, package, and booking CTAs.
+- Conversion rate by landing page and program.
+- Search Console impressions, clicks, indexing errors, and high-opportunity queries.
+- Core Web Vitals from real users where possible.
 
-- Organization
-- Local business
-- Accommodation
-- Services
-- Articles and news
-- Breadcrumbs
+Avoid collecting sensitive health information in analytics and define retention/access rules.
 
-Success criteria:
+### 13. Improve trust and conversion content
 
-- Search-engine validation tools report valid metadata and schema.
+- Give each program a consistent summary of audience, outcomes, duration, inclusions, exclusions, practitioner, accommodation, price or enquiry path, and cancellation policy.
+- Place one clear primary CTA above the fold and repeat it after decision-making content.
+- Add verified practitioner profiles, facility/location details, authentic testimonial attribution and consent, FAQs, and transparent booking steps.
+- Add medical disclaimers and emergency guidance appropriate to an Ayurveda/wellness service.
+- Review copy for consistent spelling, tone, terminology, and calls to action.
 
-## Priority 6: Maintainability and Testing
+## Suggested implementation sequence
 
-### 13. Improve PHP structure
+### Phase 1: Stabilize (1–2 weeks)
 
-Actions:
+1. Fix encoding corruption and verify all business/legal content.
+2. Implement and secure the enquiry workflow.
+3. Optimize the 53 MB video and the heaviest above-the-fold images.
+4. Add production configuration, error handling, and essential security headers.
 
-- Store navigation items in PHP arrays or configuration data.
-- Render repeated components through shared includes or functions.
-- Use `__DIR__` in includes for reliable filesystem paths.
-- Keep filenames and include casing consistent for Linux servers.
-- Separate page content, layout, styling, and behavior where practical.
+### Phase 2: User experience and discoverability (2–4 weeks)
 
-### 14. Add automated checks
+1. Complete responsive, keyboard, screen-reader, and reduced-motion fixes.
+2. Improve social metadata, structured data, sitemap, robots rules, and internal linking.
+3. Simplify shared CSS/JS delivery and establish reusable components/design tokens.
 
-Recommended checks:
+### Phase 3: Sustainable operation (ongoing)
 
-- PHP syntax validation for every PHP file
-- Internal broken-link checking
-- HTML validation
-- Accessibility scanning
-- Responsive browser screenshots
-- Basic navigation interaction tests
-- Lighthouse performance and SEO checks
+1. Move repeated content into a structured content source.
+2. Add CI, browser tests, performance budgets, and link/status checks.
+3. Add privacy-conscious analytics and run conversion improvements based on evidence.
 
-Success criteria:
+## Release checklist
 
-- Checks run before deployment.
-- Navigation regressions and broken links are detected automatically.
+- [ ] `php tools/check-site.php` passes.
+- [ ] No visible encoding corruption or placeholder content remains.
+- [ ] Enquiry submissions, validation, spam controls, and failure states are tested.
+- [ ] Mobile, keyboard, screen-reader, zoom, and reduced-motion checks pass.
+- [ ] Lighthouse and page-weight budgets meet agreed targets.
+- [ ] Canonicals, social previews, structured data, sitemap, and robots rules are verified on the production domain.
+- [ ] HTTPS, security headers, error handling, privacy text, and consent behavior are verified.
+- [ ] Contact details, health claims, prices, dates, and policies have owner approval.
+- [ ] Backup and rollback procedures have been tested.
 
-## Suggested Implementation Order
+## Review note
 
-1. Consolidate the two shared headers and navigation code.
-2. Finalize accessible desktop and mobile dropdown behavior.
-3. Correct filenames, missing routes, and detail-page links.
-4. Move inline CSS and JavaScript into reusable assets.
-5. Complete responsive and accessibility testing.
-6. Optimize images and remove duplicate frontend dependencies.
-7. Add page-specific metadata and structured data.
-8. Introduce automated validation and regression checks.
-
-## Completion Checklist
-
-- [x] One shared source controls all navigation links and nested items.
-- [x] Navigation supports mouse, keyboard, and touchscreen interaction.
-- [x] Current pages and parent sections have active states.
-- [x] No rendered internal links are broken.
-- [ ] No unintended horizontal overflow exists.
-- [ ] Page layouts work at all documented breakpoints.
-- [x] Critical structural accessibility checks are automated and passing.
-- [x] Duplicated header markup and styles are reduced to one canonical source.
-- [ ] Large media files are recompressed and responsive image variants are generated.
-- [x] Every public page has unique metadata and one meaningful `<h1>`.
-- [x] PHP, link, metadata, image, form-label, and HTML-structure checks are available before release.
-
-## Implementation Status
-
-Completed in the repository:
-
-- Consolidated the main and detail headers into one canonical implementation.
-- Added shared page configuration for titles, descriptions, canonical URLs, Open Graph data, and navigation state.
-- Added organization structured data.
-- Added active navigation and `aria-current` states.
-- Added click-controlled nested navigation, sibling closing, outside-click closing, and `Escape`, `Enter`, and `Space` keyboard support.
-- Corrected the Accommodation spelling and added a permanent redirect from the previous URL.
-- Added the missing wellness-program finder page.
-- Added distinct identifiers and metadata for package and service detail links.
-- Added privacy and cookie information pages and footer links.
-- Added image dimensions, improved alternative text, lazy loading, and reduced-motion support.
-- Added shared design tokens, focus indicators, legal-page styling, and program-finder components.
-- Removed a missing stylesheet reference, duplicate Bootstrap Icons import, insecure Mailchimp asset URLs, duplicate IDs, and broken rendered links.
-- Added `tools/check-site.php` as a repeatable pre-release audit.
-
-Remaining production work:
-
-- Test screenshots and interactions in real browsers at every documented breakpoint.
-- Recompress the 51 MB homepage video and generate appropriately sized WebM/MP4 versions.
-- Generate responsive WebP/AVIF variants for the largest source images.
-- Replace placeholder contact information and review legal-page wording with the organization’s authorized details.
-- Connect the contact form to an approved server-side mail or CRM workflow with validation, spam protection, and CSRF protection.
-- Run Lighthouse and a full browser-based accessibility audit in the deployment environment.
-
-## Recommended First Task
-
-The shared navigation foundation is complete. The next task should be a real-browser responsive and accessibility review at the documented breakpoints, followed by homepage video recompression and responsive image generation.
+This is a source-level assessment, not a substitute for testing the deployed site on real devices and networks. Re-prioritize after collecting production performance, accessibility, search, enquiry, and user-feedback data.

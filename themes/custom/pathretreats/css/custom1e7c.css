@@ -8089,3 +8089,189 @@ footer.footer {
     transition-duration: 0.01ms !important;
   }
 }
+.site-skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 10000;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  background: #223745;
+  border-radius: 0.35rem;
+  transform: translateY(-150%);
+}
+
+.site-skip-link:focus {
+  transform: translateY(0);
+}
+
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 3px solid #f5b942 !important;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  [data-hero-video] {
+    display: none;
+  }
+}
+
+.wellness-disclaimer {
+  padding: 0.85rem 0;
+  color: #e8ecef;
+  background: #172832;
+  font-size: 0.85rem;
+}
+
+.wellness-disclaimer p {
+  margin: 0;
+}
+
+/* Shared typography system ------------------------------------------------- */
+:root {
+  --font-body: "Roboto Flex", "Segoe UI", Arial, sans-serif;
+  --font-heading: "Libre Caslon Display", Georgia, serif;
+  --font-label: "Lexend", "Segoe UI", Arial, sans-serif;
+  --type-body: clamp(1rem, 0.97rem + 0.12vw, 1.075rem);
+  --type-small: 0.875rem;
+  --type-h1: clamp(2.4rem, 1.85rem + 2.3vw, 4.25rem);
+  --type-h2: clamp(2rem, 1.65rem + 1.45vw, 3.2rem);
+  --type-h3: clamp(1.55rem, 1.35rem + 0.8vw, 2.2rem);
+  --type-h4: clamp(1.3rem, 1.2rem + 0.4vw, 1.65rem);
+  --type-h5: 1.125rem;
+  --type-h6: 1rem;
+  --type-leading: 1.7;
+  --type-heading-leading: 1.12;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-family: var(--font-body) !important;
+}
+
+body {
+  font-size: var(--type-body);
+  line-height: var(--type-leading);
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 0;
+  font-family: var(--font-heading) !important;
+  font-weight: 400 !important;
+  line-height: var(--type-heading-leading) !important;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+h1,
+.h1 {
+  font-size: var(--type-h1) !important;
+}
+
+h2,
+.h2 {
+  font-size: var(--type-h2) !important;
+}
+
+h3,
+.h3 {
+  font-size: var(--type-h3) !important;
+}
+
+h4,
+.h4 {
+  font-size: var(--type-h4) !important;
+}
+
+h5,
+.h5 {
+  font-size: var(--type-h5) !important;
+}
+
+h6,
+.h6 {
+  font-size: var(--type-h6) !important;
+}
+
+p,
+li,
+dd,
+dt,
+blockquote,
+figcaption,
+label,
+input,
+textarea,
+select,
+button {
+  line-height: var(--type-leading);
+}
+
+.small-title,
+.text-uppercase,
+.nav-link,
+.dropdown-item,
+.btn,
+.btn-link,
+button,
+input[type="submit"] {
+  font-family: var(--font-label) !important;
+}
+
+.small-title,
+.text-uppercase {
+  font-size: var(--type-small) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.09em !important;
+}
+
+.nav-link,
+.dropdown-item,
+.btn,
+.btn-link,
+button,
+input[type="submit"] {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+small,
+.small,
+figcaption {
+  font-size: var(--type-small);
+}
+
+@media (max-width: 575.98px) {
+  body {
+    line-height: 1.65;
+  }
+}
