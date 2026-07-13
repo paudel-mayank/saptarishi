@@ -11,12 +11,12 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img" style="background-image:url(assets/about.png);
+                                <div class="background-img page-hero" style="background-image:url(assets/about.png);
                            background-size: cover;
                           background-position: center;
                           position: relative;">
                                     <div class="container container-l" style="z-index: 999;">
-                                        <h1>Takshashelaa offers worldwide, life-changing, personal growth and
+                                        <h1>Takshasheela offers worldwide, life-changing, personal growth and
                                             self-development
                                             processes.</h1>
                                     </div>
@@ -53,7 +53,7 @@
                                             <div class="content">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                    <p>Takshashelaa aims to contribute to a significant shift in global
+                                                    <p>Takshasheela aims to contribute to a significant shift in global
                                                         consciousness through
                                                         actively pursuing our commitment to foster global appreciation
                                                         of our diversity as
@@ -67,7 +67,7 @@
                                                         originate from, whether you identify with any of these or none
                                                         of them, or anything else
                                                         which makes you the unique and beautiful human being that you
-                                                        are, Takshashelaa invites
+                                                        are, Takshasheela invites
                                                         you to join our community and welcomes the contribution your
                                                         difference makes.</p>
                                                 </div>
@@ -103,7 +103,7 @@
                                             <div class="heading-text">
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-heading-text field--type-text-long field--label-hidden field__item">
-                                                    <h2>Turiya and Rafia, Founders of Takshashelaa</h2>
+                                                    <h2>Turiya and Rafia, Founders of Takshasheela</h2>
                                                 </div>
                                             </div>
                                             <div class="content">

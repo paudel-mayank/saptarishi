@@ -10,7 +10,7 @@
             class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
             <div class="field__item">
               <div class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
-                <div class="inner-banner">
+                <div class="inner-banner page-hero">
                   <div class="background-img">
                     <img src="sites/default/files/2024-04/inner-banner_0.png" width="1920" height="933" alt="" class="img-fluid">
                   </div>

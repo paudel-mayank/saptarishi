@@ -314,7 +314,7 @@ exit;
 
             <!-- Banner Section -->
             <div class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
-              <div class="inner-banner">
+              <div class="inner-banner page-hero">
                 <div class="background-img">
                   <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'%3E%3Crect fill='%23a8c5a8' width='1200' height='400'/%3E%3C/svg%3E" alt="Service Banner" class="img-fluid">
                 </div>

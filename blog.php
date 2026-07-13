@@ -19,7 +19,7 @@
                                           </h1>
                                           <div
                         class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                        <p>The Takshashelaa blog gives ideas and practical applications for conscious relating,
+                        <p>The Takshasheela blog gives ideas and practical applications for conscious relating,
                           authentic connection, helping you maintain a robust sense of self in your everyday life.
                         </p>
                       </div>
@@ -50,7 +50,7 @@
                                             <span>
                                               <div
                                                 class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                Takshashelaa</div>
+                                                Takshasheela</div>
                                             </span>
                                           </div>
                                           <div class="title">
@@ -105,7 +105,7 @@
                                               <span>
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Takshashelaa</div>
+                                                  Takshasheela</div>
                                               </span>
                                             </div>
                                             <div class="title">
@@ -152,7 +152,7 @@
                                               <span>
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Takshashelaa</div>
+                                                  Takshasheela</div>
                                               </span>
                                             </div>
                                             <div class="title">
@@ -206,7 +206,7 @@
                                               <span>
                                                 <div
                                                   class="field field--name-field-blog-for field--type-entity-reference field--label-hidden field__item">
-                                                  Takshashelaa</div>
+                                                  Takshasheela</div>
                                               </span>
                                             </div>
                                             <div class="title">

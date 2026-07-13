@@ -54,7 +54,7 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="news-hero">
+                                <div class="news-hero page-hero">
                                     <div class="container container-l">
                                         <h1>News & Events</h1>
                                         <p>Stay connected with the retreats, healing programs, community gatherings, and

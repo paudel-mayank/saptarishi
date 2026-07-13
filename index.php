@@ -123,6 +123,7 @@
     .ev-section {
         background: var(--c-bg-light);
         padding: 60px 48px;
+        font-weight: 300;
     }
 
     .ev-header {
@@ -137,6 +138,7 @@
     .ev-tag {
         font-family: var(--tag-font-family);
         font-size: 11px;
+        font-weight: 500;
         letter-spacing: 3px;
         text-transform: uppercase;
         color: var(--c-primary);
@@ -146,6 +148,7 @@
     .ev-title {
         font-family: var(--header-font-family);
         font-size: 34px;
+        font-weight: 400;
         color: var(--c-title);
         line-height: 1.2;
     }
@@ -246,6 +249,7 @@
     .ev-card-title {
         font-family: var(--header-font-family);
         font-size: 17px;
+        font-weight: 400;
         color: var(--c-title);
         line-height: 1.3;
     }
@@ -683,7 +687,7 @@
                                             <div class="link">
                                                 <div
                                                     class="field field--name-field-link field--type-link field--label-hidden field__item">
-                                                    <a href="about-us.php">About Takshashelaa</a>
+                                                    <a href="about-us.php">About Takshasheela</a>
                                                 </div>
                                             </div>
                                             <div class="spacer"></div>
@@ -1139,7 +1143,7 @@
                                                         stroke="#91cc33" stroke-width="1" />
                                                     <circle cx="6" cy="4.5" r="1" fill="#91cc33" />
                                                 </svg>
-                                                Takshashelaa Aashram, Kathmandu
+                                                Takshasheela Aashram, Kathmandu
                                             </div>
                                             <div class="ev-card-desc">Our flagship 7-day transformational retreat
                                                 designed
@@ -1234,7 +1238,7 @@
                                                         stroke="#91cc33" stroke-width="1" />
                                                     <circle cx="6" cy="4.5" r="1" fill="#91cc33" />
                                                 </svg>
-                                                Takshashelaa Aashram
+                                                Takshasheela Aashram
                                             </div>
                                             <div class="ev-card-desc">A concentrated 3-day classical Panchakarma
                                                 cleanse

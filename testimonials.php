@@ -8,7 +8,7 @@
     --white: #ffffff;
 }
 
-.container {
+.long-lasting-benefits>.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 20px;
@@ -179,9 +179,9 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="testimonial-hero">
+                                <div class="testimonial-hero page-hero">
                                     <div class="container container-l">
-                                        <h1 style="text-align: center;">Stories of healing, renewal, and lasting peace
+                                        <h1>Stories of healing, renewal, and lasting peace
                                             from our guests.</h1>
                                         <p>These heartfelt reflections share the calm, transformation, and inner clarity
                                             experienced at Takshasheela Ayurveda Aashram.</p>

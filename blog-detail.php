@@ -18,7 +18,7 @@
                   Articles, Featured, Path of Love
                   by
                   <span class="field field--name-uid field--type-entity-reference field--label-hidden">
-                    <span>Takshashelaa</span>
+                    <span>Takshasheela</span>
                   </span>
                 </p>
               </div>

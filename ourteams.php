@@ -50,7 +50,7 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="team-hero">
+                                <div class="team-hero page-hero">
                                     <div class="container container-l">
                                         <h1>Meet the compassionate leaders and wellness practitioners of Takshasheela
                                             Ayurveda Aashram.</h1>

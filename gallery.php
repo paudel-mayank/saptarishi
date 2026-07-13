@@ -130,7 +130,7 @@
                         class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
                         <div class="field__item">
                             <div class="paragraph paragraph--type--blog paragraph--view-mode--default">
-                                <div class="gallery-hero">
+                                <div class="gallery-hero page-hero">
                                     <div class="container container-l">
                                         <h1>Moments of Healing &amp; Serenity</h1>
                                         <p>Step into the calm of Saptarishi Ayurveda Ashram and discover the spaces

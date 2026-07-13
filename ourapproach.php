@@ -8,7 +8,7 @@
         --white: #ffffff;
     }
 
-    .container {
+    .approach-section>.container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 60px 20px;
@@ -161,7 +161,7 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="approach-hero">
+                                <div class="approach-hero page-hero">
                                     <div class="container container-l">
                                         <h1>Our Approach</h1>
                                         <p>We blend the wisdom of Ayurveda, compassionate care, and restorative living

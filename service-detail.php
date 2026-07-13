@@ -258,7 +258,7 @@
     }
 
     /* ============ Container & Layout ============ */
-    .container {
+    #block-pathretreats-content .container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
@@ -311,7 +311,7 @@
 
         .service-detail-wrapper {
             flex-direction: column;
-            margin-top:300px;
+            margin-top: 0;
         }
 
         .service-sidebar {
@@ -365,7 +365,7 @@
         }
            .service-detail-wrapper {
             flex-direction: column;
-            margin-top:450px;
+            margin-top: 0;
         }
     }
 </style>
@@ -380,7 +380,7 @@
                         class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
                         <div class="field__item">
                             <div class="paragraph background-greenish-bg paragraph--type--banner paragraph--view-mode--default">
-                                <div class="inner-banner">
+                                <div class="inner-banner page-hero">
                                     <div class="background-img">
                                         <img src="sites/default/files/2024-04/inner-banner_0.png" width="1920" height="933" alt="" class="img-fluid">
                                     </div>

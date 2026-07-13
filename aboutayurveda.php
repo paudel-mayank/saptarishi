@@ -85,7 +85,7 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="ayurveda-hero">
+                                <div class="ayurveda-hero page-hero">
                                     <div class="container container-l">
                                         <h1>Discover the timeless healing wisdom of Ayurveda at Takshasheela.</h1>
                                     </div>
