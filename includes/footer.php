@@ -254,6 +254,11 @@
         </div>
     </div>
 </footer>
+<div class="wellness-disclaimer" role="note">
+    <div class="container container-l">
+        <p>Wellness information on this website is educational and is not a substitute for diagnosis or treatment by a qualified medical professional. If you have urgent symptoms, contact your local emergency service.</p>
+    </div>
+</div>
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/layout/page--front.html.twig' -->
 </div>
 <!-- END OUTPUT from 'themes/contrib/bootstrap5/templates/content/off-canvas-page-wrapper.html.twig' -->
@@ -282,6 +287,20 @@
 <script src="themes/contrib/bootstrap5/dist/bootstrap/5.3.3/dist/js/bootstrap.bundle47fd.js?v=5.3.3"></script>
 <script src="themes/custom/pathretreats/js/swiper-bundle.min1e7c.js?t33iat"></script>
 <script src="themes/custom/pathretreats/js/custom1e7c.js?t33iat" defer></script>
+<script>
+    (() => {
+        const video = document.querySelector('[data-hero-video]');
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const saveData = navigator.connection && navigator.connection.saveData;
+        if (!video || reduceMotion || saveData || window.innerWidth < 768) return;
+        const source = video.querySelector('source[data-src]');
+        if (source) {
+            source.src = source.dataset.src;
+            video.load();
+            video.play().catch(() => {});
+        }
+    })();
+</script>
 <!-- Load Usercentrics LAST -->
 <script defer src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
 <script id="usercentrics-cmp" defer src="https://web.cmp.usercentrics.eu/ui/loader.js"

@@ -1,4 +1,7 @@
-<?php include __DIR__ . '/includes/detailheader.php'; ?>
+<?php
+require __DIR__ . '/includes/contact-handler.php';
+include __DIR__ . '/includes/detailheader.php';
+?>
 <div class="main-content">
   <a id="main-content" tabindex="-1"></a>
   <div class="region region-content">
@@ -29,7 +32,13 @@
                     <div class="contact-card content-card">
                       <h2>Send us a message</h2>
                       <form action="contact-us.php" method="post" aria-label="Contact form">
+                        <input type="hidden" name="csrf_token" value="<?= htmlspecialchars((string) $_SESSION['contact_csrf'], ENT_QUOTES, 'UTF-8') ?>">
+                        <div class="visually-hidden" aria-hidden="true">
+                          <label for="website">Website</label>
+                          <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+                        </div>
                         <div class="mb-3">
+<<<<<<< HEAD
                           <label for="name" class="form-label">Full Name</label>
                           <input type="text" name="name" class="form-control" id="name" autocomplete="name" placeholder="Your name" required>
                         </div>
@@ -41,6 +50,42 @@
                           <label for="message" class="form-label">Message</label>
                           <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your message..."
                             required></textarea>
+=======
+                          <label for="name" class=" mysubtext
+                                form-label fw-semibold">Full Name</label>
+                          <input type="text" name="name" class="form-control" id="name" autocomplete="name" maxlength="100" value="<?= htmlspecialchars($contactValues['name'], ENT_QUOTES, 'UTF-8') ?>" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class=" mysubtext
+                                form-label fw-semibold">Email</label>
+                          <input type="email" name="email" class="form-control" id="email" autocomplete="email" maxlength="254" value="<?= htmlspecialchars($contactValues['email'], ENT_QUOTES, 'UTF-8') ?>" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="phone" class="mysubtext form-label fw-semibold">Phone <span class="fw-normal">(optional)</span></label>
+                          <input type="tel" name="phone" class="form-control" id="phone" autocomplete="tel" maxlength="30" value="<?= htmlspecialchars($contactValues['phone'], ENT_QUOTES, 'UTF-8') ?>">
+                        </div>
+                        <div class="mb-3">
+                          <label for="program" class="mysubtext form-label fw-semibold">Program of interest</label>
+                          <select name="program" class="form-select" id="program">
+                            <option value="">Not sure yet</option>
+                            <?php foreach (['Panchakarma Rejuvenation', 'Ayurvedic Wellness Immersion', 'Mind-Body Balance', 'Ayurvedic Healing Service'] as $program): ?>
+                              <option value="<?= htmlspecialchars($program, ENT_QUOTES, 'UTF-8') ?>"<?= $contactValues['program'] === $program ? ' selected' : '' ?>><?= htmlspecialchars($program, ENT_QUOTES, 'UTF-8') ?></option>
+                            <?php endforeach; ?>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="dates" class="mysubtext form-label fw-semibold">Preferred dates <span class="fw-normal">(optional)</span></label>
+                          <input type="text" name="dates" class="form-control" id="dates" maxlength="100" value="<?= htmlspecialchars($contactValues['dates'], ENT_QUOTES, 'UTF-8') ?>" placeholder="For example, October 2026">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message" class=" mysubtext
+                                form-label fw-semibold">Message</label>
+                          <textarea name="message" class="form-control" id="message" rows="5" minlength="10" maxlength="3000" required><?= htmlspecialchars($contactValues['message'], ENT_QUOTES, 'UTF-8') ?></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="checkbox" name="consent" value="1" id="consent" required>
+                          <label class="form-check-label" for="consent">I agree that Takshasheela may use these details to respond to my enquiry. See our <a href="privacy-policy.php">privacy policy</a>.</label>
+>>>>>>> d84f66a2eb8f5f9875b8ce696371ecbcad0b4ccd
                         </div>
                         <button type="submit" class="button button--primary w-100">Send Message</button>
                       </form>
@@ -54,8 +99,13 @@
                           <i class="bi bi-geo-alt-fill fs-5"></i>
                         </div>
                         <div>
+<<<<<<< HEAD
                           <h3>Location</h3>
                           <p>Kathmandu, Nepal</p>
+=======
+                          <h6 class="fw-semibold mb-1">Office Address</h6>
+                          <p class="text-muted mb-0">Kathmandu, Nepal</p>
+>>>>>>> d84f66a2eb8f5f9875b8ce696371ecbcad0b4ccd
                         </div>
                       </div>
                       <!-- Email -->
@@ -64,8 +114,13 @@
                           <i class="bi bi-envelope-fill fs-5"></i>
                         </div>
                         <div>
+<<<<<<< HEAD
                           <h3>Email</h3>
                           <p><a href="mailto:info@takshasheela.com">info@takshasheela.com</a></p>
+=======
+                          <h6 class="fw-semibold mb-1">Email</h6>
+                          <p class="text-muted mb-0"><a href="mailto:info@takshasheela.com">info@takshasheela.com</a></p>
+>>>>>>> d84f66a2eb8f5f9875b8ce696371ecbcad0b4ccd
                         </div>
                       </div>
                       <!-- Phone -->
@@ -74,8 +129,13 @@
                           <i class="bi bi-telephone-fill fs-5"></i>
                         </div>
                         <div>
+<<<<<<< HEAD
                           <h3>Phone</h3>
                           <p><a href="tel:+9779800000000">+977 9800 000 000</a></p>
+=======
+                          <h6 class="fw-semibold mb-1">Phone</h6>
+                          <p class="text-muted mb-0"><a href="tel:+9779800000000">+977 9800 000 000</a></p>
+>>>>>>> d84f66a2eb8f5f9875b8ce696371ecbcad0b4ccd
                         </div>
                       </div>
                     </div>

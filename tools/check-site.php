@@ -10,11 +10,29 @@ $errors = [];
 $titles = [];
 
 foreach (array_merge($pages, glob($root . '/includes/*.php') ?: []) as $phpFile) {
+    $source = (string) file_get_contents($phpFile);
+    foreach (["\xC3\xA2\xE2\x82\xAC", "\xC3\x83", "\xEF\xBF\xBD"] as $badEncoding) {
+        if (str_contains($source, $badEncoding)) {
+            $errors[] = basename($phpFile) . ': contains likely corrupted text encoding.';
+            break;
+        }
+    }
     exec('php -l ' . escapeshellarg($phpFile), $lintOutput, $lintCode);
     if ($lintCode !== 0) {
         $errors[] = basename($phpFile) . ': PHP syntax validation failed.';
     }
     $lintOutput = [];
+}
+
+$heroVideo = $root . '/assets/Homepage-big-page-video-final-.mp4';
+if (is_file($heroVideo) && filesize($heroVideo) > 60 * 1024 * 1024) {
+    $errors[] = 'Homepage hero video exceeds the 60 MB temporary performance budget.';
+}
+
+foreach (array_merge(glob($root . '/assets/*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [], glob($root . '/sites/default/files/*/*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: []) as $imageFile) {
+    if (filesize($imageFile) > 5 * 1024 * 1024) {
+        $errors[] = str_replace($root . '/', '', $imageFile) . ': image exceeds the 5 MB performance budget.';
+    }
 }
 
 foreach ($pages as $page) {

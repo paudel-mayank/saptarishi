@@ -2,6 +2,27 @@
 
 declare(strict_types=1);
 
+if (PHP_SAPI === 'cli') {
+    $_SESSION = $_SESSION ?? [];
+} elseif (session_status() !== PHP_SESSION_ACTIVE && !headers_sent()) {
+    session_set_cookie_params([
+        'httponly' => true,
+        'secure' => !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off',
+        'samesite' => 'Lax',
+    ]);
+    session_start();
+}
+
+if (!headers_sent() && PHP_SAPI !== 'cli') {
+    header('X-Content-Type-Options: nosniff');
+    header('Referrer-Policy: strict-origin-when-cross-origin');
+    header('Permissions-Policy: camera=(), microphone=(), geolocation=()');
+    header("Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self' https://pathretreats.us18.list-manage.com; frame-ancestors 'self'; frame-src https://www.google.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://use.fontawesome.com https://web.cmp.usercentrics.eu; font-src 'self' data: https://cdn.jsdelivr.net https://use.fontawesome.com https://fonts.gstatic.com; connect-src 'self' https://*.usercentrics.eu");
+    if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
+        header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
+    }
+}
+
 $sitePages = [
     'index.php' => ['title' => 'Takshasheela Ayurveda Aashram | Nature Heals — We Guide', 'description' => 'Discover authentic Ayurvedic healing, wellness retreats, therapies, and peaceful accommodation at Takshasheela Ayurveda Aashram.'],
     'about-us.php' => ['title' => 'About Takshasheela Ayurveda Aashram', 'description' => 'Learn about Takshasheela Ayurveda Aashram, our values, healing philosophy, and commitment to authentic Ayurvedic wellbeing.'],
@@ -60,6 +81,10 @@ foreach ($detailMeta as $queryKey => $items) {
 $isHomeHeader = $isHomeHeader ?? ($currentPage === 'index.php');
 $requestScheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $requestHost = preg_replace('/[^A-Za-z0-9.:-]/', '', (string) ($_SERVER['HTTP_HOST'] ?? 'localhost'));
+$configuredSiteUrl = rtrim((string) (getenv('SITE_URL') ?: ''), '/');
+$siteBaseUrl = filter_var($configuredSiteUrl, FILTER_VALIDATE_URL)
+    ? $configuredSiteUrl
+    : $requestScheme . '://' . $requestHost;
 $canonicalQuery = '';
 foreach (['program', 'service'] as $queryKey) {
     if (isset($_GET[$queryKey]) && preg_match('/^[a-z0-9-]+$/', (string) $_GET[$queryKey])) {
@@ -67,7 +92,7 @@ foreach (['program', 'service'] as $queryKey) {
         break;
     }
 }
-$canonicalUrl = $requestScheme . '://' . $requestHost . '/' . rawurlencode($currentPage) . $canonicalQuery;
+$canonicalUrl = $siteBaseUrl . '/' . rawurlencode($currentPage) . $canonicalQuery;
 
 function nav_is_active(array $pages): bool
 {

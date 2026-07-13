@@ -564,10 +564,10 @@
                                                         <div
                                                             class="paragraph paragraph--type--banner-slide-item paragraph--view-mode--default">
                                                             <div class="">
-                                                                <video autoplay muted loop playsinline preload="metadata"
+                                                                <video muted loop playsinline preload="none"
                                                                     poster="sites/default/files/2025-03/homepagebanner1.webp"
-                                                                    class="background-video">
-                                                                    <source src="assets/Homepage-big-page-video-final-.mp4" type="video/mp4">
+                                                                    class="background-video" data-hero-video>
+                                                                    <source data-src="assets/Homepage-big-page-video-final-.mp4" type="video/mp4">
                                                                 </video>
                                                             </div>
                                                             <div class="banner-captions">
