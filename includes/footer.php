@@ -12,15 +12,13 @@
                                 <img loading="lazy" src="assets/main.png" width="290" height="80" alt="Takshasheela Ayurveda Aashram" class="img-fluid" />
                             </div>
                             <div class="footer-contact-info mt-3">
-                                <p class="mb-2" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
-                                    Email: <a href="mailto:info@takshasheela.com"
-                                        style="color: #91cc33; text-decoration: none;">info@takshasheela.com</a>
+                                <p class="mb-2">
+                                    Email: <a href="mailto:info@takshasheela.com">info@takshasheela.com</a>
                                 </p>
-                                <p class="mb-2" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
-                                    Phone: <a href="tel:+9779800000000"
-                                        style="color: #91cc33; text-decoration: none;">+977 9800 000 000</a>
+                                <p class="mb-2">
+                                    Phone: <a href="tel:+9779800000000">+977 9800 000 000</a>
                                 </p>
-                                <p class="mb-0" style="font-size: 0.95rem; color: #f7f3eb; line-height: 1.7;">
+                                <p class="mb-0">
                                     Location: Kathmandu, Nepal
                                 </p>
                             </div>
@@ -32,7 +30,6 @@
                     <div class="region region-footer">
                         <div id="block-pathretreats-pathoflove7dayretreats"
                             class="block block-block-content block-block-content2b7137a5-d865-4c27-a4e8-fb296ef55a3a">
-                            <!-- <h2>Path of Love 7 day retreats</h2> -->
                             <div
                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
                                 <p><a href="index.php">Home</a></p>
@@ -82,40 +79,6 @@
                 </div>
                 <div class="col-newsletter">
                     <div id="mc_embed_shell">
-                        <link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
-                            type="text/css">
-                        <style type="text/css">
-                        #mc_embed_signup {
-                            background: #fff;
-                            clear: left;
-                            font: 14px Helvetica, Arial, sans-serif;
-                            width: 600px;
-                        }
-
-                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                        </style>
-                        <style type="text/css">
-                        #mc-embedded-subscribe-form input[type=checkbox] {
-                            display: inline;
-                            width: auto;
-                            margin-right: 10px;
-                        }
-
-                        #mergeRow-gdpr {
-                            margin-top: 20px;
-                        }
-
-                        #mergeRow-gdpr fieldset label {
-                            font-weight: normal;
-                        }
-
-                        #mc-embedded-subscribe-form .mc_fieldset {
-                            border: none;
-                            min-height: 0px;
-                            padding-bottom: 0px;
-                        }
-                        </style>
                         <div id="mc_embed_signup">
                             <form
                                 action="https://pathretreats.us18.list-manage.com/subscribe/post?u=a3106ca66b6dbaa171683ae30&amp;id=90a6f3c136&amp;v_id=4428&amp;f_id=007db5e7f0"

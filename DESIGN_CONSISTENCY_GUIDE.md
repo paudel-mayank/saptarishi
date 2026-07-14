@@ -6,21 +6,27 @@ This document defines how to make the Saptarishi/Takshasheela website feel like 
 
 The goal is to standardize the visual language without redesigning every page from scratch.
 
-## Current Challenges
+## Implementation Status
+
+The shared design system was applied site-wide in July 2026. Page-level `<style>` blocks and inline `style` attributes were removed from PHP templates, legacy page rules were consolidated in `page-components.css`, and `design-system.css` is loaded last as the authoritative component and token layer.
+
+New work should use the shared tokens and components documented below. Avoid adding styles directly to PHP templates.
+
+## Legacy Challenges Addressed
 
 ### Fragmented CSS
 
-The project has approximately 700 KB of theme CSS across these files:
+The original project contained approximately 700 KB of theme CSS across these files:
 
 - `themes/custom/pathretreats/css/style1e7c.css`
 - `themes/custom/pathretreats/css/theme1e7c.css`
 - `themes/custom/pathretreats/css/custom1e7c.css`
 
-Many PHP pages also contain their own `<style>` blocks or inline `style` attributes. This makes styles difficult to reuse and creates cascade conflicts.
+Those legacy files remain for compatibility, while migrated page rules now live in `page-components.css` and shared overrides live in `design-system.css`. PHP templates no longer contain embedded or inline CSS.
 
 ### Inconsistent page heroes
 
-Hero sections vary between pages:
+Hero sections previously varied between pages. Inner-page templates now opt into the shared `.page-hero` system, including legal and contact pages.
 
 - News uses a heading weight of `600` and a maximum size of `2.75rem`.
 - Gallery and Our Approach use headings up to `3rem` with different weight behavior.
@@ -29,7 +35,7 @@ Hero sections vary between pages:
 
 ### Inconsistent component styling
 
-Examples include:
+Examples from the legacy implementation included:
 
 - Event cards with square corners.
 - Gallery cards with a `24px` radius.
@@ -40,11 +46,11 @@ Examples include:
 
 ### Broad page-level selectors
 
-Some page styles use selectors that are too broad. For example, `ourapproach.php` changes the global `.container` class. A rule like this can unintentionally affect the header, footer, and shared components.
+Broad page-level selectors were scoped or moved behind shared component rules so they no longer redefine layout from PHP templates.
 
 ### Brand and content inconsistencies
 
-Some content still references Path Retreats, Bali, or placeholder contact information, while other pages use Saptarishi or Takshasheela and Kathmandu. Consistent branding is part of a coherent design experience.
+Visible content is standardized on Takshasheela Ayurveda Aashram and Kathmandu. Legacy Path Retreats and Saptarishi references were removed from public PHP content.
 
 ## Proposed Design System
 

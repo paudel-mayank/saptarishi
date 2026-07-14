@@ -15,7 +15,7 @@
               </div>
               <div class="blog-tags-date">
                 <p>16 Oct
-                  Articles, Featured, Path of Love
+                  Articles, Featured, Healing Journeys
                   by
                   <span class="field field--name-uid field--type-entity-reference field--label-hidden">
                     <span>Takshasheela</span>
@@ -49,7 +49,7 @@
                       <p>Jennifer McKeever combines more than 25 years of experience in body-mind therapies, emotional
                         release work, and meditation. She is part of the teaching faculty for BioDynamic Breathwork
                         &amp; Trauma Release System, as well as a facilitator of the world-renowned transformational
-                        process Path of Love.</p>
+                        healing process used in Takshasheela retreats.</p>
                       <p>Her work is about healing the effects of trauma and supporting the journey to wholeness and
                         clarity about who you really are.&nbsp;</p>
                       <p></p>

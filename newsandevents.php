@@ -1,47 +1,4 @@
 <?php include __DIR__ . '/includes/detailheader.php'; ?>
-<style>
-    .news-hero {
-        position: relative;
-        overflow: hidden;
-        background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
-            url('sites/default/files/2024-03/about%20banner.png') center/cover;
-        min-height: 420px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .news-hero .container {
-        padding: 70px 20px;
-    }
-
-    .news-hero h1 {
-        font-family: var(--header-font-family);
-        color: #ffffff;
-        font-size: clamp(2rem, 3vw, 2.75rem);
-        font-weight: 600;
-        line-height: 1.2;
-        letter-spacing: 0;
-        margin-bottom: 20px;
-    }
-
-    .news-hero p {
-        color: rgba(255, 255, 255, 0.9);
-        font-family: var(--body-font-family);
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.8;
-        max-width: 720px;
-        margin: 0 auto;
-    }
-
-    @media (max-width: 768px) {
-        .news-hero {
-            min-height: 360px;
-        }
-    }
-</style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">

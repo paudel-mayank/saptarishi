@@ -1,43 +1,4 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
-<style>
-    .team-hero {
-        position: relative;
-        overflow: hidden;
-        background: linear-gradient(135deg, rgba(47, 47, 47, 0.86), rgba(47, 47, 47, 0.62)),
-            url('sites/default/files/2024-03/about%20banner.png') center/cover;
-        min-height: 420px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .team-hero .container {
-        padding: 70px 20px;
-    }
-
-    .team-hero h1 {
-        font-family: var(--header-font-family);
-        color: #ffffff;
-        font-size: clamp(2.1rem, 4vw, 3rem);
-        line-height: 1.2;
-        margin-bottom: 16px;
-    }
-
-    .team-hero p {
-        color: rgba(255, 255, 255, 0.9);
-        font-family: var(--body-font-family);
-        font-size: 1.06rem;
-        max-width: 720px;
-        margin: 0 auto;
-    }
-
-    @media (max-width: 768px) {
-        .team-hero {
-            min-height: 360px;
-        }
-    }
-</style>
 <div class="main-content">
     <a id="main-content" tabindex="-1"></a>
     <div class="region region-content">

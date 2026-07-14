@@ -11,11 +11,8 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img page-hero" style="background-image:url(assets/about.png);
-                           background-size: cover;
-                          background-position: center;
-                          position: relative;">
-                                    <div class="container container-l" style="z-index: 999;">
+                                <div class="background-img page-hero page-hero--about">
+                                    <div class="container container-l">
                                         <h1>Takshasheela offers worldwide, life-changing, personal growth and
                                             self-development
                                             processes.</h1>

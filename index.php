@@ -1,547 +1,5 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
-<style>
-    /* ===== NEWSLETTER BAND ===== */
-    .nl-band {
-        background: var(--footer-bg);
-        padding: 52px 120px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 40px;
-        flex-wrap: wrap;
-    }
-
-    .nl-left {
-        flex: 1;
-        min-width: 220px;
-    }
-
-    .nl-tag {
-        font-family: var(--tag-font-family);
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: var(--c-primary);
-        margin-bottom: 12px;
-    }
-
-    .nl-heading {
-        font-family: var(--header-font-family);
-        font-size: 32px;
-        line-height: 1.2;
-        color: #fff;
-        margin-bottom: 10px;
-    }
-
-    .nl-sub {
-        font-size: 14px;
-        font-weight: 300;
-        color: #8fa5b3;
-        line-height: 1.7;
-        max-width: 340px;
-    }
-
-    .nl-right {
-        flex: 1;
-        min-width: 260px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .nl-row {
-        display: flex;
-        gap: 0;
-    }
-
-    .nl-input {
-        flex: 1;
-        background: transparent;
-        border: 1px solid #3a5160;
-        border-right: none;
-        color: #fff;
-        font-family: var(--body-font-family);
-        font-size: 14px;
-        padding: 13px 18px;
-        outline: none;
-    }
-
-    .nl-input::placeholder {
-        color: #4a6070;
-    }
-
-    .nl-input:focus {
-        border-color: var(--c-primary);
-    }
-
-    .nl-btn {
-        background: var(--c-primary);
-        border: 1px solid var(--c-primary);
-        color: var(--c-title);
-        font-family: var(--tag-font-family);
-        font-size: 12px;
-        font-weight: 500;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        padding: 13px 24px;
-        cursor: pointer;
-        white-space: nowrap;
-        transition: background 0.2s;
-    }
-
-    .nl-btn:hover {
-        background: var(--c-secondary);
-        border-color: var(--c-secondary);
-    }
-
-    .nl-checks {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
-    .nl-check {
-        display: flex;
-        align-items: center;
-        gap: 7px;
-        font-size: 12px;
-        color: #5a7585;
-        font-family: var(--tag-font-family);
-    }
-
-    .nl-check-dot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: var(--c-primary);
-        flex-shrink: 0;
-    }
-
-    /* ===== EVENTS SECTION ===== */
-    .ev-section {
-        background: var(--c-bg-light);
-        padding: 60px 48px;
-        font-weight: 300;
-    }
-
-    .ev-header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        margin-bottom: 36px;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
-
-    .ev-tag {
-        font-family: var(--tag-font-family);
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: var(--c-primary);
-        margin-bottom: 10px;
-    }
-
-    .ev-title {
-        font-family: var(--header-font-family);
-        font-size: 34px;
-        font-weight: 400;
-        color: var(--c-title);
-        line-height: 1.2;
-    }
-
-    .ev-all-link {
-        font-family: var(--tag-font-family);
-        font-size: 13px;
-        font-weight: 500;
-        color: var(--c-secondary);
-        text-decoration: none;
-        border-bottom: 1px solid var(--c-primary);
-        padding-bottom: 2px;
-        white-space: nowrap;
-    }
-
-    .ev-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 20px;
-    }
-
-    /* Event Card */
-    .ev-card {
-        background: #fff;
-        border: 1px solid var(--border-color);
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
-
-    .ev-card-img {
-        height: 160px;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .ev-card-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .ev-badge {
-        position: absolute;
-        top: 12px;
-        left: 12px;
-        font-family: var(--tag-font-family);
-        font-size: 10px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        padding: 4px 10px;
-    }
-
-    .badge-retreat {
-        background: var(--c-primary);
-        color: var(--c-title);
-    }
-
-    .badge-workshop {
-        background: var(--orange-bg);
-        color: #fff;
-    }
-
-    .badge-online {
-        background: var(--c-title);
-        color: #fff;
-    }
-
-    .ev-date-strip {
-        background: var(--c-title);
-        color: #fff;
-        font-family: var(--tag-font-family);
-        font-size: 11px;
-        letter-spacing: 1px;
-        padding: 7px 14px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .ev-date-dot {
-        width: 5px;
-        height: 5px;
-        border-radius: 50%;
-        background: var(--c-primary);
-        flex-shrink: 0;
-    }
-
-    .ev-card-body {
-        padding: 18px;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .ev-card-title {
-        font-family: var(--header-font-family);
-        font-size: 17px;
-        font-weight: 400;
-        color: var(--c-title);
-        line-height: 1.3;
-    }
-
-    .ev-card-loc {
-        font-family: var(--tag-font-family);
-        font-size: 11px;
-        color: #888;
-        letter-spacing: 0.5px;
-        display: flex;
-        align-items: center;
-        gap: 5px;
-    }
-
-    .ev-card-desc {
-        font-size: 13px;
-        color: #555;
-        line-height: 1.6;
-        flex: 1;
-    }
-
-    .ev-card-footer {
-        padding: 14px 18px;
-        border-top: 1px solid var(--border-color);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .ev-price {
-        font-family: var(--tag-font-family);
-        font-size: 13px;
-        font-weight: 500;
-        color: var(--c-title);
-    }
-
-    .ev-price span {
-        font-size: 11px;
-        font-weight: 400;
-        color: #888;
-        margin-left: 2px;
-    }
-
-    .ev-register {
-        font-family: var(--tag-font-family);
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: var(--c-secondary);
-        border: 1px solid var(--c-primary);
-        padding: 7px 14px;
-        background: transparent;
-        cursor: pointer;
-        transition: background 0.2s, color 0.2s;
-    }
-
-    .ev-register:hover {
-        background: var(--c-primary);
-        color: var(--c-title);
-    }
-
-    /* Featured spans 2 columns */
-    .ev-card.featured {
-        grid-column: span 2;
-    }
-
-    .ev-card.featured .ev-card-img {
-        height: 220px;
-    }
-
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 768px) {
-
-        .nl-band,
-        .ev-section {
-            padding: 40px 20px;
-        }
-
-        .nl-heading {
-            font-size: 24px;
-        }
-
-        .ev-title {
-            font-size: 26px;
-        }
-
-        .ev-card.featured {
-            grid-column: span 1;
-        }
-    }
-
-    /* ===== MOBILE RESPONSIVE — Newsletter & Events ===== */
-
-    @media (max-width: 1024px) {
-        .ev-card.featured {
-            grid-column: span 2;
-        }
-    }
-
-    @media (max-width: 768px) {
-
-        /* --- Newsletter Band --- */
-        .nl-band {
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 40px 24px;
-            gap: 28px;
-        }
-
-        .nl-left {
-            min-width: unset;
-            width: 100%;
-        }
-
-        .nl-heading {
-            font-size: 26px;
-        }
-
-        .nl-sub {
-            max-width: 100%;
-            font-size: 14px;
-        }
-
-        .nl-right {
-            min-width: unset;
-            width: 100%;
-        }
-
-        .nl-row {
-            flex-direction: column;
-            gap: 0;
-        }
-
-        .nl-input {
-            border-right: 1px solid #3a5160;
-            border-bottom: none;
-            width: 100%;
-        }
-
-        .nl-input:focus {
-            border-color: var(--c-primary);
-        }
-
-        .nl-btn {
-            width: 100%;
-            text-align: center;
-            padding: 14px;
-        }
-
-        .nl-checks {
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        /* --- Events Section --- */
-        .ev-section {
-            padding: 40px 24px;
-        }
-
-        .ev-header {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 12px;
-            margin-bottom: 24px;
-        }
-
-        .ev-title {
-            font-size: 26px;
-        }
-
-        .ev-grid {
-            grid-template-columns: 1fr;
-            gap: 16px;
-        }
-
-        .ev-card.featured {
-            grid-column: span 1;
-        }
-
-        .ev-card.featured .ev-card-img {
-            height: 180px;
-        }
-
-        .ev-card-img {
-            height: 180px;
-        }
-
-        .ev-card-footer {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 12px;
-        }
-
-        .ev-register {
-            width: 100%;
-            text-align: center;
-            padding: 12px;
-        }
-    }
-
-    @media (max-width: 480px) {
-
-        /* --- Newsletter --- */
-        .nl-band {
-            padding: 32px 16px;
-        }
-
-        .nl-heading {
-            font-size: 22px;
-        }
-
-        .nl-tag {
-            font-size: 10px;
-            letter-spacing: 2px;
-        }
-
-        .nl-sub {
-            font-size: 13px;
-        }
-
-        .nl-checks {
-            gap: 8px;
-        }
-
-        .nl-check {
-            font-size: 11px;
-        }
-
-        /* --- Events --- */
-        .ev-section {
-            padding: 32px 16px;
-        }
-
-        .ev-title {
-            font-size: 22px;
-        }
-
-        .ev-tag {
-            font-size: 10px;
-            letter-spacing: 2px;
-        }
-
-        .ev-all-link {
-            font-size: 12px;
-        }
-
-        .ev-card-img {
-            height: 160px;
-        }
-
-        .ev-card.featured .ev-card-img {
-            height: 160px;
-        }
-
-        .ev-card-title {
-            font-size: 15px;
-        }
-
-        .ev-card-desc {
-            font-size: 13px;
-        }
-
-        .ev-date-strip {
-            font-size: 10px;
-            padding: 6px 12px;
-        }
-
-        .ev-badge {
-            font-size: 9px;
-            padding: 3px 8px;
-        }
-
-        .ev-price {
-            font-size: 13px;
-        }
-
-        .ev-register {
-            font-size: 11px;
-            letter-spacing: 1px;
-            padding: 11px;
-        }
-
-        .ev-card-body {
-            padding: 14px;
-        }
-
-        .ev-card-footer {
-            padding: 12px 14px;
-        }
-    }
-</style>
 <div class="main-content">
     <!-- <a id="main-content" tabindex="-1"></a> -->
     <div class="region region-content">
@@ -559,8 +17,7 @@
                                             class="field field--name-field-banner-slide-items field--type-entity-reference-revisions field--label-hidden field__items">
                                             <div class="swiper homebannerSwiper">
                                                 <div class="swiper-wrapper">
-                                                    <div class="field__item swiper-slide"
-                                                        style="height:100vh; width:100%;">
+                                                    <div class="field__item swiper-slide home-hero-slide">
                                                         <div
                                                             class="paragraph paragraph--type--banner-slide-item paragraph--view-mode--default">
                                                             <div class="">
@@ -573,9 +30,9 @@
                                                             <div class="banner-captions">
                                                                 <div class="container">
                                                                     <h1>
-                                                                        <div style="z-index:999;"
-                                                                            class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item">
+                                                                        <div class="clearfix text-formatted field field--name-field-long-title field--type-text field--label-hidden field__item home-hero-title">
                                                                             A JOURNEY AWAITS
+                                                                        </div>
                                                                     </h1>
                                                                 </div>
                                                             </div>
@@ -592,15 +49,7 @@
                                                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                         </div>
                                                     </div>
-                                                    <div class="banner-links">
-                                                        <!-- <div style="padding-bottom: 25px;"
-                                    class="field field--name-field-banner-links field--type-link field--label-hidden field__items">
-                                    <div class="field__item"><a href="discovery-call-booking-form.html">Free discovery
-                                        call</a></div>
-                                    <div class="field__item"><a href="personal-growth-retreat-workshop.html">What is the
-                                        Path of Love?</a></div>
-                                  </div> -->
-                                                    </div>
+                                                    <div class="banner-links"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -648,8 +97,8 @@
                                             <div
                                                 class="field field--name-field-image field--type-image field--label-hidden field__item">
                                                 <img loading="lazy" src="assets/indexabout.png" width="977" height="956"
-                                                    alt="Participants on the Path of Love"
-                                                    style="height:400px; width:100%; object-fit:cover;" />
+                                                    alt="Guests participating in a Takshasheela wellness retreat"
+                                                    class="home-about-image" />
                                             </div>
                                         </div>
                                         <div class="col-md-6 intro-type-1">
@@ -740,7 +189,7 @@
                                                             <div
                                                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                                 <p>These 1 and 2 day courses open your heart and
-                                                                    introduce you to the Path of Love
+                                                                    introduce you to the Takshasheela healing approach
                                                                     retreat, while helping you to find meaningful and
                                                                     lasting change in your life.</p>
                                                             </div>
@@ -779,12 +228,12 @@
 
                                                             <div
                                                                 class="field field--name-field-title field--type-string field--label-hidden field__item">
-                                                                Path of Love Process</div>
+                                                                The Takshasheela Healing Approach</div>
                                                         </h4>
                                                         <div class="content">
                                                             <div
                                                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                                <p>The Path of Love process is a unique,
+                                                                <p>The Takshasheela healing approach is a unique,
                                                                     revolutionary, and life transforming personal
                                                                     growth and meditation retreat that will alter your
                                                                     life in a substantial and enduring
@@ -832,9 +281,9 @@
                                                         <div class="content">
                                                             <div
                                                                 class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
-                                                                <p>Extensive ongoing support, integration and advanced
-                                                                    retreats for Path of Love
-                                                                    graduates, including residential, weekend and
+                                                                <p>Extensive ongoing support, integration, and advanced
+                                                                    retreats for returning Takshasheela guests,
+                                                                    including residential, weekend, and
                                                                     conscious relating courses.</p>
                                                             </div>
                                                         </div>
@@ -859,7 +308,7 @@
                             <div class="container">
                                 <!-- Section Heading -->
                                 <div class="text-center mb-3">
-                                    <div style="margin:30px 0px;">
+                                    <div class="home-section-label">
                                         <div class="small-title">
                                             <h6
                                                 class="field field--name-field-small-title field--type-string field--label-hidden field__item">
@@ -913,7 +362,7 @@
 
                                                                         <div
                                                                             class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                            <p style="height:100px;">
+                                                                            <p>
                                                                                 Experience authentic Panchakarma
                                                                                 therapies designed to cleanse the
                                                                                 body,
@@ -964,7 +413,7 @@
 
                                                                         <div
                                                                             class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                            <p style="height:100px;">
+                                                                            <p>
                                                                                 Immerse yourself in holistic wellness
                                                                                 retreats combining Ayurvedic
                                                                                 therapies, yoga, meditation, and
@@ -1013,7 +462,7 @@
 
                                                                         <div
                                                                             class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                            <p style="height:100px;">
+                                                                            <p>
                                                                                 Receive individualized Ayurvedic
                                                                                 healing programs based on your unique
                                                                                 body constitution (Dosha), health
@@ -1038,7 +487,7 @@
                                         </div>
 
 
-                                        <div style="max-width: 200px; margin: 30px auto; text-align: center;">
+                                        <div class="home-services-cta">
                                             <p class="button-contact">See More</p>
                                         </div>
                         </section>
@@ -1127,7 +576,7 @@
                                     <div class="ev-card featured">
                                         <div class="ev-card-img">
                                             <img loading="lazy" src="sites/default/files/2025-03/path%20of%20love%20homepage.jpg" width="633" height="577"
-                                                alt="Path of Love Summer Immersion" />
+                                                alt="Takshasheela Ayurvedic wellness immersion" />
                                             <div class="ev-badge badge-retreat">7-Day Retreat</div>
                                         </div>
                                         <div class="ev-date-strip">
@@ -1135,7 +584,7 @@
                                             Nepal
                                         </div>
                                         <div class="ev-card-body">
-                                            <div class="ev-card-title">Path of Love — Summer Immersion</div>
+                                            <div class="ev-card-title">Ayurvedic Wellness — Summer Immersion</div>
                                             <div class="ev-card-loc">
                                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                                                     <path
@@ -1181,7 +630,7 @@
                                                 </svg>
                                                 Kathmandu
                                             </div>
-                                            <div class="ev-card-desc">A 2-day introduction to the Path of Love — open
+                                            <div class="ev-card-desc">A two-day introduction to the Takshasheela healing approach — open
                                                 your
                                                 heart and discover what's possible.</div>
                                         </div>
@@ -1308,7 +757,7 @@
                                                                             <div class="blog-text">
                                                                                 Public Speaker, best-selling author
                                                                                 and podcaster, Laura Seiler shares
-                                                                                about her Path of Love journey
+                                                                                about her healing experience at Takshasheela
                                                                             </div>
                                                                             <div class="normal-link">
                                                                                 <a href="blog-detail.php">Read
@@ -1341,12 +790,12 @@
                                                                                     rel="bookmark">
                                                                                     <span
                                                                                         class="field field--name-title field--type-string field--label-hidden">The
-                                                                                        Path of Love: A Transformative
+                                                                                        Takshasheela: A Transformative
                                                                                         Journey to Your True
                                                                                         Self</span>
                                                                                 </a></h4>
                                                                             <div class="blog-text">
-                                                                                Path of Love is a 7-day immersive
+                                                                                This Takshasheela retreat is a seven-day immersive
                                                                                 experience of deep inner work. It is a
                                                                                 transformative journey designed to
                                                                                 strip away…

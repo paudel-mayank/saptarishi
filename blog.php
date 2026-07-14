@@ -57,7 +57,7 @@
                                             <h4><a href="blog-detail.php">
                                                 <span
                                                   class="field field--name-title field--type-string field--label-hidden">What
-                                                  Actually Happens at Path of Love</span>
+                                                  Actually Happens on a Takshasheela Healing Retreat</span>
                                               </a></h4>
                                           </div>
                                           <div class="blog-text">
@@ -113,7 +113,7 @@
                                                   href="blog-detail.php">
                                                   <span
                                                     class="field field--name-title field--type-string field--label-hidden">The
-                                                    Path of Love Retreat: Why Every Parent Deserves Seven Days of Me
+                                                    A Takshasheela Retreat: Why Every Parent Deserves Seven Days of Me
                                                     Time </span>
                                                 </a></h4>
                                             </div>
@@ -159,13 +159,13 @@
                                               <h4><a href="blog-detail.php">
                                                   <span
                                                     class="field field--name-title field--type-string field--label-hidden">The
-                                                    Magic of Path of Love – Coming Home to Wholeness by Ines
+                                                    Magic of Healing – Coming Home to Wholeness by Ines
                                                     Schönenberg </span>
                                                 </a></h4>
                                             </div>
                                             <div class="blog-text">
                                               A past participant, now volunteer staff member, shares insights about
-                                              how Path of Love has enriched her life. &quot;It opened a space in
+                                              how her Takshasheela retreat enriched her life. &quot;It opened a space in
                                               which I could feel myself again — body, mind, and soul connected. It
                                               was as if a whole new dimension opened up within me (and in the world
                                               around me).&quot;
@@ -195,7 +195,7 @@
                                               <!-- BEGIN OUTPUT from 'themes/contrib/bootstrap5/templates/field/image-formatter.html.twig' -->
                                               <img loading="lazy"
                                                 src="sites/default/files/2025-06/Untitled%20design%20(5).png"
-                                                width="1060" height="550" alt="Laura Seiler Path of Love Process"
+                                                width="1060" height="550" alt="Laura Seiler sharing her Takshasheela retreat experience"
                                                 class="img-fluid" />
                                             </div>
                                           </div>
@@ -220,7 +220,7 @@
                                             </div>
                                             <div class="blog-text">
                                               Public Speaker, best-selling author and podcaster, Laura Seiler shares
-                                              about her Path of Love journey
+                                              about her healing experience at Takshasheela
                                             </div>
                                             <div class="link">
                                               <a

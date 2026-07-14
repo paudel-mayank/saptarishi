@@ -46,7 +46,7 @@
                         <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/views/views-view--find-your-retreat.html.twig' -->
                         <div
                           class="view view-find-your-retreat view-id-find_your_retreat view-display-id-block_1 js-view-dom-id-5a8b5e3de7482d2d4179d148642a8466520ef1af5d73365d654454c5fbaae00b">
-                          <div class="lasting-benefits-heading text-center" style="padding-bottom: 30px;">
+                          <div class="lasting-benefits-heading text-center section-heading--compact">
                             <h5 class="text-uppercase small-title">Packages</h5>
                           </div>
                      <div class="view-content">
@@ -77,7 +77,7 @@
               </span>
             </h4>
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-              <p style="height:100px;">
+              <p>
                 A deeply therapeutic Ayurvedic detox designed to cleanse the body, restore balance,
                 and rejuvenate the mind through personalized treatments.
               </p>
@@ -118,7 +118,7 @@
               </span>
             </h4>
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-              <p style="height:100px;">
+              <p>
                 Discover the foundations of Ayurveda with daily therapies, sattvic meals,
                 yoga, and meditation—ideal for stress relief, lifestyle reset, and holistic well-being.
               </p>
@@ -156,7 +156,7 @@
               </span>
             </h4>
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-              <p style="height:100px;">
+              <p>
                 Reconnect with yourself in a peaceful ashram setting through Ayurvedic therapies,
                 pranayama, meditation, and nature-based healing practices.
               </p>

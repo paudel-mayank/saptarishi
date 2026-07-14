@@ -11,11 +11,8 @@
                         <div class="field__item">
                             <div
                                 class="paragraph type-left paragraph--type--banner-with-title paragraph--view-mode--default">
-                                <div class="background-img page-hero" style="background-image:url(assets/about.png);
-                           background-size: cover;
-                          background-position: center;
-                          position: relative;">
-                                    <div class="container container-l" style="z-index: 999;">
+                                <div class="background-img page-hero page-hero--about">
+                                    <div class="container container-l">
                                         <h1>Takshasheela offers worldwide, life-changing, personal growth and
                                             self-development
                                             processes.</h1>
@@ -42,28 +39,28 @@
                                                         <div
                                                             class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
                                                             <h4>Reconnect with your body, mind, and inner balance.</h4>
-                                                            <p>The 7-Day Saptarishi Ayurveda Ashram Retreat Package
+                                                            <p>The 7-Day Takshasheela Ayurveda Aashram Retreat Package
                                                                 includes:</p>
                                                             <ul>
                                                                 <li>A one-to-one wellness consultation with an
                                                                     experienced Ayurveda practitioner prior to your stay
-                                                                    at Saptarishi Ayurveda Ashram.</li>
-                                                                <li>7 days of immersive Ayurvedic living at Saptarishi
+                                                                    at Takshasheela Ayurveda Aashram.</li>
+                                                                <li>7 days of immersive Ayurvedic living at Takshasheela
                                                                     Ayurveda Ashram, including personalized therapies,
                                                                     daily routines, guidance, and continuous care.</li>
                                                                 <li>A 5-day post-retreat wellness integration plan to
                                                                     help you maintain balance after returning home.</li>
                                                                 <li>3 guided group online follow-up sessions conducted
-                                                                    by Saptarishi Ayurveda Ashram wellness experts.</li>
+                                                                    by Takshasheela Ayurveda Aashram wellness experts.</li>
                                                                 <li>3 weeks of personalized wellness check-ins and
                                                                     shared reflections with fellow retreat participants.
                                                                 </li>
                                                                 <li>A 12-week online Ayurveda aftercare program offering
                                                                     dietary guidance, lifestyle practices, herbal
-                                                                    insights, and recorded sessions from Saptarishi
+                                                                    insights, and recorded sessions from Takshasheela
                                                                     Ayurveda Ashram teachers.</li>
                                                                 <li>Access to advanced wellness programs and lifelong
-                                                                    connection with the Saptarishi Ayurveda Ashram
+                                                                    connection with the Takshasheela Ayurveda Aashram
                                                                     community through group discussions, events, and
                                                                     guided practices.</li>
                                                             </ul>
@@ -107,7 +104,7 @@
                                                 class="field field--name-field-title field--type-string field--label-hidden field__item">
                                                 Reserve Your Space</div>
                                         </h2>
-                                        <div class="reserve-space-content" style='margin-top:40px;'>
+                                        <div class="reserve-space-content reserve-space-content--spaced">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="reserve-img">
@@ -135,7 +132,7 @@
                                                                 class="clearfix text-formatted field field--name-field-accommodation-starting field--type-text-long field--label-hidden field__item">
                                                                 <p>Accommodation for 7 nights is separate from the
                                                                     retreat fee and includes wholesome Ayurvedic meals
-                                                                    and herbal tea breaks. At Saptarishi Ayurveda
+                                                                    and herbal tea breaks. At Takshasheela Ayurveda
                                                                     Ashram, guests stay in peaceful, comfortable rooms
                                                                     designed to support rest, healing, and balance in a
                                                                     serene natural environment. Available accommodation
@@ -151,7 +148,7 @@
                                                                     medicines, yoga sessions, and wellness treatments
                                                                     may be added to your retreat experience based on
                                                                     individual needs and recommendations from the
-                                                                    Saptarishi Ayurveda Ashram team.</p>
+                                                                    Takshasheela Ayurveda Aashram team.</p>
                                                             </div>
                                                         </div>
                                                         <div class="deposit">

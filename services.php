@@ -22,7 +22,7 @@
                                                 <h1>
                                                     <div
                                                         class="field field--name-field-title field--type-string field--label-hidden field__item">
-                                                        Explore our natural healing packages</div>
+                                                        Explore our Ayurvedic healing services</div>
                                                 </h1>
                                                 <div
                                                     class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item">
@@ -44,7 +44,7 @@
                             <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/pathretreats/templates/paragraph/paragraph--banner--default.html.twig' -->
                         </div>
 
-                        <div class="field__item" style="margin:80px 0px;">
+                        <div class="field__item services-list-section">
                             <div class="container">
                                 <div>
                                     <div class="view-content">
@@ -81,7 +81,7 @@
 
                                                             <div
                                                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                <p style="height:100px;">
+                                                                <p>
                                                                     Experience authentic Panchakarma therapies designed
                                                                     to cleanse the body,
                                                                     eliminate toxins, and restore internal balance
@@ -131,7 +131,7 @@
 
                                                             <div
                                                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                <p style="height:100px;">
+                                                                <p>
                                                                     Immerse yourself in holistic wellness retreats
                                                                     combining Ayurvedic
                                                                     therapies, yoga, meditation, and mindful living
@@ -180,7 +180,7 @@
 
                                                             <div
                                                                 class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item mb-3">
-                                                                <p style="height:100px;">
+                                                                <p>
                                                                     Receive individualized Ayurvedic healing programs
                                                                     based on your unique
                                                                     body constitution (Dosha), health conditions, and
